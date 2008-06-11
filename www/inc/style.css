@@ -1,0 +1,166 @@
+
+    /* Deuteros.org website
+     * Copyright (C) 2008 Achton Netherclift <achton@netherclift.net>
+     *
+     * This file is part of Deuteros.org website.
+
+     * Deuteros.org website is free software: you can redistribute it and/or modify
+     * it under the terms of the GNU General Public License as published by
+     * the Free Software Foundation, either version 3 of the License, or
+     * (at your option) any later version.
+
+     * Deuteros.org website is distributed in the hope that it will be useful,
+     * but WITHOUT ANY WARRANTY; without even the implied warranty of
+     * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+     * GNU General Public License for more details.
+
+     * You should have received a copy of the GNU General Public License
+     * along with Deuteros.org website.  If not, see <http://www.gnu.org/licenses/>.
+
+     */
+
+/*
+    OFFICIAL COLOUR CODES
+    =====================
+    #d7d2b1 : sandy brown
+    #ddd7b6 : light sandy brown
+    #050406 : dark gray (background)
+    #cddcdc : light gray (font color)
+    #593b30 : brown
+    #3f231a : dark brown
+*/
+
+
+body {
+    background-color:   #050406;
+    background:         url(../img/bg-stars.jpg) repeat fixed;
+    font-family:        Trebuchet MS, Helvetica, sans-serif;
+    font-size:          0.9em;
+    color:              #cddcdc;
+    text-align:         center; /* for IE centering */
+    margin: 0;
+    padding: 0;
+
+}
+
+a img {
+    border:             0px;
+}
+
+a {
+    font-weight:        bold;
+    text-decoration:    none;
+}
+
+a, a:visited {
+    color:              #d7d2b1;
+}
+
+a:hover {
+    color:              #ddd7b6;
+    text-decoration:    underline;
+}
+
+h1 {
+    font-size:          150%;
+}
+
+h2 {
+    font-size:          135%;
+}
+
+h3 {
+    font-size:          120%;
+}
+
+ul {
+    list-style-type:    square;
+}
+
+#dxpageouter {
+    width:              1150px;
+    margin-left:        auto;
+    margin-right:       auto;
+    text-align:         left;
+    background:         transparent url(../img/bg-rightstars.png) no-repeat scroll 930px 0px;
+}
+
+#dxpage {
+    width:              980px;
+    text-align:         left;
+    margin:             0px;
+    padding:            0px;
+
+}
+
+div#dxheader {
+    margin:             0px;
+    padding:            0px;
+}
+
+#dxheader img {
+    vertical-align:     bottom;
+}
+
+#dxcontent, #dxfooter {
+    padding:            4px 16px 0px 16px;
+    margin:             0px;
+}
+
+#dxcontent {
+    background:         transparent url(../img/bg_border.png) repeat-y scroll 0 0;
+}
+
+#dxcontent>table {
+    width: 100%;
+}
+
+#dxrightcolumn, #dxmaincolumn {
+    vertical-align:     top;
+}
+
+#dxrightcolumn {
+    width:              225px;
+    padding:            0 0 0 16px;
+}
+
+#dxmaincolumn {
+}
+
+.dxnewspost {
+    margin-bottom:      16px;
+}
+
+.dxnewspostheader {
+    background-color:   #3f231a;
+    padding-left:       6px;
+    padding-right:      6px;
+    border-bottom:      1px dotted #593b30;
+}
+
+.dxnewspostheader h1 {
+}
+
+.dxnewspostheader h4 {
+    float:              right;
+}
+
+.dxnewspost p {
+}
+
+.dxnewspostfooter {
+    text-align:         right;
+    border-bottom:      1px solid #444;
+}
+
+
+#dxfooter {
+    height:             124px;
+    background:         transparent url(../img/bg_border_bottom.png) no-repeat 0 0;
+    font-size:          70%;
+    color:              #444;
+    padding-top:        40px;
+    text-align:         center;
+    clear:              both;
+}
+

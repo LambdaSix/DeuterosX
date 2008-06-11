@@ -1,0 +1,4 @@
+
+# Secret files and directories
+RedirectMatch (.*)/.svn $1/
+
