@@ -63,7 +63,7 @@
         <div id="dxpage">
             <div id="dxheader">
                 <div>
-                    <a href="<?php echo ($_COOKIE['DeuterosX'] == md5('BetaSite') ? '/' : '/testindex.php'); ?>">
+                    <a href="/">
                         <img src="<?php echo $GLOBALS['DX_SITE_URL']; ?>img/header_top.gif" alt="Logo" />
                     </a>
                 </div>
