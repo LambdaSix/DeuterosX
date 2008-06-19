@@ -19,33 +19,27 @@
 
      */
 
-    // abs path to site root
+    // Absolute filesystem path to site root
     $GLOBALS['DX_SITE_PATH']        = '/var/www/sitepath/';
-    // abs url to site root
-    $GLOBALS['DX_SITE_URL']         = 'http://website.org/';
-    // rel path to forum
+    // Absolute URL to site root
+    $GLOBALS['DX_SITE_URL']         = 'http://deuteros.org/';
+    // Relative path/URL to forum
     $GLOBALS['DX_PHPBB3_URL']       = 'forum/';
 
     // cookie password for developer access
     $GLOBALS['DX_COOKIE_PWD']       = 'cookiepass';
 
-    // phpBB3 dbconfig
+    // PhpBB3 database config
     $GLOBALS['DX_PHPBB3_DBSERVER']  = 'localhost';
-    $GLOBALS['DX_PHPBB3_DB']        = 'deuterosx_forum';
-    $GLOBALS['DX_PHPBB3_DBUSER']    = 'deuterosx';
-    $GLOBALS['DX_PHPBB3_DBPWD']     = 'ianbird';
+    $GLOBALS['DX_PHPBB3_DB']        = 'forumdbname';
+    $GLOBALS['DX_PHPBB3_DBUSER']    = 'forumdbuser';
+    $GLOBALS['DX_PHPBB3_DBPWD']     = 'forumdbpass';
     $GLOBALS['DX_PHPBB3_BOARD']     = '6';
 
-
-    // wiki dbconfig
+    // MediaWiki database config
     $GLOBALS['DX_WIKI_DBSERVER']    = 'localhost';
-    $GLOBALS['DX_WIKI_DB']          = 'deuterosx_wiki';
-    $GLOBALS['DX_WIKI_DBUSER']      = 'deuterosx';
-    $GLOBALS['DX_WIKI_DBPWD']       = 'ianbird';
-
-    // IRC config
-    $GLOBALS['DX_IRC_SERVER']       = 'irc.quakenet.org';
-    $GLOBALS['DX_IRC_SERVER_PORT']  = 6668;
-    $GLOBALS['DX_IRC_SERVER_CHAN']  = '#deuteros.org';
+    $GLOBALS['DX_WIKI_DB']          = 'wikidbname';
+    $GLOBALS['DX_WIKI_DBUSER']      = 'wikidbuser';
+    $GLOBALS['DX_WIKI_DBPWD']       = 'wikidbpass';
 
 ?>
