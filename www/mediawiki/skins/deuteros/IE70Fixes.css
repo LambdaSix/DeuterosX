@@ -4,7 +4,6 @@
 
 /* This bit is needed to make links clickable... WTF */
 #column-content #content {
-    margin-left: 12.2em;
     height: 1%;
 }
 
