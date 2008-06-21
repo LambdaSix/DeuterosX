@@ -255,7 +255,7 @@ class DeuterosTemplate extends QuickTemplate {
             <div id="footer">
 <?php
         if($this->data['poweredbyico']) { ?>
-                <div id="f-poweredbyico"><?php $this->html('poweredbyico') ?></div>
+                <div id="f-poweredbyico"><a href="http://www.mediawiki.org/"><img src="<?php echo htmlspecialchars($this->text('stylepath').'/deuteros/poweredby_mediawiki_88x31_nm.png');?>" alt="Powered by MediaWiki" /></a></div>
 <?php 	}
         if($this->data['copyrightico']) { ?>
                 <div id="f-copyrightico"><?php $this->html('copyrightico') ?></div>
