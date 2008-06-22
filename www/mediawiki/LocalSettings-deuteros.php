@@ -228,6 +228,9 @@ $wgAuth = new Auth_phpBB($wgAuth_Config);     // Auth_phpBB Plugin.
 require_once ($IP . '/extensions/Lockdown.php');
 require_once ($IP . '/extensions/Auth_phpBB_Groups.php');
 
+/* Special permissions */
+$wgGroupPermissions['Deuteros PC Design Team']['editinterface'] = true;
+
 /* Read-only namespaces */
 $wgNamespacePermissionLockdown[NS_MAIN]['edit'] = array('Deuteros PC Design Team');
 $wgNamespacePermissionLockdown[NS_MAIN]['move'] = array('Deuteros PC Design Team');
@@ -259,6 +262,7 @@ $wgNamespacePermissionLockdown[NS_SPECIAL]['*'] = array('Deuteros PC Design Team
 $wgNamespacePermissionLockdown[NS_MEDIAWIKI]['*'] = array('Deuteros PC Design Team');
 $wgNamespacePermissionLockdown[NS_MEDIAWIKI_TALK]['*'] = array('Deuteros PC Design Team');
 $wgNamespacePermissionLockdown[NS_DEUTEROSX]['*'] = array('Deuteros PC Design Team');
+$wgNamespacePermissionLockdown[NS_DEUTEROSX_TALK]['*'] = array('Deuteros PC Design Team');
 
 /*
 
