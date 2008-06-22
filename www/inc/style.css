@@ -57,8 +57,11 @@ a, a:visited {
 }
 
 a:hover {
-    color:              #ddd7b6;
     text-decoration:    underline;
+}
+
+a:hover, h1 a, h2 a, h3 a {
+    color:              #ddd7b6;
 }
 
 h1 {
@@ -121,10 +124,12 @@ div#dxheader {
 
 #dxrightcolumn {
     width:              225px;
-    padding:            0 0 0 16px;
+    padding:            0 0 0 0;
 }
 
 #dxmaincolumn {
+    width:              700px;
+
 }
 
 .dxnewspost {

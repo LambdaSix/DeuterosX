@@ -20,10 +20,11 @@
     z-index: 2;*/
 }
 #column-one {
+    padding-left: 16px;
 }
 #content {
     line-height: 1.5em;
-    border-top: 1px solid #3f231a;
+    border-top: 4px solid #3f231a;
 }
 /* the left column width is specified in class .portlet */
 
@@ -94,7 +95,7 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0;
     padding-top: .5em;
     padding-bottom: .17em;
-    border-bottom: 1px solid #aaa;
+    border-bottom: 1px solid #444;
 }
 h1 { /*font-size: 188%;*/ }
 h1 .editsection { /*font-size: 53%;*/ }
