@@ -28,6 +28,29 @@
 }
 /* the left column width is specified in class .portlet */
 
+
+/*
+** Diff rendering (overrides common/diff.css)
+*/
+table.diff, td.diff-otitle, td.diff-ntitle {
+    background-color: transparent;
+}
+td.diff-context {
+    background-color: #444;
+}
+td.diff-deletedline {
+    background-color: #442;
+}
+td.diff-addedline {
+    background-color: #242;
+}
+.diffchange {
+    color: #b44;
+}
+table.diff div {
+    padding: 2px;
+}
+
 /* Font size:
 ** We take advantage of keyword scaling- browsers won't go below 9px
 ** More at http://www.w3.org/2003/07/30-font-size
@@ -266,11 +289,9 @@ span.subpages {
 }
 .errorbox {
     border-color: red;
-    background-color: #fff2f2;
 }
 .successbox {
     border-color: green;
-    background-color: #dfd;
 }
 .errorbox h2, .successbox h2 {
     font-size: 1em;
@@ -474,7 +495,6 @@ table.rimage {
 div.townBox {
     position: relative;
     float: right;
-    background: white;
     margin-left: 1em;
     border: 1px solid gray;
     padding: .3em;
@@ -493,7 +513,6 @@ div.townBox dl dt {
 }
 div.townBox dl dd {
     margin: .1em 0 0 1.1em;
-    background-color: #f3f3f3;
 }
 
 /*
@@ -521,7 +540,6 @@ div.townBox dl dd {
     border: 1px solid white;
 }
 #pagehistory li.selected {
-    background-color: #f9f9f9;
     border: 1px dashed #aaa;
 }
 
@@ -974,7 +992,7 @@ li#ca-watch, li#ca-unwatch, li#ca-varlang-0, li#ca-print {
 }
 #preftoc li.selected {
     font-weight: bold;
-    background-color: #f9f9f9;
+    background-color: #808080;
     border: 1px solid #aaa;
     border-bottom: none;
     cursor: default;
@@ -1457,7 +1475,7 @@ table#sv-ext, table#sv-hooks, table#sv-software {
     padding: 0 0.15em 0 0.15em;
 }
 #sv-ext th, #sv-hooks th, #sv-software th {
-    background-color: #F0F0F0;
+    background-color: #AFB1AF;
     color: black;
     padding: 0 0.15em 0 0.15em;
 }
@@ -1531,7 +1549,7 @@ div#mw-recreate-deleted-warn ul li {
     font-size: 90%;
 }
 .MediaTransformError {
-    background-color: #ccc;
+    background-color: #555;
     padding: 0.1em;
 }
 .MediaTransformError td {
