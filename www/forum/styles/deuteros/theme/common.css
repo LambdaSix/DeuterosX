@@ -232,9 +232,9 @@ a#logo:hover {
     color: #000000;
 }
 
-.bg1	{ background-color: #070707;}
-.bg2	{ background-color: #020202; }
-.bg3	{ background-color: #1b1b1b; }
+.bg1	{ /*background-color: #070707;*/ }
+.bg2	{ /*background-color: #020202;*/ }
+.bg3	{ /*background-color: #1b1b1b;*/ }
 
 .rowbg {
     margin: 5px 5px 2px 5px;
