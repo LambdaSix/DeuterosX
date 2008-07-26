@@ -138,7 +138,6 @@ a#logo:hover {
 /* Search box
 --------------------------------------------- */
 #search-box {
-    color: #FFFFFF;
     position: relative;
     margin-top: 30px;
     margin-right: 5px;
@@ -193,7 +192,10 @@ a#logo:hover {
 
 .navbar {
     /*background-color: #ebebeb;*/
-    padding: 0 10px;
+    padding: 0;
+    font-size: 0.75em;
+    border-bottom: 3px solid #3f231a;
+
 }
 
 .forabg {
@@ -222,6 +224,7 @@ a#logo:hover {
     margin-bottom: 4px;
     background-repeat: no-repeat;
     background-position: 100% 0;
+    border-bottom: 3px solid #3f231a;
 }
 
 .post:target .content {
@@ -323,7 +326,6 @@ ul.linklist li.rightside, p.rightside {
 ul.navlinks {
     padding-bottom: 1px;
     margin-bottom: 1px;
-    border-bottom: 1px solid #FFFFFF;
     font-weight: bold;
 }
 

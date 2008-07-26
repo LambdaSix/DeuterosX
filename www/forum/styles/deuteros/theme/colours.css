@@ -73,7 +73,7 @@ hr.dashed {
 }
 
 .post:target h3 a {
-    color: #000000;
+    color: #666;
 }
 
 .bg1	{ /*background-color: #ECF3F7;*/ }
@@ -140,13 +140,13 @@ table.table1 tbody th {
 }
 
 table.info tbody th {
-    color: #000000;
+    color: #666;
 }
 
 /* Misc layout styles
 ---------------------------------------- */
 dl.details dt {
-    color: #000000;
+    color: #666;
 }
 
 dl.details dd {
@@ -214,7 +214,8 @@ li.reported:hover {
 }
 
 div.rules {
-    background-color: #ECD5D8;
+    border: 1px solid #700;
+    background-color: #300;
     color: #BC2A4D;
 }
 
@@ -235,11 +236,11 @@ a:active	{ color: #368AD2; }
 
 /* Links on gradient backgrounds */
 #search-box a:link, .navbg a:link, .forumbg .header a:link, .forabg .header a:link, th a:link {
-    color: #FFFFFF;
+    color: #cddcdc;
 }
 
 #search-box a:visited, .navbg a:visited, .forumbg .header a:visited, .forabg .header a:visited, th a:visited {
-    color: #FFFFFF;
+    color: #cddcdc;
 }
 
 #search-box a:hover, .navbg a:hover, .forumbg .header a:hover, .forabg .header a:hover, th a:hover {
@@ -386,7 +387,7 @@ li.row {
 }
 
 li.row strong {
-    color: #000000;
+    color: #666;
 }
 
 li.row:hover {
@@ -543,7 +544,7 @@ fieldset.polls dl {
 }
 
 fieldset.polls dl.voted {
-    color: #000000;
+    color: #666;
 }
 
 fieldset.polls dd div {
@@ -608,7 +609,7 @@ fieldset.polls dd div {
 ----------------------------------------*/
 .postprofile {
     color: #666666;
-    border-left-color: #FFFFFF;
+    border-left-color: #3f231a;
 }
 
 .rtl .postprofile {
@@ -626,7 +627,7 @@ fieldset.polls dd div {
 }
 
 .postprofile strong {
-    color: #000000;
+    color: #333;
 }
 
 .online {
@@ -714,7 +715,7 @@ ul.cplist {
 }
 
 #cp-main .panel li.header dd, #cp-main .panel li.header dt {
-    color: #000000;
+    color: #666;
 }
 
 #cp-main table.table1 thead th {
@@ -749,7 +750,7 @@ ul.cplist {
 }
 
 #tabs .activetab a:hover span {
-    color: #000000;
+    color: #666;
 }
 
 /* Mini tabbed menu used in MCP
@@ -912,7 +913,7 @@ dd label {
 
 /* Hover effects */
 fieldset dl:hover dt label {
-    color: #000000;
+    color: #666;
 }
 
 fieldset.fields2 dl:hover dt label {
@@ -970,7 +971,7 @@ a.button2, input.button2, input.button3 {
 
 /* <a> button in the style of the form buttons */
 a.button1, a.button1:link, a.button1:visited, a.button1:active, a.button2, a.button2:link, a.button2:visited, a.button2:active {
-    color: #000000;
+    color: #666;
 }
 
 /* Hover states */

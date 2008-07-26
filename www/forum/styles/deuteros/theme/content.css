@@ -198,6 +198,7 @@ ul.topiclist dd.searchextra {
     font-size: 1.1em;
     height: 28px;
     min-height: 28px;
+    border-bottom: 3px solid #3f231a;
 }
 div[class].topic-actions {
     height: auto;
@@ -663,7 +664,7 @@ fieldset.polls dd div {
     /* Also see tweaks.css */
     margin: 5px 0 10px 0;
     min-height: 80px;
-    border-left: 1px solid #FFFFFF;
+    border-left: 1px solid;
     width: 22%;
     float: right;
     display: inline;
