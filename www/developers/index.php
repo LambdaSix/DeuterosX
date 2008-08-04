@@ -26,15 +26,49 @@
         header('Location: ' . $GLOBALS['DX_SITE_URL'] . 'forum/');
     }
 
-
-    require_once('../inc/header.php');
+    require_once($GLOBALS['DX_SITE_PATH'] . 'inc/simplepie/simplepie.inc');
+    require_once($GLOBALS['DX_SITE_PATH'] . 'inc/header.php');
 ?>
 
-
-<p>
-This is the developers' page.
-</p>
-
+    <div style="float:right;width:50%;padding:2px;">
+        <h1>SVN Commit log</h1>
 <?php
-    require_once('../inc/footer.php');
+
+    $feed = new SimplePie();
+    $feed->set_feed_url('http://cia.vc/stats/project/DeuterosX/.rss');
+    $feed->init();
+    $feed->handle_content_type();
+
+    if ($feed->data) {
+        $items = $feed->get_items(0, 5);
+        echo '<p><span style="padding:2px;background-color:#47c;">Displaying ' . $feed->get_item_quantity(5) . ' most recent entries.</span></p>';
+        foreach ($items as $item) {
+            echo '<div class="chunk" style="padding:0 5px;">'
+            . '<h4 style="padding:2px;background-color:#024;"><a href="' . $item->get_permalink() . '">' . $item->get_title() . '</a> ' . $item->get_date('j M Y') . '</h4>';
+            echo $item->get_content();
+            if ($enclosure = $item->get_enclosure(0))
+                echo '<p><a href="' . $enclosure->get_link() . '" class="download"><img src="./for_the_demo/mini_podcast.png" alt="Podcast" title="Download the Podcast" border="0" /></a></p>';
+
+            echo '</div>';
+        }
+
+    }
+?>
+    </div>
+
+    <div style="width: 100%;">
+    <p>
+    This is the developers' page.
+    </p>
+
+    <ul>
+    <li><a href="chat/">IRC chat</a></li>
+    <li><a href="http://cia.vc/stats/project/DeuterosX">SVN commits</a></li>
+    <li><a href="http://sourceforge.net/mail/?group_id=224652">SVN commits mailing list</a></li>
+    </ul>
+    </div>
+
+    <br />
+<?php
+    require_once($GLOBALS['DX_SITE_PATH'] . 'inc/footer.php');
 ?>
