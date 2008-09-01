@@ -159,6 +159,21 @@ div#dxheader {
     border-bottom:      1px solid #444;
 }
 
+.dxrightbox {
+     border:            1px solid #444;
+     padding:           4px;
+}
+
+#dxrightcolumn h2 {
+    font-size:          1em;
+    background-color:   #3f231a;
+    margin:             0;
+    padding:            2px;
+}
+
+#dxrightcolumn h2:hover {
+    background-color:   #4f332a;
+}
 
 #dxfooter {
     height:             124px;

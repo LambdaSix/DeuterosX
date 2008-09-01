@@ -58,3 +58,32 @@
     function setImageSwaps() {
         prepareImageSwap(document.body);
     }
+
+
+    window.addEvent('domready', function() {
+        var slideSearch = new Fx.Slide('slidebox_search');
+        var slideLogin = new Fx.Slide('slidebox_login');
+        var slideForum = new Fx.Slide('slidebox_forum');
+        var slidePolls = new Fx.Slide('slidebox_polls');
+
+        $('slide_search').addEvent('click', function(e){
+            e.stop();
+            slideSearch.toggle();
+        });
+
+        $('slide_login').addEvent('click', function(e){
+            e.stop();
+            slideLogin.toggle();
+        });
+
+        $('slide_forum').addEvent('click', function(e){
+            e.stop();
+            slideForum.toggle();
+        });
+
+        $('slide_polls').addEvent('click', function(e){
+            e.stop();
+            slidePolls.toggle();
+        });
+
+    });

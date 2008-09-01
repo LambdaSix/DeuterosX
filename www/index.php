@@ -26,56 +26,85 @@
         header('Location: ' . $GLOBALS['DX_SITE_URL'] . 'forum/');
     }
 
-    // set some phpBB3 variables and include the necessary files
-    define('IN_PHPBB', true);
-    $phpbb_root_path = $GLOBALS['DX_PHPBB3_URL'];
-    $phpEx = 'php';
-    require_once($GLOBALS['DX_SITE_PATH'] . $GLOBALS['DX_PHPBB3_URL'] . 'common.php');
-    require_once($GLOBALS['DX_SITE_PATH'] . $GLOBALS['DX_PHPBB3_URL'] . 'includes/functions_display.php');
+    // include the sitewide header
+    require_once($GLOBALS['DX_SITE_PATH'] . 'inc/header.php');
 
     // initiate phpBB3 session
+    define('IN_PHPBB', true);
+    $phpbb_root_path = $GLOBALS['DX_PHPBB3_URL'];
+    $phpEx = substr(strrchr(__FILE__, '.'), 1);
+    require_once($GLOBALS['DX_SITE_PATH'] . $GLOBALS['DX_PHPBB3_URL'] . 'common.php');
+
+    // start the phpBB3 session
     $user->session_begin();
     $auth->acl($user->data);
     $user->setup();
 
-    // include the sitewide header
-    require_once($GLOBALS['DX_SITE_PATH'] . 'inc/header.php');
+    // get readable forums
+    $can_read_forum = $auth->acl_getf('f_read', TRUE);
+    $forum_id_ary = array_keys($can_read_forum);
+    unset($can_read_forum);
 
-    // get the raw forum posts
-    $dbConn = getDBConnection($GLOBALS['DX_PHPBB3_DBSERVER'],
-                              $GLOBALS['DX_PHPBB3_DB'],
-                              $GLOBALS['DX_PHPBB3_DBUSER'],
-                              $GLOBALS['DX_PHPBB3_DBPWD']);
-    $postsArray = getPhpBB3Posts($GLOBALS['DX_PHPBB3_BOARD']);
-    closeDBConnection($dbConn);
-
-    if ($postsArray) {
+    // prepare news posts
+    $newsPostsArray = getPhpBB3Posts($db, $forum_id_ary, 4, $GLOBALS['DX_PHPBB3_BOARD']);
+    if ($newsPostsArray) {
         // get the HTML for the array of posts
-        $postsHTML = getPhpBB3PostsHTML($postsArray);
+        $newsPostsHTML = getPhpBB3PostsHTML($newsPostsArray);
     }
+
+    // prepare latest forum posts
+    $latestPostsArray = getPhpBB3Posts($db, $forum_id_ary, 8);
+    if ($latestPostsArray) {
+        // get the HTML for the array of posts
+        $latestPostsHTML = getPhpBB3LatestPostsHTML($latestPostsArray);
+    }
+
+     if ($user->data['is_registered']) {
+        echo 'Welcome ' . $user->data['username']; //User is already logged in
+    }
+
 ?>
                 <table>
                 <tr>
                 <td id="dxmaincolumn">
                     <?php
-                        echo $postsHTML;
+                        echo $newsPostsHTML;
                     ?>
                 </td>
+
                 <td id="dxrightcolumn">
-                    SEARCH
-                    <br />
-                    POLLS
-                    <br />
-                    LOGIN
-                    <br />
-                    LATEST FORUM TOPICS
-                    <br />
+
+                    <h2 id="slide_search">Search</h2>
+                    <div class="dxrightbox" id="slidebox_search">
+                        TEMP
+                    </div>
+
+                    <h2 id="slide_login">Login</h2>
+                    <div class="dxrightbox" id="slidebox_login">
+                        TEMP
+                    </div>
+
+                    <h2 id="slide_forum">Forum</h2>
+                    <div class="dxrightbox" id="slidebox_forum">
+<?php
+        echo $latestPostsHTML;
+
+?>
+                    </div>
+
+                    <h2 id="slide_polls">Polls</h2>
+                    <div class="dxrightbox" id="slidebox_polls">
+                        TEMP
+                    </div>
+
                 </td>
                 </tr>
                 </table>
 
 
 <?php
+    //closeDBConnection($dbConn);
+
     // include the generic footer
     require_once($GLOBALS['DX_SITE_PATH'] . 'inc/footer.php');
 ?>

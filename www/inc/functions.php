@@ -40,27 +40,41 @@
     }
 
 
-    function getPhpBB3Posts($BoardID) {
+    function getPhpBB3Posts (&$db, $forum_id_ary, $num_topics, $forum_id=FALSE) {
 
-        $sql = 'SELECT p.*, u.username '
-             . 'FROM phpbb3_posts p, phpbb3_users u '
-             . 'WHERE p.forum_id = ' . $BoardID . ' '
-             . 'AND p.post_approved = 1 '
-             . 'AND p.post_reported = 0 '
-             . 'AND p.post_time < UNIX_TIMESTAMP() '
-             . 'AND p.poster_id = u.user_id '
-             . 'ORDER BY p.topic_id DESC, p.post_id ASC ';
-
-        $result = mysql_query($sql);
-        if (!$result) {
-            die('Invalid query: ' . mysql_error());
+        if ($forum_id) {
+            if (array_key_exists($forum_id, $forum_id_ary)) {
+                $sql = 'SELECT t.topic_id, t.topic_title, t.forum_id, t.topic_replies, t.topic_last_post_id, t.topic_time, '
+                     . '  p.bbcode_uid, p.bbcode_bitfield, p.post_id, p.post_text, '
+                     . '  u.username '
+                     . 'FROM ' . TOPICS_TABLE . ' t, ' . POSTS_TABLE . ' p, ' . USERS_TABLE . ' u '
+                     . 'WHERE t.topic_id = p.topic_id '
+                     . 'AND p.post_time = t.topic_time '
+                     . 'AND t.topic_poster = u.user_id '
+                     . 'AND t.topic_approved = 1 '
+                     . 'AND t.topic_reported = 0 '
+                     . 'AND t.topic_time < UNIX_TIMESTAMP() '
+                     . 'AND t.forum_id = ' . $forum_id . ' '
+                     . 'ORDER BY t.topic_time DESC';
+            } else {
+                return FALSE;
+            }
+        } else {
+            $sql = 'SELECT topic_id, topic_title, forum_id, topic_last_post_id, topic_last_poster_name '
+                 . 'FROM ' . TOPICS_TABLE . ' '
+                 . 'WHERE topic_type <> 3 '
+                 . 'AND topic_approved = 1 '
+                 . 'AND ' . $db->sql_in_set('forum_id', $forum_id_ary)
+                 . $sql_where . ' '
+                 . 'ORDER BY topic_last_post_time DESC';
         }
 
-        while ($row = mysql_fetch_assoc($result)) {
-            $postsArray[] = $row;
-        }
+        $result = $db->sql_query_limit($sql, $num_topics);
+        $row = $db->sql_fetchrowset($result);
+        $db->sql_freeresult($result);
 
-        return $postsArray;
+        return $row;
     }
+
 
 ?>

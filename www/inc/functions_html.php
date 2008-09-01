@@ -61,41 +61,29 @@
     function getPhpBB3PostsHTML($postsArray) {
 
         $HTML = NULL;
-        $sortedPostsArray = array();
 
-        // sort the posts by topic
         foreach ($postsArray as $post) {
-            $sortedPostsArray[$post['topic_id']][] = $post;
-        }
-
-        // treat each topic as 1 post and the rest as comments, and build the HTML
-        foreach ($sortedPostsArray as $topicID => $posts) {
-            // get the first post
-            $firstPost = array_shift($posts);
             // format the post date
-            $firstPostDate = date('jS M Y', $firstPost['post_time']);
-            // the rest of the posts are comments
-            $numComments = count($posts);
-            // get some info on the last post, if present
-            $lastPost = ($numComments > 0 ? array_pop($posts) : $firstPost);
+            $postDate = date('jS M Y', $post['topic_time']);
 
             // setup the HTML for the current topic
             $HTML .= '<div class="dxnewspost">' . PHP_EOL
                    . '<div class="dxnewspostheader">'
-                   . '<h4>by ' . $firstPost['username'] . ', ' . $firstPostDate . '</h4>'
+                   . '<h4>by ' . $post['username'] . ', ' . $postDate . '</h4>'
                    . '<h1>'
-                   . '<a href="' . $GLOBALS['DX_SITE_URL'] . $GLOBALS['DX_PHPBB3_URL'] . 'viewtopic.php?p=' . $firstPost['post_id'] . '#p' . $firstPost['post_id'] . '">'
-                   . $firstPost['post_subject']
+                   . '<a href="' . $GLOBALS['DX_SITE_URL'] . $GLOBALS['DX_PHPBB3_URL'] . 'viewtopic.php?p=' . $post['post_id'] . '#p' . $post['post_id'] . '">'
+                   . $post['topic_title']
                    . '</a>'
                    . '</h1>' . PHP_EOL
                    . '</div>'
                    . '<p>';
             // call the special phpBB3 functions that must be setup in the calling php file (e.g. /index.php)
-            $HTML .= generate_text_for_display(smiley_text($firstPost['post_text']), $firstPost['bbcode_uid'], $firstPost['bbcode_bitfield'], TRUE);
+            $HTML .= generate_text_for_display(smiley_text($post['post_text']), $post['bbcode_uid'], $post['bbcode_bitfield'], TRUE);
             $HTML .= '</p>' . PHP_EOL
                    . '<div class="dxnewspostfooter">'
-                   . '<a href="' . $GLOBALS['DX_SITE_URL'] . $GLOBALS['DX_PHPBB3_URL'] . 'viewtopic.php?p=' . $lastPost['post_id'] . '#p' . $lastPost['post_id'] . '">'
-                   . $numComments . ' comment' . ($numComments != 1 ? 's' : NULL)
+                   . '<a href="' . $GLOBALS['DX_SITE_URL'] . $GLOBALS['DX_PHPBB3_URL'] . 'viewtopic.php?'
+                   . 'f=' . $post['forum_id'] . '&amp;t=' . $post['topic_id'] . '&amp;p=' . $post['topic_last_post_id'] . '#p' . $post['topic_last_post_id'] . '">'
+                   . $post['topic_replies'] . ' comment' . ($post['topic_replies'] != 1 ? 's' : NULL)
                    . '</a>'
                    . '</div>' . PHP_EOL
                    . '</div>' . PHP_EOL;
@@ -104,6 +92,32 @@
         // return all HTML for all topics from this array of posts
         return $HTML;
 
+    }
+
+
+    /** This function generates the HTML for a list of recent posts.
+     *
+     */
+    function getPhpBB3LatestPostsHTML($postsArray) {
+
+        $maxChars = 16;
+        $HTML = NULL;
+
+        foreach ($postsArray as $post) {
+
+            if (strlen($post['topic_title']) > $maxChars) {
+                $topic_title = substr($post['topic_title'], 0, $maxChars) . '...';
+            } else {
+                $topic_title = $post['topic_title'];
+            }
+
+            $topic_url = $GLOBALS['DX_SITE_URL'] . $GLOBALS['DX_PHPBB3_URL'] . 'viewtopic.php?'
+                         . 'f=' . $post['forum_id'] . '&amp;t=' . $post['topic_id'] . '&amp;p=' . $post['topic_last_post_id'] . '#p' . $post['topic_last_post_id'];
+
+            $HTML .= '<a href="' . $topic_url . '">' . $topic_title . '</a> <small>by ' . $post['topic_last_poster_name'] . '</small><br />';
+        }
+
+        return $HTML;
     }
 
 ?>

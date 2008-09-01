@@ -40,11 +40,13 @@
 
         <link href="<?php echo $GLOBALS['DX_SITE_URL']; ?>inc/style.css" rel="stylesheet" type="text/css" />
 
-        <script type="text/javascript" src="<?php echo $GLOBALS['DX_SITE_URL']; ?>inc/mootols/mootools.js"></script>
+        <script type="text/javascript" src="<?php echo $GLOBALS['DX_SITE_URL']; ?>inc/mootools/mootools.js"></script>
+        <script type="text/javascript" src="<?php echo $GLOBALS['DX_SITE_URL']; ?>inc/mootools/mootools-more.js"></script>
         <script type="text/javascript" src="<?php echo $GLOBALS['DX_SITE_URL']; ?>inc/functions.js"></script>
     </head>
 
     <body>
+
 <?php
    } // END
 ?>
