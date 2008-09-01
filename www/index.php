@@ -26,9 +26,6 @@
         header('Location: ' . $GLOBALS['DX_SITE_URL'] . 'forum/');
     }
 
-    // include the sitewide header
-    require_once($GLOBALS['DX_SITE_PATH'] . 'inc/header.php');
-
     // initiate phpBB3 session
     define('IN_PHPBB', true);
     $phpbb_root_path = $GLOBALS['DX_PHPBB3_URL'];
@@ -44,6 +41,9 @@
     $can_read_forum = $auth->acl_getf('f_read', TRUE);
     $forum_id_ary = array_keys($can_read_forum);
     unset($can_read_forum);
+
+    // include the sitewide header
+    require_once($GLOBALS['DX_SITE_PATH'] . 'inc/header.php');
 
     // prepare news posts
     $newsPostsArray = getPhpBB3Posts($db, $forum_id_ary, 4, $GLOBALS['DX_PHPBB3_BOARD']);
