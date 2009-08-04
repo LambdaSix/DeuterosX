@@ -9,7 +9,7 @@
     <applet
         name="PJirc"
         id="PJirc"
-        codebase="http://beta.deuterosx.org/inc/pjirc/"
+        codebase="<?php echo $GLOBALS['DX_SITE_URL']; ?>inc/pjirc/"
         code="IRCApplet.class"
         archive="irc.jar,pixx.jar">
 
