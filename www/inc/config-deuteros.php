@@ -22,7 +22,7 @@
     // Absolute filesystem path to site root
     $GLOBALS['DX_SITE_PATH']        = '/var/www/sitepath/';
     // Absolute URL to site root
-    $GLOBALS['DX_SITE_URL']         = 'http://deuteros.org/';
+    $GLOBALS['DX_SITE_URL']         = 'http://deuterosx.org/';
     // Relative path/URL to forum
     $GLOBALS['DX_PHPBB3_URL']       = 'forum/';
 
@@ -34,12 +34,17 @@
     $GLOBALS['DX_PHPBB3_DB']        = 'forumdbname';
     $GLOBALS['DX_PHPBB3_DBUSER']    = 'forumdbuser';
     $GLOBALS['DX_PHPBB3_DBPWD']     = 'forumdbpass';
-    $GLOBALS['DX_PHPBB3_BOARD']     = '6';
+    $GLOBALS['DX_PHPBB3_BOARD']     = '1'; // board for frontpage
 
     // MediaWiki database config
     $GLOBALS['DX_WIKI_DBSERVER']    = 'localhost';
     $GLOBALS['DX_WIKI_DB']          = 'wikidbname';
     $GLOBALS['DX_WIKI_DBUSER']      = 'wikidbuser';
     $GLOBALS['DX_WIKI_DBPWD']       = 'wikidbpass';
+
+    // IRC config
+    $GLOBALS['DX_IRC_SERVER']       = 'irc.domain.org';
+    $GLOBALS['DX_IRC_SERVER_PORT']  = 6668;
+    $GLOBALS['DX_IRC_SERVER_CHAN']  = '#channel';
 
 ?>
