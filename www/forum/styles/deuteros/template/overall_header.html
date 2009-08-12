@@ -13,7 +13,20 @@
 <meta name="description" content="" />
 {META}
 <title>Forum &bull; <!-- IF S_IN_MCP -->{L_MCP} &bull; <!-- ELSEIF S_IN_UCP -->{L_UCP} &bull; <!-- ENDIF -->{PAGE_TITLE} &bull; {SITENAME}</title>
-
+<!-- MOD : MSSTI RSS Feeds (V1.2.1) - Start //-->
+<!-- IF S_FEEDS -->
+<link rel="alternate" type="application/rss+xml" title="{L_RSS_FEEDS} - {SITENAME}" href="{U_RSS}" />
+<!-- IF U_FEEDS_NEWS --><link rel="alternate" type="application/rss+xml" title="{L_RSS_FEEDS} - {L_RSS_NEWS}" href="{U_FEEDS_NEWS}" /><!-- ENDIF -->
+<!-- IF U_FEEDS_NEWPOST --><link rel="alternate" type="application/rss+xml" title="{L_RSS_FEEDS} - {L_RSS_NEWPOST}" href="{U_FEEDS_NEWPOST}" /><!-- ENDIF -->
+<!-- IF U_FEEDS_FORUMS --><link rel="alternate" type="application/rss+xml" title="{L_RSS_FEEDS} - {L_ALL_FORUMS}" href="{U_FEEDS_FORUMS}" /><!-- ENDIF -->
+<!-- IF U_FEEDS_THREADS --><link rel="alternate" type="application/rss+xml" title="{L_RSS_FEEDS} - {L_ALL_TOPICS}" href="{U_FEEDS_THREADS}" /><!-- ENDIF -->
+<!-- IF U_FEEDS_POSTS --><link rel="alternate" type="application/rss+xml" title="{L_RSS_FEEDS} - {L_ALL_POSTS}" href="{U_FEEDS_POSTS}" /><!-- ENDIF -->
+<!-- IF U_FEEDS_ATTACH --><link rel="alternate" type="application/rss+xml" title="{L_RSS_FEEDS} - {L_RSS_ATTACH}" href="{U_FEEDS_ATTACH}" /><!-- ENDIF -->
+<!-- IF U_FEEDS_EGOSEARCH --><link rel="alternate" type="application/rss+xml" title="{L_RSS_FEEDS} - {L_YOUR_POSTS}" href="{U_FEEDS_EGOSEARCH}" /><!-- ENDIF -->
+<!-- IF U_FEEDS_FORUM --><link rel="alternate" type="application/rss+xml" title="{L_RSS_FEEDS} - {L_FORUM} {FORUM_NAME}" href="{U_FEEDS_FORUM}" /><!-- ENDIF -->
+<!-- IF U_FEEDS_THREAD --><link rel="alternate" type="application/rss+xml" title="{L_RSS_FEEDS} - {L_TOPIC} {TOPIC_TITLE}" href="{U_FEEDS_THREAD}" /><!-- ENDIF -->
+<!-- ENDIF -->
+<!-- MOD : MSSTI RSS Feeds (V1.2.1) - End //-->
 <!--
     phpBB style name: deuteros
     Based on style:   prosilver (this is the default phpBB3 style)
