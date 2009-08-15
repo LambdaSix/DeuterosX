@@ -1,0 +1,1 @@
+This folder is for anything that is not directly a part of either the game project itself or the website. This means WIPs of various kinds, graphics, sounds, music, documents, etc.
