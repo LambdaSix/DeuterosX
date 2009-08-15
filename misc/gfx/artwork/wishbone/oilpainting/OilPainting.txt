@@ -1,0 +1,11 @@
+These images have been made using Paint.NET. Here is what I did:
+
+1. Choose a motive from the original graphics.
+
+2. Clean up the motive, if necessary, removing the background.
+
+3. Scale up the motive, using interpolation, so the result is somewhat blurry, rather than pixellated.
+
+4. Apply an Oil Painting filter, fiddling around with the parameters until it looks good.
+
+I just did these for fun. I don't think they can be used for the game itself, but they might make good website graphics.
