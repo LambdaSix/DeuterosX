@@ -1,0 +1,4 @@
+- create the GuiButtonInfo list into ModGui.fdrm
+- load StationModuleXXX.ButtonInfo from Station definition file
+- make CurrentSystem work right
+- add Clone() to every GuiButtonParam

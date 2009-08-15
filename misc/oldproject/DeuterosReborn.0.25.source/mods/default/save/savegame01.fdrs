@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FDRFile version="0.12" type="save">
+  <SaveInfo>
+    <Title>Example of savegame</Title>
+    <Timestamp>5.8.2007 20:37:40</Timestamp>
+    <EngineVersion>0.25.2773</EngineVersion>
+    <ModVersion>0.01</ModVersion>
+    <CurrentYear>3100</CurrentYear>
+    <CurrentCycle>167</CurrentCycle>
+  </SaveInfo>
+  <SaveData>
+    <Station Type="Deuteros.Stations.StationBase" Title="Earth City" Location="MilkyWay.Sol.Earth" Owner="Player">
+      <Modules>
+        <Deuteros.Stations.StationModuleFactory>
+          <HasAOC>False</HasAOC>
+          <IsOrbital>False</IsOrbital>
+          <ProductionTeam Type="Deuteros.Teams.WorkTeamProduction">
+            <TeamLeader>Derek Smart</TeamLeader>
+            <TeamSize>100</TeamSize>
+            <ProductionTeamRank>Apprentice</ProductionTeamRank>
+          </ProductionTeam>
+          <BuildProgress>0</BuildProgress>
+          <BuildQueueIndex>0</BuildQueueIndex>
+          <BuildQueue>
+            <QueueItem>
+              <Repeat>False</Repeat>
+              <ItemId>Blaser</ItemId>
+            </QueueItem>
+            <QueueItem>
+              <Repeat>False</Repeat>
+              <ItemId>IOSChassis</ItemId>
+            </QueueItem>
+            <QueueItem>
+              <Repeat>False</Repeat>
+              <ItemId>IOSDrive</ItemId>
+            </QueueItem>
+            <QueueItem>
+              <Repeat>False</Repeat>
+              <ItemId>SCGChassis</ItemId>
+            </QueueItem>
+            <QueueItem>
+              <Repeat>False</Repeat>
+              <ItemId>SCGDrive</ItemId>
+            </QueueItem>
+            <QueueItem>
+              <Repeat>False</Repeat>
+              <ItemId>HeDFuel</ItemId>
+            </QueueItem>
+            <QueueItem>
+              <Repeat>False</Repeat>
+              <ItemId>ACC</ItemId>
+            </QueueItem>
+            <QueueItem>
+              <Repeat>False</Repeat>
+              <ItemId>AOC</ItemId>
+            </QueueItem>
+            <QueueItem>
+              <Repeat>False</Repeat>
+              <ItemId>Bandaid</ItemId>
+            </QueueItem>
+            <QueueItem>
+              <Repeat>False</Repeat>
+              <ItemId>SDM</ItemId>
+            </QueueItem>
+            <QueueItem>
+              <Repeat>False</Repeat>
+              <ItemId>Grapple</ItemId>
+            </QueueItem>
+            <QueueItem>
+              <Repeat>False</Repeat>
+              <ItemId>DFCC</ItemId>
+            </QueueItem>
+            <QueueItem>
+              <Repeat>False</Repeat>
+              <ItemId>Hyperlight</ItemId>
+            </QueueItem>
+            <QueueItem>
+              <Repeat>False</Repeat>
+              <ItemId>AMA</ItemId>
+            </QueueItem>
+            <QueueItem>
+              <Repeat>False</Repeat>
+              <ItemId>MTX</ItemId>
+            </QueueItem>
+            <QueueItem>
+              <Repeat>False</Repeat>
+              <ItemId>FuzLaser</ItemId>
+            </QueueItem>
+            <QueueItem>
+              <Repeat>False</Repeat>
+              <ItemId>PTL</ItemId>
+            </QueueItem>
+            <QueueItem>
+              <Repeat>False</Repeat>
+              <ItemId>RFrame</ItemId>
+            </QueueItem>
+            <QueueItem>
+              <Repeat>False</Repeat>
+              <ItemId>CommsPod</ItemId>
+            </QueueItem>
+            <QueueItem>
+              <Repeat>False</Repeat>
+              <ItemId>IOSDrone</ItemId>
+            </QueueItem>
+            <QueueItem>
+              <Repeat>False</Repeat>
+              <ItemId>StarDrone</ItemId>
+            </QueueItem>
+            <QueueItem>
+              <Repeat>False</Repeat>
+              <ItemId>PrisonPod</ItemId>
+            </QueueItem>
+            <QueueItem>
+              <Repeat>False</Repeat>
+              <ItemId>Blaster</ItemId>
+            </QueueItem>
+          </BuildQueue>
+        </Deuteros.Stations.StationModuleFactory>
+        <Deuteros.Stations.StationModuleMiningFacility />
+        <Deuteros.Stations.StationModuleMiningStore>
+          <StoreMaterials>
+            <Iron>736</Iron>
+            <Titanium>670</Titanium>
+            <Aluminium>532</Aluminium>
+            <Carbon>784</Carbon>
+            <Copper>558</Copper>
+            <Hydrogen>618</Hydrogen>
+            <Deuterium>620</Deuterium>
+            <Methane>618</Methane>
+            <Helium>620</Helium>
+            <Paladium>620</Paladium>
+            <Platinum>620</Platinum>
+            <Silver>620</Silver>
+            <Gold>620</Gold>
+            <Silica>620</Silica>
+          </StoreMaterials>
+          <StoreItems>
+            <UnknownItem>0</UnknownItem>
+            <Derrick>1</Derrick>
+            <ShuttleChassis>1</ShuttleChassis>
+            <ShuttleDrive>1</ShuttleDrive>
+            <MeHFuel>1</MeHFuel>
+            <OFFrame>1</OFFrame>
+            <SupplyPod>1</SupplyPod>
+            <ToolPod>1</ToolPod>
+            <CryoPod>1</CryoPod>
+            <Blaser>0</Blaser>
+            <IOSChassis>0</IOSChassis>
+            <IOSDrive>0</IOSDrive>
+            <SCGChassis>0</SCGChassis>
+            <SCGDrive>0</SCGDrive>
+            <HeDFuel>0</HeDFuel>
+            <ACC>0</ACC>
+            <AOC>0</AOC>
+            <Bandaid>0</Bandaid>
+            <SDM>0</SDM>
+            <Grapple>0</Grapple>
+            <DFCC>0</DFCC>
+            <AMA>0</AMA>
+            <Hyperlight>0</Hyperlight>
+            <MTX>0</MTX>
+            <FuzLaser>0</FuzLaser>
+            <RFrame>0</RFrame>
+            <PTL>0</PTL>
+            <CommsPod>0</CommsPod>
+            <IOSDrone>0</IOSDrone>
+            <StarDrone>0</StarDrone>
+            <PrisonPod>0</PrisonPod>
+            <Blaster>0</Blaster>
+          </StoreItems>
+        </Deuteros.Stations.StationModuleMiningStore>
+      </Modules>
+    </Station>
+    <Station Type="Deuteros.Stations.StationBase" Title="Earth Orbital" Location="MilkyWay.Sol.Earth" Owner="Player">
+      <Modules>
+        <Deuteros.Stations.StationModuleFactory>
+          <HasAOC>True</HasAOC>
+          <IsOrbital>True</IsOrbital>
+          <ProductionTeam />
+          <BuildProgress>-1</BuildProgress>
+          <BuildQueueIndex>0</BuildQueueIndex>
+          <BuildQueue>
+            <QueueItem>
+              <Repeat>True</Repeat>
+              <ItemId>Derrick</ItemId>
+            </QueueItem>
+          </BuildQueue>
+        </Deuteros.Stations.StationModuleFactory>
+      </Modules>
+    </Station>
+  </SaveData>
+  <ResearchedItems>
+    <Iron />
+    <Titanium />
+    <Aluminium />
+    <Carbon />
+    <Copper />
+    <Hydrogen />
+    <Deuterium />
+    <Methane />
+    <Helium />
+    <Paladium />
+    <Platinum />
+    <Silver />
+    <Gold />
+    <Silica />
+    <Derrick />
+    <ShuttleChassis />
+    <ShuttleDrive />
+    <MeHFuel />
+    <OFFrame />
+    <SupplyPod />
+    <ToolPod />
+    <CryoPod />
+    <Blaser />
+    <IOSChassis />
+    <IOSDrive />
+    <SCGChassis />
+    <SCGDrive />
+    <HeDFuel />
+    <ACC />
+    <AOC />
+    <Bandaid />
+    <SDM />
+    <Grapple />
+    <DFCC />
+    <AMA />
+    <Hyperlight />
+    <MTX />
+    <FuzLaser />
+    <RFrame />
+    <PTL />
+    <CommsPod />
+    <IOSDrone />
+    <StarDrone />
+    <PrisonPod />
+    <Blaster />
+  </ResearchedItems>
+  <ResearchItems />
+</FDRFile>

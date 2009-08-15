@@ -1,0 +1,115 @@
+Although there has been little activity on the forums, I still work on the code. 
+
+Version 0.3 (Build XXXX)
+Download here: [url]http://www.borkovec.com/jirka/Deuteros.0.30.zip[/url]
+Release notes:
++ fix: added delay before starting item production
++ fix: added current time to save/load game
+- Research
++ Star/planet/moon data
++ Mining (incomplete interface)
+
+Next version (0.4) will feature additional:
+- Training
+- Custom filesystem interface
+
+--------------------------------------------------------------------------------------------------- 
+
+Long time, no update. I'm busy! And sick :) but I still manage to work around 30-60 minutes per day,
+so some outcomes do exist - and the one today is... Version 0.2 :) 
+
+Version 0.2 (Build 2745)
+Download here: [url]http://www.borkovec.com/jirka/Deuteros.0.20.zip[/url]
+Release notes:
++ Production interface (to see the AOC version of the interface just 
+	transfer to orbital using the runtime editor)
++ Storeroom interface
++ Load GuiButtonInfo from ModGui.fdrm
++ Save GuiButtonInfo to ModGui.fdrm
++ Load gui from ModGui.fdrm
++ Load game from Xml
++ Runtime editor - Item template support
++ Load item templates from Xml
++ Save item templates to Xml
++ Textures now really do load from mod info (GuiTextures.fdrt)
++ Mod information loads from GameInfo.fdri
++ Fonts load from Fonts.fdrf
+* Lots of invisible stuff as always :) (well, not really. Much more than always :) )
+* From now on, all the files are to be backwards compatible (if possible. If not, there will be
+   a conversion utility or info on how to make it work in new version). And I keep a version-changelist
+
+Next version (0.3) will feature additional:
+- Research
+- Star/planet/moon data
+- Mining
+- I should finally get active enough to implement some sort of "strings file" to limit
+	hardcoded messages to minimum, but that doesn't necessarily have to be in the next
+	version
+
+--------------------------------------------------------------------------------------------------- 
+
+You say, what was I working on for the past few days? (Well, Dex has an idea probably... though I did some programming as well :razz: )
+I released this before the 0.2 version, because I'm leaving for two or three days to write an exam
+(and thus hopefully getting a study place on university) and I didn't want you to think I gave up :) 
+
+150kB of code, 4.000 code lines (and 1.400 lines of comments :razz: )
+
+Version 0.19 (Build 2716)
+Download here: [url]http://www.borkovec.com/jirka/Deuteros.0.19.zip[/url]
+Release notes:
+- STILL NO FromXml FUNCTIONS!
+* Reworked the item production architecture (can be seen in the data files)
++ Removed a lot of hardcoded things about gui (getting quite close to the final moddable gui)
++ Added future support for more user fonts (bitmap or system based - does only handle system ones at the moment)
++ Loading textures using mod data
++ Support for user items and their production line
++ Storage functionality coded and half of the interface as well
++ Production now takes and gives :) (you can watch it in the savegames as well)
+
+Next version (0.2) will feature additional:
+- Production interface
+- Load those Xml datafiles :) 
+
+--------------------------------------------------------------------------------------------------- 
+
+And we have new release there :) The code grows, right now it has over 126kB. That's like 130.000 characters :razz: And it will grow way further  
+
+Version 0.15 (Build 2711) 
+Download here: http://www.borkovec.com/jirka/Deuteros.0.15.zip 
+Release notes: 
++ animated icon support  
++ ingame cursor 
++ AdvanceTime now works when holding mouse on clock 
++ complete station architecture (thanks god) 
++ production functionality (watch the console, still missing the interface and stores  ) 
++ it is now possible to save a game 
++ added moddability support (though the game is still too small to make much difference  ). To run another mod just add param "-mod<mod_name>" to the command line 
++ the unique runtime editor  To activate, run the game with param "-editor". Recommended resolution 1280x1024 and more  
++ added WorkTeams and their architecture 
++ added Materials and very little of their architecture 
+
+Next version (0.2) will feature additional: 
+- Station storages and their interface 
+- Complete production cycle (ie adding consumption and storage) 
+- Production interface 
+- Loading textures using mod data instead of hardcoding 
+- Load game 
+- Load mod info 
+
+--------------------------------------------------------------------------------------------------- 
+
+Heya  
+I thought it might be a nice idea to make "nightly" code builds ready for any other dev to test/see. So, starting today... Ladies and gentlemen... please, welcome the Deuteros Reborn, version 0.07 *clap* *clap* 
+
+Deuteros Reborn, version 0.07 (Build 2710) 
+Download here: http://www.borkovec.com/jirka/Deuteros.0.07.zip (80.230B) 
+Release notes: 
++ hooray, a nice working interface  I know may make any button visible/nonvisible, clicking a button does really change the current screen (just there's no code for any screen yet  ). The Advance Time feature does work - though it just increments the clock as of yet... there's no ships nor colonies, so... 
++ menu (press esc). Probably will just be used internally... love the Deuteros original menus  
++ lots of architecture done 
+
+Next version (0.1) lacks the following features: 
+- animated icons 
+- ingame cursor (not the windows one) 
+
+Well, that's it for today  Hope the graphics guy is gonna show up with some neato new icons and interface graphics... though I must admit, I like the old graphics  Feel free to comment the work 

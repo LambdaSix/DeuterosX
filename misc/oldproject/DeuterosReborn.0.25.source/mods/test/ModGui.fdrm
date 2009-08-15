@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FDRFile version="0.03" type="menu">
+  <GuiMenuGlobal>
+    <leftGuiTop>
+      <Id>leftGuiTop</Id>
+      <TextureArea Left="0" Top="0" Width="120" Height="180" />
+      <Location X="0" Y="40" />
+      <Buttons>
+        <Deuteros.Gui.GuiButtonInfo>
+          <GuiMenuId>leftGuiTop</GuiMenuId>
+          <Text>
+          </Text>
+          <Font>
+          </Font>
+          <ForeColor>Color [Empty]</ForeColor>
+          <TextFormat>Left</TextFormat>
+          <ButtonRect Left="0" Top="0" Width="60" Height="40" />
+          <Tooltip>Advance Time</Tooltip>
+          <Params Type="Deuteros.Gui.GuiButtonParamCheckTimeAdvance">
+            <TimeAdvance>False</TimeAdvance>
+            <CheckTimeAdvance>True</CheckTimeAdvance>
+          </Params>
+          <Picture>
+          </Picture>
+          <Enabled>True</Enabled>
+          <AnimationFrames>1</AnimationFrames>
+          <AnimationTime>500</AnimationTime>
+        </Deuteros.Gui.GuiButtonInfo>
+        <Deuteros.Gui.GuiButtonInfo>
+          <GuiMenuId>leftGuiTop</GuiMenuId>
+          <Text>
+          </Text>
+          <Font>
+          </Font>
+          <ForeColor>Color [Empty]</ForeColor>
+          <TextFormat>Left</TextFormat>
+          <ButtonRect Left="0" Top="120" Width="60" Height="40" />
+          <Tooltip>Earth City</Tooltip>
+          <Params Type="Deuteros.Gui.GuiButtonParamCheckTimeAdvance">
+            <NextScreen>EarthCity</NextScreen>
+            <NextStation>Earth City</NextStation>
+            <NextLocation>Earth City</NextLocation>
+            <CheckStation>Earth City</CheckStation>
+            <CheckTimeAdvance>True</CheckTimeAdvance>
+          </Params>
+          <Picture>leftGui.EarthCity</Picture>
+          <Enabled>True</Enabled>
+          <AnimationFrames>6</AnimationFrames>
+          <AnimationTime>500</AnimationTime>
+        </Deuteros.Gui.GuiButtonInfo>
+      </Buttons>
+    </leftGuiTop>
+    <bottomGui>
+      <Id>bottomGui</Id>
+      <TextureArea Left="0" Top="1" Width="800" Height="43" />
+      <Location X="0" Y="-43" />
+      <Buttons>
+        <Deuteros.Gui.GuiButtonInfo>
+          <GuiMenuId>bottomGui</GuiMenuId>
+          <Text>$#[CurrentYear] $#[CurrentClock:d3].$#[CurrentDotTime:d2]</Text>
+          <Font>fntGui</Font>
+          <ForeColor>Color [White]</ForeColor>
+          <TextFormat>38</TextFormat>
+          <ButtonRect Left="266" Top="17" Width="204" Height="18" />
+          <Tooltip>Current Time</Tooltip>
+          <Params Type="Deuteros.Gui.GuiButtonParamTimeAdvance">
+            <TimeAdvance>True</TimeAdvance>
+          </Params>
+          <Picture>
+          </Picture>
+          <Enabled>True</Enabled>
+          <AnimationFrames>1</AnimationFrames>
+          <AnimationTime>100</AnimationTime>
+        </Deuteros.Gui.GuiButtonInfo>
+        <Deuteros.Gui.GuiButtonInfo>
+          <GuiMenuId>bottomGui</GuiMenuId>
+          <Text>$#[CurrentLocation]</Text>
+          <Font>fntGui</Font>
+          <ForeColor>Color [White]</ForeColor>
+          <TextFormat>36</TextFormat>
+          <ButtonRect Left="490" Top="17" Width="300" Height="18" />
+          <Tooltip>Current Location</Tooltip>
+          <Params />
+          <Picture>
+          </Picture>
+          <Enabled>True</Enabled>
+          <AnimationFrames>1</AnimationFrames>
+          <AnimationTime>100</AnimationTime>
+        </Deuteros.Gui.GuiButtonInfo>
+      </Buttons>
+    </bottomGui>
+  </GuiMenuGlobal>
+  <GuiMenuStation>
+    <leftGuiBottom>
+      <Id>leftGuiBottom</Id>
+      <TextureArea Left="0" Top="0" Width="120" Height="240" />
+      <Location X="0" Y="220" />
+      <Buttons>
+        <Deuteros.Gui.GuiButtonInfo>
+          <GuiMenuId>leftGuiBottom</GuiMenuId>
+          <Text>
+          </Text>
+          <Font>
+          </Font>
+          <ForeColor>Color [Empty]</ForeColor>
+          <TextFormat>Left</TextFormat>
+          <ButtonRect Left="0" Top="0" Width="60" Height="40" />
+          <Tooltip>Production</Tooltip>
+          <Params Type="Deuteros.Gui.GuiButtonParamChangeScreen">
+            <NextScreen>Production</NextScreen>
+          </Params>
+          <Picture>leftGui.Production</Picture>
+          <Enabled>True</Enabled>
+          <AnimationFrames>1</AnimationFrames>
+          <AnimationTime>100</AnimationTime>
+        </Deuteros.Gui.GuiButtonInfo>
+        <Deuteros.Gui.GuiButtonInfo>
+          <GuiMenuId>leftGuiBottom</GuiMenuId>
+          <Text>
+          </Text>
+          <Font>
+          </Font>
+          <ForeColor>Color [Empty]</ForeColor>
+          <TextFormat>Left</TextFormat>
+          <ButtonRect Left="60" Top="200" Width="60" Height="40" />
+          <Tooltip>Mining Store</Tooltip>
+          <Params Type="Deuteros.Gui.GuiButtonParamChangeScreen">
+            <NextScreen>MiningStores</NextScreen>
+          </Params>
+          <Picture>leftGui.MiningStores</Picture>
+          <Enabled>True</Enabled>
+          <AnimationFrames>1</AnimationFrames>
+          <AnimationTime>100</AnimationTime>
+        </Deuteros.Gui.GuiButtonInfo>
+      </Buttons>
+    </leftGuiBottom>
+  </GuiMenuStation>
+  <GuiMenuScreen />
+</FDRFile>

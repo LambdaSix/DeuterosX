@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FDRFile version="0.03" type="textures">
+  <TextureList>
+    <Texture>
+      <Id>cursor</Id>
+      <FileName>.\gfx\cursor.png</FileName>
+    </Texture>
+    <Texture>
+      <Id>menuBackground</Id>
+      <FileName>.\gfx\menuBackground.png</FileName>
+    </Texture>
+    <Texture>
+      <Id>buttonMainMenu</Id>
+      <FileName>.\gfx\buttonMainMenu.png</FileName>
+    </Texture>
+    <Texture>
+      <Id>buttonMainMenuActive</Id>
+      <FileName>.\gfx\buttonMainMenuActive.png</FileName>
+    </Texture>
+    <Texture>
+      <Id>messageBox</Id>
+      <FileName>.\gfx\messageBox.png</FileName>
+    </Texture>
+    <Texture>
+      <Id>bottomLog</Id>
+      <FileName>.\gfx\bottomLog.png</FileName>
+    </Texture>
+    <Texture>
+      <Id>systemName</Id>
+      <FileName>.\gfx\systemName.png</FileName>
+    </Texture>
+  </TextureList>
+</FDRFile>

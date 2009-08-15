@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FDRFile version="0.07" type="font">
+  <FontList>
+    <Font>
+      <Id>fntMain</Id>
+      <Source>SystemFont</Source>
+      <Params>
+        <FontName>Microsoft Sans Serif</FontName>
+        <FontSize>8.25</FontSize>
+        <FontStyle>Regular</FontStyle>
+      </Params>
+    </Font>
+    <Font>
+      <Id>fntMenuButon</Id>
+      <Source>SystemFont</Source>
+      <Params>
+        <FontName>Tahoma</FontName>
+        <FontSize>12</FontSize>
+        <FontStyle>Bold</FontStyle>
+      </Params>
+    </Font>
+    <Font>
+      <Id>fntGui</Id>
+      <Source>SystemFont</Source>
+      <Params>
+        <FontName>Bitstream Vera Sans Mono</FontName>
+        <FontSize>14</FontSize>
+        <FontStyle>Bold</FontStyle>
+      </Params>
+    </Font>
+  </FontList>
+</FDRFile>

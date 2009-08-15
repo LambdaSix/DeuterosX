@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FDRFile version="0.03" type="save">
+  <SaveInfo>
+    <Title>New Game</Title>
+    <Timestamp>17.6.2007 9:06:21</Timestamp>
+    <EngineVersion>0.19.2724</EngineVersion>
+    <ModVersion>0.01</ModVersion>
+  </SaveInfo>
+  <SaveData>
+    <Station Type="Deuteros.Stations.StationBase" Title="Earth City">
+      <Modules>
+        <Deuteros.Stations.StationModuleFactory>
+          <ButtonInfo>
+            <GuiMenuId>leftGuiBottom</GuiMenuId>
+            <Text>
+            </Text>
+            <Font>
+            </Font>
+            <ForeColor>Color [Empty]</ForeColor>
+            <TextFormat>Left</TextFormat>
+            <ButtonRect Left="0" Top="0" Width="60" Height="40" />
+            <Tooltip>Production</Tooltip>
+            <Params Type="Deuteros.Gui.GuiButtonParamChangeScreen">
+              <NextScreen>Production</NextScreen>
+            </Params>
+            <Picture>leftGui.Production</Picture>
+            <Enabled>True</Enabled>
+            <AnimationFrames>1</AnimationFrames>
+            <AnimationTime>100</AnimationTime>
+          </ButtonInfo>
+          <ButtonIndex>0</ButtonIndex>
+          <HasAOC>False</HasAOC>
+          <ProductionTeam Type="Deuteros.Teams.WorkTeamProduction">
+            <TeamLeader>White</TeamLeader>
+            <TeamSize>100</TeamSize>
+            <ProductionTeamRank>Apprentice</ProductionTeamRank>
+          </ProductionTeam>
+          <BuildProgress>-1</BuildProgress>
+          <BuildQueueIndex>-1</BuildQueueIndex>
+          <BuildQueue>
+            <QueueItem>
+              <Repeat>True</Repeat>
+              <ItemId>Derrick</ItemId>
+            </QueueItem>
+          </BuildQueue>
+        </Deuteros.Stations.StationModuleFactory>
+        <Deuteros.Stations.StationModuleMiningStore>
+          <ButtonInfo>
+            <GuiMenuId>leftGuiBottom</GuiMenuId>
+            <Text>
+            </Text>
+            <Font>
+            </Font>
+            <ForeColor>Color [Empty]</ForeColor>
+            <TextFormat>Left</TextFormat>
+            <ButtonRect Left="60" Top="200" Width="60" Height="40" />
+            <Tooltip>Mining Store</Tooltip>
+            <Params Type="Deuteros.Gui.GuiButtonParamChangeScreen">
+              <NextScreen>MiningStores</NextScreen>
+            </Params>
+            <Picture>leftGui.MiningStores</Picture>
+            <Enabled>True</Enabled>
+            <AnimationFrames>1</AnimationFrames>
+            <AnimationTime>100</AnimationTime>
+          </ButtonInfo>
+          <ButtonIndex>0</ButtonIndex>
+          <StoreMaterials>
+            <Iron>200</Iron>
+            <Titanium>200</Titanium>
+            <Carbon>200</Carbon>
+          </StoreMaterials>
+          <StoreItems>
+            <Derrick>0</Derrick>
+          </StoreItems>
+        </Deuteros.Stations.StationModuleMiningStore>
+      </Modules>
+    </Station>
+    <Station Type="Deuteros.Stations.StationBase" Title="Earth Orbital">
+      <Modules>
+        <Deuteros.Stations.StationModuleFactory>
+          <ButtonInfo>
+            <GuiMenuId>leftGuiBottom</GuiMenuId>
+            <Text>
+            </Text>
+            <Font>
+            </Font>
+            <ForeColor>Color [Empty]</ForeColor>
+            <TextFormat>Left</TextFormat>
+            <ButtonRect Left="0" Top="0" Width="60" Height="40" />
+            <Tooltip>Production</Tooltip>
+            <Params Type="Deuteros.Gui.GuiButtonParamChangeScreen">
+              <NextScreen>Production</NextScreen>
+            </Params>
+            <Picture>leftGui.Production</Picture>
+            <Enabled>True</Enabled>
+            <AnimationFrames>1</AnimationFrames>
+            <AnimationTime>100</AnimationTime>
+          </ButtonInfo>
+          <ButtonIndex>0</ButtonIndex>
+          <HasAOC>False</HasAOC>
+          <ProductionTeam Type="Deuteros.Teams.WorkTeamProduction">
+            <TeamLeader>Angel</TeamLeader>
+            <TeamSize>100</TeamSize>
+            <ProductionTeamRank>Apprentice</ProductionTeamRank>
+          </ProductionTeam>
+          <BuildProgress>-1</BuildProgress>
+          <BuildQueueIndex>-1</BuildQueueIndex>
+          <BuildQueue>
+            <QueueItem>
+              <Repeat>True</Repeat>
+              <ItemId>Derrick</ItemId>
+            </QueueItem>
+          </BuildQueue>
+        </Deuteros.Stations.StationModuleFactory>
+      </Modules>
+    </Station>
+  </SaveData>
+</FDRFile>

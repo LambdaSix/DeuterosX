@@ -1,0 +1,153 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <ProjectGuid>{3FC8264C-4D3B-432D-A184-FA55D498A6E9}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <RootNamespace>Deuteros</RootNamespace>
+    <AssemblyName>Deuteros</AssemblyName>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <NoStdLib>False</NoStdLib>
+    <WarningLevel>4</WarningLevel>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <StartArguments>-editor</StartArguments>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>.\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE;GenLog;DebugStations</DefineConstants>
+    <Optimize>False</Optimize>
+    <StartAction>Project</StartAction>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+    <OutputType>WinExe</OutputType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <RegisterForComInterop>False</RegisterForComInterop>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+    <BaseAddress>4194304</BaseAddress>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <FileAlignment>4096</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.Targets" />
+  <ItemGroup>
+    <Reference Include="Microsoft.DirectX" />
+    <Reference Include="Microsoft.DirectX.Direct3D" />
+    <Reference Include="Microsoft.DirectX.Direct3DX" />
+    <Reference Include="Microsoft.DirectX.DirectInput" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="Editor\StationEditor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Editor\StationEditor.Designer.cs">
+      <DependentUpon>StationEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Editor\StationModuleEditor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Editor\StationModuleEditor.Designer.cs">
+      <DependentUpon>StationModuleEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Editor\StoreItemEditor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Editor\StoreItemEditor.Designer.cs">
+      <DependentUpon>StoreItemEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEditor.Designer.cs">
+      <DependentUpon>frmEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLoad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLoad.Designer.cs">
+      <DependentUpon>frmLoad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSave.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSave.Designer.cs">
+      <DependentUpon>frmSave.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameEngine.cs" />
+    <Compile Include="GuiAccessibleAttribute.cs" />
+    <Compile Include="Gui\GuiButtonInfo.cs" />
+    <Compile Include="Gui\GuiFont.cs" />
+    <Compile Include="Gui\GuiMenu.cs" />
+    <Compile Include="InputEngine.cs" />
+    <Compile Include="Items\StoreItem.cs" />
+    <None Include="File formats.txt" />
+    <Compile Include="Menu\MenuData.cs" />
+    <Compile Include="Menu\MenuDataMainMenu.cs" />
+    <Compile Include="Menu\MenuType.cs" />
+    <Compile Include="RenderEngine.cs" />
+    <Compile Include="Stations\StationBase.cs" />
+    <Compile Include="Stations\StationModuleBase.cs" />
+    <Compile Include="Stations\StationModuleFactory.cs" />
+    <Compile Include="Stations\StationModuleMiningFacility.cs" />
+    <Compile Include="Stations\StationModuleMiningStore.cs" />
+    <Compile Include="Stations\StationModuleResearchFacility.cs" />
+    <Compile Include="StructXml.cs" />
+    <Compile Include="Teams\WorkTeamBase.cs" />
+    <Compile Include="Teams\WorkTeamProduction.cs" />
+    <Compile Include="Teams\WorkTeamResearch.cs" />
+    <Compile Include="TextureManager.cs" />
+    <Compile Include="Universe\Galaxy.cs" />
+    <Compile Include="Universe\SolarSystem.cs" />
+    <Compile Include="Universe\SpaceItem.cs" />
+    <EmbeddedResource Include="Editor\StationEditor.resx">
+      <DependentUpon>StationEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editor\StationModuleEditor.resx">
+      <DependentUpon>StationModuleEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editor\StoreItemEditor.resx">
+      <DependentUpon>StoreItemEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditor.resx">
+      <DependentUpon>frmEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLoad.resx">
+      <DependentUpon>frmLoad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSave.resx">
+      <DependentUpon>frmSave.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Modding guide\Basic handbook.html" />
+    <None Include="MoreTasks.txt" />
+    <None Include="Release Notes.txt" />
+  </ItemGroup>
+</Project>

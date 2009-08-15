@@ -1,0 +1,43 @@
+All file version changes are to be logged here
+
+Savegame (fdrs)
+ version 0.12
+  + added Location parameter to Station definition
+  + added Owner parameter to station definition
+  + added CurrentYear and CurrentCycle to header
+ version 0.11
+  * base version
+
+Fonts (fdrf)
+ version 0.07
+  * base version
+
+Mod info (fdri)
+ version 0.03
+  * base version
+  
+Mod gui (fdrm)
+ version 0.10
+  + added Template attribute to menu.Buttons items
+ version 0.09
+  + added GuiButtonTemplates section to store all GuiButtonInfos (required)
+  + added a new attribute to menu sections - "Type"
+  * NOT backwards compatible!
+ version 0.08
+  * base version
+
+Item templates (fdrp)
+ version 0.12
+  * base version
+
+Textures (fdrt)
+ version 0.03
+  * base version
+
+Strings (fdrl)
+ version 0.10
+  * base version
+
+Universe (fdru)
+ version 0.10
+  * base version

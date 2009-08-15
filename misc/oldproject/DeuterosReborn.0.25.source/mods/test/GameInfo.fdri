@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FDRFile version="0.03" type="info">
+  <GameInfo>
+    <Title>Test mod</Title>
+    <ShowEngineVersion>True</ShowEngineVersion>
+    <ShowModVersion>True</ShowModVersion>
+    <ModVersion>0.01</ModVersion>
+    <Author>The Deuteros PC Project Team</Author>
+    <Description>The port of Deuteros game to PC.</Description>
+    <Website>http://www.deuteros.org/</Website>
+  </GameInfo>
+</FDRFile>

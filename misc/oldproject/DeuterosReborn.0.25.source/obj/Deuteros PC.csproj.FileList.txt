@@ -1,0 +1,12 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Deuteros.exe
+obj\Debug\Deuteros.pdb
+.\Deuteros.exe
+.\Deuteros.pdb
+obj\Debug\Deuteros.frmEditor.resources
+obj\Debug\Deuteros PC.csproj.GenerateResource.Cache
+obj\Debug\Deuteros.Editor.StationEditor.resources
+obj\Debug\Deuteros.Editor.StationModuleEditor.resources
+obj\Debug\Deuteros.frmSave.resources
+obj\Debug\Deuteros.frmLoad.resources
+obj\Debug\Deuteros.Editor.StoreItemEditor.resources

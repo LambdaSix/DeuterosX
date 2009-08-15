@@ -1,0 +1,12 @@
+D:\Jirka\Projekty\.NET\Deuteros PC\Deuteros PC\obj\Debug\Deuteros.exe
+D:\Jirka\Projekty\.NET\Deuteros PC\Deuteros PC\obj\Debug\Deuteros.pdb
+D:\Jirka\Projekty\.NET\Deuteros PC\Deuteros PC\obj\Debug\ResolveAssemblyReference.cache
+D:\Jirka\Projekty\.NET\Deuteros PC\Deuteros PC\obj\Debug\Deuteros.Editor.StationEditor.resources
+D:\Jirka\Projekty\.NET\Deuteros PC\Deuteros PC\obj\Debug\Deuteros.Editor.StationModuleEditor.resources
+D:\Jirka\Projekty\.NET\Deuteros PC\Deuteros PC\obj\Debug\Deuteros.Editor.StoreItemEditor.resources
+D:\Jirka\Projekty\.NET\Deuteros PC\Deuteros PC\obj\Debug\Deuteros.frmEditor.resources
+D:\Jirka\Projekty\.NET\Deuteros PC\Deuteros PC\obj\Debug\Deuteros.frmLoad.resources
+D:\Jirka\Projekty\.NET\Deuteros PC\Deuteros PC\obj\Debug\Deuteros.frmSave.resources
+D:\Jirka\Projekty\.NET\Deuteros PC\Deuteros PC\obj\Debug\Deuteros PC.csproj.GenerateResource.Cache
+D:\Jirka\Projekty\.NET\Deuteros PC\Deuteros PC\Deuteros.exe
+D:\Jirka\Projekty\.NET\Deuteros PC\Deuteros PC\Deuteros.pdb

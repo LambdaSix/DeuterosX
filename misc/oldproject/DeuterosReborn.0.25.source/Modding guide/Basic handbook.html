@@ -1,0 +1,109 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+ <title>Basic Handbook - Deuteros Reborn Engine Modding Guide</title>
+ <style type="text/css">
+ <!--
+   body
+   {
+    font-family: Arial;
+   }
+   a:hover 
+   {
+    text-decoration: none;
+	color:#FF0000;
+   }
+   h1
+   {
+   	font-size: medium;
+	font-weight: 700;
+	font-style: normal;
+	text-decoration: none;
+	background: #C0C0C0;
+	border-left: 1px solid;
+	border-right: 1px solid;
+	border-top: 1px solid;
+	border-bottom: 1px solid;
+	padding-left:5px
+   }
+   h2
+   {
+   	font-size: small;
+	font-weight: 700;
+	font-style: normal;
+	text-decoration: none;
+	background: #bb0044;
+	border-left: 1px solid;
+	border-right: 1px solid;
+	border-top: 1px solid;
+	border-bottom: 1px solid;
+	padding-left:5px;
+	margin-left:5px;
+   }
+   p
+   {
+    font-size: x-small;
+   	background: #FFFF99;
+	margin-left: 5px;
+	border-left: 1px solid;
+	border-right: 1px solid;
+	border-top: 1px solid;
+	border-bottom: 1px solid;
+	padding-left:5px;
+   }
+-->
+ </style>
+</head>
+<body bgcolor="white" text="#000000" link="#000000" vlink="#000000" alink="#FF0000">
+ <h1>Introduction</h1>
+ <p>Some talkin' stuff</p>
+ <h1>What do you need?</h1>
+ <p>The only essential thing you really need to do Deuteros Reborn modding is a text editor - 
+ windows notepad will do just fine. Of course, a handy thing to have is the game, so that you
+ can debug the mod and as well use the integrated runtime game editor (we'll look on that later).
+ And of course, if you are making a custom mod, you probably want to use your own graphics,
+ sounds and whatever else, so be ready to make any of this stuff you'd love to include in your mod.<br/><br/>
+ The next thing you can use is the Deuteros Reborn Engine's (DRE's) online documentation, though you
+ may have problems with using it the first time - unless you are used to MSDN-style documentation
+ and you have a basic understanding of Microsoft.NET - the documentation is designed for advanced modders
+ (as explained in the Advanced Handbook)
+ </p>
+ <h1>Deuteros Reborn Engine Architecture</h1>
+ <p>DRE's modding is done in two separate levels - the first one is editting the
+ Xml files located in directory Mods\&lt;modname&gt;. The other one is a little
+ more complicated (though not necessary), requiring you to use a Microsoft.NET language - explained
+ in the Advanced Handbook.<br />
+ </p>
+ <h2>In-game font definition file (Fonts.fdrf)</h2>
+ <p>
+     &lt;FontList&gt;<br />
+     &#9;&lt;Font&gt;<br />
+     &#9;&#9;&lt;Id&gt;fntMain&lt;/Id&gt; - the id of this font<br />
+     &#9;&#9;&lt;Source&gt;SystemFont&lt;/Source&gt; - the source. May be SystemFont or BitmapFont<br />
+     &#9;&#9;&lt;Params&gt;<br/>
+     &#9;&#9;&#9;&lt;FontName&gt;Microsoft Sans Serif&lt;/FontName&gt; - only for SystemFont.
+     Specifies the system font name<br/>
+     &#9;&#9;&#9;&lt;FontSize&gt;8.25&lt;/FontSize&gt; - only for SystemFont. Specifies the size
+     of the font<br/>
+     &#9;&#9;&#9;&lt;FontStyle&gt;Regular&lt;/FontStyle&gt; - only for SystemFont. Specifies
+     the font style<br/>
+     &#9;&#9;&lt;/Params&gt;<br/>
+     &#9;&lt;/Font&gt;<br />
+     &lt;FontList&gt;<br />
+ </p>
+ <h2>Mod information file (GameInfo.fdri)</h2>
+ <p>
+     &lt;GameInfo&gt; <br />
+     &#9;&lt;Title&gt;Deuteros Reborn&lt;/Title&gt;<br />
+     &#9;&lt;ShowEngineVersion&gt;True&lt;/ShowEngineVersion&gt;<br />
+     &#9;&lt;ShowModVersion&gt;False&lt;/ShowModVersion&gt; <br />
+     &#9;&lt;ModVersion&gt;0.01&lt;/ModVersion&gt;<br />
+     &#9;&lt;Author&gt;The Deuteros PC Project Team&lt;/Author&gt; <br />
+     &#9;&lt;Description&gt;The port of Deuteros game to PC.&lt;/Description&gt; <br />
+     &#9;&lt;Website&gt;http://www.deuteros.org/&lt;/Website&gt;<br />
+     &lt;/GameInfo&gt;
+ </p>
+ <h1>The über cool runtime editor</h1>
+ <p>Some information about the runtime editor</p>
+</body>
+</html>
