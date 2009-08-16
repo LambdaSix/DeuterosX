@@ -18,12 +18,12 @@
         <param name="name" value="Java user">
         <param name="host" value="irc.quakenet.org">
         <param name="gui" value="pixx">
-        <param name="command1" value="join #deuteros.org">
+        <param name="command1" value="join #deuterosx.org">
         <param name="pixx:showconnect" value="false">
         <param name="pixx:showchanlist" value="false">
         <param name="pixx:showclose" value="false">
         <param name="pixx:displayentertexthere" value="true">
-        <param name="fileparameter" value="deuteros.ini">
+        <param name="fileparameter" value="deuterosx.ini">
     </applet>
 <?php
     } else {
