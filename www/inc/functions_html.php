@@ -77,7 +77,7 @@
             // setup the HTML for the current topic
             $HTML .= '<div class="dxnewspost">' . PHP_EOL
                    . '<div class="dxnewspostheader">'
-                   . '<h4>by ' . $post['username'] . ', ' . $postDate . '</h4>'
+                   . '<span class="meta">by ' . $post['username'] . ', ' . $postDate . '</span>'
                    . '<h1>'
                    . '<a href="' . $GLOBALS['DX_SITE_URL'] . $GLOBALS['DX_PHPBB3_URL'] . 'viewtopic.php?p=' . $post['post_id'] . '#p' . $post['post_id'] . '">'
                    . $post['topic_title']

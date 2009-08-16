@@ -59,10 +59,6 @@
         $latestPostsHTML = getPhpBB3LatestPostsHTML($latestPostsArray);
     }
 
-     if ($user->data['is_registered']) {
-        echo 'Welcome ' . $user->data['username']; //User is already logged in
-    }
-
 ?>
                 <table>
                 <tr>
@@ -81,7 +77,12 @@
 
                     <h2 id="slide_login">Login</h2>
                     <div class="dxrightbox" id="slidebox_login">
-                        TEMP
+                    <?php
+    if ($user->data['is_registered']) {
+        echo 'Welcome ' . $user->data['username']; //User is already logged in
+    }
+    ?>
+
                     </div>
 
                     <h2 id="slide_forum">Forum</h2>
@@ -90,11 +91,6 @@
         echo $latestPostsHTML;
 
 ?>
-                    </div>
-
-                    <h2 id="slide_polls">Polls</h2>
-                    <div class="dxrightbox" id="slidebox_polls">
-                        TEMP
                     </div>
 
                 </td>

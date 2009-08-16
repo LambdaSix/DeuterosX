@@ -66,6 +66,8 @@ a:hover, h1 a, h2 a, h3 a {
 
 h1 {
     font-size:          150%;
+    margin:             0px;
+    padding:            0px;
 }
 
 h2 {
@@ -126,29 +128,38 @@ div#dxheader {
 #dxrightcolumn {
     width:              225px;
     padding:            0 0 0 0;
+    margin:            0 0 0 0;
+
 }
 
 #dxmaincolumn {
     width:              700px;
+    padding:            0 16px 0 0;
+    margin:            0 0 0 0;
+
+
 
 }
 
 .dxnewspost {
-    margin-bottom:      16px;
+
+}
+
+.dxnewspost p, .dxnewspostheader {
+    padding-left:       8px;
+    padding-right:      8px;
 }
 
 .dxnewspostheader {
     background-color:   #3f231a;
-    padding-left:       6px;
-    padding-right:      6px;
-    border-bottom:      1px dotted #593b30;
 }
 
 .dxnewspostheader h1 {
 }
 
-.dxnewspostheader h4 {
+.dxnewspostheader .meta {
     float:              right;
+    margin-top:         8px;
 }
 
 .dxnewspost p {
@@ -156,7 +167,6 @@ div#dxheader {
 
 .dxnewspostfooter {
     text-align:         right;
-    border-bottom:      1px solid #444;
 }
 
 .dxrightbox {
@@ -168,7 +178,7 @@ div#dxheader {
     font-size:          1em;
     background-color:   #3f231a;
     margin:             0;
-    padding:            2px;
+    padding:            4px;
 }
 
 #dxrightcolumn h2:hover {
