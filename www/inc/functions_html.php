@@ -42,7 +42,8 @@
             // the standard image suffix for non-active items (ie. we are not visiting that part of the site)
             $suffix = 'nm';
             // if the URL corresponds to this navigation item, change the image file suffix
-            if (in_array(strtolower($path[1]), $urls)) {
+
+            if (in_array(strtolower($path[1]), $urls) || ($path[1] == '' && $name == 'home')) {
                 $suffix = 'hv';
             }
 
