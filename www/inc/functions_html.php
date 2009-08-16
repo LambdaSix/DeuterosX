@@ -25,8 +25,8 @@
     function getNavBarHTML() {
         // the global site URL
         $imgSrc = $GLOBALS['DX_SITE_URL'];
-        // the array of navigation items, and the urls that correspond to each item
-        $links = array('news' => array('news'),
+        // the array of navigation items, and the relative url(s) that correspond to each item
+        $links = array('home' => array('home'),
                        'about' => array('about'),
                        'forum' => array('forum'),
                        'wiki' => array('wiki', 'mediawiki'),
@@ -45,8 +45,15 @@
             if (in_array(strtolower($path[1]), $urls)) {
                 $suffix = 'hv';
             }
+
+            if ($name == 'home') {
+                $nameURL = '';
+            } else {
+                $nameURL = $name . '/';
+            }
+
             // output the corresponding HTML
-            $HTML .= '<a href="' . $imgSrc . $name . '/"><img src="' . $imgSrc . 'img/header_' . $name . '_' . $suffix . '.jpg" alt="Logo" /></a>';
+            $HTML .= '<a href="' . $imgSrc . $nameURL . '"><img src="' . $imgSrc . 'img/header_' . $name . '_' . $suffix . '.jpg" alt="Logo" /></a>';
         }
         // finish with the rightmost part of the header
         $HTML .= '<img src="' . $imgSrc . 'img/header_bottom_right.jpg" alt="Logo" />';
