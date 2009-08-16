@@ -1,0 +1,615 @@
+(5:57:27 AM) Luaan: hi guys
+(6:02:52 AM) Geddeth: hi
+(6:53:05 AM) Geddeth left the room (quit: Ping timeout).
+(6:57:15 AM) Wishbone: Hiya
+(6:57:37 AM) Luaan: Heyo :)
+(6:59:49 AM) Luaan left the room (quit: Quit: Luaan's IRC).
+(7:00:00 AM) Luaan [~Luaan@129.19.broadband11.iol.cz] entered the room.
+(7:00:12 AM) Luaan: back again :)
+(7:03:01 AM) Geddeth [~Geddeth@87.72.75.226] entered the room.
+(7:03:01 AM) mode (+o Geddeth) by Q
+(7:07:14 AM) Wishbone: Hmm, people coming and going.
+(7:08:51 AM) Geddeth: are they?
+(7:08:55 AM) Geddeth: I just had wifi problems again
+(7:09:36 AM) Geddeth: btw, for my project decision making I am following a well-proven theorem.
+(7:10:00 AM) Geddeth: Many organisations and companies and teams across the globe has been working off it for decades, just so you know it works.
+(7:10:12 AM) Geddeth: There's a description of the decision making process here: http://cl1p.net/projectmgmt/
+(7:10:13 AM) _deutebot: Title: cl1p.net (at cl1p.net)
+(7:11:39 AM) Wishbone: lol
+(7:11:51 AM) Geddeth: :D
+(7:12:10 AM) Wishbone: Christ, how long can it take to install .Net framework 3.5?
+(7:12:20 AM) ***Geddeth shivers.
+(7:12:37 AM) Wishbone: Yeah well, I'm trying to install the open beta of Section 8.
+(7:13:15 AM) Wishbone: The .NET installer has had a full progress bar for 10 minutes now :-/
+(7:14:05 AM) Geddeth: I thought it was District 9 :P
+(7:14:42 AM) ***Geddeth is looking forward to that one.
+(7:16:05 AM) ***Wishbone has never heard of that one.
+(7:16:15 AM) Geddeth: =-O
+(7:16:22 AM) Wishbone: FFS...
+(7:16:37 AM) Luaan: .NET framework 3.5 installed in half a minute here... must be some weird stuf :)
+(7:16:52 AM) Wishbone: Hmm... I'm kinda afraid to cancel...
+(7:17:00 AM) Luaan: don't
+(7:17:08 AM) Luaan: it'd take another two hours to rollback :D
+(7:17:32 AM) Geddeth: latest Peter Jackson production: http://www.imdb.com/title/tt1136608/
+(7:17:33 AM) _deutebot: Title: District 9 (2009) (at www.imdb.com)
+(7:17:46 AM) Geddeth: premieres here in a week
+(7:18:07 AM) Wishbone: Ah... And why does THAT need .NET framework 3.5? :-p
+(7:18:34 AM) Luaan: lots of things run on .NET framework now :)
+(7:18:36 AM) Luaan: even games :)
+(7:18:43 AM) Geddeth: it doesn't, it needs a big screen :)
+(7:18:48 AM) Luaan: for the ultimate high end games they use it for utilities :P
+(7:18:50 AM) Geddeth: apparently.
+(7:19:06 AM) Luaan: :d
+(7:19:09 AM) Wishbone: FFS... How long can it take?
+(7:19:29 AM) Wishbone: Of course, Microsoft has NEVER been able to code a progress bar worth a fuck :(
+(7:19:45 AM) Luaan: isn't it hung on some message or something? Like UAC or something? :)
+(7:20:24 AM) Wishbone: http://xkcd.com/612/
+(7:20:25 AM) _deutebot: Title: xkcd - A Webcomic - Estimation (at xkcd.com)
+(7:20:50 AM) Wishbone: It might be, but in that case, it hasn't informed me of that fact.
+(7:20:56 AM) Luaan: I love XKCD :-D
+(7:20:56 AM) Geddeth: heh
+(7:21:30 AM) Wishbone: Nope, no message...
+(7:22:24 AM) Luaan: strange
+(7:22:34 AM) Luaan: probably the installer of the game then
+(7:22:53 AM) Wishbone: And looking at the processes in the task manager, it's doing fuck-all, apparently.
+(7:23:58 AM) Wishbone: Whoa, completed!
+(7:24:06 AM) Wishbone: But requires a reboot :(
+(7:24:44 AM) Luaan: see you in a minute than :D
+(7:24:50 AM) Wishbone: Right...
+(7:25:14 AM) Wishbone left the room.
+(7:47:44 AM) Wishbone [~Wishbone@x1-6-00-13-d4-48-67-89.k260.webspeed.dk] entered the room.
+(7:47:57 AM) Wishbone: Damn, that took a long time to install!
+(7:49:44 AM) Wishbone: Well, are people here?
+Unknown command.
+(7:51:12 AM) Dexee: *yawn*
+(7:51:39 AM) Wishbone: Morning Dexee :D
+(7:52:21 AM) Wishbone: Anyone else?
+(7:52:34 AM) Wishbone: I'd like to get this show on the road as soon as possible.
+(7:52:43 AM) Geddeth1 [~Geddeth@87.72.75.226] entered the room.
+(7:52:43 AM) mode (+o Geddeth1) by Q
+(7:52:45 AM) Geddeth1: http://deuterosx.org/forum/viewtopic.php?f=12&t=984
+(7:52:47 AM) _deutebot: Title: DeuterosX.org Login (at deuterosx.org)
+(7:52:57 AM) Wishbone: Oh look, there's two of him ;)
+(7:53:12 AM) Dexee: wootlinks
+(7:53:22 AM) Dexee: two? clones? :O
+(7:57:05 AM) Geddeth left the room (quit: Ping timeout).
+(7:57:22 AM) Dexee: give or minute or two to see if Telac and Annihilator jump in
+(7:58:38 AM) Wishbone: Raider should be coming shortly.
+(7:58:56 AM) Wishbone: Or Ra1D3R...
+(7:59:00 AM) Dexee: eeeexcelent *strums fingers*
+(8:00:10 AM) Wishbone: He's the one attempting a brute force decompilation of the original game.
+(8:01:17 AM) Dexee: I know he has been :)
+(8:01:24 AM) Dexee: I discussed some of the things that I've tried
+(8:01:29 AM) Dexee: and what I hoped to see :P
+(8:01:39 AM) Dexee: He was getting there
+(8:02:14 AM) Ra1D3R [~Ra1D3R@p57B76426.dip.t-dialin.net] entered the room.
+(8:02:31 AM) Wishbone: Welcom Ra1D3R :)
+(8:02:36 AM) Wishbone: e
+(8:02:37 AM) Ra1D3R: hi guys
+(8:02:47 AM) Dexee: aahh, there's R
+(8:03:03 AM) Wishbone: So... Luaan? You here?
+(8:04:01 AM) Luaan: present and accounted for
+(8:04:25 AM) Wishbone: Great. I'm trying to poke Geddeth, but he isn't answering right now.
+(8:04:33 AM) Dexee: hehe
+(8:04:49 AM) Dexee: He was speaking about an hour ago
+(8:04:51 AM) Wishbone: Well, he's got his hands full. I'm sure he'll jump in when he has time.
+(8:05:00 AM) Dexee: Yeah... since he's at least tracking the convo
+(8:05:14 AM) Wishbone: Yeah I know, but with little ones around, things can change quickly ;)
+(8:05:15 AM) Dexee: http://deuterosx.org/forum/viewtopic.php?f=12&t=984 His suggestions here
+(8:05:16 AM) _deutebot: Title: DeuterosX.org Login (at deuterosx.org)
+(8:05:22 AM) Wishbone: Right.
+(8:05:39 AM) Wishbone: So, hear ye, hear ye! I hereby call this meeting to order.
+(8:06:09 AM) Dexee: Gentlemen, welcome. Welcome one and all.
+(8:06:27 AM) Luaan: Tadaaa
+(8:06:43 AM) Dexee: God I hated The Ship :P
+(8:06:58 AM) Wishbone: I say we start with a round of "what have you been doing, project-wise, lately".
+(8:07:09 AM) Geddeth1: and I'm here too :)
+(8:07:16 AM) Geddeth1: hi Dex
+(8:07:17 AM) Wishbone: Since that might impact some of the decisions we're supposed to be making today.
+(8:07:19 AM) Luaan: great
+(8:07:22 AM) Dexee: Finally G
+(8:07:30 AM) Dexee: I saw that you was talking yesterday 10 mins after I had buzzed off
+(8:07:44 AM) Geddeth1: yup, we missed each other
+(8:07:57 AM) Dexee: excelent
+(8:08:02 AM) Geddeth1: should I begin, Wishbone?
+(8:08:10 AM) Dexee: By all means G
+(8:08:23 AM) Wishbone: Sure, as the official "Magnificent Leader", you've got the right :D
+(8:08:25 AM) Geddeth1: k
+(8:08:46 AM) Geddeth1: well, I've obviouly focused on getting the project back up
+(8:08:54 AM) Geddeth1: for the last time :)
+(8:09:02 AM) Wishbone: Hopefully...
+(8:09:10 AM) Geddeth1: Definitely.
+(8:09:15 AM) Luaan: :P
+(8:09:18 AM) Geddeth1: :D
+(8:09:27 AM) Wishbone: I've got a good feeling about it this time :)
+(8:09:50 AM) Geddeth1: I am working on a document that outlines the basics of the project and team communication, hope to run that draft by you guys soon
+(8:10:09 AM) Geddeth1: I'm collecting input for that as well from you these days (though you might not know it, hehe)
+(8:10:25 AM) Wishbone: Geddeth, if I may?
+(8:10:29 AM) Geddeth1: sure
+(8:10:42 AM) Wishbone: I'd like to point out one key phrase from that document.
+(8:11:00 AM) Wishbone: "The well-being of team members in their project endeavours takes precedence over any goals or deadlines imposed on them by the project".
+(8:11:22 AM) Ra1D3R: nicely phrased
+(8:11:33 AM) Geddeth1: right .. well, like I said its a work in progres and only Wish has had a peek at it yet
+(8:11:48 AM) Geddeth1: but whats your take on that line?
+(8:12:01 AM) Wishbone: This is a "spare time project", and people's lives should not suffer because of it.
+(8:12:14 AM) Geddeth1: Right.
+(8:12:32 AM) Geddeth1: .. sorry, brb guys
+(8:12:35 AM) Dexee: lol, my life suffers no matter what I do :D
+(8:12:51 AM) Ra1D3R: and why put ourselves under stress by setting a deadline
+(8:13:06 AM) Luaan: deadlines are awesome :P
+(8:13:11 AM) Ra1D3R: and we can be more creative
+(8:13:18 AM) Luaan: I love the sound they make as they pass by
+(8:13:23 AM) Wishbone: Yeah, I love the whooshing noise the make as they fly by :D
+(8:13:27 AM) Luaan: :D
+(8:13:33 AM) Wishbone: DNA forever ;)
+(8:14:28 AM) Dexee: lol
+(8:14:57 AM) Geddeth1: right
+(8:14:58 AM) Wishbone: Anyway, my point is that while this project is serious about reaching its goals, it is still a spare time project, and as such, no members should expect more from any other members than what they can comfortably deliver.
+(8:15:21 AM) Wishbone: I think that is an important point to establish from the beginning.
+(8:15:21 AM) Luaan: right
+(8:15:52 AM) Dexee: Agreed
+(8:15:55 AM) Geddeth1: Exactly, but the reason I put that sentence in there at all is that we *will* have goals. If we didn't, we wouldn't have to mention our well-being at all, we could all just quit as we saw fit
+(8:16:10 AM) Geddeth1: Well, obviously, anyone can leave if they wish :)
+(8:16:30 AM) Wishbone: Exactly. Still, if we could establish some guidelines, that would be nice.
+(8:16:47 AM) Geddeth1: My point is that we *will* have deadlines to attempt to meet, but we should have fun meeting them, firstly.
+(8:16:55 AM) Wishbone: Anyone can leave, anyone can "take a break", but please, inform the rest of the team.
+(8:17:15 AM) Geddeth1: Right. I intend to put something like that in there as well. 
+(8:17:27 AM) Geddeth1: So I guess we could call that the basic premise of the project.
+(8:17:32 AM) Wishbone: Also, those who have not yet done so, should post in the "Contact information" thread.
+(8:17:37 AM) Luaan: Well, I'd go with simple roadmaps - just specify the goals in the next step and you can go with or without deadlines :)
+(8:17:51 AM) Dexee: lol
+(8:17:58 AM) Wishbone: Luaan: I'm for that, basically.
+(8:17:58 AM) Dexee: shall I start shopping the map once we're done
+(8:18:23 AM) Geddeth1: Luaan: I don't quite follow you
+(8:18:24 AM) Luaan: Dexee: I'm not familiar with that expression
+(8:18:36 AM) Wishbone: We need to define milestones, and break the intervals between them into tasks.
+(8:18:46 AM) Luaan: exactly
+(8:19:01 AM) Dexee: I could make a visual map :P
+(8:19:20 AM) Wishbone: Hehe, no pressing need for visuals, I think.
+(8:20:18 AM) Geddeth1: Right, though I would define milestones, and break the tasks to meet them into intervals, but lets not argue about words :)
+(8:20:43 AM) Luaan: for example, the first milestone being the pre-shuttle stage of the game splits into tasks like preparing the graphics and coding the screens available in that phase - something like 10 tasks or so which can be subsequently assigned to the people for the milestone :)
+(8:21:03 AM) Geddeth1: Dexee: I have a plan for the visuals, so I might want your assistance later
+(8:21:18 AM) Geddeth1: Dexee: the contact info thread is temporary until the About-page is up
+(8:21:42 AM) Geddeth1: Luaan: Yes.
+(8:22:07 AM) Dexee: About Us page or something on the Wikii?
+(8:22:21 AM) Geddeth1: The About page will probably be a wiki-page.
+(8:22:36 AM) Wishbone: Will there be a "real" website eventually Geddeth?
+(8:22:55 AM) Wishbone: And will the developer layout be made public as well?
+(8:23:26 AM) Ra1D3R: honestly .. i dun think thats of any importance right now
+(8:23:28 AM) Geddeth1: There is a real website, but is is not finished yet. Those of you who have an active dev cookie right now, can just hit the DX logo on the site and see the frontpage
+(8:23:43 AM) Geddeth1: Developer layout?
+(8:24:03 AM) Dexee: ah right, /about/ is empty
+(8:24:14 AM) Geddeth1: Dexee: yes.
+(8:24:31 AM) Wishbone: Yeah, you know, the graphical design. If you just go to the site now without logging in, you'll get the standard phpbb skin and nothing else.
+(8:25:06 AM) Geddeth1: Wishbone: yes, I want to tweak it some more though. But we will launch the finished website all at once, soon.
+(8:25:37 AM) Geddeth1: At that time, our PR person (whomever that may be) will assist in "spreading the word" and writing all forum members with a notification that the project is back.
+(8:25:38 AM) Wishbone: Excellent.
+(8:25:55 AM) Geddeth1: So we will get instant success :)
+(8:25:57 AM) Wishbone: Right, so where were we?
+(8:26:06 AM) Geddeth1: Would be nice to have some screendumps then, though.
+(8:26:11 AM) Geddeth1: Ra1D3R: I'm just answering questions right now, but yeah, we should proceed to The Agenda.
+(8:26:19 AM) Wishbone: Geddeth1: You were talking about what you have been doing.
+(8:26:51 AM) Geddeth1: Yes, and I think that wraps it up. Next.
+(8:27:03 AM) Wishbone: Personally, I'm dying to hear from Ra1D3R about his decompilation project.
+(8:27:23 AM) Ra1D3R: that didnt work out so good
+(8:27:24 AM) Luaan41 [~Luaan@129.19.broadband11.iol.cz] entered the room.
+(8:27:31 AM) Luaan41: sorry, lost connection
+(8:27:32 AM) Wishbone: Hmm, I was afraid of that.
+(8:27:52 AM) Luaan41: what have you been talking about? Still the website?
+(8:27:53 AM) Dexee: You weren't able to get a hold of the old scene guys either?
+(8:27:59 AM) Ra1D3R: i got quite a bunch of asm code from it but nothing that i could comprehend nor could do anything useful with
+(8:28:12 AM) Geddeth1: Luaan41: yes, now Ra1D3R and his decompilation
+(8:28:39 AM) Wishbone: Yeah, I don't think I'm up for making sense of an entire game in 68000 ASM :-/
+(8:28:42 AM) Luaan left the room (quit: Read error: Operation timed out).
+(8:29:11 AM) Ra1D3R: and i did contact some ofe my old scener friends but all of em are married , have kids and dun have connections to the scene anymore
+(8:29:11 AM) Dexee: I wonder what they did what we aren't
+(8:29:18 AM) Luaan41: the Atari version is a bit easier to understand, but I'm only proficient with the x86 platform anyway :)
+(8:29:42 AM) Dexee: sadly, as am I as well Luaan
+(8:29:51 AM) Geddeth1: But considering how far Luaan got with his build, aren't we already convinced that we can recreate the game from scratch, using trial/error and our combined knowledge of the game?
+(8:29:51 AM) Wishbone: Me 2
+(8:30:02 AM) Wishbone: Oh, I'm sure we can do it.
+(8:30:22 AM) Dexee: It will take some extensive work, but we do have the concept
+(8:30:24 AM) Ra1D3R: but i was able to strip all PLAIN TEXT from the Deuteros Game Disks
+(8:30:28 AM) Wishbone: But exploring possible "short cuts" should be worthwile.
+(8:30:37 AM) Wishbone: Ooooh, nice Ra1D3R :D
+(8:30:39 AM) Geddeth1: That's something!
+(8:30:45 AM) Wishbone: That'll come in handy!
+(8:30:51 AM) Dexee: I wish we could have ripped the old school entry... FOMM!!! :O
+(8:30:52 AM) Geddeth1: pop it into SVN right away :)
+(8:31:01 AM) Wishbone: Beats the hell out of typing it up from screenshots :-/
+(8:31:05 AM) Ra1D3R: will do !
+(8:31:18 AM) Geddeth1: well, you can wait till after the meeting, Ra1D3R ;)
+(8:31:50 AM) Dexee: I do have an SVN program as I have reinstalled it.
+(8:31:56 AM) Luaan41: I managed to find some images using the gfxrip tool, but it seems that they didn't place them all into the same memory space, so it'll probably be harder to extract them this way than using the screenshots
+(8:32:02 AM) Geddeth1: Dexee: I recommend TortoiseSVN.
+(8:32:04 AM) Ra1D3R: ive already begun bulding a table with the text messages and status stuff and sort it for the 3 languages
+(8:32:14 AM) Dexee: I do happen to have Tortoise
+(8:32:22 AM) Geddeth1: Dexee: sweet :)
+(8:32:23 AM) Ra1D3R: me too
+(8:32:27 AM) Wishbone: Yeah, I've tried ripping graphics from WinUAE memory dumps, but that was far too cumbersome.
+(8:32:40 AM) Dexee: We can rip the gfx with mem dumps?
+(8:32:56 AM) Geddeth1: Is the gfxrip tool the same as the one for WinUAE?
+(8:33:07 AM) Wishbone: Dexee: It's theoretically possible, but the program I used basically sucked.
+(8:33:17 AM) Luaan41: it's good for any bitmaps :)
+(8:33:43 AM) Ra1D3R: i ran into probs with ripping gfx via mem dumps
+(8:33:47 AM) Wishbone: All in all, I think screenshots are faster.
+(8:33:53 AM) Luaan41: I concur
+(8:33:55 AM) Ra1D3R: color shifts in the palette
+(8:33:58 AM) Ra1D3R: dun know why
+(8:34:06 AM) Wishbone: I've been ripping away for a while now. Progress is happening.
+(8:34:22 AM) Luaan41: I think it uses some simple compression on some images as well
+(8:34:34 AM) Geddeth1: Hmm ... okay, so we are going with screenshots for graphics. No point in spending anymore time on a method that might not work and is way harder.
+(8:34:34 AM) Wishbone: I've made structures for the ripped graphics and for the screenshots themselves in the SVN repository.
+(8:34:53 AM) Dexee: Well, I spose thats covered
+(8:35:21 AM) Ra1D3R: what i think is important how the game timer will work , much depends on the timer since it is a important thing to rebuild the storyline in the game
+(8:35:53 AM) Dexee: Exactly
+(8:36:12 AM) Dexee: and then we also need to figure out what triggers the Methanoid counter... ala how long before they invade without your interaction with them
+(8:36:13 AM) Geddeth1: Wishbone: and I think you did an excellent job, it's easy to add more graphics now.
+(8:36:28 AM) Ra1D3R: for example the time u need for ex docking , undocking landing , jumping .. and what the fuel consumption will be in a certain period of time
+(8:37:07 AM) Wishbone: Ra1D3R: Right, we need to infer those values from the game itself.
+(8:37:13 AM) Geddeth1: Ra1D3R: you are right, those are important bits of information.
+(8:37:14 AM) Luaan41: Steem rocks in this - you can run it on a faster clock
+(8:37:14 AM) Dexee: Yeah... and we also need to figure out the formula for fuel consumption accelerating to C
+(8:37:26 AM) Luaan41: so you can discover time triggers quite quickly
+(8:37:33 AM) Dexee: Since once you hit 99.9, its 1T to 100.1 (Hyper)
+(8:37:50 AM) Geddeth1: Ra1D3R: but I think we will get to that in due time and then do the research when necessary.
+(8:38:13 AM) Geddeth1: For now, I'd like to return to Wishbones stuff - what else have you been up to?
+(8:38:13 AM) Wishbone: Yeah, I think we'll pick up information as it becomes necessary.
+(8:38:19 AM) Luaan41: yeah, those are constants open for tuning
+(8:38:21 AM) Ra1D3R: okay
+(8:38:38 AM) Wishbone: Well, mainly graphics.
+(8:39:04 AM) Geddeth1: Ok.
+(8:39:07 AM) Wishbone: If you look at the SVN repository, all my stuff is in there. The structure should facilitate easy additions by others.
+(8:39:27 AM) Geddeth1: It does.
+(8:39:32 AM) Geddeth1: Does anyone else want to share what they have been doing lately, project-wise?
+(8:39:35 AM) Wishbone: I haven't looked at Luaan's code yet.
+(8:40:18 AM) Geddeth1: Me neither.
+(8:40:35 AM) Luaan41: I have :D
+(8:40:42 AM) Dexee: Once I reacquire a pencil that is perfect for my hand (as I'm slowly working into carpel tunnel and what not), I will be making sketches trying to base a 3d image of something that is 2D
+(8:40:43 AM) Geddeth1: *lol*
+(8:40:48 AM) Wishbone: Luaan41: Is the project in VS2010 format?
+(8:41:03 AM) Luaan41: the one I uploaded is
+(8:41:08 AM) Wishbone: :(
+(8:41:13 AM) Luaan41: I converted it by accident
+(8:41:24 AM) Luaan41: I'll change it from backup
+(8:41:27 AM) Geddeth1: Dexee: that sounds interesting.
+(8:41:31 AM) Wishbone: Could you commit a 2008 version to SVN?
+(8:41:41 AM) Geddeth1: Dexee: might come in handy for Phase 2.
+(8:42:05 AM) Geddeth1: Ok - then if nothing else, I'd like ask Dexee if you anything particular you want us to discuss, since you called the meeting?
+(8:42:27 AM) Wishbone: Well, there's always the agenda ;)
+(8:42:30 AM) Dexee: I peeked into your post G and I think that about everything there is what I wanted to discuss
+(8:42:56 AM) Dexee: that and determining wether or not our first run with this will be strictly a faithful recreation of the game or us building anew.
+(8:43:17 AM) Wishbone: That was the idea, at least.
+(8:43:36 AM) Dexee: And if we go for a faithful recreation, if we will make a few additions to make gameplay a little easier, such as having a viewable history of bulletins posted to you :P
+(8:43:42 AM) Geddeth1: Dexee: Ok .. so about my long ramble of booting Dude from the project, is that it?
+(8:44:27 AM) Dexee: *digs for post*
+(8:44:30 AM) Geddeth1: http://deuterosx.org/forum/viewtopic.php?p=1379#p1379
+(8:44:31 AM) _deutebot: Title: DeuterosX.org Login (at deuterosx.org)
+(8:44:32 AM) Luaan41: Wishbone: the code should be fine now
+(8:44:33 AM) Geddeth1: ;)
+(8:44:43 AM) Dexee: *reviews post*
+(8:45:02 AM) Dexee: Yeah thats about it
+(8:45:11 AM) Dexee: And summer/fall of 2005 is about right LOL
+(8:45:27 AM) Geddeth1: Yeah, I saw a post of his on another forum from 2005 where he mentioned you and the project.
+(8:45:33 AM) Wishbone: Excellent Luaan41
+(8:46:01 AM) Geddeth1: I think that Deuteros X is a different project than what he wanted.
+(8:46:08 AM) Annihilator [~annihilat@202-133.dsl.iskon.hr] entered the room.
+(8:46:16 AM) Wishbone: Clearly.
+(8:46:23 AM) Geddeth1: So I am at ease with that.
+(8:46:30 AM) Dexee: Ah, here is Annihilator
+(8:46:34 AM) Annihilator: o/
+(8:46:39 AM) Wishbone: Noone really agreed with anything he wanted to do anyway.
+(8:46:50 AM) Geddeth1: But the current team does consist of people who have been with him for a long time and the forum has posts and users from back then, and that's where my apprehensions lie.
+(8:46:55 AM) Dexee: In the end, yes
+(8:47:04 AM) Wishbone: Understandably.
+(8:47:25 AM) Geddeth1: But if Dex and Annihilator (welcome!) approve, then that is sufficient for me.
+(8:47:42 AM) Annihilator: i approve, wholeheartedly.
+(8:48:06 AM) Geddeth1: but a project without an *actual* leader isn't really a project at all.
+(8:48:16 AM) ***Wishbone points a Geddeth.
+(8:48:37 AM) Wishbone: at
+(8:48:40 AM) ***Geddeth1 wave a little flag that says "Deuteros X - A New Beginning".
+(8:48:41 AM) Ra1D3R: thats what i was thinking , wish
+(8:48:46 AM) Geddeth1: :)
+(8:48:57 AM) Geddeth1: ok, so enough about that, I believe.
+(8:49:11 AM) Wishbone: Right, that's one decision down. A few more to go.
+(8:49:12 AM) Annihilator: btw, am i late? did i miscalculate the time, or are we indeed to begin in ~10 mins, officially?
+(8:49:23 AM) Wishbone: You're 50 minutes late :p
+(8:49:39 AM) Geddeth1: Sorry, Annihilator :-/
+(8:49:47 AM) Wishbone: But welcome, nonetheless ;)
+(8:49:50 AM) Annihilator: the DST/non-DST argument threw me off :/
+(8:49:52 AM) Annihilator: sorry.
+(8:49:56 AM) Dexee: Also, I think it would be easy to maintain the orignal name of just Deuteros for the orignal release.
+(8:50:00 AM) Dexee: lol, no prob A
+(8:50:02 AM) Geddeth1: Me too .. I'm still confues about that ;)
+(8:50:07 AM) Geddeth1: *confused
+(8:50:09 AM) Dexee: why we can't use just 1 time
+(8:50:12 AM) Dexee: makes me wonder
+(8:50:25 AM) Luaan41: that would be even more confusing :D
+(8:50:44 AM) Annihilator: we can, we should all use UTC and that's it :)
+(8:50:46 AM) Geddeth1: Annihilator: I'll send you the IRC log afterwards
+(8:50:52 AM) Annihilator: Geddeth1: ty
+(8:50:57 AM) Wishbone: So, are we discussing naming now?
+(8:50:58 AM) Geddeth1: Actually, I'll post it in the forums, I think
+(8:51:03 AM) Annihilator: even better
+(8:51:03 AM) Geddeth1: Wishbone: no wait
+(8:51:11 AM) Geddeth1: Dexee asked: "determining wether or not our first run with this will be strictly a faithful recreation of the game or us building anew."
+(8:51:28 AM) Wishbone: Right...
+(8:51:30 AM) Geddeth1: lets get that out of the way
+(8:51:40 AM) Wishbone: Well, the current plan calls for 3 iterations:
+(8:51:52 AM) Wishbone: 1. Faithful recreation.
+(8:52:06 AM) Dexee: I'll be working on a post myself as well G
+(8:52:12 AM) Dexee: for the IRC
+(8:52:13 AM) Wishbone: 2. Updated recreation (graphics, sounds, music, interface)
+(8:52:22 AM) Wishbone: 3. Sequel
+(8:52:57 AM) Geddeth1: And all those preferably on the same engine, right?
+(8:52:59 AM) Wishbone: Does anyone have any comments on those 3 iterations?
+(8:53:02 AM) Luaan41: agreed... I'm still putting a "make the text print faster" cheat in :D
+(8:53:02 AM) Wishbone: Yes.
+(8:53:10 AM) Geddeth1: Luaan41: :D
+(8:53:20 AM) Annihilator: the engine would remain the same for all the iterations?
+(8:53:21 AM) Geddeth1: And "Hit ESC if you know what it will say."
+(8:53:24 AM) Wishbone: Oh sure, we can make small tweaks here and there, where needed.
+(8:53:48 AM) Geddeth1: Wishbone: yes, but be very meticulous in preserving a log of those changes.
+(8:54:16 AM) Wishbone: Annihilator: Yes, or rather, the engine will most likely be extended along the way, but should be kept backwards compatible.
+(8:54:17 AM) Geddeth1: Annihilator: the programmers will have to answer.
+(8:54:50 AM) Geddeth1: Luaan41: you said SDL was not too good at 3D?
+(8:55:04 AM) Wishbone: Annihilator: Not saying the third iteration should have no more features than the first one, but it should still be able to run the first game.
+(8:55:12 AM) Annihilator: since the original game is 320x200, are we to upsize it?
+(8:55:29 AM) Luaan41: Geddeth1: : Well, it's my personal opinion... it does support OpenGL, or so I've heard...
+(8:55:49 AM) Dexee: Well.... thinking about it again, it would be slightly more difficult to do "faithful" if we have to maintain the old resolutions....
+(8:55:56 AM) Luaan41: Annihilator: Definitely. The question is, when? At runtime or at compile time? :)
+(8:56:01 AM) Wishbone: Annihilator: Scale it, certainly, but that should be done in the engine.
+(8:56:01 AM) ***Dexee scratches his head and eyeballs the problem
+(8:56:02 AM) Geddeth1: Luaan41: Yes, SDL was used for Doom 3, Quake 4 and UT2004 (on Linux only)
+(8:56:08 AM) Wishbone: Luaan41: Runtime.
+(8:56:39 AM) Dexee: Lets also simply assume that a sequal will also be related witha #2
+(8:56:56 AM) Ra1D3R: since we use VS2008 we can
+(8:57:04 AM) Annihilator: well, if the sdl libraries allow for that, and make it simple, sounds good - and will work once the newly recreated graphics are in place as well
+(8:57:16 AM) Wishbone: Ra1D3R: We don't, actually ;)
+(8:57:28 AM) Ra1D3R: no?
+(8:57:34 AM) Luaan41: really? :D
+(8:57:44 AM) Wishbone: At least, we haven't agreed on that yet.
+(8:57:55 AM) Ra1D3R: oooookay
+(8:58:02 AM) Annihilator: what are the options?
+(8:58:06 AM) Dexee: what IDE are we thinking of using for this though?
+(8:58:08 AM) Geddeth1: Right .. thats the Agenda I was on about .. 
+(8:58:23 AM) Geddeth1: http://deuterosx.org/forum/viewtopic.php?p=1402#p1402
+(8:58:24 AM) Dexee: will the language choices affect that as well? (I assume we're going to do C++)
+(8:58:24 AM) _deutebot: Title: DeuterosX.org Login (at deuterosx.org)
+(8:58:32 AM) Wishbone: Yeah, I was trying to get to that when you stopped me, Geddeth1 ;)
+(8:58:49 AM) Geddeth1: sooowwy :-X
+(8:59:00 AM) Annihilator: isn't c++ a wee bit too low level for this project?
+(8:59:19 AM) Annihilator: windows c++ coding can be a real b**** :)
+(8:59:31 AM) Geddeth1: I wouldn't know, but SDL does have bindings for many languages
+(8:59:32 AM) Luaan41: I would prefer C# & VIsual Studio
+(8:59:39 AM) Luaan41: and SDL.NET
+(8:59:44 AM) Annihilator: sounds nice
+(8:59:49 AM) Ra1D3R: im best at c# too
+(8:59:49 AM) Geddeth1: but we do have cross-platform obligation.
+(8:59:58 AM) Luaan41: .NET is cross-platform
+(8:59:59 AM) Wishbone: Luaan41: That will make cross platform porting pretty much impossible.
+(9:00:01 AM) Annihilator: then we must make sure it will run on mono as well
+(9:00:10 AM) Luaan41: yeah
+(9:00:10 AM) Wishbone: Luaan41: Since when?
+(9:00:21 AM) Luaan41: since 2004 or so I believe :D
+(9:00:37 AM) Dexee: He's right
+(9:00:38 AM) Dexee: >_>
+(9:00:39 AM) Luaan41: everything except for Winforms and maybe some server stuff
+(9:00:41 AM) Wishbone: Luaan41: Which platforms?
+(9:00:56 AM) Annihilator: whichever ones that have a mono port available
+(9:00:58 AM) Luaan41: Unix definitely and I think it should work on Mac as well
+(9:00:59 AM) Wishbone: Can I port it to my GP2X?
+(9:01:09 AM) Wishbone: Is Mono free?
+(9:01:14 AM) Annihilator: yes
+(9:01:16 AM) Luaan41: yep, just as .NET is :)
+(9:01:16 AM) Ra1D3R: yes
+(9:01:23 AM) Luaan41: and Visual Studio, at least in express version :)
+(9:01:26 AM) ***Wishbone shrugs.
+(9:01:41 AM) Wishbone: Will the Express version serve our purposes?
+(9:01:48 AM) Geddeth1: Doing this cross-platform means Windows (XP minimum), Linux and Mac OS X are required supportes OS's, in my opinion.
+(9:02:03 AM) Geddeth1: *supported
+(9:02:03 AM) Luaan41: It's still better then SharpDevelop :D
+(9:02:23 AM) Luaan41: is there anyone with a Mac OS X computer? :D
+(9:02:29 AM) Geddeth1: Or Linux?
+(9:02:32 AM) Annihilator: in any case, going high-level will take much of the tediousness of development out of the equation. the only reasonable choices are java and .net. my vote goes to .net.
+(9:02:37 AM) Wishbone: I suppose handhelds are out of the question, though...
+(9:02:41 AM) Ra1D3R: linux , yes
+(9:02:49 AM) Luaan41: Well, mobiles are supported by .NET Compact Framework
+(9:02:50 AM) Ra1D3R: ubuntu 9.04
+(9:03:03 AM) Wishbone: Luaan41: IF they run Windows Mobile.
+(9:03:04 AM) Geddeth1: Ra1D3R: ok
+(9:03:14 AM) Luaan41: and .NET Compact Framework applications run quite nicely on normal Windows
+(9:03:22 AM) Luaan41: Wishbone: : Yeah :)
+(9:03:38 AM) Wishbone: Still, you're probably right in that it'll make the development quite a bit easier.
+(9:03:44 AM) Annihilator: windows mobile only atm, however it's just a matter of time that mono gets compacted and ported to other mobile platforms (excluding iphone)
+(9:04:00 AM) Wishbone: I could care less about iPhones :p
+(9:04:16 AM) Dexee: I could honestly care less for mobiles entirely myself. *looks at phone*
+(9:04:22 AM) Luaan41: and I think .NET is officially supported by Microsoft on Macs... at least the x86 ones
+(9:04:24 AM) Wishbone: And Macs, for that matter ;)
+(9:04:25 AM) Ra1D3R: heheheh
+(9:04:37 AM) Annihilator: yEs.
+(9:04:40 AM) Wishbone: Not an Apple fan...
+(9:04:45 AM) Wishbone: Still...
+(9:04:55 AM) Wishbone: Are we in agreement then?
+(9:04:56 AM) Luaan41: Yeah, I haven't touched my PDA in the past year, other than to clean it :D
+(9:04:56 AM) Annihilator: i amn't either, but we should allow for it
+(9:05:08 AM) Geddeth1: Right, but if we can just agree, at least, that as a minimum we would like to support Windows (XP minimum), Linux and Mac OS X ..
+(9:05:11 AM) Wishbone: VS2008 Express, C#, SDL.NET?
+(9:05:14 AM) Geddeth1: anything beyond that is just bonus.
+(9:05:23 AM) Wishbone: Geddeth1: I concur.
+(9:05:28 AM) Annihilator: we must make sure it runs on mono - we have all the bases covered in that case.
+(9:05:44 AM) Wishbone: Annihilator: Agreed.
+(9:05:44 AM) Luaan41: That sounds reasonable
+(9:05:54 AM) Annihilator: (making it independent of low-level Windows-specific .Net APIs)
+(9:05:56 AM) Geddeth1: Mono runs on BSD and Solaris as well as Mac.
+(9:05:59 AM) Dexee: At least getting a stable and operating Windows version would be priority
+(9:06:19 AM) Dexee: since most of the computers of the world ARE Windows after all... once we got that down, Crossplatforming should be cake from there
+(9:06:39 AM) ***Ra1D3R agrees
+(9:06:40 AM) Dexee: Sure, it's not as easy as running CrossMAC to go to OS10, but eh...
+(9:06:42 AM) Wishbone: Dexee: Agreed, as long as we keep portability in mind.
+(9:06:46 AM) Luaan41: Windows computers are quite uniform though
+(9:06:52 AM) Geddeth1: Dexee: I disagree. I think that testing all wanted platforms during development is a priority.
+(9:07:08 AM) Annihilator: i concur. but getting it to run on mono, from the very beginning, is a must.
+(9:07:20 AM) Annihilator: we don't want to blindside ourselves down the road
+(9:07:29 AM) Geddeth1: We have to agree on this - either we want cross-platform or not.
+(9:07:30 AM) Wishbone: Geddeth1: Sure, but not EVERY build has to be tested on all platforms, surely?
+(9:07:40 AM) Geddeth1: Wishbone: no, not at all
+(9:07:53 AM) Luaan41: And a sidenote - .NET Compact Framework is on Symbian now :D
+(9:08:02 AM) Geddeth1: but I'm guessing that testing it regularly is better than doing it after the final build
+(9:08:03 AM) Wishbone: Luaan41: Even better :)
+(9:08:11 AM) Annihilator: i have commenced downloading visual studio 2008 express :P
+(9:08:12 AM) Wishbone: Geddeth1: Right, of course.
+(9:08:25 AM) Luaan41: Annihilator: The C# version I hope :D
+(9:08:39 AM) Annihilator: Luaan41: indeed
+(9:09:17 AM) Geddeth1: So .. C# and VS2008 Express it he language and IDE of choice now?
+(9:09:36 AM) Wishbone: And SDL.NET for the media.
+(9:09:38 AM) Luaan41: I'd go with that :)
+(9:09:46 AM) Annihilator: i concur with that selection
+(9:10:38 AM) Geddeth1: Righty.
+(9:10:41 AM) Wishbone: Right...
+(9:10:49 AM) Luaan41: And if we are ever in doubt... there is http://www.codeplex.com/crossnet
+(9:10:50 AM) _deutebot: Title: CrossNet - Home (at www.codeplex.com)
+(9:10:52 AM) Wishbone: Next point on the agenda: Software modeling (UML) - Suggestions: Umbrello UML Modeller, BOUML or MOSKitt
+(9:10:52 AM) Geddeth1: And SDL.NET as I understand are OpenGL bindings for .NET?
+(9:10:56 AM) Geddeth1: Through SDL
+(9:11:07 AM) Ra1D3R: guys , gotta go , ill be leaving the irc open and read the log later, family callin for me
+(9:11:13 AM) Wishbone: Not just OpenGL.
+(9:11:26 AM) Luaan41: Ra1D3R: ok, bye for now :)
+(9:11:32 AM) Geddeth1: ok Ra1D3R, bye
+(9:11:32 AM) Ra1D3R: sry , cyall later
+(9:11:34 AM) Wishbone: Later Ra1D3R :)
+(9:11:59 AM) Luaan41: Geddeth1: For SDL :) that's a library of audio, network and video functions and as I understand it, OpenGL as well
+(9:12:16 AM) Dexee: At least thats how I understand it too
+(9:12:23 AM) Wishbone: SDL is a complete interface for audio, video, input, etc.
+(9:12:43 AM) Geddeth1: ok
+(9:12:48 AM) Luaan41: As for software modeling, I only worked with expensive modeling softwarea there, so you're free to make the choice :D
+(9:12:57 AM) Wishbone: Think of it as a platform-independent DirectX.
+(9:13:05 AM) Geddeth1: so yeah, are you even planning on modeling this in UML and generating C# code from that?
+(9:13:18 AM) Wishbone: The question is, do we NEED modelling?
+(9:13:32 AM) Dexee: W, thats a question for the resident programmer
+(9:13:55 AM) Geddeth1: yeah .. if Luaan's OOD is obvious enough, you may just want in-line documentation (Doxygen?)
+(9:14:10 AM) Wishbone: I agree that UML modelling can be a powerful tool, but it's not an absolute necessity.
+(9:14:28 AM) Wishbone: Especially since it's boring as hell, and this is supposed to be fun ;)
+(9:14:53 AM) Geddeth1: Yes, but wouldn't it be nice to be able to discuss what the intentions are, using a OO diagram of some sort?
+(9:15:23 AM) Luaan41: Too bad Express doesn't support class diagrams, they make the object model a lot clearer...
+(9:15:31 AM) Wishbone: Certainly, but...
+(9:15:40 AM) Luaan41: and Visual Studio works great with comments
+(9:15:49 AM) Dexee: Agreed on the comments
+(9:15:56 AM) Geddeth1: Dia is an option, then .. or even online ones like yUML or Creately.com
+(9:16:20 AM) Wishbone: Hell, I don't know. I just don't think we'd use it anyway. Or we'd use it to begin with, and then not keep the model up to date as the software changed.
+(9:16:21 AM) Geddeth1: Well, this was just an idea of mine, I won't be coding :)
+(9:16:42 AM) Geddeth1: But I would like to have an overview of the OO model of the engine somehow. How can I get that?
+(9:16:47 AM) Luaan41: I have pretty much the same experience on real work projects :D
+(9:16:54 AM) Geddeth1: Me too.
+(9:16:55 AM) Wishbone: Luaan41: Exactly.
+(9:17:02 AM) Luaan41: Well, I can make class designer shots in my VS
+(9:17:08 AM) Luaan41: those are uptodate all the time
+(9:17:54 AM) Geddeth1: Ok, sounds good. I could just install VS and get those as well then.
+(9:18:13 AM) Dexee: VS2008?
+(9:18:36 AM) Luaan41: yeah, VS2010 is still a bit... not very good for real work .)
+(9:18:45 AM) Dexee: lol, instability
+(9:18:50 AM) Geddeth1: I'm about to leave guys, so go ahead with the rest and I'll post the IRC log in the forums.
+(9:19:01 AM) Wishbone: Right.
+(9:19:16 AM) Luaan41: Geddeth1: Ok, bye then
+(9:19:17 AM) Geddeth1: The tagline/mission can just be a bit of brainstorming from you guys that I can mull over and present in the project draft.
+(9:19:22 AM) Wishbone: Next point on the agenda?
+(9:19:26 AM) Wishbone: Project documentation - MediaWiki, hosted on deuterosx.org/wiki/
+(9:19:50 AM) Geddeth1: L8r guys
+(9:20:23 AM) Luaan41: Wishbone: Ok, how will that work? :)
+(9:20:41 AM) Wishbone: Well, at the moment, it doesn't :(
+(9:20:54 AM) Luaan41: :))
+(9:21:16 AM) Wishbone: We need to expand the Wiki, to make some structures that are easy to add to, make some templates, stuff like that.
+(9:21:20 AM) Dexee: Not many of us know how to write in Wiki
+(9:21:26 AM) Luaan41: What kind of info should it contain?
+(9:21:29 AM) Dexee: *looks down in shame*
+(9:21:33 AM) Wishbone: Nope, me either, that's the problem.
+(9:21:40 AM) Wishbone: Luaan41: EVERYTHING! :D
+(9:21:51 AM) Luaan41: Wishbone: What's everything? :D
+(9:22:00 AM) Wishbone: Luaan41: EVERYTHING! :D
+(9:22:01 AM) Luaan41: Well, I work with Wiki at work
+(9:22:04 AM) Wishbone: Hehe...
+(9:22:10 AM) Luaan41: but that's Microsoft Wiki :D
+(9:22:25 AM) Wishbone: No, seriously, it should contain our roadmaps, tasks, stuff like that.
+(9:22:35 AM) Luaan41: agreed
+(9:22:37 AM) Luaan41: file formats?
+(9:22:41 AM) Wishbone: Also information on the game itself, as it becomes available.
+(9:22:42 AM) Luaan41: something else?
+(9:22:53 AM) Luaan41: release history, release notes
+(9:23:12 AM) Wishbone: Yes, our file formats, stuff like the plain text that Ra1D3R extracted should go in the Wiki as well.
+(9:23:35 AM) Wishbone: All the planet data, spaceship data, everything.
+(9:23:47 AM) Dexee: Agreed
+(9:24:08 AM) Luaan41: That should also be in SVN IMHO though
+(9:24:16 AM) Wishbone: Luaan41: Of course.
+(9:24:32 AM) Dexee: And if you look up planets/moons that are actually real, we could also give a history on their importance and such in the initial war with the Methenoids
+(9:24:39 AM) Wishbone: But in the end, the Wiki should be the ultimate repository of knowledge of all things Deuteros.
+(9:25:07 AM) Annihilator: is wiki in svn alreadeh?
+(9:25:14 AM) Wishbone: Dunno.
+(9:25:35 AM) Annihilator: does sourceforge provide a similar infrastructure
+(9:25:38 AM) Annihilator: ?
+(9:26:15 AM) Wishbone: The Wiki itself (settings, skins, etc.) are in SVN. The data isn't, afaik.
+(9:26:22 AM) Wishbone: Annihilator: Similar to what?
+(9:26:33 AM) Annihilator: to mediawiki
+(9:27:21 AM) Wishbone: Annihilator: No, not afaik, it just provides a project overview, a forum (not the one we're using) a bugtracking system and the SVN repository.
+(9:27:22 AM) Dexee: I honestly wish I had a real editor for Wiki that made it easy to write it all out *looks down in shame*
+(9:28:14 AM) Wishbone: So... Basically none of us know much about Wiki editing.
+(9:28:42 AM) Wishbone: This is something we have to look into soon. Maybe look to recruit someone with the knowhow we need.
+(9:28:58 AM) Wishbone: Otherwise, we'll have to learn ourselves ;)
+(9:29:02 AM) Luaan41: :))
+(9:29:24 AM) Dexee: Looks like it :(
+(9:29:41 AM) Wishbone: Right, so...
+(9:29:49 AM) Wishbone: Next point on the agenda: Project tagline/motto
+(9:30:20 AM) Wishbone: I don't really know what to say about that...
+(9:30:45 AM) Wishbone: "To infinity, and beyond!"
+(9:30:57 AM) Annihilator: or "Die, meths!"
+(9:30:57 AM) Luaan41: :P
+(9:31:47 AM) Dexee: FOMM!!
+(9:31:52 AM) Luaan41: "Did a Methanoid betray you lately?"
+(9:32:02 AM) Luaan41: "Stuck on 8bits?"
+(9:32:22 AM) Annihilator: [15:31:47] <Dexee> FOMM!! <- !!
+(9:32:26 AM) Wishbone: Deuteros is 16bit, actually ;)
+(9:33:03 AM) Luaan41: I know... but when you say 16bit, people imagine Windows 3.11 :D
+(9:33:28 AM) Wishbone: When you say 8bit, they imagine a C64 ;)
+(9:33:29 AM) Annihilator: ah, the "good" old win32s days :)
+(9:33:42 AM) Dexee: Windows 3.11... lol
+(9:33:53 AM) Luaan41: Uh oh... VS2010 has an interesting feature for our purposes - nicer mono targeting...
+(9:33:55 AM) Luaan41: :D
+(9:34:03 AM) Wishbone: :D
+(9:34:13 AM) Wishbone: Maybe we'll upgrade along the way.
+(9:34:33 AM) Annihilator: idd. no reason not to, if they release an express version
+(9:34:42 AM) Wishbone: "There are sinister things in space"
+(9:34:42 AM) Luaan41: It's also nice you get the full Team Suite edition for free in the Beta :D
+(9:34:56 AM) Luaan41: "Space... The final frontier..." :D :D
+(9:35:15 AM) Wishbone: "In space, noone can hear you scream" :p
+(9:35:41 AM) Wishbone: "To boldly go where no Methanoid has gone before" :D
+(9:35:48 AM) Luaan41: "Discover forgotten memories of past glory of the mankind!"
+(9:35:58 AM) Wishbone: Luaan41: Not bad, actually.
+(9:36:23 AM) Wishbone: Might want to move "the" before "past".
+(9:36:39 AM) Luaan41: yeah
+(9:36:51 AM) Luaan41: *grammar wallbang*
+(9:37:02 AM) Wishbone: Okay, I gotta go in a minute.
+(9:37:04 AM) Annihilator: whois(jen)? i don't remember the name from the forum
+(9:37:05 AM) Dexee: lol
+(9:37:17 AM) Dexee: I don't recognize it
+(9:37:19 AM) Dexee: less thats Telac
+(9:37:19 AM) Wishbone: Annihilator: Former (?) PR lead.
+(9:37:40 AM) Wishbone: Last point on the agenda: Project mission
+(9:38:01 AM) Wishbone: The way I see it, we've already pretty much discussed that.
+(9:38:09 AM) Annihilator: to restore former glory to the deuteros legacy!
+(9:38:14 AM) Wishbone: Sold!
+(9:38:16 AM) Luaan41: yeah!
+(9:38:37 AM) Dexee: *bangs gavel*
+(9:38:43 AM) Wishbone: Okay guys, I gotta get going.
+(9:38:44 AM) Annihilator: i assume that, once we have some sort of working version out the door, more people might flock to aid us.
+(9:39:07 AM) Annihilator: ah, VS downloaded!
+(9:39:10 AM) Wishbone: Certainly, having something to show for our efforts will be a major aid to recruitment.
+(9:39:33 AM) Wishbone: Anyway, I'm going afk guys.
+(9:39:35 AM) Luaan41: Good... so what's the plan for the nearest future?
+(9:39:41 AM) Annihilator: cu, Wishbone
+(9:40:01 AM) Wishbone: I'll continue working on the graphics. Anyone willing to chip in are more than welcome.
+(9:40:13 AM) Wishbone: Have a look at what I've already done in SVN.
+(9:40:22 AM) Luaan41: Well, I'll port the old code to SDL.NET then, right?
+(9:40:33 AM) Annihilator: let's all get equipped with the proper tools, tortoisesvn, vs2k8 c# express, etc
+(9:40:39 AM) Wishbone: Luaan41: That would certainly be great :)
+(9:40:51 AM) Wishbone: Yes, tooling up is important.
+(9:41:10 AM) Wishbone: Okay, this time I mean it! Bye guys :)
+(9:41:13 AM) Luaan41: Bye :)
