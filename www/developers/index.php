@@ -21,13 +21,23 @@
 
     require_once('../inc/config.php');
 
-    // test whether special beta cookie is set, otherwise redirect to forum
-    if ($_COOKIE['DeuterosX'] != md5($GLOBALS['DX_COOKIE_PWD'])) {
-        header('Location: ' . $GLOBALS['DX_SITE_URL'] . 'forum/');
-    }
-
     require_once($GLOBALS['DX_SITE_PATH'] . 'inc/simplepie/simplepie.inc');
+    require_once($GLOBALS['DX_SITE_PATH'] . 'inc/SmartIRC.php');
     require_once($GLOBALS['DX_SITE_PATH'] . 'inc/header.php');
+
+    // get users in IRC channel
+    $irc = &new Net_SmartIRC();
+    $irc->setUseSockets(TRUE);
+    $irc->connect('no.quakenet.org', 6667);
+    $irc->login('Net_SmartIRC', 'Net_SmartIRC Client '.SMARTIRC_VERSION.' (example2.php)', 0, 'Net_SmartIRC');
+    $irc->getList('#deuterosx.org');
+    $irc_result = $irc->listenFor(SMARTIRC_TYPE_LIST);
+    $irc->disconnect();
+
+    if (is_array($irc_result)) {
+        $ircdata = $irc_result[0];
+        $irc_count = $ircdata->rawmessageex[4];
+    }
 ?>
 
     <div style="float:right;width:50%;padding:2px;">
@@ -62,7 +72,7 @@
     </p>
 
     <ul>
-    <li><a href="chat/">IRC chat</a></li>
+    <li><a href="chat/">IRC chat</a> (<?php echo  $irc_count; ?> users)</li>
     <li><a href="http://cia.vc/stats/project/DeuterosX">SVN commits</a></li>
     <li><a href="http://sourceforge.net/mail/?group_id=224652">SVN commits mailing list</a></li>
     </ul>
