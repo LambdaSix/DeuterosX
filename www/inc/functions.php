@@ -60,7 +60,7 @@
                 return FALSE;
             }
         } else {
-            $sql = 'SELECT topic_id, topic_title, forum_id, topic_last_post_id, topic_last_poster_name '
+            $sql = 'SELECT topic_id, topic_title, forum_id, topic_last_post_id, topic_last_poster_name, topic_last_post_time '
                  . 'FROM ' . TOPICS_TABLE . ' '
                  . 'WHERE topic_type <> 3 '
                  . 'AND topic_approved = 1 '

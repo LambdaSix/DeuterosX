@@ -26,35 +26,43 @@
         // the global site URL
         $imgSrc = $GLOBALS['DX_SITE_URL'];
         // the array of navigation items, and the relative url(s) that correspond to each item
-        $links = array('home' => array('home'),
-                       'about' => array('about'),
-                       'forum' => array('forum'),
-                       'wiki' => array('wiki', 'mediawiki'),
-                       'developers' => array('developers'));
-        // get the current URL
+        $links = array('home' => array('home/'),
+                       'about' => array('wiki/DeuterosX:About'),
+                       'forum' => array('forum/'),
+                       'wiki' => array('wiki/', 'mediawiki/'),
+                       'developers' => array('developers/'));
+        // get the current URL as an array
         $path = explode('/', $_SERVER['REQUEST_URI']);
+        // also get it as a string
+        $pathFull = $_SERVER['REQUEST_URI'];
+        // trim forward slash from front of URL
+        if ($pathFull[0] == '/') {
+            $pathFull = substr($pathFull, 1);
+        }
 
         // output the leftmost part of the header
         $HTML = '<img src="' . $imgSrc . 'img/header_bottom_left.jpg" alt="Logo" />';
 
+        // intiate variable
+        $hoverFound = FALSE;
         // iterate over the array of navigation items
         foreach ($links as $name => $urls) {
             // the standard image suffix for non-active items (ie. we are not visiting that part of the site)
             $suffix = 'nm';
             // if the URL corresponds to this navigation item, change the image file suffix
-
-            if (in_array(strtolower($path[1]), $urls) || ($path[1] == '' && $name == 'home')) {
+            if ($hoverFound == FALSE && (in_array($pathFull, $urls) || in_array($path[1], $urls) || ($path[1] == '' && $name == 'home'))) {
                 $suffix = 'hv';
+                // set variable to indicate we found a match in the $links array
+                $hoverFound = TRUE;
             }
 
+            $firstURL = array_pop($urls);
             if ($name == 'home') {
-                $nameURL = '';
-            } else {
-                $nameURL = $name . '/';
+                $firstURL = '';
             }
 
             // output the corresponding HTML
-            $HTML .= '<a href="' . $imgSrc . $nameURL . '"><img src="' . $imgSrc . 'img/header_' . $name . '_' . $suffix . '.jpg" alt="Logo" /></a>';
+            $HTML .= '<a href="' . $imgSrc . $firstURL . '"><img src="' . $imgSrc . 'img/header_' . $name . '_' . $suffix . '.jpg" alt="Logo" /></a>';
         }
         // finish with the rightmost part of the header
         $HTML .= '<img src="' . $imgSrc . 'img/header_bottom_right.jpg" alt="Logo" />';
@@ -108,7 +116,7 @@
      */
     function getPhpBB3LatestPostsHTML($postsArray) {
 
-        $maxChars = 16;
+        $maxChars = 32;
         $HTML = NULL;
 
         foreach ($postsArray as $post) {
@@ -122,7 +130,10 @@
             $topic_url = $GLOBALS['DX_SITE_URL'] . $GLOBALS['DX_PHPBB3_URL'] . 'viewtopic.php?'
                          . 'f=' . $post['forum_id'] . '&amp;t=' . $post['topic_id'] . '&amp;p=' . $post['topic_last_post_id'] . '#p' . $post['topic_last_post_id'];
 
-            $HTML .= '<a href="' . $topic_url . '">' . $topic_title . '</a> <small>by ' . $post['topic_last_poster_name'] . '</small><br />';
+            $HTML .= '<a href="' . $topic_url . '">' . $topic_title . '</a>'
+                   . '<br />'
+                   . '<span class="small">by ' . $post['topic_last_poster_name'] . ', ' . strftime('%b %e %Y', $post['topic_last_post_time']) . '</span>'
+                   . '<br />';
         }
 
         return $HTML;

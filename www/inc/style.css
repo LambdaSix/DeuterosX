@@ -35,7 +35,7 @@ body {
     background-color:   #050406;
     background:         url(../img/bg-stars.jpg) repeat fixed;
     font-family:        Trebuchet MS, Helvetica, sans-serif;
-    font-size:          0.9em;
+    font-size:          0.8em;
     color:              #cddcdc;
     text-align:         center; /* for IE centering */
     margin: 0;
@@ -118,7 +118,7 @@ div#dxheader {
 }
 
 #dxcontent>table {
-    width: 100%;
+    width:              100%;
 }
 
 #dxrightcolumn, #dxmaincolumn {
@@ -128,17 +128,24 @@ div#dxheader {
 #dxrightcolumn {
     width:              225px;
     padding:            0 0 0 0;
-    margin:            0 0 0 0;
-
+    margin:             0 0 0 0;
 }
 
 #dxmaincolumn {
     width:              700px;
     padding:            0 16px 0 0;
-    margin:            0 0 0 0;
+    margin:             0 0 0 0;
+}
 
+#dxrightcolumn h2 {
+    font-size:          1em;
+    background-color:   #3f231a;
+    margin:             0;
+    padding:            4px;
+}
 
-
+#dxrightcolumn h2:hover {
+    background-color:   #4f332a;
 }
 
 .dxnewspost {
@@ -172,17 +179,13 @@ div#dxheader {
 .dxrightbox {
      border:            1px solid #444;
      padding:           4px;
+     font-size:         0.9em;
+     margin-bottom:     8px;
 }
 
-#dxrightcolumn h2 {
-    font-size:          1em;
-    background-color:   #3f231a;
-    margin:             0;
-    padding:            4px;
-}
-
-#dxrightcolumn h2:hover {
-    background-color:   #4f332a;
+.dxrightbox .small {
+    font-size:          0.9em;
+    color:              #593b30;
 }
 
 #dxfooter {
@@ -196,6 +199,40 @@ div#dxheader {
 }
 
 #PJirc {
-    width: 100%;
-    height: 512px;
+    width:              100%;
+    height:             512px;
 }
+
+#customsearch div {
+    font-family:        Trebuchet MS, Helvetica, sans-serif;
+    background-color:   #050406;
+}
+
+#customsearch .gsc-tabsArea, .gsc-resultsHeader {
+    display:            none;
+}
+
+#customsearch .gsc-result .gs-title {
+    color:              #3366bb;
+}
+
+#customsearch .gsc-result .gs-snippet {
+    color:              #cddcdc;
+}
+
+#customsearch .gsc-result .gs-visibleUrl {
+    display:            none;
+}
+
+#customsearch .gsc-cursor-box .gsc-cursor-current-page {
+    display:            none;
+}
+
+#customsearch .gsc-cursor-box .gsc-cursor-page {
+    color:              #3366bb;
+}
+
+#customsearch .gsc-cursor-box .gsc-trailing-more-results {
+    color:              #3366bb;
+}
+

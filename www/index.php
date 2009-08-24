@@ -21,11 +21,6 @@
 
     require_once('inc/config.php');
 
-    // test whether special beta cookie is set, otherwise redirect to forum
-    if ($_COOKIE['DeuterosX'] != md5($GLOBALS['DX_COOKIE_PWD'])) {
-        header('Location: ' . $GLOBALS['DX_SITE_URL'] . 'forum/');
-    }
-
     // initiate phpBB3 session
     define('IN_PHPBB', true);
     $phpbb_root_path = $GLOBALS['DX_PHPBB3_URL'];
@@ -36,6 +31,11 @@
     $user->session_begin();
     $auth->acl($user->data);
     $user->setup();
+
+    // test whether user is logged in to the forum, otherwise redirect to forum
+    if (!$user->data['is_registered'] || !$user->data['group_id'] == $GLOBALS['DX_PHPBB3_ADMGROUP']) {
+        header('Location: ' . $GLOBALS['DX_SITE_URL'] . 'forum/');
+    }
 
     // get readable forums
     $can_read_forum = $auth->acl_getf('f_read', TRUE);
@@ -53,7 +53,7 @@
     }
 
     // prepare latest forum posts
-    $latestPostsArray = getPhpBB3Posts($db, $forum_id_ary, 8);
+    $latestPostsArray = getPhpBB3Posts($db, $forum_id_ary, 6);
     if ($latestPostsArray) {
         // get the HTML for the array of posts
         $latestPostsHTML = getPhpBB3LatestPostsHTML($latestPostsArray);
@@ -72,25 +72,34 @@
 
                     <h2 id="slide_search">Search</h2>
                     <div class="dxrightbox" id="slidebox_search">
-                        TEMP
+                    <div id="customsearch" style="width: 100%;">Loading...</div>
+                        <script src="http://www.google.com/jsapi" type="text/javascript"></script>
+                        <script type="text/javascript">
+                            google.load('search', '1');
+                            google.setOnLoadCallback(function(){
+                                    var searcher = new google.search.CustomSearchControl('005550185465920181014:5m3ax8_sf_g');
+                                    searcher.setResultSetSize(google.search.Search.SMALL_RESULTSET);
+                                    searcher.setLinkTarget(google.search.Search.LINK_TARGET_SELF);
+                                    searcher.draw('customsearch');
+                            }, true);
+                        </script>
                     </div>
 
                     <h2 id="slide_login">Login</h2>
                     <div class="dxrightbox" id="slidebox_login">
                     <?php
-    if ($user->data['is_registered']) {
-        echo 'Welcome ' . $user->data['username']; //User is already logged in
-    }
-    ?>
+                    if ($user->data['is_registered']) {
+                        echo 'Welcome <span style="color:#' . $user->data['user_colour'] . ';">'.$user->data['username'].'</span>';
+                        echo '<br />';
+                        echo '<a title="Logout" href="'.$GLOBALS['DX_SITE_URL'].$GLOBALS['DX_PHPBB3_URL'].'ucp.php?mode=logout&amp;sid='.$user->data['session_id'].'">Logout</a>';
+                    }
+                    ?>
 
                     </div>
 
                     <h2 id="slide_forum">Forum</h2>
                     <div class="dxrightbox" id="slidebox_forum">
-<?php
-        echo $latestPostsHTML;
-
-?>
+                    <?php echo $latestPostsHTML; ?>
                     </div>
 
                 </td>
