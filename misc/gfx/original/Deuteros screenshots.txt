@@ -1,0 +1,1 @@
+The file "Deuteros screenshots.uae" is a configuration file for WinUAE, meant for taking perfect 1:1 screenshots. It runs the game windowed, in original 320*200 resolution, so it's rather small to look at. I wouldn't recommend it for playing the game in earnest, but for taking accurate screenshots (of any game), it's the very thing.
