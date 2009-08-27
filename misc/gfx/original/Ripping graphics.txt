@@ -1,0 +1,32 @@
+_.-^*¨\ DeuterosX - Graphics Ripping Guide /¨*^-._
+
+by Wishbone
+
+1. PURPOSE
+The purpose of this guide is to ensure that all work done on ripping the graphics of the original Deuteros game, for use in the DeuterosX remake project, is done in the same manner, so that the resulting graphics will blend seamlessly with each other.
+
+2. VERSION HISTORY
+This section is somewhat redundant, since the document is under version control anyway, but here it is.
+
+ - 1.0: Initial version
+
+3. TOOLS
+ - Screenshots
+	All screenshots should be taken using WinUAE, using the configuration file made available for the purpose.
+ - Manipulation
+	Manipulation of screenshots into finished graphics can be done with whatever graphics tools each developer prefers.
+
+4. FORMATS
+ - Screenshots
+	The screenshots WinUAE outputs using the configuration file are in .PNG format.
+ - Finished graphics
+	All finished graphics should be in .PNG format as well. Transparency may be used where necessary (meaning when one graphic that is not square has to move in front of another), but full transparency only.
+
+5. GRAPHIC ELEMENTS
+This section contains some information on some of the "standard" graphic elements in Deuteros.
+ - Backgrounds
+	By "background", I mean the image taking up most of the screen in various menus. It is the part of the screen in between all the various GUI parts. The backgrounds in Deuteros all have a size of 272*168 pixels. Not all of them may have any colors besides black stretching all the way to the edges, but they should be saved in that size even if some of the edges are pure black.
+ - Station menu icons
+	These are the icons representing the various parts of the space/ground stations, such as mining, production, shuttle bay, etc. These icons are all 22*14 pixels. They don't include the frame around the button, but they do include the 1 pixel of black all the way around the button.
+ - Control panel
+	The control panel is the graphic menu at the top left of the screen. It is 48*64 pixels in size, and consists of 8 animated "buttons", the size of which is 24*16 pixels. The buttons divide the control panel into 8 equal parts, 2 over and 4 down.
