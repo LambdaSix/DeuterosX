@@ -136,7 +136,7 @@ table.table1 tbody td {
 
 table.table1 tbody th {
     border-bottom-color: #000000;
-    background-color: #FFFFFF;
+    background-color: #CCCCCC;
 }
 
 table.info tbody th {
@@ -466,7 +466,7 @@ blockquote blockquote blockquote {
 
 /* Code block */
 dl.codebox {
-    background-color: #FFFFFF;
+    background-color: #CCCCCC;
     border-color: #C9D2D8;
 }
 
@@ -934,7 +934,7 @@ fieldset.quick-login input.inputbox {
 /* Input field styles
 ---------------------------------------- */
 .inputbox {
-    background-color: #FFFFFF;
+    background-color: #CCCCCC;
     border-color: #B4BAC0;
 }
 
