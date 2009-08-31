@@ -797,11 +797,11 @@ ul.cplist {
 }
 
 #cp-main .panel {
-    background-color: #F9F9F9;
+	background-color: #101010;
 }
 
 #cp-main .pm {
-    background-color: #FFFFFF;
+	background-color: #101010;
 }
 
 #cp-main span.corners-top, #cp-menu span.corners-top {
