@@ -46,14 +46,14 @@
     require_once($GLOBALS['DX_SITE_PATH'] . 'inc/header.php');
 
     // prepare news posts
-    $newsPostsArray = getPhpBB3Posts($db, $forum_id_ary, 4, $GLOBALS['DX_PHPBB3_BOARD']);
+    $newsPostsArray = getPhpBB3Posts($db, 4, FALSE, $GLOBALS['DX_PHPBB3_BOARD']);
     if ($newsPostsArray) {
         // get the HTML for the array of posts
         $newsPostsHTML = getPhpBB3PostsHTML($newsPostsArray);
     }
 
     // prepare latest forum posts
-    $latestPostsArray = getPhpBB3Posts($db, $forum_id_ary, 6);
+    $latestPostsArray = getPhpBB3Posts($db, 6, $forum_id_ary);
     if ($latestPostsArray) {
         // get the HTML for the array of posts
         $latestPostsHTML = getPhpBB3LatestPostsHTML($latestPostsArray);
