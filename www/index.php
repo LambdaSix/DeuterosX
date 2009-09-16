@@ -53,7 +53,7 @@
     }
 
     // prepare latest forum posts
-    $latestPostsArray = getPhpBB3Posts($db, 6, $forum_id_ary);
+    $latestPostsArray = getPhpBB3Posts($db, 4, $forum_id_ary);
     if ($latestPostsArray) {
         // get the HTML for the array of posts
         $latestPostsHTML = getPhpBB3LatestPostsHTML($latestPostsArray);
@@ -70,8 +70,8 @@
 
                 <td id="dxrightcolumn">
 
-                    <h2 id="slide_search">Search</h2>
-                    <div class="dxrightbox" id="slidebox_search">
+                    <h2>Search</h2>
+                    <div class="dxrightbox">
                     <div id="customsearch" style="width: 100%;">Loading...</div>
                         <script src="http://www.google.com/jsapi" type="text/javascript"></script>
                         <script type="text/javascript">
@@ -85,8 +85,8 @@
                         </script>
                     </div>
 
-                    <h2 id="slide_login">Login</h2>
-                    <div class="dxrightbox" id="slidebox_login">
+                    <h2>Login</h2>
+                    <div class="dxrightbox">
                     <?php
                     if ($user->data['is_registered']) {
                         echo 'Welcome <span style="color:#' . $user->data['user_colour'] . ';">'.$user->data['username'].'</span>';
@@ -97,8 +97,8 @@
 
                     </div>
 
-                    <h2 id="slide_forum">Forum</h2>
-                    <div class="dxrightbox" id="slidebox_forum">
+                    <h2>Forum</h2>
+                    <div class="dxrightbox">
                     <?php echo $latestPostsHTML; ?>
                     </div>
 

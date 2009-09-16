@@ -60,13 +60,16 @@
                  . 'AND t.forum_id = ' . $forum_id . ' '
                  . 'ORDER BY t.topic_time DESC';
         } elseif ($forum_id_ary) {
-            $sql = 'SELECT topic_id, topic_title, forum_id, topic_last_post_id, topic_last_poster_name, topic_last_post_time '
-                 . 'FROM ' . TOPICS_TABLE . ' '
-                 . 'WHERE topic_type <> 3 '
-                 . 'AND topic_approved = 1 '
-                 . 'AND ' . $db->sql_in_set('forum_id', $forum_id_ary)
+            $sql = 'SELECT t.topic_id, t.topic_title, t.forum_id, t.topic_last_post_id, t.topic_last_poster_name, t.topic_last_post_time, '
+                 . '  p.bbcode_uid, p.bbcode_bitfield, p.post_id, p.post_text '
+                 . 'FROM ' . TOPICS_TABLE . ' t , ' . POSTS_TABLE . ' p '
+                 . 'WHERE t.topic_id = p.topic_id '
+                 . 'AND p.post_time = t.topic_last_post_time '
+                 . 'AND t.topic_type <> 3 '
+                 . 'AND t.topic_approved = 1 '
+                 . 'AND ' . $db->sql_in_set('t.forum_id', $forum_id_ary)
                  . $sql_where . ' '
-                 . 'ORDER BY topic_last_post_time DESC';
+                 . 'ORDER BY t.topic_last_post_time DESC';
         } else {
             return FALSE;
         }

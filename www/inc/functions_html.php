@@ -80,29 +80,31 @@
 
         foreach ($postsArray as $post) {
             // format the post date
-            $postDate = date('jS M Y', $post['topic_time']);
+            $postDate = date('M jS Y', $post['topic_time']);
 
             // setup the HTML for the current topic
-            $HTML .= '<div class="dxnewspost">' . PHP_EOL
-                   . '<div class="dxnewspostheader">'
-                   . '<span class="meta">by ' . $post['username'] . ', ' . $postDate . '</span>'
-                   . '<h1>'
-                   . '<a href="' . $GLOBALS['DX_SITE_URL'] . $GLOBALS['DX_PHPBB3_URL'] . 'viewtopic.php?p=' . $post['post_id'] . '#p' . $post['post_id'] . '">'
-                   . $post['topic_title']
-                   . '</a>'
-                   . '</h1>' . PHP_EOL
-                   . '</div>'
-                   . '<p>';
+            $HTML .= <<<EOP
+            <div class="dxnewspost">
+                <h1>
+                    <a href="{$GLOBALS['DX_SITE_URL']}{$GLOBALS['DX_PHPBB3_URL']}viewtopic.php?p={$post['post_id']}#p{$post['post_id']}">
+                    {$post['topic_title']}
+                    </a>
+                </h1>
+                <p>
+EOP;
             // call the special phpBB3 functions that must be setup in the calling php file (e.g. /index.php)
-            $HTML .= generate_text_for_display(smiley_text($post['post_text']), $post['bbcode_uid'], $post['bbcode_bitfield'], TRUE);
-            $HTML .= '</p>' . PHP_EOL
-                   . '<div class="dxnewspostfooter">'
-                   . '<a href="' . $GLOBALS['DX_SITE_URL'] . $GLOBALS['DX_PHPBB3_URL'] . 'viewtopic.php?'
-                   . 'f=' . $post['forum_id'] . '&amp;t=' . $post['topic_id'] . '&amp;p=' . $post['topic_last_post_id'] . '#p' . $post['topic_last_post_id'] . '">'
-                   . $post['topic_replies'] . ' comment' . ($post['topic_replies'] != 1 ? 's' : NULL)
-                   . '</a>'
-                   . '</div>' . PHP_EOL
-                   . '</div>' . PHP_EOL;
+            $HTML .= generate_text_for_display($post['post_text'], $post['bbcode_uid'], $post['bbcode_bitfield'], 7);
+            $plural_s = ($post['topic_replies'] != 1 ? 's' : NULL);
+            $HTML .= <<<EOP
+                </p>
+                <div class="dxnewspostfooter">
+                    {$postDate} // 
+                    <a href="{$GLOBALS['DX_SITE_URL']}{$GLOBALS['DX_PHPBB3_URL']}viewtopic.php?f={$post['forum_id']}&amp;t={$post['topic_id']}&amp;p={$post['topic_last_post_id']}#p{$post['topic_last_post_id']}">
+                    {$post['topic_replies']} comment{$plural_s} 
+                    </a>
+                </div>
+            </div>
+EOP;
         }
 
         // return all HTML for all topics from this array of posts
@@ -116,24 +118,67 @@
      */
     function getPhpBB3LatestPostsHTML($postsArray) {
 
-        $maxChars = 32;
+        $maxTopicChars = 32;
+        $maxPostChars = 128;
         $HTML = NULL;
 
         foreach ($postsArray as $post) {
 
-            if (strlen($post['topic_title']) > $maxChars) {
-                $topic_title = substr($post['topic_title'], 0, $maxChars) . '...';
+            if (strlen($post['topic_title']) > $maxTopicChars) {
+                $topic_title = substr($post['topic_title'], 0, $maxTopicChars) . '...';
             } else {
                 $topic_title = $post['topic_title'];
             }
+            
+            $post_time = strftime('%e %b %Y', $post['topic_last_post_time']);
+            
+            $post_text = $post['post_text'];
+
+            // attempt to ditch quoted replies
+            $post_lastquotepos = strrpos($post_text, '[/quote');
+            if ($post_lastquotepos !== FALSE) {
+                $post_text  = substr($post_text, $post_lastquotepos+strlen('[/quote:')+strlen($post['bbcode_uid'])+3);
+            }
+            
+            // convert bbcode and strip HTML from post
+            $post_text = generate_text_for_display($post_text, $post['bbcode_uid'], $post['bbcode_bitfield'], 1);
+            $post_text = strip_tags($post_text, '<br>');
+            
+            // if longer than maxpostchars, we do a little magic to shorten the post
+            if (strlen($post_text) > $maxPostChars) {
+                // search for first punctuation after maxPostChars
+                $post_endpos1 = strpos($post_text, '.', $maxPostChars);
+                $post_endpos2 = strpos($post_text, ',', $maxPostChars);                
+
+                // if punctuation found
+                if ($post_endpos1 !== FALSE || $post_endpos2 !== FALSE) {
+                
+                    // avoid  min() below enterpreting FALSE as 0 (lowest)
+                    if ($post_endpos1 === FALSE) $post_endpos1 = 9999;
+                    if ($post_endpos2 === FALSE) $post_endpos2 = 9999;
+                    
+                    // cut string at first found punctuation
+                    $post_text = substr($post_text, 0, min(array($post_endpos1, $post_endpos2))+1) . ' [...]';
+                } else {
+                    // else reverse search for punctuation from maxPostChars position (and pray)
+                    $post_endpos1r = strrpos(substr($post_text, 0, $maxPostChars), '.');
+                    $post_endpos2r = strrpos(substr($post_text, 0, $maxPostChars), ',');     
+
+                    $post_text = substr($post_text, 0, max(array($post_endpos1r, $post_endpos2r))+1) . ' [...]';
+                }
+            }            
 
             $topic_url = $GLOBALS['DX_SITE_URL'] . $GLOBALS['DX_PHPBB3_URL'] . 'viewtopic.php?'
-                         . 'f=' . $post['forum_id'] . '&amp;t=' . $post['topic_id'] . '&amp;p=' . $post['topic_last_post_id'] . '#p' . $post['topic_last_post_id'];
+                       . 'f=' . $post['forum_id'] . '&amp;t=' . $post['topic_id'] . '&amp;p=' . $post['topic_last_post_id'] . '#p' . $post['topic_last_post_id'];
 
-            $HTML .= '<a href="' . $topic_url . '">' . $topic_title . '</a>'
-                   . '<br />'
-                   . '<span class="small">by ' . $post['topic_last_poster_name'] . ', ' . strftime('%b %e %Y', $post['topic_last_post_time']) . '</span>'
-                   . '<br />';
+            $HTML .= <<<EOP
+                <div class="dxforumteaser">
+                <a href="{$topic_url}"><h3>{$topic_title}</h3></a>
+                <p>{$post_text}</p>
+                <div class="small">by {$post['topic_last_poster_name']}, {$post_time}</div>
+                </div>
+                
+EOP;
         }
 
         return $HTML;

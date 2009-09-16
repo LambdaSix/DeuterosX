@@ -65,18 +65,18 @@ a:hover, h1 a, h2 a, h3 a {
 }
 
 h1 {
-    font-size:          150%;
+    font-size:          1.4em;
     margin:             0px;
     padding:            0px;
 }
 
 h2 {
-    font-size:          135%;
+    font-size:          1.2em;
 }
 
 h3 {
     color:              #3366bb;
-    font-size:          120%;
+    font-size:          1.1em;
 }
 
 ul {
@@ -119,6 +119,11 @@ div#dxheader {
 
 #dxcontent>table {
     width:              100%;
+    margin:             0;
+    padding:            0;
+}
+#dxcontent>table td {
+    margin:             0;
 }
 
 #dxrightcolumn, #dxmaincolumn {
@@ -126,22 +131,25 @@ div#dxheader {
 }
 
 #dxrightcolumn {
-    width:              225px;
-    padding:            0 0 0 0;
-    margin:             0 0 0 0;
+    width:              325px;
+    padding:            0;
+    margin:             0;
 }
 
 #dxmaincolumn {
-    width:              700px;
+    width:              600px;
     padding:            0 16px 0 0;
-    margin:             0 0 0 0;
+    margin:             0;
 }
 
 #dxrightcolumn h2 {
+    text-transform:     uppercase;
     font-size:          1em;
     background-color:   #3f231a;
     margin:             0;
     padding:            4px;
+    color:              #111;
+    font-size:          1.2em;
 }
 
 #dxrightcolumn h2:hover {
@@ -149,49 +157,57 @@ div#dxheader {
 }
 
 .dxnewspost {
-
+    padding:            8px;
+    margin-bottom:      16px;
 }
 
-.dxnewspost p, .dxnewspostheader {
-    padding-left:       8px;
-    padding-right:      8px;
-}
-
-.dxnewspostheader {
-    background-color:   #3f231a;
-}
-
-.dxnewspostheader h1 {
-}
-
-.dxnewspostheader .meta {
-    float:              right;
-    margin-top:         8px;
+.dxnewspost h1 {
+    text-align:         center;
+    text-transform:     uppercase;
+    font-family:        Lucida Sans Unicode, Lucida Grande, sans-serif;
 }
 
 .dxnewspost p {
 }
 
-.dxnewspostfooter {
+.dxnewspost .dxnewspostfooter {
+    font-size:          0.9em;
     text-align:         right;
+    background-color:   #111;
+    padding:            8px;
+    margin-top:         8px;
 }
 
 .dxrightbox {
-     border:            1px solid #444;
+     border-left:       2px solid #111;
      padding:           4px;
      font-size:         0.9em;
-     margin-bottom:     8px;
+     margin-bottom:     16px;
 }
 
-.dxrightbox .small {
-    font-size:          0.9em;
-    color:              #593b30;
+.dxrightbox .dxforumteaser {
+    margin-bottom:      16px;
 }
+
+.dxrightbox .dxforumteaser h3 {
+}
+
+.dxrightbox .dxforumteaser p {
+
+}
+
+.dxrightbox .dxforumteaser .small {
+    color:              #593b30;
+    text-align:         right;
+    background-color:   #111;
+    padding:            4px;
+}
+
 
 #dxfooter {
     height:             124px;
     background:         transparent url(../img/bg_border_bottom.png) no-repeat 0 0;
-    font-size:          70%;
+    font-size:          0.9em;
     color:              #444;
     padding-top:        40px;
     text-align:         center;
