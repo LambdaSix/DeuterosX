@@ -26,15 +26,17 @@
     // Relative path/URL to forum
     $GLOBALS['DX_PHPBB3_URL']       = 'forum/';
 
-    // cookie password for developer access
-    $GLOBALS['DX_COOKIE_PWD']       = 'cookiepass';
+    // phpbb group id of admin/dev group
+    $GLOBALS['DX_PHPBB3_ADMGROUP']  = 1;
+
+	// phpbb board to fetch front page news from
+    $GLOBALS['DX_PHPBB3_BOARD']     = 42;
 
     // PhpBB3 database config
     $GLOBALS['DX_PHPBB3_DBSERVER']  = 'localhost';
     $GLOBALS['DX_PHPBB3_DB']        = 'forumdbname';
     $GLOBALS['DX_PHPBB3_DBUSER']    = 'forumdbuser';
     $GLOBALS['DX_PHPBB3_DBPWD']     = 'forumdbpass';
-    $GLOBALS['DX_PHPBB3_BOARD']     = '1'; // board for frontpage
 
     // MediaWiki database config
     $GLOBALS['DX_WIKI_DBSERVER']    = 'localhost';
