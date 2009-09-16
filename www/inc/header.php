@@ -38,6 +38,10 @@
         <meta http-equiv="content-style-type" content="text/css" />
         <meta http-equiv="content-language" content="en-gb" />
 
+        <link rel="icon" type="image/vnd.microsoft.icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" href="<?php echo $GLOBALS['DX_SITE_URL']; ?>img/favicon.png" />
+        <link rel="icon" type="image/gif" href="<?php echo $GLOBALS['DX_SITE_URL']; ?>img/favicon.gif" />
+
         <link href="<?php echo $GLOBALS['DX_SITE_URL']; ?>inc/style.css" rel="stylesheet" type="text/css" />
 
         <script type="text/javascript" src="<?php echo $GLOBALS['DX_SITE_URL']; ?>inc/mootools/mootools.js"></script>

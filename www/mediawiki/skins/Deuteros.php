@@ -73,6 +73,9 @@ class DeuterosTemplate extends QuickTemplate {
         <!-- Head Scripts -->
         <!-- Deuteros X config -->
         <?php require('../inc/config.php'); ?>
+        <link rel="icon" type="image/vnd.microsoft.icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" href="<?php echo $GLOBALS['DX_SITE_URL']; ?>img/favicon.png" />
+        <link rel="icon" type="image/gif" href="<?php echo $GLOBALS['DX_SITE_URL']; ?>img/favicon.gif" />
         <script type="text/javascript" src="<?php echo $GLOBALS['DX_SITE_URL']; ?>inc/functions.js"></script>
         <!-- END Deuteros X config -->
 
