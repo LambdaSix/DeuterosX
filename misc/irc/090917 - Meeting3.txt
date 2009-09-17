@@ -1,0 +1,257 @@
+2009-09-17T20:58:27  <Wishbone> 'Evening.
+2009-09-17T20:59:26  <Annihilator> 'sup
+2009-09-17T21:00:10  <Annihilator> brb. gotta take care of something
+2009-09-17T21:00:12  *** Annihilator has quit IRC
+2009-09-17T21:02:26  *** Annihilator has joined #deuterosx.org
+2009-09-17T21:02:39  <Wishbone> Welcome back :-)
+2009-09-17T21:02:45  <Annihilator> tx :)
+2009-09-17T21:03:53  <Wishbone> I wonder if it's just the two of us :-/
+2009-09-17T21:04:17  <Annihilator> hopefully not. but let's give it a few minutes and see
+2009-09-17T21:05:31  <Wishbone> Yeah, well both deadmeat and Dexee won't attend, and Geddeth hasn't actually said whether or not he was coming.
+2009-09-17T21:06:37  <Wishbone> Ah, just got an SMS from him. He'll be around a bit later.
+2009-09-17T21:06:48  <Wishbone> He's been delayed by his daughter ;-)
+2009-09-17T21:07:52  <Wishbone> Well, the discussion is being logged, so we might as well begin.
+2009-09-17T21:08:32  <Annihilator> very well. i'm all for it.
+2009-09-17T21:08:56  <Wishbone> Point 1 on the agenda is "Status from last IRC meeting(s)"
+2009-09-17T21:09:15  <Wishbone> I wasn't there, and I haven't seen the log, so I don't really know what was discussed.
+2009-09-17T21:10:37  <Wishbone> What I do know has happened since then is that Luaan has updated the engine to SDL.NET and checked it into SVN.
+2009-09-17T21:10:50  <Wishbone> Unfortunately, I haven't has a chance to look at his code yet.
+2009-09-17T21:11:16  <Wishbone> I've been ill for the past two weeks, more or less, so I haven't done much of anything :-(
+2009-09-17T21:11:56  <Wishbone> I was hoping to be able to look it over after work today, but while I was at work, our new TV was delivered, so...
+2009-09-17T21:12:09  <Annihilator> i've looked over some of the stuff and it seems well made
+2009-09-17T21:12:22  <Wishbone> Okay, that's good to know.
+2009-09-17T21:12:33  <Annihilator> imo it's more than worthy of being the foundation of all the future work.
+2009-09-17T21:12:45  <Wishbone> Good :-)
+2009-09-17T21:13:52  <Annihilator> i've set up an ubuntu test environment for the mono side of things, and am also able to do testing on various versions of windows at my disposal
+2009-09-17T21:14:05  <Wishbone> Excellent :-D
+2009-09-17T21:14:48  <Wishbone> Have you tried compiling it for Mono, or is that more complicated than changing the settings?
+2009-09-17T21:15:30  <Annihilator> nope, haven't tried it yet. not sure if the code is in a compileable state at all atm. haven't tried to compile/run it on windows either.
+2009-09-17T21:15:38  <Wishbone> Okay.
+2009-09-17T21:15:46  <Annihilator> i'm waiting for luaan to give the go-ahead
+2009-09-17T21:16:37  <Wishbone> Okay. On the graphics front, things are pretty slow at the moment.
+2009-09-17T21:17:07  <Wishbone> It takes a hell of a long time to do. :-/
+2009-09-17T21:17:13  *** Geddeth has joined #deuterosx.org
+2009-09-17T21:17:13  *** Q sets mode: +o Geddeth
+2009-09-17T21:17:26  <Wishbone> Brother Numsi! :D
+2009-09-17T21:17:30  <Geddeth> oi
+2009-09-17T21:17:31  <Annihilator> mmyeees. but as i pointed out, that shouldn't hold us up at this point.
+2009-09-17T21:18:09  <Annihilator> so, the 3 of us are it, it seems? :)
+2009-09-17T21:18:16  <Wishbone> So it would seem.
+2009-09-17T21:18:28  <Geddeth> it does .. and my daughter is sick so I might slip out again ..
+2009-09-17T21:18:42  <Wishbone> Annihilator: What's the alternative? Placeholder graphics?
+2009-09-17T21:18:42  <Annihilator> no prob
+2009-09-17T21:18:59  <Wishbone> Geddeth: Nothing serious I hope? :-(
+2009-09-17T21:19:11  <Annihilator> Wishbone: yar. a framed glob of text or somesuch.
+2009-09-17T21:19:47  <Geddeth> Wishbone: nope, she received the mandatory 5-month vaccination yesterday and became ill around 1AM this morning .. none of use have slepts since :(
+2009-09-17T21:19:54  <Geddeth> *slept
+2009-09-17T21:20:17  <Geddeth> we are discussing ... in-game graphics?
+2009-09-17T21:20:37  <Annihilator> [21:08:48] <Wishbone> Point 1 on the agenda is "Status from last IRC meeting(s)"
+2009-09-17T21:20:46  <Geddeth> right
+2009-09-17T21:20:48  <Annihilator> we're still on point 1, in general
+2009-09-17T21:21:48  <Geddeth> ok well, everyone not attending will read the IRC log (or else) .. so lets go on and pretend we are all here :)
+2009-09-17T21:22:11  <Geddeth> I have a few messages for 1)
+2009-09-17T21:22:50  <Geddeth> but maybe you should finish what you were discussing before I came in :)
+2009-09-17T21:24:08  <Wishbone> Well, as I said, I've been ill, but even without that, graphics ripping is slow work.
+2009-09-17T21:24:08  <Annihilator> nah, just go ahead :)
+2009-09-17T21:24:25  <Wishbone> Especially because much of the graphics are locked away from the beginning.
+2009-09-17T21:24:43  <Wishbone> Save games from further ahead in the game would help.
+2009-09-17T21:25:05  <Wishbone> But as Annihilator said, we can use placeholders for now.
+2009-09-17T21:25:48  <Annihilator> i used to have saves from all parts of the game. but that was before the project. should've kept them...
+2009-09-17T21:25:57  <Wishbone> You should ;-)
+2009-09-17T21:26:11  <Geddeth> Indeed. As I recall, we agreed on "savegames" being WinUAE memory dumps, and they could be uploaded to the FTP server I set up
+2009-09-17T21:26:18  <Annihilator> but i think i saw downloadable savegames at a few places online
+2009-09-17T21:26:34  <Wishbone> Geddeth: Or just dumped in SVN.
+2009-09-17T21:26:47  <Annihilator> i'll try to look them up.
+2009-09-17T21:27:03  <Wishbone> Annihilator: Cool. If you can find some, that would be great :)
+2009-09-17T21:27:47  <Annihilator> is it wise to use svn as a dumping yard for binary blobs?
+2009-09-17T21:28:24  <Geddeth> Wishbone: I don't think we should version control savegames - they are a) relatively large and b) not version criticial, ie. we don't need a history of it
+2009-09-17T21:28:54  <Wishbone> Annihilator: Not really, but for graphics, most of them are available at all times once you get them "unlocked", so a single save state from near the end of the game would probably be sufficient.
+2009-09-17T21:29:27  <Wishbone> Geddeth: I don't either, but I see a clear benefit in having all project related files in the same location.
+2009-09-17T21:30:10  <Wishbone> But I'm not going to insist. If you think FTP is better, then that's the way we do it.
+2009-09-17T21:30:58  <Geddeth> well, you are right that we need only one savegame with the game mostly finished to extract most graphics, so thats just a single file
+2009-09-17T21:31:20  <Annihilator> 1. we can 7z it up, it should be quite tiny
+2009-09-17T21:31:39  <Geddeth> lets hope it turns up .. if not, we may well have to version control a common savedisk that we can play in turns and that way get to the end fast
+2009-09-17T21:31:49  <Wishbone> Yeah, I bet a memory dump compresses quite well.
+2009-09-17T21:32:31  <Geddeth> It should.
+2009-09-17T21:32:37  <Geddeth> So .. moving on.. ?
+2009-09-17T21:32:44  <Annihilator> very well.
+2009-09-17T21:33:21  <Geddeth> Telac asked me to let the team know that he is unable to maintain an active interest in the project for the time being.
+2009-09-17T21:33:42  <Wishbone> Fair enough.
+2009-09-17T21:34:09  <Geddeth> Which is too bad, but that's the way it is .. he will become an inactive member of the team until he returns.
+2009-09-17T21:34:19  <Wishbone> Right.
+2009-09-17T21:34:29  <Annihilator> too bad. can't be helped tho.
+2009-09-17T21:34:41  <Geddeth> Luckily, programmers is what we have the most of :)
+2009-09-17T21:35:02  <Wishbone> "2. Finalizing the DX Project Mission draft"
+2009-09-17T21:35:09  <Geddeth> Which doesn't say a lot .. but hopefully we'll manage.
+2009-09-17T21:35:28  <Annihilator> we don't have any time constraints, so we surely will
+2009-09-17T21:35:44  <Wishbone> Annihilator: Exactly ;)
+2009-09-17T21:36:05  <Annihilator> the draft. let me look it up on the forum and skim thru it again.
+2009-09-17T21:36:26  <Geddeth> Yes - the project mission draft has had no negative feedback, so I'm inclined to make it official.
+2009-09-17T21:36:37  <Wishbone> As far as I'm concerned, "finalizing" in this context is pretty much the same as "ratifying" ;-)
+2009-09-17T21:36:54  <Wishbone> I think it's excellent in its current form.
+2009-09-17T21:37:34  <Annihilator> yes. maybe we should specify the licensing model we're to use for the code in point 3.
+2009-09-17T21:37:59  <Geddeth> Annihilator: it's been done already - it's GPL. http://sourceforge.net/projects/deuterosx/develop
+2009-09-17T21:38:00  <_deutebot> Title: SourceForge.net: Deuteros X - Develop (at sourceforge.net)
+2009-09-17T21:38:16  <Wishbone> GPL? I don't really know much about the various license types.
+2009-09-17T21:38:22  <Annihilator> yes, but i meant in the mission draft itself
+2009-09-17T21:38:38  <Geddeth> Annihilator: I see.
+2009-09-17T21:38:53  <Geddeth> Yes, you may be right.
+2009-09-17T21:39:13  <Wishbone> Sorry, my comment wasn't actually a question. I just typed too slowly.
+2009-09-17T21:39:20  <Annihilator> or do you believe it's redundant to provide so precise an information in this document?
+2009-09-17T21:39:57  <Geddeth> Annihilator: I guess that may have been my initial thought, now that you say so :)
+2009-09-17T21:40:15  <Wishbone> I do think that "The game and its source code is provided to the public openly, as-is and at no expense whatsoever" probably covers it. But specifying exactly how couldn't hurt.
+2009-09-17T21:40:50  <Geddeth> Right. I'll think about it some more and may add that in. If you don't feel strongly about it, I may leave it out as well :)
+2009-09-17T21:41:50  <Annihilator> it's a couple of extra letters, can't do any harm i think :)
+2009-09-17T21:42:03  <Annihilator> but COULD provide for an argument for others to join the cause ;)
+2009-09-17T21:42:39  <Geddeth> well, the main point of that sentence is that our product is - and will remain - free.
+2009-09-17T21:43:06  <Annihilator> ah, but free as in ale or speech? :P
+2009-09-17T21:43:35  <Annihilator> alright... i think we've covered #2. wat's next?
+2009-09-17T21:43:45  <Geddeth> Not many casual gamers are familiar with OSS licenses, so that meaning may get lost for them if "GPL license" is part of the sentence.
+2009-09-17T21:44:38  <Geddeth> Annihilator: free as in beer *and* speech, I'd say :)
+2009-09-17T21:45:13  <Geddeth> Anyway .. 3rd point is the DX Comm Plan - any comments?
+2009-09-17T21:46:35  <Annihilator> my thoughts are - keep it simple, don't water it down with too many forms of communication
+2009-09-17T21:46:58  <Wishbone> I do know that I'm not on IRC always.
+2009-09-17T21:46:59  <Annihilator> are mailing lists necessary? couldn't a private section of the forum be used?
+2009-09-17T21:47:06  <Geddeth> Annihilator: exactly .. that is what I want.
+2009-09-17T21:47:08  <Wishbone> To be frank, I'm almost never on IRC.
+2009-09-17T21:47:32  <Geddeth> the mailing list is only for automated updates when SVN commits are made ..
+2009-09-17T21:47:33  <Annihilator> i haven't used irc for years before the #deuterosx.org meetings, and don't use it for anything else :)
+2009-09-17T21:47:40  <Wishbone> Nope, me neither.
+2009-09-17T21:47:42  <Geddeth> but could be replaced by an RSS feed only.
+2009-09-17T21:48:01  <Annihilator> Geddeth: i c.
+2009-09-17T21:48:07  <Geddeth> But have you participated in a project like this recently?
+2009-09-17T21:49:02  <Wishbone> I suppose logging onto IRC will make more sense once the ball really gets rolling.
+2009-09-17T21:49:21  <Geddeth> IRC has the inherent advantages that it a) encourages communication with other team member, and b) that we have a log that the rest of the team may read afterwards. It's just not the same with a forum. So I believe those two complement each other well.
+2009-09-17T21:49:25  <Annihilator> no, nor have I ever before been involved in a software development project. i'm not a developer, but a systems engineer.
+2009-09-17T21:49:32  <Geddeth> But IRC only works if we all use it.
+2009-09-17T21:51:08  <Wishbone> Right, but I still can't make Pidgin flash when a new message pops up.
+2009-09-17T21:51:12  <Annihilator> i believe that the model that we have, regarding irc, is adequate for the time being.
+2009-09-17T21:51:13  <Geddeth> I also don't use any other IRC channel regularly, but since I use Pidigin for instant messaging, it is pretty easy to just log in to the DX IRC channel whenever I turn on my PC.
+2009-09-17T21:51:31  <Wishbone> Logging on just to log on seems... Worthless :-/
+2009-09-17T21:51:34  <Annihilator> more-or-less regular meetings
+2009-09-17T21:52:33  <Geddeth> Wishbone: well, in my experience it is very valuable. Since you have the common interest of the project, it is very tempting to discuss project matters if other members are also online - it creates a snowball effect.
+2009-09-17T21:52:44  <Wishbone> You say something, then don't get a reply for half an hour. So you minimize it and forget about it. Then you have a look a couple of hours later and find that you've missed a huge discussion.
+2009-09-17T21:52:57  <Wishbone> At least, that's pretty much my experience.
+2009-09-17T21:53:41  <Wishbone> Geddeth: Yes, but their window is also minimized, so they don't reply anyway.
+2009-09-17T21:54:14  <Geddeth> Wishbone: most IRC clients are set up so that when you say people's name, they are notified on their desktop somehow.
+2009-09-17T21:54:28  <Geddeth> Wishbone: I believe that is default behaviour for Pidgin as well.
+2009-09-17T21:55:14  <Wishbone> In Pidgin, it's an option to ONLY notify you when someone says your name. I've switched that off in the belief that it'll tell me whenever anyone says anything.
+2009-09-17T21:55:49  <Geddeth> Wishbone: in any case, the Message Notification plugin in conjunction with the Guifications 3rd party plugin has all the notification options you need.
+2009-09-17T21:55:50  <Annihilator> imo regular meetings: sure, but i doubt people will hang online otherwise.
+2009-09-17T21:56:12  <Annihilator> maybe increasing the frequency of the regular meetings?
+2009-09-17T21:56:58  <Geddeth> Annihilator: I doubt people will participate more if we switch to e.g. weekly IRC meetings
+2009-09-17T21:57:06  <Wishbone> Geddeth: Also, you have access to the log, but the rest of us don't.
+2009-09-17T21:57:23  <Geddeth> Wishbone: I know, I am building an interface for that.
+2009-09-17T21:57:28  <Wishbone> Geddeth: Right, I don't think having weekly meetings is the answer either.
+2009-09-17T21:59:37  <Geddeth> Ok - well, I guess the IRC matter in the communcation plan needs further discussion - the forums are a great place for this :)
+2009-09-17T22:00:02  <Geddeth> So lets move on to 4.
+2009-09-17T22:00:06  <Wishbone> One issue I'd like to bring up is that, as things stand right now, Luaan is probably a better candidate for the post of Lead Programmer than I am.
+2009-09-17T22:00:28  <Geddeth> How so?
+2009-09-17T22:00:46  <Wishbone> Not only did he hold that title in the old project, he's also done all the work on the engine until now.
+2009-09-17T22:01:13  <Wishbone> He knows intimately how it works. As of now, I haven't a clue.
+2009-09-17T22:01:39  <Wishbone> I know titles don't matter a hell of beans in this crazy cosmos, but still...
+2009-09-17T22:02:28  <Geddeth> Well, thats what happened when we imported him back from the past and let him take his code with him ;)
+2009-09-17T22:03:00  <Geddeth> The situation obviously makes him the more knowledgeable.
+2009-09-17T22:03:01  <Annihilator> i'm gonna have to autodie() soon, got some midnight oil to burn for another project :)
+2009-09-17T22:03:21  <Wishbone> Okay shelve that for now, let's get on with the agenda.
+2009-09-17T22:03:42  <Geddeth> Ok - one quick question to get 4. out of the way:
+2009-09-17T22:03:47  <Wishbone> "4. How can we utilize the wiki (brainstorm)"
+2009-09-17T22:04:06  <Annihilator> code documentation?
+2009-09-17T22:04:13  <Geddeth> Do we need a closed wiki that only devs can access?
+2009-09-17T22:04:15  <Annihilator> that is, if you believe in such a thing :)
+2009-09-17T22:04:39  <Wishbone> Geddeth: Not really.
+2009-09-17T22:05:00  <Geddeth> Annihilator: documentation of the code should be done via in-line comments, IMO
+2009-09-17T22:05:28  <Geddeth> Annihilator: but thats actually something the programmers need to agree on - I just want some sort of overview of the OOD of the engine
+2009-09-17T22:05:54  <Annihilator> wiki could be useful as a placeholder for such bits
+2009-09-17T22:06:03  <Geddeth> A closed wiki would be used for documenting the WIP as the game(s) progress
+2009-09-17T22:06:07  <Wishbone> Geddeth: That can go in the Wiki as well. A simple diagram should do.
+2009-09-17T22:06:33  <Geddeth> question is whether is should be read only for everyone or entirely blocked from the public eye
+2009-09-17T22:06:38  <Wishbone> I don't really care if anyone can see everything in the wiki.
+2009-09-17T22:07:29  <Geddeth> A read-only wiki has the advantage that progress is apparent, also to the search engines .. but that may be the disadvantage as well
+2009-09-17T22:07:55  <Geddeth> Ok - well, that all I wanted to say about that right now, we continue in the forums.
+2009-09-17T22:07:56  <Wishbone> Yeah, but keeping separate wikis will be quite a hassle, no?
+2009-09-17T22:08:17  <Geddeth> Wishbone: no, that is how it works now. There is a closed namespace in the wiki for developers only.
+2009-09-17T22:08:31  <Wishbone> We'd have to constantly make links from the closed one to the open one anyway.
+2009-09-17T22:08:39  <Wishbone> Yes but does it actually work?
+2009-09-17T22:08:44  <Geddeth> Wishbone: I actually coded quite a bit last year to make that possible *and* integrate with PhpBB3.
+2009-09-17T22:08:55  <Wishbone> And can we move an article from one part to the other?
+2009-09-17T22:09:14  <Geddeth> Wishbone: not easily.
+2009-09-17T22:09:30  <Annihilator> well if the framework is in place might as well make it available to the crew - if it sticks, so be it. if not... we'll manage in other ways.
+2009-09-17T22:09:33  <Wishbone> That's what I thought. And that WILL be necessary eventually :-/
+2009-09-17T22:09:46  <Geddeth> brb
+2009-09-17T22:09:57  <Wishbone> But yeah, if the stuff already works, by all means let's use it.
+2009-09-17T22:10:39  <Wishbone> At this point in time it's a rather academic discussion anyway, since none of us know squat about wiki editing.
+2009-09-17T22:11:08  <Geddeth> back
+2009-09-17T22:11:22  <Wishbone> But it does mean we'll have to think about which section an article belongs in before creating it.
+2009-09-17T22:11:25  <Annihilator> as i have to vacate the premises soon allow me to give my thoughts and quesions on the remaining points
+2009-09-17T22:11:32  <Geddeth> Annihilator: go ahead.
+2009-09-17T22:11:45  <Annihilator> #5: trac. bugtracking tool?
+2009-09-17T22:11:48  <Wishbone> Annihilator: You have the floor, sir.
+2009-09-17T22:12:04  <Geddeth> Yes. Here: http://sourceforge.net/apps/trac/deuterosx/
+2009-09-17T22:12:05  <_deutebot> Title: DeuterosX.org (at sourceforge.net)
+2009-09-17T22:12:32  <Wishbone> We can get to that once we have some bugs to track :-D
+2009-09-17T22:12:35  <Annihilator> i've worked with something similar, shouldn't be a problem.
+2009-09-17T22:13:06  <Geddeth> You create tickets, attach them to milestones, add a date - and you have a roadmap.
+2009-09-17T22:13:06  <Wishbone> Yeah, so have I.
+2009-09-17T22:13:25  <Geddeth> I've created a few for myself and set them for the next two IRC meetings.
+2009-09-17T22:13:39  <Annihilator> #6,7: we should definitely have luaan for discussion those two points, as he's the only one who knows exactly what shape the code is in atm.
+2009-09-17T22:13:49  <Geddeth> I invite everyone to do something similar with their tasks - if nothing else, then as practice for now.
+2009-09-17T22:13:56  <Wishbone> So, more of a task management tool than a bug tracking system.
+2009-09-17T22:14:05  <Geddeth> Wishbone: both.
+2009-09-17T22:14:24  <Wishbone> Annihilator: Yeah, both of those points pretty much require his input.
+2009-09-17T22:14:26  <Geddeth> Annihilator: I agree, we'll scratch those for now.
+2009-09-17T22:14:43  <Annihilator> as for the next steps, i've already told wishbone that i've prepared a couple of testing grounds so i'll be able to fire it up as soon as the code is in a compileable and sensible state.
+2009-09-17T22:14:56  <Wishbone> Yup, it sounds great.
+2009-09-17T22:15:04  <Geddeth> Annihilator: very nice. Looking forward to that.
+2009-09-17T22:15:10  <Geddeth> Mac? Linx?
+2009-09-17T22:15:13  <Geddeth> *Linux?
+2009-09-17T22:15:28  <Annihilator> 2 linux distros atm, a couple of various-version windows boxen
+2009-09-17T22:15:43  <Annihilator> no macs, sadly, but i'll put that VM together in due time as well
+2009-09-17T22:15:54  <Geddeth> Fabulous. I would very much like to attempt some cross-platform compiles before next IRC meeting.
+2009-09-17T22:16:38  <Annihilator> i'm aiming for fedora, opensuse and ubuntu for compatibility testing on the linux front
+2009-09-17T22:16:39  <Geddeth> The goal being to get 3 similar screenshots from each platform - they would be used for promotion purposes.
+2009-09-17T22:16:51  <Geddeth> Annihilator: Sounds sensible.
+2009-09-17T22:17:35  <Annihilator> i can take care of that, yes. (the screenshots)
+2009-09-17T22:17:56  <Geddeth> Goodie.
+2009-09-17T22:18:21  <Annihilator> alas, time do depart. twas good brainstorming a bit with you guys. until next time, and/or the next forum discussion - bye!
+2009-09-17T22:18:29  <Geddeth> Annihilator: you are excused and may FOMM! as you see fit.. :-P
+2009-09-17T22:18:33  <Wishbone> Bye Annihilator :-)
+2009-09-17T22:18:38  <Annihilator> q
+2009-09-17T22:18:42  *** Annihilator has quit IRC
+2009-09-17T22:18:55  <Wishbone> One thing we might start to think about are development tools.
+2009-09-17T22:19:16  <Geddeth> I thought we had?
+2009-09-17T22:19:43  <Wishbone> Oh, sorry. Not that kind of development tools. I mean stuff like, well "level editors".
+2009-09-17T22:20:02  <Wishbone> I mean stuff to make the content come together easier.
+2009-09-17T22:21:12  <Geddeth> Oh .. right. I believe Luaan had a runtime editor - maybe that can be extended.
+2009-09-17T22:21:39  <Wishbone> From what I've seen of the engine so far, most of the structure is defined in a number of XML files. We might think of easier ways of editing those than by hand.
+2009-09-17T22:22:21  <Geddeth> Indeed.
+2009-09-17T22:22:38  <Wishbone> Also with modding aforethought ;-)
+2009-09-17T22:23:12  <Wishbone> It's usually easier to attract an audience to a game that comes with its own set of modding tools.
+2009-09-17T22:24:06  <Wishbone> So the easier we make that, the easier it'll be for ourselves to develop, and the more people will be interested in the game for more than the first week.
+2009-09-17T22:24:09  <Geddeth> Sure .. but it would mainly be to our benefit at first.
+2009-09-17T22:24:29  <Wishbone> Exactly. But the other thing is a nice side effect ;-)
+2009-09-17T22:25:04  <Geddeth> Very nice :)
+2009-09-17T22:25:37  <Wishbone> Right. Is there more we need to discuss right now?
+2009-09-17T22:25:58  <Wishbone> I hear our new TV calling me :-D
+2009-09-17T22:25:59  <Geddeth> Well, regarding 8. and roadmap until next meeting - my intention is to have the site design finished in two meetings, ie. in a months time. I've plotted that into Trac as a ticket.
+2009-09-17T22:26:11  <Wishbone> Okay, that sounds good.
+2009-09-17T22:26:23  <Geddeth> So just wanted to log that intention :)
+2009-09-17T22:26:34  <Wishbone> Right now, much of the road ahead needs Luaan's input to be revealed.
+2009-09-17T22:26:36  <Geddeth> New TV? Pic?
+2009-09-17T22:26:58  <Wishbone> http://www.cinemagic.dk/shop/samsung-le46b530-5212p.html
+2009-09-17T22:26:59  <_deutebot> Title: SAMSUNG LE46B530 - CineMagic A/S (at www.cinemagic.dk)
+2009-09-17T22:27:01  <Geddeth> Yeah, but as I recall, it's his birthday today, so I understand why he is away
+2009-09-17T22:27:33  <Geddeth> So lets send him a collaborative birthday wish ... ready?
+2009-09-17T22:27:40  <Geddeth> ... H A P P Y
+2009-09-17T22:27:46  <Wishbone> Oh, I wasn't criticizing him, just saying there's not much point in...
+2009-09-17T22:27:59  <Wishbone> B I R T H D A Y !
+2009-09-17T22:28:13  <Geddeth> heh
+2009-09-17T22:28:27  <Wishbone> ... discussing too far ahead untill we have a clearer picture of what we have to work with ;-)
+2009-09-17T22:28:36  <Geddeth> Yeah, he'll be back to comment on the code soon enough.
+2009-09-17T22:28:54  <Geddeth> I'm off for now as well .. FOMM!
+2009-09-17T22:28:59  <Wishbone> FOMM!
+2009-09-17T22:29:00  <Geddeth> (TV looks nice and big, btw. :))
+2009-09-17T22:29:03  <Wishbone> :D
+2009-09-17T22:29:14  <Wishbone> It's a friggin' wall!!!
+2009-09-17T22:29:31  <Wishbone> Right, nite bro :)
+2009-09-17T22:29:45  *** Wishbone has left #deuterosx.org
