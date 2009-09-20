@@ -1,0 +1,540 @@
+Hauptsteuerung
+Erde City
+@1991 i.r.bird v1 (deutsch)
+IOS
+Sternschiff
+Sternselektor
+Bergbau
+Schulung
+Ressourcen
+Forschung
+Produktion
+Lagerräume
+Weltraum-Hangar
+Weltraum-Dock
+Bergbau-Lagerraum
+Schiffs-Hangar
+Schiff 
+Schiffsleute
+Zeitbeschleuniger
+Hauptsteuerung
+Bestandsaufnahme
+Bodenerzanalyse
+Diskettenzugriff
+Nachrichtenbulletins
+Rekruten
+SCHULUNG
+lager
+Unerforscht.
+Zurück zum Pool
+Rekrut 
+Planetensysteme.
+ANSICHT
+Schaden!
+Leer
+Eisen
+Titan
+Alumin.
+Kohlens.
+Kupfer
+Wassers.
+Deuter.
+Methan
+Helium
+Paladium
+Platin
+Silber
+Gold
+Silizium
+MeHTrbst
+HeDTrbst
+Alles ausgleichen ...
+Flöz
+Material
+Derricks
+Derrick hinzufügen
+Derrick zurück ins Lager
+Keine
+Ausrüstung
+In Betrieb!
+Anderer Lagerraum
+Lehrling
+Ingenieur
+Experte
+frei
+Unbekannter Gegenstand
+Bergbauausrüstung
+Schiffs-Chassis
+Schiffs-Triebwerkseinheit
+Wasserstoff-Methan-Treibstoff
+Abschnitt Weltraumfabrik
+Frachtrumpf
+Werkzeug- u Ausrüstgsrumpf
+Tiefsttemperatur-Rumpf
+Impuls-Vernichtungs-Laser
+IOS-Chassis
+IOS-Triebwerkseinheit
+SCG-Chassis
+SCG-Triebwerkseinheit
+Helium-Deuterium-Treibstoff
+Autom. Fracht-Computer
+Autom. Bergbau-Computer
+Reparaturstation
+Selbstzerstörungsmechanismus
+Hydraulischer Greifer
+Comp-Steuerung Drohnenflotte
+Gerät für Asteroid-Bergbau
+Überlichtgeschwindigk-Reise
+Massenfernübertragung
+Methanoid-Fusions-Laser
+Abschnitt Bergbaustation
+Torpedowerfer Prejudice
+Kommunikationsadapter
+IOS-Kampfdrohne
+SRS-Kampfdrohne
+Gefängnisrumpf
+Schallkanone
+Chassis
+Rumpf
+Auf der Erde
+Im Weltraum
+GEGENSTANDS-ANALYSE
+Tech-Level
+Masse
+t.
+Dieser Gegenstand kann produziert werden
+Genug Lager-bestand fürvon jeder Fabrik nur auf der Erde nur im Weltraum
+Techniker
+Doktor
+Professor
+Schiffs-Crew entfernen
+Crew zuweisen
+Crew-Abschnitt
+Rumpf-Montage 
+…1
+…2
+…3
+…4
+…5
+…6
+Crew 
+Facharb.
+Motor-Montage
+Unvollständig /8Facharb.
+Frei
+Installieren 
+Frachtrumpf
+Werkzeugrumpf
+Team-Rumpf
+Rumpf prüfen
+Triebwerkseinheit
+Teamleiter ist für diesen Gegenstand nicht qualifiziert.
+Team arbeitet.
+Projekt ist % fertiggestellt.
+LEER
+Schiff benennen
+Pilot
+Kapitän
+Admiral
+Krieger
+PiratFRACHT - SERVICE
+AUSRÜSTUNGSLAGER
+Team ausladen
+Team einladen
+Team zum Hangar schicken
+Der Produktion zuweisen
+Rang des Team-leiters un-zureichend für die Produktion.
+Erforderlich:
+Gegenstandkann produ-ziert werden
+Teamtransfer
+Hangar voll!
+IOS-Steuerung in diesem System ist auf voller Kapazität
+Lager-Anfrage: Hier kein Bestand
+Schiff ist bereits aktiv. Hier!
+Bitte vor Einbau des neuen Typs den XRumpf leeren.
+Fabrik nicht betriebsbereit
+Es gibt keinen Raumhafen zum Andocken!
+Es gibt keine Tiefsttemp-Einr. in Bergbau-Kolonien!
+Leistungunzureichend!Geschwind.:   . % c
+Fracht raus!
+Start
+Landung
+Andocken
+Kurs setzen
+Wartung
+Fracht-Comp.
+Triebwerk ein
+Triebwerk aus
+Anzeige umschalten
+Teibstf:   Crew: 
+Triebw. ist
+AFC Fracht: COMPUTERSTEUERUNG DROHNENFLOTTE () Drohnen
+TWP
+Kurs gesetzt: <ORIGIN> auf <TARGET> GAZ: <ETA>
+Nicht installt
+Ausgeschaltet
+Eingeschaltet
+In Bodenhangar 
+Startet von <PLANET>  Steigt auf von <PLANET>
+Auf Umlaufbahn <Planet> Dockt an mit <PLANET>
+Auf Dock über  <Planet>
+Crew aktiv auf <Planet>
+Landet auf <Planet>
+Am Boden auf <Planet> 
+Transit nach <Planet>
+Eintauch nach <SYSTEM>
+Bohrt
+Scannt
+Baut ab
+Treibt nach
+FÄLLT AUF <Planet>
+Auftanken auf
+Auftanken bis
+UNTER ANGRIFF!
+Team-Dienstplan Ein/Aus
+S C H I F F Z E R S T Ö R TFABRIK
+UNVOLLSTÄNDIG(  von 8)
+Einschalten 
+GAZ:
+AFC EIN
+AFC AUS
+Zyklus fertig
+Einstellungen löschen
+Ausschalten
+Weltraum
+City
+Kolonie
+Neues Schiff
+Demontage
+Neues IOS
+Neues SRS
+AFC einbauen
+ALARM: KeinFrachtrumpf!
+Ausrüstungsrumpf aktivieren.
+Abschnitt Station {Element} von 2.  .  .  entfaltet .  .  .
+Station ist jetzt betriebsbereit.
+Kühlsystem
+Reaktor-Steuerung
+GAZ:
+Computer
+Leer
+Unbekannt
+Derrick
+Chassis S
+Triebwerk S
+MeH-Treibstf
+Element WF
+Fr.-Rumpf
+Werkz-Rumpf
+Tftem-Rumpf
+Blaser
+Chassis I
+Triebwerk I
+Chassis R
+Stern-T.
+HeD-Treibstf
+AFC
+ABC
+Hansaplast
+SZM
+Greifer
+CSDF
+GAB
+Hyperlicht
+MFÜ
+FuzLas
+Element BS
+TWP
+Komm.-Rumpf
+IOS-DrohneStern-Drohne
+Gefängnisr.
+Blaster
+Hinaufrollen
+Abrollen
+Aktuelle Asteroid Analyse:
+Bergbau Asteroid
+ScannerAnalyse.
+Keine Zieleim Nahbereich
+Objekt     
+Unbekannter
+Asteroid
+GeschätzteMasse
+Hauptelement:
+Obj. Greifer
+Objekt loslassen
+Objekt einladen
+Klasse Hauptelement ist
+Keine Asteroidenim Nahbereich
+Sequenz zur Asteroid Fragmentierung.
+Sequenz abgeschlossen.
+MeH
+HeD
+Treibstoff leeren
+Schiff auftanken
+Fertig
+KEINE!
+Kampf-Computer
+Alles übertragen ...
+Rumpf-Typ: Enthält: ( )
+Weltraum Drohnen Pool
+Drohnen  der Flotte 
+Flotten-Stärke
+In Flotte eingliedern
+Zum Pool zurückgeben
+d {myfleetdrones} pwr {mypowerdrones} d {enemydrones}  pwr {enemypowerdrones}
+Bereit zum LADEN Drücken Sie  'L' zur BestätigungBereit zum SICHERN Drücken Sie  'S' zur Bestätigung
+FRACHT
+RUMPFMONTAGE
+TIEFSTTEMPERATUR
+Auf Wiedersehen
+Einstellungen wiederherstellen
+Allgemeiner Hardware-Fehler.
+
+Legen Sie die Deuteros DATEN-Disk in df:0
+Weiter mit belieb. Taste
+
+Ja, bitte 
+Nein, danke
+ACHTUNG: 
+Eine Crew ist erforderlich,um diese Einrichtungzu betreiben,und zwar mit dem Dienstgrad:
+
+Wujic Flakra,Tarran Tak Gablak, Spligh Caboon.
+pologeek Dasmin Pag Fo Owst Meethane Stolt. Sha-Sha.
+
+Barga San 'Greifer' Tak Freze Gifta Pag Vill !
+Gifta Tak Greifer !!!
+
+Objekt entfernt zwecks Forschungs-Analyse ...
+Spiel benennen
+Positionieren Weltraum-fabrik Abschnitt Nr. von 8                 Sequenz abgeschlossen.
+Fabrik ist jetzt betriebsbereit.
+Spiel sichern
+Spiel laden
+IMPULSVERNICHTUNGS LASER
+UNTER ANGRIFF
+GEFANGEN !!!!
+AUS
+Knappheit
+Stoppuhr
+Zuletzt	gesichert
+LED Umschaltung
+Disk-Verzeichnis
+Diskette formatieren
+Weniger Mehr
+NachfüllpegelSchiffstreib-stoff
+Pegel I.O.S.-Treibstoff 
+BodenLager
+Zugang zum Schiff
+Nächste Seite
+Vorige Seite
+Frachtcomputer ist bereits eingebaut!
+Produktion ist unter  Kontrolle ...
+ist bereits fertiggestellt!
+HAUPTSTEUERUNG
+BESTANDSAUFNME
+BODENANALYSE
+DISK-ZUGRIFF
+NACHR-BULLETIN
+STERN-SELEKTOR
+TEAM-DIENSTPLAN
+Team #
+TASTE DRÜCKEN
+S.zerstörend!
+Sondermeldung
+Meldung Ende
+METHANOIDGEFANGEN                
+Schiff
+unbenutzt 
+in Betrieb
+PRODUKT:
+Derricks  aufgebaut
+FLIEHEN!
+Torpedo Feuer
+TWP einbauen
+TWP ist bereitseingebaut!
+Letzte Meldung wiederholen
+MELDUNG
+Zeit
+Ereignis N.
+Grad:
+Getötet ...
+Zerstört.
+Schiff verloren
+UNTER ANGRIFF!
+GEFANGEN!
+W
+Formatiere
+!Bitte warten !
+KEINE SPIEL-DISKETTE
+Diskette  zum Format.einlegen  dann  'F' drücken
+HAT NICHT GEKLAPPT Bitte Disk prüfen und nochmals probieren.(Taste d.)
+Ausschuß
+Bitte Daten-Disk einlegen, dann Taste A drücken.
+S c h a l l k a n o n e
+
+IOS300000
+SCC/F600000
+
+Will kommen auf unserer bescheidenen Raumstation.
+Wir sehen daß Sie  [Fracht haben.]  [keine Fracht haben.] [eine kleine Fracht haben.]
+Erlauben  Sie uns, Ihre Fracht gegen einen Teil unseres Lagerbestandes einzutauschen? 
+Sehr gut.
+Bitte,  mit Vergnügen.
+Wir  werden {OFFER} für Ihr {FREIGHT1} (und {OFFER} für Ihr {FREIGHT2}) geben.
+
+Entschuldigen Sie, 
+aber wir müssen Ihr Schiff von diesem Dock wegbringen, 
+da wir im Moment sehr beshäftig sind. 
+
+Das ist zuviel, Mensch ! 
+Sie werden zu mächtig für ihr eigenes Wohl. 
+DAS BEDEUTET KRIEG ! 
+
+Barga San 'Greifer'  Tak Freze Gifta Pag Vill !
+Gifta Tak Greifer !!! 
+
+Hören Sie mir gut zu.
+Ich setze mein Leben für diese Auskunft auf's Spiel.
+Sie werden getäusht!  Mein Volk hat einen neuen Typ Laserentwickelt und ist nun bereit, Krieg zu führen...
+Nehmen Sie dieses Muster und gehen Sie.
+Schnell... Los jetzt. Ich habe nicht viel Zeit.
+DEUTEROSDATADEUTEROSDATADEUTEROSDATADEUTEROSDATADEUTEROSDATADEUTEROSDATA 
+PIRATES DAMAGE THE HEALTH OF DEVELOPERS 
+DEUTEROSDATADEUTEROSDATADEUTEROSDATADEUTEROSDATADEUTEROSDATADEUTEROSDATA
+Legen Sie bitte die Deuteros-Start-Diskette ein..
+Und dann drucken Sie
+auf die linke Maustate.
+
+Vom: <SCIENCELEADER> Forschungsleiter. 
+Wir haben einige Vorentwürfe für ein Interplanetares
+Operations-Schiff (IOS) angefertigt.
+Leider hat es ein ziemlich breites Chassis und wird nicht in der Lage sein, auf einem Mond oder Planeten zu landen.
+Wir haben auch begonnen, Zusatz-Ausrüstungen für das IOS zu entwerfen. Diese werden folgen, wenn das Chassis ganz fertiggestellt ist.
+
+Vom: Forschungsleiter. 
+Wie versprochen, haben wir nun einige Grundentwürfe für IOS-Werkzeuge.
+Ich muß Sie warnen, daß für einige dieser Gegenstände seltene Materialien notwendig sein könnten, und möchte mich entschuldigen, wenn das Probleme verursacht.
+
+Vom: Forschungsleiter. 
+Dieser Methanoid-Laser, den Sie uns gegeben haben, ist wirklich nutzlos. 
+Es gibt keine Möglichkeit,ihn in unser IOS einzubauen! 
+Wir werden einangepaßtes Chassis verwenden und den Laser einbau müssen.
+Diese 'DROHNEN'-Schiffe könnenmit einem in einem Standard IOS eingebauten Computer gesteuert werden.
+Allerdings wird dieser Computer den gesamten Fracht-raum des Schiffes einnehmen!
+
+Vom: Forschungsleiter.
+Diese Methanoiden sind schlauer, als wir dachten...Ihre Fabriken sind mit Selbst-zerstörungsmechanismen ausgestattet.
+Geben Sie uns Zeit, und wir werden versuchen, ihr System nachzubauen.
+Es muß irgendwo einen Ein/Aus-Schalter geben...   
+
+Vom:Forschungsleiter.
+Die Methanoiden sind einfach viel zu schlau...Ihre Lagerräume sind mit etwasausgestattet, was wie eine ArtSender/Empfänger aussieht.
+Ich nehme an, man brauchteinen Ziel-Sender/Empfänger,um zu kommunizieren.Ich verstehe diesenMechanismus nicht, aber wirKö‚NNEN ihn kopieren ...
+Vom: Forschungsleiter.Wir sind sicher, daß es keine Kolonien der Methanoiden mehr im Sonnensystem gibt, obwohl vielleicht noch einige Kriegsherren übrig sind...
+Wir haben einen Entwurf für ein Stellares Raumschiff(SRS) in den Aufzeichnungen der Methanoiden entdeckt !!!
+Sollten sie Stern-Schiffegebaut haben, dann ist das sicher nicht das Letzte, was wir von ihnen sehen werden ...
+
+Vom: Forschungsleiter.
+Wir haben eine Anpassung des Raumschiff-Chassis zur Verwendung in einer Kampf-drohne entworfen.
+Es ist leistungsfähiger alsdie IOS-Drohne und kanninterstellare Flüge durch-führen ..
+
+Vom: Forschungsleiter.
+Faszinierend...    
+Ich habe mir den Entwurf desStern-Triebwerks etwas näherangesehen, und ich bin sicher,daß man es mit etwas Forschung schaffen könnte, 
+die Licht-geschwindigkeit zuüber-chreiten. Es müßte ganzeinfach sein. Es wären keineänderungen am Triebwerk erfor-derlich. 
+Ich bin überzeugt,daß die Methanoiden dieseFähigkeit bereits haben ...
+
+ Vom: Forschungsleiter.
+Diese Heliumtreibstoffmischungist eine heiße Sache!
+Wenn wir wenig Treibstoffunter Kontrolle verbrennen,kö‚nnten wir die dabeientstehende Energie durch einePlatinrö‚hre leiten.
+Das würdealles in der Bahn befindlichezum Schmelzen bringen.
+Der einzige Nachteil ist, daßdie Explosion auch den Laserund seine Träger zerstö‚renwürden ...
+
+Vom: Forschungsleiter.
+Machen Sie sich keine Sorgen,diese Methanoiden kö‚nnen unsnicht schrecken!Ich habe eine Idee,wie wiruns verteidigen kö‚nnen, aberSie müssen uns Zeit geben.
+Wir kö‚nnen kleine DROHNEN-Schiffe bauen und diese übereinen auf einem IOS-Chassismontierten Computer als Kampf-flotte einsetzen.
+Dieser wirdaber den gesamten Frachtraumdes Schiffs einnehmen ...!
+
+Vom: Forschungsleiter.
+Wir haben unser Bestes getan,um eine Lö‚sung für Ihre Raumschiffalle zu finden.
+Alles, was wir gefundenhaben, ist ein verriegelbarer Tiefsttemperatur-Rumpf. 
+Sobaldeinmal die Piraten-Crew imRumpf ist, hat sie keine Mö‚glichkeit, zu entkommen.
+Ich habe aber keine Idee, wieman sie dazu bringen kann,dort hineinzugehen.
+Verräter!
+
+Vom: Forschungsleiter.
+M E U T E R E I   !         
+Einer unserer Kriegsherren hatein Sternschiff gestohlen undbringt es, soweit wir wissen,zu unseren Feinden!
+Er hat alle Fernsteuerungs-schaltkreise abgeschaltet undweigert sich, Anweisungen zubeantworten.
+Wir kennen seine Absichtennicht, aber sie kö‚nnen nichtgut sein.       Oder ?
+
+Vom:Forschungsleiter.
+Wir haben eine sehr seltsameMeldung erhalten.Sie wird in regelmäßigenIntervallen wiederholt, abersie sagt uns nichts. 
+Es istbestimmt NICHT die Sprache derMethanoiden oder so. Sie mußvon anderswo kommen.         
+Sehen Sie doch selbst... 
+
+Vom: Forschungsleiter.
+Wir haben eine andere Nachricht für Sie...          
+Vom: Forschungsleiter. 
+Wir haben ein sehr seltsamesEreignis auf beo-bachtet. 
+Es scheint einenormer Sturm auf der Ober-fläche zu sein, der drastische Auswirkungen auf die Aktivitätdes Sterns zu haben scheint.
+Die Energieausbeute ist jetztzu niedrig für unsere Fabrikenund all ihre Funktionen mußtengestoppt werden. 
+Wir kö‚nnennicht sagen, wann der Sturmsich legen wird.
+
+Vom: Forschungsleiter.
+Der Sturm auf <SOLARSYSTEM> ist fast vorbei und alle Fabriken sind wieder betriebsbereit.
+Wir werden dieses Phänomen imDetail untersuchen, und Sieinformieren, wenn es nochmalsauftreten sollte.
+
+Vom: Forschungsleiter.
+Wir haben eine alte Bergbauhalde der Methanoiden auf <PLANET> gefunden!         
+Sie enthält 10.000 Tonnen <MATERIAL>.
+Es wurde nun zu den Bodenlagerräumen transferiert. 
+
+Vom: Forschungsleiter.
+WARNUNG!
+Wir sind einem Meteoriten mit einer großen Masse auf der Spur, der direkt auf <PLANET> zukommt.
+Wir können die genaue Zeit bzwden Ort des Aufschlags nochnicht bestimmen, aber ich schlage vor, daß Sie die
+Fabrik verlassen Unverzüglich ...
+
+Vom: Forschungsleiter.
+Der Meteorit hat die Fabrik in <STAR> zerstört! 
+Er ist aber nicht in dieOberfläche eingeschlagen und ist in eine größere Umlaufbahn eingetreten. 
+Wir verfolgen weiterhin seinen Kurs ...
+
+Vom: Forschungsleiter.
+Als <NAME> gefangen genommen wurde, fanden wir eine alte Blaupause in der Produktions-bibliothek.
+Damals schien dasunwichtig, und daher haben wirSie damit nicht belästigt.
+Nach Prüfung der Pläne zeigtesich aber, daß es eine Super-Waffe ist, gespeist durcheine Fusion, die eine ArtSchallimpulse freisetzt.
+Wir sind bereit, sie zuentwerfen ...
+
+Vom: Forschungsleiter.
+E U R E K A !
+Ich habe während der vergangenen Monate an einer kleinen Sache gearbeitet und bin nun endlich in der Entwurfsphase.
+Die Steuerungen werden in ein Cockpit passen, und zwar ebenso wie der AFC. 
+Die Hardware muß jedoch an den CSDF angeschlossen werden.
+Ich bin ja so schlau!
+
+guten tag, menschen.wir überwachen alle eure meldungen und versuchen, eure sprache zu verstehen.
+diese meldung wird wiederholt,bis wir in der lage sind,fließend zu kommunizieren.
+es gibt da ein ganz wichtigesthema, das wir mit euch besprechen müssen.
+
+nochmals guten tag, menschen.erlaubt uns, uns vorzustellen.wir sind eine friedliche rasse,ähnlich eurer, aus einer rund700.000 parallelsekunden entfernten galaxie. 
+wir haben mit einer rasse ineurer galaxie kontakt geknüpftund beobachten, daß ihr beideeuch bekriegt. das war zuerwarten.
+ wir finden sie auchunehrenhaft. wir müssen aberganz sicher sein, bevor wir EUCH unser VERTRAUEN schenken.           
+ KONTAKT folgt nach abschluß der beobachtungen.
+ GRÜSSE, FREUND.Wir GLAUBEN, wir KÖNNEN EUCHVERTRAUEN UND BITTEN UM HILFE FÜR EIN Projekt, DAS UNSBEIDEN NÜTZT.          
+ VOR vielen STERNEN haben WIR den METhanoIDEN EIN MäCHTIGES UND BedeUTEndES GEschENK gegeben.          
+ SIE NAHMEN es AUSEinandeR, UM DIE TECHnoloGie zu verstehen,EIN GROSSER FEHLeR.
+ UNSERE SCANNER sagen UNS, DASS die Segmente auf 8 STERNEN in Eurer GALAXIE verteilt sind.wir sagen Euch WO genau,sobald wir sie ENTdecken.
+ GRÜSSE, FREUND.                
+Wir haben die Bestätigung von unseren Scannern, daß ein Segment unseres Apparates aufeiner Umlaufbahn um <PLANET> ist.
+Bitte versuchen Sie, das Segment zurückzuholen und lassen Sie es in irgendeiner Ihrer Fabriken.          
+Viel Glück.
+ 
+GRATULIERE, FREUND.
+IHR HABT JETZT ALLE SEGMENTE UNSERES SENDER/EMPFäNGERS.
+WENN IHR IHN VERWENDEN WOLLT,BEFOLGT DIESE ANWEISUNGEN.
+1: BAUT DEN SENDER/EMPFäNGER IN IRGENDEINER EURER FABRIKEN.
+2: BAUT IHN IN DAS STERNSCHIFF IN EURER FLOTTE EIN.
+3: AKTIVIERT DEN RUMPF, DER DEN SENDER/EMPFäNGER TRäGT.WIR MACHEN DEN REST. 
+...AUF BALD, MENSCH !

@@ -1,382 +1,12 @@
-Hauptsteuerung
-Erde City
-@1991 i.r.bird v1 (deutsch)
-IOS
-Sternschiff
-Sternselektor
-Bergbau
-Schulung
-Ressourcen
-Forschung
-Produktion
-Lagerräume
-Weltraum-Hangar
-Weltraum-Dock
-Bergbau-Lagerraum
-Schiffs-Hangar
-Schiff 
-Schiffsleute
-Zeitbeschleuniger
-Hauptsteuerung
-Bestandsaufnahme
-Bodenerzanalyse
-Diskettenzugriff
-Nachrichtenbulletins
-Rekruten
-SCHULUNG
-lager
-Unerforscht.
-Zurück zum Pool
-Rekrut 
-Planetensysteme.
-ANSICHT
-Schaden!
-Leer
-Eisen
-Titan
-Alumin.
-Kohlens.
-Kupfer
-Wassers.
-Deuter.
-Methan
-Helium
-Paladium
-Platin
-Silber
-Gold
-Silizium
-MeHTrbst
-HeDTrbst
-Alles ausgleichen ...
-Flöz
-Material
-Derricks
-Derrick hinzufügen
-Derrick zurück ins Lager
-Keine
-Ausrüstung
-In Betrieb!
-Anderer Lagerraum
-Lehrling
-Ingenieur
-Experte
-frei
-Unbekannter Gegenstand
-Bergbauausrüstung
-Schiffs-Chassis
-Schiffs-Triebwerkseinheit
-Wasserstoff-Methan-Treibstoff
-Abschnitt Weltraumfabrik
-Frachtrumpf
-Werkzeug- u Ausrüstgsrumpf
-Tiefsttemperatur-Rumpf
-Impuls-Vernichtungs-Laser
-IOS-Chassis
-IOS-Triebwerkseinheit
-SCG-Chassis
-SCG-Triebwerkseinheit
-Helium-Deuterium-Treibstoff
-Autom. Fracht-Computer
-Autom. Bergbau-Computer
-Reparaturstation
-Selbstzerstörungsmechanismus
-Hydraulischer Greifer
-Comp-Steuerung Drohnenflotte
-Gerät für Asteroid-Bergbau
-Überlichtgeschwindigk-Reise
-Massenfernübertragung
-Methanoid-Fusions-Laser
-Abschnitt Bergbaustation
-Torpedowerfer Prejudice
-Kommunikationsadapter
-IOS-Kampfdrohne
-SRS-Kampfdrohne
-Gefängnisrumpf
-Schallkanone
-Chassis
-Rumpf
-Auf der Erde
-Im Weltraum
-GEGENSTANDS-ANALYSE
-Tech-Level
-Masse
-t.
-Dieser Gegenstand kann produziert werden
-Genug Lager-bestand fürvon jeder Fabrik nur auf der Erde nur im Weltraum
-Techniker
-Doktor
-Professor
-Schiffs-Crew entfernen
-Crew zuweisen
-Crew-Abschnitt
-Rumpf-Montage 
-…1
-…2
-…3
-…4
-…5
-…6
-Crew 
-Facharb.
-Motor-Montage
-Unvollständig /8Facharb.
-Frei
-Installieren 
-Frachtrumpf
-Werkzeugrumpf
-Team-Rumpf
-Rumpf prüfen
-Triebwerkseinheit
-Teamleiter ist für diesen Gegenstand nicht qualifiziert.
-Team arbeitet.
-Projekt ist % fertiggestellt.
-LEER
-Schiff benennen
-Pilot
-Kapitän
-Admiral
-Krieger
-PiratFRACHT - SERVICE
-AUSRÜSTUNGSLAGER
-Team ausladen
-Team einladen
-Team zum Hangar schicken
-Der Produktion zuweisen
-Rang des Team-leiters un-zureichend für die Produktion.
-Erforderlich:
-Gegenstandkann produ-ziert werden
-Teamtransfer
-Hangar voll!
-IOS-Steuerung in diesem System ist auf voller Kapazität
-Lager-Anfrage: Hier kein Bestand
-Schiff ist bereits aktiv. Hier!
-Bitte vor Einbau des neuen Typs den XRumpf leeren.
-Fabrik nicht betriebsbereit
-Es gibt keinen Raumhafen zum Andocken!
-Es gibt keine Tiefsttemp-Einr. in Bergbau-Kolonien!
-Leistungunzureichend!Geschwind.:   . % c
-Fracht raus!
-Start
-Landung
-Andocken
-Kurs setzen
-Wartung
-Fracht-Comp.
-Triebwerk ein
-Triebwerk aus
-Anzeige umschalten
-Teibstf:   Crew: 
-Triebw. ist
-AFC Fracht: COMPUTERSTEUERUNG DROHNENFLOTTE () Drohnen
-TWP
-Kurs gesetzt: <ORIGIN> auf <TARGET> GAZ: <ETA>
-Nicht installt
-Ausgeschaltet
-Eingeschaltet
-In Bodenhangar 
-Startet von <PLANET>  Steigt auf von <PLANET>
-Auf Umlaufbahn <Planet> Dockt an mit <PLANET>
-Auf Dock über  <Planet>
-Crew aktiv auf <Planet>
-Landet auf <Planet>
-Am Boden auf <Planet> 
-Transit nach <Planet>
-Eintauch nach <SYSTEM>
-Bohrt
-Scannt
-Baut ab
-Treibt nach
-FÄLLT AUF <Planet>
-Auftanken auf
-Auftanken bis
-UNTER ANGRIFF!
-Team-Dienstplan Ein/Aus
-S C H I F F Z E R S T Ö R TFABRIK
-UNVOLLSTÄNDIG(  von 8)
-Einschalten 
-GAZ:
-AFC EIN
-AFC AUS
-Zyklus fertig
-Einstellungen löschen
-Ausschalten
-Weltraum
-City
-Kolonie
-Neues Schiff
-Demontage
-Neues IOS
-Neues SRS
-AFC einbauen
-ALARM: KeinFrachtrumpf!
-Ausrüstungsrumpf aktivieren.
-Abschnitt Station {Element} von 2.  .  .  entfaltet .  .  .
-Station ist jetzt betriebsbereit.
-Kühlsystem
-Reaktor-Steuerung
-GAZ:
-Computer
-Leer
-Unbekannt
-Derrick
-Chassis S
-Triebwerk S
-MeH-Treibstf
-Element WF
-Fr.-Rumpf
-Werkz-Rumpf
-Tftem-Rumpf
-Blaser
-Chassis I
-Triebwerk I
-Chassis R
-Stern-T.
-HeD-Treibstf
-AFC
-ABC
-Hansaplast
-SZM
-Greifer
-CSDF
-GAB
-Hyperlicht
-MFÜ
-FuzLas
-Element BS
-TWP
-Komm.-Rumpf
-IOS-DrohneStern-Drohne
-Gefängnisr.
-Blaster
-Hinaufrollen
-Abrollen
-Aktuelle Asteroid Analyse:
-Bergbau Asteroid
-ScannerAnalyse.
-Keine Zieleim Nahbereich
-Objekt     
-Unbekannter
-Asteroid
-GeschätzteMasse
-Hauptelement:
-Obj. Greifer
-Objekt loslassen
-Objekt einladen
-Klasse Hauptelement ist
-Keine Asteroidenim Nahbereich
-Sequenz zur Asteroid Fragmentierung.
-Sequenz abgeschlossen.
-MeH
-HeD
-Treibstoff leeren
-Schiff auftanken
-Fertig
-KEINE!
-Kampf-Computer
-Alles übertragen ...
-Rumpf-Typ: Enthält: ( )
-Weltraum Drohnen Pool
-Drohnen  der Flotte 
-Flotten-Stärke
-In Flotte eingliedern
-Zum Pool zurückgeben
-d {myfleetdrones} pwr {mypowerdrones} d {enemydrones}  pwr {enemypowerdrones}
-Bereit zum LADEN Drücken Sie  'L' zur BestätigungBereit zum SICHERN Drücken Sie  'S' zur Bestätigung
-FRACHT
-RUMPFMONTAGE
-TIEFSTTEMPERATUR
-Auf Wiedersehen
-Einstellungen wiederherstellen
-Allgemeiner Hardware-Fehler.
 
-Legen Sie die Deuteros DATEN-Disk in df:0
-Weiter mit belieb. Taste
-
-Ja, bitte 
-Nein, danke
-ACHTUNG: 
-Eine Crew ist erforderlich,um diese Einrichtungzu betreiben,und zwar mit dem Dienstgrad:
-
-Wujic Flakra,Tarran Tak Gablak, Spligh Caboon.
-pologeek Dasmin Pag Fo Owst Meethane Stolt. Sha-Sha.
-
-Barga San 'Greifer' Tak Freze Gifta Pag Vill !
-Gifta Tak Greifer !!!
-
-Objekt entfernt zwecks Forschungs-Analyse ...
-Spiel benennen
-Positionieren Weltraum-fabrik Abschnitt Nr. von 8                 Sequenz abgeschlossen.
-Fabrik ist jetzt betriebsbereit.
-Spiel sichern
-Spiel laden
-IMPULSVERNICHTUNGS LASER
-UNTER ANGRIFF
-GEFANGEN !!!!
-AUS
-Knappheit
-Stoppuhr
-Zuletzt	gesichert
-LED Umschaltung
-Disk-Verzeichnis
-Diskette formatieren
-Weniger Mehr
-NachfüllpegelSchiffstreib-stoff
-Pegel I.O.S.-Treibstoff 
-BodenLager
-Zugang zum Schiff
-Nächste Seite
-Vorige Seite
-Frachtcomputer ist bereits eingebaut!
-Produktion ist unter  Kontrolle ...
-ist bereits fertiggestellt!
-HAUPTSTEUERUNG
-BESTANDSAUFNME
-BODENANALYSE
-DISK-ZUGRIFF
-NACHR-BULLETIN
-STERN-SELEKTOR
-TEAM-DIENSTPLAN
-Team #
-TASTE DRÜCKEN
-S.zerstörend!
-Sondermeldung
-Meldung Ende
-METHANOIDGEFANGEN                
-Schiff
-unbenutzt 
-in Betrieb
-PRODUKT:
-Derricks  aufgebaut
-FLIEHEN!
-Torpedo Feuer
-TWP einbauen
-TWP ist bereitseingebaut!
-Letzte Meldung wiederholen
-MELDUNG
-Zeit
-Ereignis N.
-Grad:
-Getötet ...
-Zerstört.
-Schiff verloren
-UNTER ANGRIFF!
-GEFANGEN!
-W
-Formatiere
-!Bitte warten !
-KEINE SPIEL-DISKETTE
-Diskette  zum Format.einlegen  dann  'F' drücken
-HAT NICHT GEKLAPPT Bitte Disk prüfen und nochmals probieren.(Taste d.)
-Ausschuß
-Bitte Daten-Disk einlegen, dann Taste A drücken.
-S c h a l l k a n o n e
 ##############################################################################################################
 IOS300000
 SCC/F600000
 ##############################################################################################################
-Shuttle Craft
+
 erinrear
+
+Shuttle Craft
 Master Control
 Earth City
 @ 1991 i.r.bird (english) v1
@@ -483,8 +113,7 @@ In Orbit
 ITEM ANALYSIS
 Tech Level 
 Mass t.
-This item may be produced
-Enough Supplies for: by any factorys Only t Only
+This item may be produced. Enough Supplies for: by any factorys Only t Only
 Technician
 Doctor
 Professor
@@ -688,7 +317,8 @@ General Hardware Failure.
 Please Insert Deuteros DATA Disk Into Drive DFO
 Press Any Key When Ready.
 Yes, Please
-No, ThanksWARNING: A Crew Is Required To Operate This Equipment And MustBe Ranked 
+No, Thanks
+WARNING: A Crew Is Required To Operate This Equipment And Must Be Ranked 
 Wujic  Flakra, Tarran Tak Gablak, Spligh  Caboon.
 Apologeek Dasmin Pag Fo Owst Meethane Stolt.
 Sha-Sha.
@@ -767,7 +397,8 @@ Please Insert Data Disk... Then Press A Key.
  3: deutsch
 
 s o n i c   b l a s t e r
-Fully Automated Ore Recovery And Refining Unit. Can Adapt To AllKnown Elements.Semi-portable To Allow Location On Any Mining Site.
+
+Fully Automated Ore Recovery And Refining Unit. Can Adapt To All Known Elements.Semi-portable To Allow Location On Any Mining Site.
 Wel come,  Terr an, To  Our  Humble      Sta tion.   
 We  See    That  You  Have    Cargo Aboard Your Mighty Ship. No  Cargo Aboard Your Mighty Ship. Some Cargo Aboard Your Mighty Ship.
 Would You  Allow Us To Trade Your Cargo For Some Of Our Stocks ? 
@@ -785,257 +416,293 @@ You  Have Become   Too   Strong     For Your Own  Good.
 Barga San 'Grapple'  Tak Freze Gifta Pag Vill !
 Gifta Tak Grapple !!!
        
-Listen  Well,   Terran.   I     Risk    My  Life    Giving     You This  Information.
-You Are       Being Deceived!  My    People   Have   Developed   A  New Laser   And Are,      As We Speak, Preparing   For  War..   
-Take     This Prototype    And     Be Gone.         Quickly...   Come On. I Dont    Have   All Day.
+Listen  Well,   Terran.
+ I     Risk    My  Life    Giving     You This  Information.
+You Are       Being Deceived!  My    People   Have   Developed   A  New Laser   And Are, As We Speak, Preparing   For  War..   
+Take     This Prototype    And     Be Gone.         Quickly...   
+Come On. I Dont    Have   All Day.
 
-FRENCH:
-Bien venue,  Terr ien, dans  notre  modeste      sta tion.    
-Nous   voyons    que  vous avez         du fretdans votre vaisseau.   aucun fret dansvotre vaisseau.    un peu de fretdans votre vaisseau.      Nous permettez  vous    d'}changer    votrefret contre     unepart   de nos   stocks?       Tr}s  bien.         Je vous  en prie.  Nous vous  donnerons           pour votre           et         pour votre          .       Excusez  nous,    mais nous devons        d}placer   votrenavire  de ce   dock car  nous sommes       tr}s  occup}    en ce   moment.         C'en est    trop,    Humains !    Vous  devenez   trop   puissants      pour votrepropre   bien.       CELA        SIGNIFIE        LA GUERRE !       Barga San 'Grappin'  Tak Freze Gifta Pag Vill ! Gifta Tak Grappin !!!
-        Ecoutez       moi bien.       Je     risque    ma  vie    pourvous          donner ce  renseignement.     On vous       trompe totalement!         Mon    Peuple   a      developp}   un  Laser   et est,      maintenant,      pr~t {   faire  la guerre..    Prenez     ce prototype    et      partez.          Vite...    Allez-y. Je n'ai pas    beaucoup  de temps.         
 
-GERMAN:
-Will kommen auf unserer bescheidenen Raumstation.
-Wir sehen daß Sie  [Fracht haben.]  [keine Fracht haben.] [eine kleine Fracht haben.]
-Erlauben  Sie uns, Ihre Fracht gegen einen Teil unseres Lagerbestandes einzutauschen? 
+Welcome, Terran, To Our Humble Station.
+We See That You Have Cargo Aboard Your Mighty Ship.
+No  Cargo Aboard Your Mighty Ship. Some Cargo Aboard Your Mighty Ship.
+Would You Allow Us To Trade Your Cargo For Some Of Our Stocks ?
+Very Well. Our Pleasure, Sir.
+We Shall Give You  For Your   And  For Your   .
+Forgive Us, But We Must Move  Your Ship From TheDock As We Are Very Busy At The Moment.
+Thank You For Your Visit.
+That's Far Enough, Earthling !
+You Have Become Too Strong  For Your Own Good.
+THIS  MEANS  WAR !   
+
+Barga San 'Grapple' TakFreze Gifta Pag Vill ! Gifta Tak Grapple !!!
+
+Listen  Well, Terran. I Risk My Life Giving You This Information.
+You Are Being Deceived! My People Have Developed A New LaserAnd Are, As We Speak, Preparing For War.. 
+Take This Prototype And Be Gone.     Quickly... 
+Come On.I Dont Have All Day.     
+
+
+Willkommen auf unserem bescheidenen Raumschiff.
+Wir  sehen daß Sie  Fracht haben. keine Fracht haben. eine kleine Fracht haben.
+Erlauben Sie uns,Ihren Fracht gegen einen Teil unseres  Lagerbestan-des einzutauschen?
 Sehr gut.
-Bitte,  mit Vergnügen.
-Wir  werden {OFFER} für Ihr {FREIGHT1} (und {OFFER} für Ihr {FREIGHT2}) geben.
+Bitte, mit Vergnügen.
+Wir werden  für Ihr und  für Ihr  geben  .
+Entschuldigen Sie, aber wir müssen  Ihr Schiff von diesem Dock wegbringen,da wir im Moment sehr beshäftig sind.
+      
+Das ist zuviel,  Mensch !
+Sie werden zumächtig für ihr  eigenes Wohl.
+DAS  BEDEUTET  KRIEG !
 
-Entschuldigen Sie, 
-aber wir müssen Ihr Schiff von diesem Dock wegbringen, 
-da wir im Moment sehr beshäftig sind. 
-
-Das ist zuviel, Mensch ! 
-Sie werden zu mächtig für ihr eigenes Wohl. 
-DAS BEDEUTET KRIEG ! 
-
-Barga San 'Greifer'  Tak Freze Gifta Pag Vill !
+Barga San 'Greifer' Tak Freze Gifta Pag Vill !
 Gifta Tak Greifer !!! 
 
-Hören Sie mir gut zu.
-Ich setze mein Leben für diese Auskunft auf's Spiel.
-Sie werden getäusht!  Mein Volk hat einen neuen Typ Laserentwickelt und ist nun bereit, Krieg zu führen...
-Nehmen Sie dieses Muster und gehen Sie.
-Schnell... Los jetzt. Ich habe nicht viel Zeit.
-DEUTEROSDATADEUTEROSDATADEUTEROSDATADEUTEROSDATADEUTEROSDATADEUTEROSDATA 
-PIRATES DAMAGE THE HEALTH OF DEVELOPERS 
-DEUTEROSDATADEUTEROSDATADEUTEROSDATADEUTEROSDATADEUTEROSDATADEUTEROSDATA
-Legen Sie bitte die Deuteros-Start-Diskette ein..
-Und dann drucken Sie
-auf die linke Maustate.
+Hören sie mir gut zu.Ich setze mein Leben für diese  Auskunft auf's Spiel.
+Sie werden getäusht! Mein Volk hat einen neuen A Laser entwickelt und ist nun bereit, Krieg zu führen...
+Nehmen Sie dieses Muster und  gehen Sie. Schnell...  
+Los jetzt. Ich habe nicht viel Zeit.
 
-Vom: <SCIENCELEADER> Forschungsleiter. 
-Wir haben einige Vorentwürfe für ein Interplanetares
-Operations-Schiff (IOS) angefertigt.
-Leider hat es ein ziemlich breites Chassis und wird nicht in der Lage sein, auf einem Mond oder Planeten zu landen.
-Wir haben auch begonnen, Zusatz-Ausrüstungen für das IOS zu entwerfen. Diese werden folgen, wenn das Chassis ganz fertiggestellt ist.
+Head of Research.We've made some preliminary designs for an Interplanetary Operations Spacecraft (IOS).
+Unfortunately, it has quite alarge chassis and will not be capable of landing on any moonor planet.
+We have also started to designattachments for the IOS. These will follow when the chassis has been fully designed. 
 
-Vom: Forschungsleiter. 
-Wie versprochen, haben wir nun einige Grundentwürfe für IOS-Werkzeuge.
-Ich muß Sie warnen, daß für einige dieser Gegenstände seltene Materialien notwendig sein könnten, und möchte mich entschuldigen, wenn das Probleme verursacht.
+From: Head of Research.As promised, we now have somebasic designs for IOS tools.
+I should warn you that a fewof these items may requirerare materials and apologiseif this causes problems.
 
-Vom: Forschungsleiter. 
-Dieser Methanoid-Laser, den Sie uns gegeben haben, ist wirklich nutzlos. 
-Es gibt keine Möglichkeit,ihn in unser IOS einzubauen! 
-Wir werden einangepaßtes Chassis verwenden und den Laser einbau müssen.
-Diese 'DROHNEN'-Schiffe könnenmit einem in einem Standard IOS eingebauten Computer gesteuert werden.
-Allerdings wird dieser Computer den gesamten Fracht-raum des Schiffes einnehmen!
+From: Head of Research.This Methanoid Laser you gaveus is virtually useless...
+There is absolutely no way we can fit it to our IOS !
+We will have to use an adaptedchassis and build the laser into it.
+These 'DRONE' ships canbe controlled via a computerfitted to a standard IOS.
+However, this computer will occupy all the ship's cargospace...! 
 
-Vom: Forschungsleiter.
-Diese Methanoiden sind schlauer, als wir dachten...Ihre Fabriken sind mit Selbst-zerstörungsmechanismen ausgestattet.
-Geben Sie uns Zeit, und wir werden versuchen, ihr System nachzubauen.
-Es muß irgendwo einen Ein/Aus-Schalter geben...   
+From: Head of Research.These Methanoids are morecunning than we thought...
+Their factories are fittedwith self-destruct mechanisms.
+Give us the time and we willtry to emulate their system.
+There should be an on-off switch somewhere....    
 
-Vom:Forschungsleiter.
-Die Methanoiden sind einfach viel zu schlau...Ihre Lagerräume sind mit etwasausgestattet, was wie eine ArtSender/Empfänger aussieht.
-Ich nehme an, man brauchteinen Ziel-Sender/Empfänger,um zu kommunizieren.Ich verstehe diesenMechanismus nicht, aber wirKö‚NNEN ihn kopieren ...
-Vom: Forschungsleiter.Wir sind sicher, daß es keine Kolonien der Methanoiden mehr im Sonnensystem gibt, obwohl vielleicht noch einige Kriegsherren übrig sind...
-Wir haben einen Entwurf für ein Stellares Raumschiff(SRS) in den Aufzeichnungen der Methanoiden entdeckt !!!
-Sollten sie Stern-Schiffegebaut haben, dann ist das sicher nicht das Letzte, was wir von ihnen sehen werden ...
+From: Head of Research.The Methanoids are too cleverfor comfort...
+Their storerooms are fittedwith what appears to be a Matter Transmitter/Receiver.
+I assume that it requires atarget transmitter with whichto communicate.
+It's mechanism is beyond mycomprehension but we CAN copy it....
 
-Vom: Forschungsleiter.
-Wir haben eine Anpassung des Raumschiff-Chassis zur Verwendung in einer Kampf-drohne entworfen.
-Es ist leistungsfähiger alsdie IOS-Drohne und kanninterstellare Flüge durch-führen ..
+From: Head of Research.We are certain that there areno Methanoid colonies left inthe Solar System although afew warships may remain...
+We have discovered a designfor a Star Class Galleon (SCG)in the Methanoid productionrecords !!!
+If they have built starshipsthen this is not the lastwe shall see of them..... 
 
-Vom: Forschungsleiter.
-Faszinierend...    
-Ich habe mir den Entwurf desStern-Triebwerks etwas näherangesehen, und ich bin sicher,daß man es mit etwas Forschung schaffen könnte, 
-die Licht-geschwindigkeit zuüber-chreiten. Es müßte ganzeinfach sein. Es wären keineänderungen am Triebwerk erfor-derlich. 
-Ich bin überzeugt,daß die Methanoiden dieseFähigkeit bereits haben ...
+From: Head of Research.We have designed an adaptationof the Galleon chassis for useas a battle drone.
+This is more powerful than the IOS Drone and is capable ofinterstellar flight...
 
- Vom: Forschungsleiter.
-Diese Heliumtreibstoffmischungist eine heiße Sache!
-Wenn wir wenig Treibstoffunter Kontrolle verbrennen,kö‚nnten wir die dabeientstehende Energie durch einePlatinrö‚hre leiten.
-Das würdealles in der Bahn befindlichezum Schmelzen bringen.
-Der einzige Nachteil ist, daßdie Explosion auch den Laserund seine Träger zerstö‚renwürden ...
+From: Head of Research.Fascinating....
+I've been taking a closer lookat the Star Drive design and Iam certain, with a little more research, it could be made to exceed light speed.
+It should be quite simple. No changes to the drive will be needed. I am convinced that the Methanoids already have thiscapability.....
 
-Vom: Forschungsleiter.
-Machen Sie sich keine Sorgen,diese Methanoiden kö‚nnen unsnicht schrecken!Ich habe eine Idee,wie wiruns verteidigen kö‚nnen, aberSie müssen uns Zeit geben.
-Wir kö‚nnen kleine DROHNEN-Schiffe bauen und diese übereinen auf einem IOS-Chassismontierten Computer als Kampf-flotte einsetzen.
-Dieser wirdaber den gesamten Frachtraumdes Schiffs einnehmen ...!
+From: Head of Research.This Helium fuel mixture is hot stuff !
+Using a controlled ignition of some fuel, we could direct the resulting energy through a platinum tube.
+This would fuse anything in its path !!
+The only drawback is that the explosion will also destroythe laser and its carrier... 
 
-Vom: Forschungsleiter.
-Wir haben unser Bestes getan,um eine Lö‚sung für Ihre Raumschiffalle zu finden.
-Alles, was wir gefundenhaben, ist ein verriegelbarer Tiefsttemperatur-Rumpf. 
-Sobaldeinmal die Piraten-Crew imRumpf ist, hat sie keine Mö‚glichkeit, zu entkommen.
-Ich habe aber keine Idee, wieman sie dazu bringen kann,dort hineinzugehen.
-Verräter!
+From: Head of Research.Dont't Worry, Chief.These Methanoids Can't Scare Us !
+I've Come Up With An Idea ToDefend Ourselves But You'llHave To Give Us The Time To Develop It.
+We Can Build Small DRONE ShipsAnd Control Them As A Battle Fleet Via A Computer MountedOn An I.O.S. Chassis.
+However, This Computer WillOccupy All The Ship's CargoSpace...!
 
-Vom: Forschungsleiter.
-M E U T E R E I   !         
-Einer unserer Kriegsherren hatein Sternschiff gestohlen undbringt es, soweit wir wissen,zu unseren Feinden!
-Er hat alle Fernsteuerungs-schaltkreise abgeschaltet undweigert sich, Anweisungen zubeantworten.
-Wir kennen seine Absichtennicht, aber sie kö‚nnen nichtgut sein.       Oder ?
+From: Head of Research.We've Tried Our Best To Find ASolution To Your Rogue Ship. 
+All We've Come Up With Is A Lockable Cryo Pod. Once The Pirate Crew Is Inside There Is No Way They Can Escape.
+Although, I Have No Idea HowYou Will Persuade Them Into It.
+Traitors !            
 
-Vom:Forschungsleiter.
-Wir haben eine sehr seltsameMeldung erhalten.Sie wird in regelmäßigenIntervallen wiederholt, abersie sagt uns nichts. 
-Es istbestimmt NICHT die Sprache derMethanoiden oder so. Sie mußvon anderswo kommen.         
-Sehen Sie doch selbst... 
+From: Head of Research.
+M U T I N Y   ! 
+One Of Our Warlords Has Stolen A Starship And, As Far As We Can Tell, Is Taking It To Our Enemies !
+He Has Disconnected All Remote Control Circuits And Refuses To Respond To Orders.
+We Do Not Know His IntentionsBut They Can't Be Good.
+Can They ?
 
-Vom: Forschungsleiter.
-Wir haben eine andere Nachricht für Sie...          
-Vom: Forschungsleiter. 
-Wir haben ein sehr seltsamesEreignis auf beo-bachtet. 
-Es scheint einenormer Sturm auf der Ober-fläche zu sein, der drastische Auswirkungen auf die Aktivitätdes Sterns zu haben scheint.
-Die Energieausbeute ist jetztzu niedrig für unsere Fabrikenund all ihre Funktionen mußtengestoppt werden. 
-Wir kö‚nnennicht sagen, wann der Sturmsich legen wird.
+From: Head of Research.We Have Received A Very Strange Transmission.
+It Is Repeated At Regular Intervals But We Cannot Make Anything From It.
+The LanguageIs Certainly NOT Methanoid So It Must Be From Someone Else.
+Take A Look For Yourself... 
 
-Vom: Forschungsleiter.
-Der Sturm auf <SOLARSYSTEM> ist fast vorbei und alle Fabriken sind wieder betriebsbereit.
-Wir werden dieses Phänomen imDetail untersuchen, und Sieinformieren, wenn es nochmalsauftreten sollte.
+From: Head of Research.We Have Another Transmission For You....           
+From: Head of Research.We Have Observed A Very Strange Event On.
+It Seems To Be An Immense Storm On Its Surface Which Is Having Drastic Effects Upon The Star's Activity
+The Energy Output From The Star Is Now Too Low To Power Our Factories And All Functions Have Ground To A Halt.
+We Cannot Predict When It Will Subside. If Ever !
+From: Head of Research.The Storm On Has Almost Disappeared And All Factories Are Now Operational.
+We Shall Study This PhenomenonIn Detail And Inform You When It Is Likely To Occur Again.
 
-Vom: Forschungsleiter.
-Wir haben eine alte Bergbauhalde der Methanoiden auf <PLANET> gefunden!         
-Sie enthält 10.000 Tonnen <MATERIAL>.
-Es wurde nun zu den Bodenlagerräumen transferiert. 
+From: Head of Research. 
+We Have Found An Old Methanoid Mining Dump On   !
+It Holds 10000 tonnes of .
+This Has Now Been Transfered To The Surface Stores.
 
-Vom: Forschungsleiter.
-WARNUNG!
-Wir sind einem Meteoriten mit einer großen Masse auf der Spur, der direkt auf <PLANET> zukommt.
-Wir können die genaue Zeit bzwden Ort des Aufschlags nochnicht bestimmen, aber ich schlage vor, daß Sie die
-Fabrik verlassen Unverzüglich ...
+From: Head of Research.WARNING !
+We Are Tracking A Meteor Of Great Mass Heading Directly For  .
+At Present We Cannot Predict The Exact Time And Location Of Impact But I Suggest You Evacuate The Factory Immediately...
 
-Vom: Forschungsleiter.
-Der Meteorit hat die Fabrik in <STAR> zerstört! 
-Er ist aber nicht in dieOberfläche eingeschlagen und ist in eine größere Umlaufbahn eingetreten. 
-Wir verfolgen weiterhin seinen Kurs ...
+From: Head of Research.The Meteor Has Destoyed TheFactory At   !
+However, It Failed To ImpactOn The Surface And Has Veered Off Into A Larger Orbit.
+We Are Continuing To Track Its Course...            
 
-Vom: Forschungsleiter.
-Als <NAME> gefangen genommen wurde, fanden wir eine alte Blaupause in der Produktions-bibliothek.
-Damals schien dasunwichtig, und daher haben wirSie damit nicht belästigt.
-Nach Prüfung der Pläne zeigtesich aber, daß es eine Super-Waffe ist, gespeist durcheine Fusion, die eine ArtSchallimpulse freisetzt.
-Wir sind bereit, sie zuentwerfen ...
+From: Head of Research.
+When  Was Captured We Found An Old Blueprint InThe Production Library. 
+At The Time It Seemed Unimportant So We Did Not Disturb You.
+After Inspection The DrawingsSeem To Be For A Super Weapon,Powered By Fusion And ReleasesSome Kind Of Sonic Pulses.
+We Are Ready To Design It...
 
-Vom: Forschungsleiter.
-E U R E K A !Ich habe während dervergangenen Monate an einerkleinen Sache gearbeitet undbin nun endlich in derEntwurfsphase.
-Die Steuerungen werden inein Cockpit passen, und zwarebenso wie der AFC. 
-DieHardware muß jedoch an denCSDF angeschlossen werden.Ich bin ja so schlau!
+From: Head of Research.
+E U R E K A !
+I've Been Working On A Little Something For Last Few Months And Have Finally Reached The Design Stage.
+The Controls Will Fit Into A Cockpit In The Same Fashion As The A.C.C. While The Hardware Must Be Attached To The D.F.C.C.
+I'm So Clever !
 
-guten tag, menschen.wir überwachen alle eure meldungen und versuchen, eure sprache zu verstehen.
-diese meldung wird wiederholt,bis wir in der lage sind,fließend zu kommunizieren.
-es gibt da ein ganz wichtigesthema, das wir mit euch besprechen müssen.
+greetings human.
+we are monitoring all of your transmissions in an attempt to understand your language.
+this message shall be repeated until we are able to communicate fluently.
+there is a subject of great importance we must discuss with you.
 
-nochmals guten tag, menschen.erlaubt uns, uns vorzustellen.wir sind eine friedliche rasse,ähnlich eurer, aus einer rund700.000 parallelsekunden entfernten galaxie. 
-wir haben mit einer rasse ineurer galaxie kontakt geknüpftund beobachten, daß ihr beideeuch bekriegt. das war zuerwarten.
- wir finden sie auchunehrenhaft. wir müssen aberganz sicher sein, bevor wirEUCH unser VERTRAUEN schenken.           
- KONTAKT folgt nach abschlußder beobachtungen.
- GRÜSSE, FREUND.Wir GLAUBEN, wir KÖNNEN EUCHVERTRAUEN UND BITTEN UM HILFE FÜR EIN Projekt, DAS UNSBEIDEN NÜTZT.          
- VOR vielen STERNEN haben WIR den METhanoIDEN EIN MäCHTIGES UND BedeUTEndES GEschENK gegeben.          
- SIE NAHMEN es AUSEinandeR, UM DIE TECHnoloGie zu verstehen,EIN GROSSER FEHLeR.
- UNSERE SCANNER sagen UNS, DASS die Segmente auf 8 STERNEN in Eurer GALAXIE verteilt sind.wir sagen Euch WO genau,sobald wir sie ENTdecken.
- GRÜSSE, FREUND.                
- Wir haben die Bestätigung vonunseren Scannern, daß einSegment unseres Apparates aufeiner Umlaufbahn um <PLANET> ist.
- Bitte versuchen Sie, dasSegment zurückzuholen undlassen Sie es in irgendeinerIhrer Fabriken.          
- Viel Glück.
- 
- GRATULIERE, FREUND.            IHR HABT JETZT ALLE SEGMENTEUNSERES SENDER/EMPFäNGERS.WENN IHR IHN VERWENDEN WOLLT,BEFOLGT DIESE ANWEISUNGEN.
- 1: BAUT DEN SENDER/EMPFäNGER   IN IRGENDEINER EURER   FABRIKEN.
- 2: BAUT IHN IN DAS STERNSCHIFF   IN EURER FLOTTE EIN.
- 3: AKTIVIERT DEN RUMPF, DER   DEN SENDER/EMPFäNGER TRäGT.WIR MACHEN DEN REST 
- ...AUF BALD, MENSCH !
+greetings once again, human.
+allow us to introduce ourselves.
+we are a peaceful race, similar to yourselves from a galaxy some 700000 parsecs distant.
+we have already made contact with a race in your galaxy and observe that you are both at war.
+this is to be expected. we too have found them to be dishonourable.
+this time we must be certain before placing our TRUST in YOU.
+CONTACT will follow when observations are complete.
 
-trackdisk.device
+GREETINGS, FRIEND.we BELIEVE we CAN TRUST YOU ANDREQUEST your ASSISTANCE IN Aproject TO OUR MUTUAL BENEFIT.
+MANY land AGO, WE transmuted A gift TO the METHANOIDS. A GIFT OF great POWER AND imPORTANce.
+SADLY, THEY DISASSEMBLEd it IN AN ATTEMPT to understand THE TECHnologY, A GRAVE MISTaKE.
+OUR SCANNERS tell US THAT THE segments ARE SCATTERED amomg 8 STARS in your GALAXY.
+we shall INFORM you of their exact LOCATION as we DETEct them.
 
+GREETINGS, FRIEND.                
+we have confirmation from our scanners that one segment of our apparatus is lying in orbit around  .
+please attempt to recover thesegment and return it to anyof your factories.
+good luck.
 
+OUR COMPLIMENTS, FRIEND.
+YOU NOW HAVE ALL SEGMENTS OFOUR TRANSMITTER.
+IF YOU WISH TO USE IT PLEASEFOLLOW THESE INSTRUCTIONS.
+1: CONSTRUCT THE TRANSMITTER IN ANY OF YOUR FACTORIES. 
+2: FIT THIS TO ANY STARSHIP IN YOUR FLEET.
+3: ACTIVATE THE POD HOLDING THE TRANSMITTER.WE WILL DO THE REST
+...SEE YOU SOON, HUMAN !
 
-Welcome, Terran, To Our Humble Station. We  See That You Have   Cargo AboardYour Mighty Ship. No  Cargo AboardYour Mighty Ship. Some Cargo AboardYour Mighty Ship. Would You Allow UsTo Trade Your CargoFor Some Of Our Stocks ?   Very Well.    Our Pleasure, Sir.We Shall Give You  For Your   And  For Your   .   Forgive Us, But We Must Move  Your Ship From TheDock As We Are Very Busy At The Moment.  Thank YouFor Your Visit.    That's Far Enough,  Earthling !You Have Become Too Strong  For Your OwnGood. THIS  MEANS  WAR !   Barga San 'Grapple' TakFreze Gifta Pag Vill ! Gifta Tak Grapple !!! Listen  Well, Terran.I Risk My Life Giving You This Information.You Are Being Deceived!   My People Have Developed A New LaserAnd Are, As We Speak, Preparing For War.. Take This Prototype And Be Gone.     Quickly... Come On.I Dont Have All Day.     Bienvenue, Terrien, dans notre modeste station.  Nous  voyons que vousavez   du fretdans votre vaisseau.  aucun fret dansvotre vaisseau.  un peu de fretdans votre vaisseau. Nous permettez vousd'}changer votrefret contre unepart de nos  stocks?   Tr}s bien.    Je vous en prie.Nous vous donnerons   pour votre   et  pour votre   .   Excusez nous, mais nousdevons  d}placer  votrenavire de ce dock carnous sommes tr}soccup}  en ce moment.     C'en est trop,  Humains !Vous devenez trop puissants  pour votrepropre bien. CELA  SIGNIFIE  LA GUERRE !   Barga San 'Grappin' TakFreze Gifta Pag Vill ! Gifta Tak Grappin !!! Ecoutez  moi bien.  Je risque ma vie pourvous  donner ce renseignement.On vous trompe totalement!   Mon Peuple a developp} un Laseret est, maintenant, pr~t { faire la guerre.. Prenez ce prototype et partez.     Vite... Allez-y.Je n'ai pas beaucoupde temps.     Willkommen aufunserem bescheidenenRaumschiff. Wir  sehen daß Sie  Frachthaben. keine Frachthaben. eine kleine Frachthaben. Erlauben Sie uns,Ihren Fracht gegen einen Teil unseres  Lagerbestan-des einzutauschen?   Sehr gut.    Bitte, mit Vergnügen.Wir werden  für Ihr   und  für Ihr  geben  .   Entschuldigen Sie, aberwir müssen  Ihr Schiffvondiesem Dock wegbringen,da wir im Moment sehr beshäftig sind.      Das ist zuviel,  Mensch !Sie werden zumächtig für ihr  eigenes Wohl. DAS  BEDEUTET  KRIEG !   Barga San 'Greifer' TakFreze Gifta Pag Vill ! Gifta Tak Greifer !!! Hö‚ren sie  mir gut zu.Ich setze meinLeben diese  Auskunftauf's Spiel.Sie werden getäusht!   Mein Volk hat einen neuen A Laserentwickelt und ist nun bereit,  Krieg zu führen... Nehmen Sie diesesMuster und  gehen Sie. Schnell...  Los jetzt. Ich habe nicht viel Zeit.
+Origin: 	Unknown.
+Composition: 	Unknown.
+Function: 	Unknown.
+Mountings:	Suitable For Tool Pod.
 
-Head of Research.We've made some preliminarydesigns for an InterplanetaryOperations Spacecraft (IOS).  Unfortunately, it has quite alarge chassis and will not becapable of landing on any moonor planet.          We have also started to designattachments for the IOS. Thesewill follow when the chassishas been fully designed. From: Head of Research.As promised, we now have somebasic designs for IOS tools.             I should warn you that a fewof these items may requirerare materials and apologiseif this causes problems.           From: Head of Research.This Methanoid Laser you gaveus is virtually useless...   There is absolutely no way wecan fit it to our IOS !                 We will have to use an adaptedchassis and build the laser into it. These 'DRONE' ships canbe controlled via a computerfitted to a standard IOS.However, this computer willoccupy all the ship's cargospace...! From: Head of Research.These Methanoids are morecunning than we thought...Their factories are fittedwith self-destruct mechanisms.           Give us the time and we willtry to emulate their system.            There should be an on-off switch somewhere....    From: Head of Research.The Methanoids are too cleverfor comfort...              Their storerooms are fittedwith what appears to be aMatter Transmitter/Receiver.  I assume that it requires atarget transmitter with whichto communicate.              It's mechanism is beyond mycomprehension but we CAN copyit....         From: Head of Research.We are certain that there areno Methanoid colonies left inthe Solar System although afew warships may remain...            We have discovered a designfor a Star Class Galleon (SCG)in the Methanoid productionrecords !!!            If they have built starshipsthen this is not the lastwe shall see of them..... From: Head of Research.We have designed an adaptationof the Galleon chassis for useas a battle drone.            This is more powerful than theIOS Drone and is capable ofinterstellar flight...         From: Head of Research.Fascinating....               I've been taking a closer lookat the Star Drive design and Iam certain, with a little moreresearch, it could be made toexceed light speed.           It should be quite simple. Nochanges to the drive will beneeded. I am convinced that theMethanoids already have thiscapability..... From: Head of Research.This Helium fuel mixture ishot stuff !       Using a controlled ignition ofsome fuel, we could direct theresulting energy through aplatinum tube. This would fuseanything in its path !!       The only drawback is that theexplosion will also destroythe laser and its carrier... From: Head of Research.Dont't Worry, Chief.These Methanoids Can't ScareUs !       I've Come Up With An Idea ToDefend Ourselves But You'llHave To Give Us The Time ToDevelop It.       We Can Build Small DRONE ShipsAnd Control Them As A BattleFleet Via A Computer MountedOn An I.O.S. Chassis.However, This Computer WillOccupy All The Ship's CargoSpace...! From: Head of Research.We've Tried Our Best To Find ASolution To Your Rogue Ship.  All We've Come Up With Is ALockable Cryo Pod. Once ThePirate Crew Is Inside There IsNo Way They Can Escape.       Although, I Have No Idea HowYou Will Persuade Them Into It.                 Traitors !            From: Head of Research.M U T I N Y   !                                 One Of Our Warlords Has StolenA Starship And, As Far As WeCan Tell, Is Taking It To OurEnemies !                He Has Disconnected All RemoteControl Circuits And RefusesTo Respond To Orders.We Do Not Know His IntentionsBut They Can't Be Good.      Can They ?           From: Head of Research.We Have Received A VeryStrange Transmission.It Is Repeated At RegularIntervals But We Cannot MakeAnything From It. The LanguageIs Certainly NOT Methanoid SoIt Must Be From Someone Else.             Take A Look For Yourself... From: Head of Research.We Have Another TransmissionFor You....           From: Head of Research.We Have Observed A Very StrangeEvent On  .               It Seems To Be An Immense StormOn Its Surface Which Is HavingDrastic Effects Upon The Star'sActivity.           The Energy Output From The StarIs Now Too Low To Power OurFactories And All FunctionsHave Ground To A Halt.We Cannot Predict When It WillSubside. If Ever ! From: Head of Research.The Storm On   HasAlmost Disappeared And AllFactories Are Now Operational.             We Shall Study This PhenomenonIn Detail And Inform You WhenIt Is Likely To Occur Again.            From: Head of Research.We Have Found An Old MethanoidMining Dump On   !         It Holds 10000 tonnes of .        This Has Now Been TransferedTo The Surface Stores.    From: Head of Research.WARNING !           We Are Tracking A Meteor OfGreat Mass Heading DirectlyFor  .        At Present We Cannot PredictThe Exact Time And LocationOf Impact But I Suggest YouEvacuate The FactoryImmediately...            From: Head of Research.The Meteor Has Destoyed TheFactory At   !             However, It Failed To ImpactOn The Surface And Has VeeredOff Into A Larger Orbit.    We Are Continuing To Track ItsCourse...            From: Head of Research.When   Was CapturedWe Found An Old Blueprint InThe Production Library. At TheTime It Seemed Unimportant SoWe Did Not Disturb You.          After Inspection The DrawingsSeem To Be For A Super Weapon,Powered By Fusion And ReleasesSome Kind Of Sonic Pulses.         We Are Ready To Design It... From: Head of Research.E U R E K A !         I've Been Working On A LittleSomething For Last Few MonthsAnd Have Finally Reached TheDesign Stage.      The Controls Will Fit IntoA Cockpit In The Same FashionAs The A.C.C. While TheHardware Must Be Attached ToThe D.F.C.C.                I'm So Clever !           greetings human.we are monitoring all of yourtransmissions in an attempt tounderstand your languagethis message shall be repeateduntil we are able to communicatefluentlythere is a subject of greatimportance we must discusswith you   greetings once again, human.allow us to introduce ourselves.we are a peaceful race, similarto yourselves from a galaxysome 700000 parsecs distant.              we have already made contactwith a race in your galaxy andobserve that you are both atwar. this is to be expected.we too have found them to bedishonourable. this time wemust be certain before placingour TRUST in YOU.           CONTACT will follow whenobservations are complete.   GREETINGS, FRIEND.we BELIEVE we CAN TRUST YOU ANDREQUEST your ASSISTANCE IN Aproject TO OUR MUTUAL BENEFIT.              MANY land AGO, WE transmuted Agift TO the METHANOIDS. A GIFTOF great POWER AND imPORTANce.            SADLY, THEY DISASSEMBLEd it INAN ATTEMPT to understand THETECHnologY, A GRAVE MISTaKE.OUR SCANNERS tell US THAT THEsegments ARE SCATTERED amomg 8STARS in your GALAXY. we shallINFORM you of their exactLOCATION as we DETEct them.   GREETINGS, FRIEND.                we have confirmation from ourscanners that one segment ofour apparatus islying in orbit around  .          please attempt to recover thesegment and return it to anyof your factories.          good luck.   OUR COMPLIMENTS, FRIEND.            YOU NOW HAVE ALL SEGMENTS OFOUR TRANSMITTER.    IF YOU WISH TO USE IT PLEASEFOLLOW THESE INSTRUCTIONS.  1: CONSTRUCT THE TRANSMITTER   IN ANY OF YOUR FACTORIES. 2: FIT THIS TO ANY STARSHIP   IN YOUR FLEET.3: ACTIVATE THE POD HOLDING   THE TRANSMITTER.WE WILL DO THE REST...SEE YOU SOON, HUMAN !
+Origine: 	inconnue 
+Composition: 	inconnue
+Fonction:	inconnue
+Batis: 		adapt}s{ nacelle { outils 
 
-Origin: Unknown.
-Composition: Unknown.
-Function: Unknown.
-Mountings SuitableFor Tool Pod.
+Ursprung: 	Unbekannt
+Zusammensetzug: Unbekannt
+Funktion: 	Unbekannt
+Montage: 	passend für Werkzeug-Rumpf
 
-Origine: inconnue
-Composition: inconnue
-Fonction: inconnueBatis adapt}s{ nacelle { outils 
+Fully Automated Ore Recovery AndRefining Unit.Can Adapt To AllKnown Elements.Semi-portable To Allow Location On Any Mining Site.
+Unit} automatiquede r}cup}ration etde raffinage deminerai.Adaptable { tous}l}ments connus.Semi-portablepour implantationsur tout site minier. 
+Vollautomatische Metallgewinnungs und Verfeinerungseinheit.Kann für alle unbekannten Teile angepaßt werden.Semi-portabel, für Aufstellung an jedem Abbauort.
 
-Ursprg Unbekannt
-Zsetzg Unbekannt
-Funkt Unbekannt
-Montage passendfür Werkz-Rump
+Surface To Orbit Workhorse.Pod Mounting Allows Maximum Of 250t Payload.
+Transport lourd surface-orbite.Nacelle permettantcharge utile maximalede 250 t.
+Schwertransport Boden-Weltraum.Rumpf-Montage erlaubt maximal250 t Nutzlast.
 
-Fully Automated Ore Recovery AndRefining Unit.Can Adapt To AllKnown Elements.Semi-portable ToAllow Location OnAny Mining Site. Unit} automatiquede r}cup}ration etde raffinage deminerai.Adaptable { tous}l}ments connus.Semi-portablepour implantationsur tout site minier. VollautomatischeMetallgewinn undVerfein.einheit.Kann für alleunbekannt Teileangepaßt werden.Semi-portabel, fAufstellg anjedem Abbauort.
+Short Burst DriveUnit.Requires HydrogenMethanol Fuel.
+Propulseurcourte dur}e,N}cessitecarburant:Hydrog|ne M}thanol 
+Triebwerkseinhfür kurzen Schub.Braucht Wasser-stoff-Methan-Treibstoff.
 
-Surface To OrbitWorkhorse.Pod Mounting AllowsMaximum Of 250tPayload.
- Transport lourdsurface-orbite.Nacelle permettantcharge utile maximalede 250 t SchwertransportBoden-Weltraum.Rumpf-Montageerlaubt maximal250 t Nutzlast.
+Partial Framework For Construction Of Orbital Factory.Computer Control Handles Positioning Sequence To Ensure Correct Locking Of The 8 Sections.
+Structure partiellepour constructiond'usine orbitaleContrle num}rique de las}quence de positionnementpour assurer leverrouillagecorrect des8 sections.
+Teilelement für Bau einer Weltraumfabrik Computer-Steuerung positioniert automatisch, um Verriegelung der 8 Sektionen sicherzustellen.
 
-Short Burst DriveUnit.Requires HydrogenMethanol Fuel. Propulseurcourte dur}e,N}cessitecarburant:Hydrog|ne M}thanol Triebwerkseinhfür kurzen Schub.Braucht Wasser-stoff-Methan-Treibstoff.
+For All Material Haulage.Standard FittingFor Use On Shuttle.Unit Has A SingleCavity So May OnlyHold One Type OfMaterial. Transporttoutes mati|resFixation standardpour nacelle.Cavit} uniquene pouvantcontenir qu'untype de mati|re. Beförderung aller Materialien.Standardanpassung für Verwendung auf Schiff.Einheit nur ein Hohlraum, somit nur eine Art von Material befördert
 
-Partial FrameworkFor ConstructionOf Orbital Factory.Computer ControlHandles PositioningSequence To EnsureCorrect Locking OfThe 8 Sections. Structure partiellepour constructiond'usine orbitaleContrle num}rique de las}quence de positionnementpour assurer leverrouillagecorrect des8 sections. Teilelement fürBau einerWeltraumfabrikComputer-Steuergpositioniertautomatisch, umVerriegelungder 8 Sektionensicherzustellen.
+For Haulage And Mounting Of Tools Or Equipment.Mounting Is Linked To Ship's Cockpit Allowing The CrewTo Control Any Item Carried.
+Transport etmontage d'outilsou de mat}riel.Bati reli} aucockpit du vaisseaupermet { l'}quipagede contrler lesarticles transport}s. 
+Befö‚rderung und Montg von Werkz oder Ausrüstung.Mit Cockpit verbunden.Crew kann mitge-führte Teilekontrollieren.
 
-For All MaterialHaulage.Standard FittingFor Use On Shuttle.Unit Has A SingleCavity So May OnlyHold One Type OfMaterial. Transporttoutes mati|resFixation standardpour nacelle.Cavit} uniquene pouvantcontenir qu'untype de mati|re. Befö‚rderg allerMaterialien.Standardanpassgfür Verwendungauf Schiff.Einheit nur einHohlraum, somitnur eine Art vonMaterial befö‚rd.
+For Haulage Of Teams.Personnel Are Held In Stasis While Inside The Pod.This Also ProtectsIts Occupants From Disease And Aging.
+Transportd'}quipes.Personnel maintenuen stasedans la nacelle.Prot|ge aussiles occupantsdes maladieset du vieillissement
+Befö‚rderung von Teams.Personal wird eingefroren, wenn im Rumpf. Schützt Insassen vor Tod und Alterung.
 
-For Haulage AndMounting Of ToolsOr Equipment.Mounting Is LinkedTo Ship's CockpitAllowing The CrewTo Control Any ItemCarried. Transport etmontage d'outilsou de mat}riel.Bati reli} aucockpit du vaisseaupermet { l'}quipagede contrler lesarticles transport}s. Befö‚rderung undMontg von Werkzoder Ausrüstung.Mit Cockpitverbunden.Crew kann mitge-führte Teilekontrollieren.
+Highly Destructive Pulse Weapon.Requires At Least3 Chassis MountsFor CorrectOperation. Arme { impulsionstr|s destructrice.N}cessite au moins3 batis de chassispour fonctionnercorrectement. HochdestruktiveImpulswaffe.Erfordert mind.3 mont. Chassisfür korrekten Betrieb.
+Interplanetary Operations Spacecraft.3 Pod Mountings AllowMaximum Of 750tPayload. Vaisseaud'op}rationsinterplan}taires.3 batis de nacellepermettent unecharge utile de 750 t Interplanetares OperationsSchiff.3 mont. Rümpfe erlauben max.750 t Nutzlast.
 
-For Haulage OfTeams.Personnel Are HeldIn Stasis WhileInside The Pod.This Also ProtectsIts Occupants FromDisease And Aging. Transportd'}quipes.Personnel maintenuen stasedans la nacelle.Prot|ge aussiles occupantsdes maladieset du vieillissement  Befö‚rderung vonTeams.Personal wirdeingefroren,wenn im Rumpf.Schützt Insassenvor Tod und Alterung.
+Long Duration Drive Unit.Requires Hydrogen Methanol Fuel.
+Propulseur longuedur}e.Utilise carburantHydrog|ne m}thanol
+Triebwerk mitLangzeitschubmit Wasserstf-Methan-Treibstf
 
-Highly DestructivePulse Weapon.Requires At Least3 Chassis MountsFor CorrectOperation. Arme { impulsionstr|s destructrice.N}cessite au moins3 batis de chassispour fonctionnercorrectement. HochdestruktiveImpulswaffe.Erfordert mind.3 mont. Chassisfür korrektenBetrieb.
+Star Class Galleon.Methanoid Origin.6 Pod Mountings AllowMaximum Of 1500tPayload.
+Vaisseau Classe StellaireOrigine m}thanoide.6 batis de nacellepermettent une chargeutile de 1500 t
+Stellares Raum-schiff.Methanoid-Modell6 mont. Rümpfe erlauben max 1500 t Nutzlast.
 
-InterplanetaryOperationsSpacecraft.3 Pod Mountings AllowMaximum Of 750tPayload. Vaisseaud'op}rationsinterplan}taires.3 batis de nacellepermettent unecharge utile de 750 t InterplanetaresOperationsSchiff.3 mont. Rümpfeerlauben max.750 t Nutzlast.
+Fusion Drive UnitFor Inerstellar Travel.Methanoid Origin.Requires Helium Deuterium Fuel.
+Propulseur { fusionpour voyagesinterstellaires.Origine m}thanoide.Utilise du carburant
+Helium Deuterium Fusionstriebwerkfür Interstellar Reisen.Methanoid-Modell mit Helium-Deu-terium-Treibstf
 
-Long Duration DriveUnit.Requires HydrogenMethanol Fuel. Propulseur longuedur}e.Utilise carburantHydrog|ne m}thanol Triebwerk mitLangzeitschubmit Wasserstf-Methan-Treibstf
+±bFit And Forget !Allows Programming Of Shuttles And IOS For Automated Stock Haulage.Settings AvailableFor 'Balancing' Stocks Between Destinations.Cockpit Mounted.
+Permet la programmationde navettes et de VOIpour transportautomatique de stock.R}glages disponiblespour r}partition de stocksentre destinations.Mont} dans le cockpit. 
+Nur einbauen!Programmierung der Raumschiffef. automatischen Transport.Kann autom.Lagerbestände zweier Orte ausgleichen.Cockpit-Montage.
 
-Star Class Galleon.Methanoid Origin.6 Pod Mountings AllowMaximum Of 1500tPayload. Vaisseau Classe StellaireOrigine m}thanoide.6 batis de nacellepermettent une chargeutile de 1500 t Stellares Raum-schiff.Methanoid-Modell6 mont. Rümpfeerlauben max1500 t Nutzlast.
+Automates Production Processes, Removing The Need For Artisans.May Be Programmed For 'One-Off' Or Repetitive Production.
+Automatise les processusde production, plus besoind'artisans.Peut ~tre programm}pour production { l'unit}ou { la chane. 
+Autom Produkt.prozesse, keine Arbeiter mehr erfoderlich.Kann auf Einmal oder Produktions-wiederholungprogramm werden.
 
-Fusion Drive UnitFor InerstellarTravel.Methanoid Origin.Requires HeliumDeuterium Fuel. Propulseur { fusionpour voyagesinterstellaires.Origine m}thanoide.Utilise du carburantH}lium Deuterium Fusionstriebwerkfür InterstellarReisen.Methanoid-Modellmit Helium-Deu-terium-Treibstf
+For The Repair OfAbandoned Or Derelict Surface Stations.Shuttle Bay Must Still Be Operative!Must Be Pod Mounted.
+Pour r}paration destations de surfaceabandonn}es.La soute { navettedoit ~tre en }tat !Mont} sur nacelle.
+Für Reparat von verlassenen oder herrenlosen Bodenstationen.Schiffs-Hangar muß noch betriebsfähig sein. Wird auf Rumpf montiert.
 
- ±bFit And Forget !Allows ProgrammingOf Shuttles And IOSFor Automated StockHaulage.Settings AvailableFor 'Balancing' StocksBetween Destinations.Cockpit Mounted. Permet la programmationde navettes et de VOIpour transportautomatique de stock.R}glages disponiblespour r}partition de stocksentre destinations.Mont} dans le cockpit. Nur einbauen!Programmierungder Raumschiffef. automatischenTransport.Kann autom.Lagerbestände zweierOrte ausgleichenCockpit-Montage.
-
-Automates ProductionProcesses, RemovingThe Need For Artisans.May Be ProgrammedFor 'One-Off' OrRepetitive Production. Automatise les processusde production, plus besoind'artisans.Peut ~tre programm}pour production { l'unit}ou { la chane. Autom Produkt.prozesse, keineArbeiter mehrerfoderlich.Kann auf Einmalod Produktions-wiederholungprogramm werden.
-
-For The Repair OfAbandoned Or DerelictSurface Stations.Shuttle Bay MustStill Be Operative!Must Be Pod Mounted. Pour r}paration destations de surfaceabandonn}es.La soute { navettedoit ~tre en }tat !Mont} sur nacelle. Für Reparat vonverlassenen oderherrenlosenBodenstationen.Schiffs-Hangarmuß noch betriebsfähig sein. Wirdauf Rumpf montiert.
-
-Methanoid Origin.Activated By ThrowingRespective Levers OnReactor And CoolingSystem. Origine m}thanoideActiv}e au moyende leviers sur lessyst|mes r}acteuret refroidissement.
+Methanoid Origin.Activated By Throwing Respective Levers On Reactor And Cooling System.
+Origine m}thanoideActiv}e au moyende leviers sur lessyst|mes r}acteuret refroidissement.
 Methanoid.ModellMit Hebeln an Reaktor und Kühlsystem zu aktivieren.
 
-For Retrieving Small Objects Of Up To 250t Mass.Must Be Pod Mounted. Pour r}cup}ration depetits objets demoins de 250 t.Mont} sur nacelle. Zum Einladenkleiner Gegenständebis zu 250 t.Wird auf Rumpfmontiert.
+For Retrieving Small Objects Of Up To 250t Mass.Must Be Pod Mounted.
+Pour r}cup}ration depetits objets demoins de 250 t.Mont} sur nacelle. 
+Zum Einladenkleiner Gegenständebis zu 250 t.Wird auf Rumpf montiert.
 
-Carried By FleetFlagship. ControlsFuel And DroneDispersal.Automatic SwitchTo Combat ModeWhen Alien FleetDetected. Transport} par le vaisseauamiral de la flotte.Commande la dispersiondu carburant etdes drones.Commutationautomatiqueen mode combatlors de d}tectionde flotte }trang|re. Im Stabsschiffmontiert. Steuert Treib-stoffvers. undDrohneneinsatz.Autom Umschaltauf Kampfmodus,wenn feindlicheFlotte erkannt.
+Carried By Fleet Flagship. Controls Fuel And Drone Dispersal. Automatic Switch To Combat Mode When Alien Fleet Detected.
+Transport} par le vaisseauamiral de la flotte.Commande la dispersiondu carburant etdes drones.Commutation automatique en mode combatlors de d}tectionde flotte }trang|re.
+Im Stabsschiff montiert. Steuert Treib-stoffvers. und Drohneneinsatz. Autom Umschaltung auf Kampfmodus,wenn feindliche Flotte erkannt.
 
-For Surface MiningOf Large Asteroids.Process RequiresAccess To An EmptySupply Pod.May Be A.C.C.Controlled ! Exploitation en surfacede gros ast}roides.Le processus exigel'acc|s { unenacelle vide.Peut ~tre command}par CCF ! Für Tagebau aufgroßen AsteroidErfordert leerenFrachtrumpf Kann AFC-gesteuert sein!
+For Surface Mining Of Large Asteroids.Process Requires Access To An Empty Supply Pod. May Be A.C.C.Controlled !
+Exploitation en surfacede gros ast}roides.Le processus exigel'acc|s { unenacelle vide.Peut ~tre command}par CCF !
+Für Tagebau aufgroßen Asteroid Erfordert leeren Frachtrumpf Kann AFC-gesteuert sein!
 
-Methanoid Origin.Allows TransmissonOf Inanimate ObjectsTo Any Receiver.Technical AnalysisNot Understood. Origine m}thanoidePermet la transmissiond'objets inanim}s{ tout destinataire.Analyse techniqueincomprise. Methanoid-ModellErmö‚glicht über-tragg unbelebterObjekte an beliebige Empfänger.Techn Analysenicht verstanden
+Methanoid Origin.Allows Transmisson Of Inanimate Objects To Any Receiver.Technical Analysis Not Understood.
+Origine m}thanoidePermet la transmissiond'objets inanim}s{ tout destinataire.Analyse techniqueincomprise.
+Methanoid-Modell. Ermöglicht übertragung unbelebter Objekte an beliebige Empfänger.Technische Analyse nicht verstanden.
 
-Partial FrameworkFor ConstructionOf Surface Station.Computer ControlHandles PositioningSequence To EnsureCorrect Locking OfThe 2 Sections. Structure partiellepour constructiond'une station de surface.Contrle num}rique de las}quence de positionnementpour assurer leverrouillagecorrect des2 sections. Teilelement fürden Bau einerBodenstation.Computer steuertPositionierung,um die korrekteVerriegelungder 2 Abschnittesicherzustellen.
+Partial Framework For Construction Of Surface Station.Computer Control Handles Positioning Sequence To Ensure Correct Locking Of The 2 Sections.
+Structure partiellepour constructiond'une station de surface.Contrle num}rique de las}quence de positionnementpour assurer leverrouillagecorrect des2 sections.
+Teilelement fürden Bau einerBodenstation.Computer steuert Positionierung,um die korrekte Verriegelungder 2 Abschnitte sicherzustellen.
 
-Fires A Torpedo LoadedWith 100t Of Fuel FromThe Host Ship Tanks.Detonation Is TriggeredWhen The PredictedOutcome IsPrejudiced AgainstEnemy Drones.Cockpit Mounted. Tire une torpille charg}ede 100 t de carburantdes r}servoirs du vaisseauhte.D}tonation d}clench}elorsque le r}sultatpr}vu estd}favorable auxdrones ennemis.Mont} dans le cockpit. Feuert einen mit100 t Treibstoffbelad. Torpedo abDetonation wirdzur BeschädigungfeindlicherDrohnenausgelö‚st.Cockpit-Montage.
+Fires A Torpedo Loaded With 100t Of Fuel From The Host Ship Tanks. Detonation Is Triggered When The Predicted Outcome Is Prejudiced Against Enemy Drones.Cockpit Mounted.
+Tire une torpille charg}ede 100 t de carburantdes r}servoirs du vaisseauhte.D}tonation d}clench}elorsque le r}sultatpr}vu estd}favorable auxdrones ennemis.Mont} dans le cockpit. 
+Feuert einen mit 100 t Treibstoff belad. Torpedo ab Detonation wird zur Beschädigung feindlicher Drohnen ausgelößst.Cockpit-Montage.
 
-Methanoid Origin.Translates VerbalCommunication IntoHUD Text.Technical AnalysisAlso RevealsHolographic ImageProcessing. Origine m}thanoide.Traduit les communicationsvocales en texteaffich} sur Ecran.L'analyse techniquer}v|le }galementle traitement desimages holographiques. Methanoid-Modellübersetzt gespr.Kommunikation inText für Gesichtfeldanzeige.TechAnalyse zeigt auch VerarbeitngholographischerBilder.
+Methanoid Origin.Translates Verbal Communication Into HUD Text.Technical Analysis Also Reveals Holographic Image Processing. 
+Origine m}thanoide.Traduit les communicationsvocales en texteaffich} sur Ecran.L'analyse techniquer}v|le }galementle traitement desimages holographiques. Methanoid-Modellübersetzt gespr.Kommunikation in Text für Gesichtfeldanzeige.Tech Analyse zeigt auch Verarbeitung holographischer Bilder.
 
-Special ChassisIncorporating OneFusion Laser.Flight ControlledVia Flagship DroneComputer. Chassis sp}cialcomprenant unlaser { fusion.Command} en volpar calculateurcontrole dronedu vaisseau amiral. Spezial-ChassisEnthält einenFusions-Laser.Fluggesteuertüber Drohnen-Computer imStabsschiff.
+Special Chassis Incorporating One Fusion Laser.Flight Controlled Via Flagship Drone Computer.
+Chassis sp}cialcomprenant unlaser { fusion.Command} en volpar calculateurcontrole dronedu vaisseau amiral. 
+Spezial-Chassis Enthält einen Fusions-Laser.Fluggesteuertüber Drohnen-Computer im Stabsschiff.
 
-Special ChassisIncorporating TwoFusion Lasers.More Powerful VersionOf The IOS DroneAnd Capable Of Inter-Stellar Travel.Flight ControlledVia Flagship DroneComputer. Chassis sp}cialcomprenant deuxlasers { fusion.Version la plus puissantedu drone VOIet capable de volinterstellaire.Command} en volpar calculateur controledrone du vaisseau amiral. Spezial-ChassisEnthält zweiFusions-Laser.Stärkere Versionder IOS-Drohne,intstell Reisenmö‚glich.Fluggesteuert dDrohnen-Computerim Stabsschiff.
+Special Chassis Incorporating Two Fusion Lasers.More Powerful VersionOf The IOS DroneAnd Capable Of Inter-Stellar Travel.Flight Controlled Via Flagship DroneComputer. Chassis sp}cialcomprenant deuxlasers { fusion.Version la plus puissantedu drone VOIet capable de volinterstellaire.Command} en volpar calculateur controledrone du vaisseau amiral. 
+Spezial-Chassis Enthält zwei Fusions-Laser.Stärkere Version der IOS-Drohne,intstell Reisenmö‚glich.Fluggesteuert d Drohnen-Computer im Stabsschiff.
 
-Specialised CryoPod.Once Crew Is InsidePod May Be 'Locked'To Prevent EscapeOf Occupants.This Must Be MountedOn A Tool Pod ! Nacelle cryosp}cialis}e.Une fois l'}quipage{ l'int}rieur, lanacelle peut ~treverrouill}e pouremp~cher l'}vasiondes occupants.Doit ~tre mont}e sur unenacelle { outils. Spezial-Tiefst-temperaturrumpf.Wenn Crew imRumpf, Verrie-gelung, um Entkommen zuvermeiden.Montage auf Werkz-Rumpf!
+Specialised Cryo Pod.Once Crew Is Inside Pod May Be 'Locked' To Prevent Escape Of Occupants.This Must Be Mounted On A Tool Pod !
+Nacelle cryosp}cialis}e.Une fois l'}quipage{ l'int}rieur, lanacelle peut ~treverrouill}e pouremp~cher l'}vasiondes occupants.Doit ~tre mont}e sur unenacelle { outils. 
+Spezial-Tiefst-temperaturrumpf.Wenn Crew im Rumpf, Verrie-gelung, um Entkommen zuvermeiden.Montage auf Werkz-Rumpf!
 
-Methanoid Origin.Fusion Powered Unit.Emits Sonic PulsesAt Preset IntervalsAnd Frequencies.Power Adjuster Fitted.
-Origine m}thanoide.Unit} { fusion.Emet des impulsionssoniques {intervalles etfr}quencespr}r}gl}es.Dot} d'un r}glagede puissance Methanoid.ModellDurch Kernfusiongespeist.Sendet Schall-impulse inbestimmtenFrequenzen aus.Mit Leistungs-anpassung.
+Methanoid Origin.Fusion Powered Unit.Emits Sonic Pulses At Preset Intervals And Frequencies.Power Adjuster Fitted.
+Origine m}thanoide.Unit} { fusion.Emet des impulsionssoniques {intervalles etfr}quencespr}r}gl}es.Dot} d'un r}glagede puissance Methanoid.
+Modell Durch Kernfusion gespeist.Sendet Schall-impulse in bestimmten Frequenzen aus.Mit Leistungs-anpassung.
 
-
-trackdisk.device
-Earth City Captured.You Are Defeated.
-
+Earth City Captured.
+You Are Defeated.
 VICTORY END COMPLETE DEUTEROS DEUTEROS DEUTEROS
