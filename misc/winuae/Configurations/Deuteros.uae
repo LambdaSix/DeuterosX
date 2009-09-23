@@ -47,12 +47,12 @@ win32.filesystem_codepage=0
 ; common
 use_gui=yes
 use_debugger=false
-kickstart_rom_file=C:\Users\mkuntic\Documents\Programs\WinUAE\kick13.rom
+kickstart_rom_file=kick13.rom
 kickstart_ext_rom_file=
 flash_file=
 cart_file=
 kickshifter=false
-floppy0=C:\Users\mkuntic\Documents\Programs\WinUAE\ADF\deuteros1.adf
+floppy0=ADF\deuteros1.adf
 floppy0type=0
 floppy0sound=0
 floppy1=
