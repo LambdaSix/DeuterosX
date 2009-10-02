@@ -1,0 +1,155 @@
+2009-10-01T20:57:34  <Geddeth> looks like we'll be the only contestants tonight .. :)
+2009-10-01T20:58:56  <marrzian> maybe more ppl will show up, let's give it a while yet :)
+2009-10-01T21:08:12  <Geddeth> Yeah, ok well .. I think we'll just head off now - people will have to read the log.
+2009-10-01T21:08:25  <Geddeth> Luaan: you with us?
+2009-10-01T21:08:31  <marrzian> alright
+2009-10-01T21:09:30  <Geddeth> Anyway, this is only the 4th IRC meeting, so we may still need to make room in our schedules to make it here.
+2009-10-01T21:09:44  <Geddeth> Nuff said - the agenda is here: http://deuterosx.org/forum/viewtopic.php?f=12&t=1003#p1512
+2009-10-01T21:09:45  <_deutebot> Title: DeuterosX.org Login (at deuterosx.org)
+2009-10-01T21:10:30  <Geddeth> and to make a quick status from last meeting, we've obviously been joined by you, marrzian *claps*
+2009-10-01T21:11:01  <marrzian> cheers ;)
+2009-10-01T21:11:14  <Geddeth> so we now have a musician, a graphics artist, QA people, a bunch of programmers and a project lead attached to the DX project, which is fab
+2009-10-01T21:11:29  <marrzian> what is Trac anyway ?
+2009-10-01T21:11:44  <Geddeth> heh, we'll get to that .. just a minute ;)
+2009-10-01T21:11:53  <marrzian> sure
+2009-10-01T21:12:30  <Geddeth> apart from that, the Project mission statement has been available as a draft and was discussed last
+2009-10-01T21:12:55  <Geddeth> *last IRC meeting .. after this meeting, it will become the official project mission
+2009-10-01T21:13:15  <Geddeth> it's available here: http://deuterosx.org/forum/viewtopic.php?f=12&t=989
+2009-10-01T21:13:16  <_deutebot> Title: DeuterosX.org Login (at deuterosx.org)
+2009-10-01T21:13:52  <Geddeth> Also - Annihilator has made a WinUAE savestate available to us that has a nearly-completed game of Deuteros going ..
+2009-10-01T21:14:20  <Geddeth> we can use it to grab graphics, and perhaps also to learn a bit about the triggers in the game, as we progress with the engine
+2009-10-01T21:14:25  <Geddeth> It's here: http://deuterosx.org/forum/viewtopic.php?f=12&t=1001
+2009-10-01T21:14:26  <_deutebot> Title: DeuterosX.org Login (at deuterosx.org)
+2009-10-01T21:15:11  <Geddeth> I've put out a public project news, which is available in the forums, and to devs on the front page if you are logged in: http://deuterosx.org/
+2009-10-01T21:15:12  <_deutebot> Title: DeuterosX.org Index page (at deuterosx.org)
+2009-10-01T21:16:00  <Geddeth> marrzian: you only started recently, but what have you been up to since we last chatted - any designs for the site or logo you want to share?
+2009-10-01T21:17:25  <marrzian> well actually i do have little something, but it's incomplete due lack of time
+2009-10-01T21:17:57  <Luaan> yep I am :)
+2009-10-01T21:17:58  <marrzian> i wanted to make the game interim just a little bit more than a wall of text
+2009-10-01T21:18:04  <Geddeth> great - I actually did mean "do you have any thoughts for the design you want to share"
+2009-10-01T21:18:10  <Geddeth> Luaan: great :)
+2009-10-01T21:18:35  <Geddeth> marrzian: not sure I understand you?
+2009-10-01T21:19:50  <marrzian> apart from what we discussed last time, no
+2009-10-01T21:20:26  <Geddeth> by "game interim" do you mean the cutscenes in the original Deuteros?
+2009-10-01T21:21:10  <marrzian> it's simply web-page with interim in it, but spiced up little bit
+2009-10-01T21:22:13  <Geddeth> hmm .. okay, sounds interesting - I'll have to see that to comprehend it fully, I think :)
+2009-10-01T21:22:41  <marrzian> hold a sec ;)
+2009-10-01T21:23:03  <Geddeth> Luaan: you weren't here last meeting for obvious reasons - anything you want to update us on?
+2009-10-01T21:23:12  <Geddeth> *at the last meeting
+2009-10-01T21:23:23  <Geddeth> marrzian: I'll hold :)
+2009-10-01T21:24:13  <Luaan> not much :) I'm working to finish the gamescreen system so that we could finally get to some real work but it will take a while
+2009-10-01T21:24:59  <Geddeth> right .. I know some guys want to know if the code in SVN is actually meant to compile now?
+2009-10-01T21:25:28  <Luaan> it isn't actually
+2009-10-01T21:25:37  <Geddeth> ok, good to know
+2009-10-01T21:26:33  <Geddeth> well, Annihilator has taken a look at it and said it was top notch quality, so expectations are present ;)
+2009-10-01T21:27:12  <Geddeth> I loaded it in VS2008 but have no experience with either VS or C# so couldn't really do much with it, except look at the pretty comments and object model
+2009-10-01T21:27:16  <Geddeth> :)
+2009-10-01T21:28:00  <Luaan> hehe, yeah, I'm trying to make it easy to read :))
+2009-10-01T21:28:12  <Geddeth> ok, let's wait with the code stuff til later and get thru the agenda for now
+2009-10-01T21:28:24  <marrzian> here is a browser shot of the thingy, theres not much of it yet though
+2009-10-01T21:28:26  <marrzian> http://img35.imageshack.us/img35/9683/interim.jpg
+2009-10-01T21:29:55  <marrzian> needs work :p
+2009-10-01T21:30:16  <Geddeth> marrzian: definitely very interesting
+2009-10-01T21:30:33  <Luaan> well, I quite like that :) the logo is very tall though, which is a bit disturbing...
+2009-10-01T21:30:57  <Geddeth> ok lets talk logo now then ..
+2009-10-01T21:31:02  <marrzian> it's not for the project, just for that webby ;)
+2009-10-01T21:31:17  <Geddeth> marrzian: what thoughts do you have about the project logo?
+2009-10-01T21:31:42  <Geddeth> the idea is that it will be used for the website and also in-game
+2009-10-01T21:31:44  <marrzian> i was thinking of somthing that resembles the original
+2009-10-01T21:31:59  <marrzian> but not quite the same however
+2009-10-01T21:32:21  <Geddeth> yes, I feel that is the right road to take
+2009-10-01T21:32:37  <Geddeth> maintain the color and overall "feel" of the original visual theme
+2009-10-01T21:33:06  <marrzian> yup, thats important
+2009-10-01T21:33:56  <Geddeth> would it be used in the first game?
+2009-10-01T21:33:58  <marrzian> it needs to be someting that when you see it, you can make the connection even if it didn't spell out 'deuteros'
+2009-10-01T21:34:04  <marrzian> i will look in to it :)
+2009-10-01T21:35:06  <Geddeth> I ask because the first game will be a 1:1 copy of the original Deuteros - meaning the animated logo as well
+2009-10-01T21:35:21  <Geddeth> meaning .. no room for our own, unless we inject it into the starting sequence somehow
+2009-10-01T21:35:28  <Geddeth> guess we could do that
+2009-10-01T21:36:28  <marrzian> hmm
+2009-10-01T21:36:31  <Luaan> of course there is no reason not to work on the revamped version simultaneously
+2009-10-01T21:37:19  <Geddeth> Luaan: sure, the graphics for phase 2 can (and should) be created as well
+2009-10-01T21:38:22  <marrzian> i'm curious about how we would do the new graphics
+2009-10-01T21:38:28  <marrzian> we had 3d-artist, right ?
+2009-10-01T21:39:13  <Geddeth> nope, no 3d artist yet
+2009-10-01T21:39:30  <Luaan> the last one was Cue, but he vanished
+2009-10-01T21:39:35  <Luaan> his work was amazing though :)
+2009-10-01T21:39:52  <marrzian> hmm :/
+2009-10-01T21:40:11  <Geddeth> did he make the 3d derrick?
+2009-10-01T21:40:16  <Luaan> yeah
+2009-10-01T21:40:34  <Geddeth> yup, that one is pretty sweet .. looking at it now
+2009-10-01T21:40:44  <marrzian> i'd like to see that if possible :)
+2009-10-01T21:40:53  <Geddeth> can't we get him back? :p
+2009-10-01T21:42:32  <Luaan> I'm not sure...
+2009-10-01T21:43:59  <Geddeth> ok, well ... I found you again, Luaan .. so maybe I'll try him also :p
+2009-10-01T21:44:08  <Geddeth> any more input for the logo?
+2009-10-01T21:45:57  <marrzian> nothing except i will start with it, and avoid raping the original feel of it ;)
+2009-10-01T21:46:14  <Geddeth> yup, awesome.
+2009-10-01T21:46:26  <Geddeth> So .. lets move on quickly.
+2009-10-01T21:46:46  <Geddeth> DX Comm plan: just want to note one thing in the plan that I've authored
+2009-10-01T21:47:02  <Geddeth> (Read it here: http://deuterosx.org/forum/viewtopic.php?f=12&t=997#p1486)
+2009-10-01T21:47:03  <_deutebot> Title: DeuterosX.org Login (at deuterosx.org)
+2009-10-01T21:47:15  <Geddeth> It's the part about "mandatory" participation at these meetings.
+2009-10-01T21:47:41  <Geddeth> I feel it is the only opportunity we have to really motivate each other and get to know one another better ..
+2009-10-01T21:47:55  <Geddeth> that is why I put the sentence like that.
+2009-10-01T21:47:59  <Geddeth> What are your thoughts?
+2009-10-01T21:50:54  <Geddeth> no thoughts?
+2009-10-01T21:52:07  <Luaan> I like this
+2009-10-01T21:52:12  <marrzian> nothing worth mentioning really
+2009-10-01T21:52:25  <Geddeth> ok, thanks.
+2009-10-01T21:52:31  <Geddeth> Next :)
+2009-10-01T21:52:43  <Geddeth> I'm trying to keep these meetings under 1 hour.
+2009-10-01T21:52:59  <Luaan> right
+2009-10-01T21:53:07  <Geddeth> Let's skip the wiki issue and move on to a quick Trac intro
+2009-10-01T21:53:26  <Geddeth> Trac is an issue tracker and tool for managing the project roadmap
+2009-10-01T21:53:39  <Geddeth> it also contains a wiki, but that's not important - we have our own
+2009-10-01T21:53:48  <Geddeth> it's hosted with SourceForge.net here: https://sourceforge.net/apps/trac/deuterosx/
+2009-10-01T21:55:16  <marrzian> hmmh trac-guide seems kinda daunting
+2009-10-01T21:55:40  <Geddeth> I created some quick links on the front page of Trac - if you click "Active tickets" you'll see the couple of tickets I have created
+2009-10-01T21:55:48  <Geddeth> yeah, keep away from the guide for now
+2009-10-01T21:57:05  <Geddeth> to create new tickets, you just hit "New Ticket" at the top and fill in the fields .. in general, if you don't know what to do with a field, leave it alone
+2009-10-01T21:58:03  <Geddeth> I create milestones that each ticket can be attached to, and if you click "Roadmap", we can see when each ticket will be finished ..
+2009-10-01T21:58:20  <Geddeth> it should eventually give us an overview of the project tasks
+2009-10-01T21:58:30  <Geddeth> any questions? :)
+2009-10-01T21:59:33  <Luaan> nope :)
+2009-10-01T21:59:43  <Geddeth> sweet
+2009-10-01T21:59:59  <marrzian> except i dont think im part of the project inside SF
+2009-10-01T22:00:00  <marrzian> :)
+2009-10-01T22:00:26  <marrzian> wait
+2009-10-01T22:00:36  <Geddeth> think I added you the other day, marrzian
+2009-10-01T22:00:48  <marrzian> yup noticed now :D
+2009-10-01T22:00:57  <Geddeth> lastly, lets just briefly talk about next steps: Luaan, what are your plans for the code until next time?
+2009-10-01T22:02:49  <Luaan> I'd like to finish the game screen managament, which would get us quite a bit closer to complete porting of the old project
+2009-10-01T22:03:48  <Geddeth> I assume that means how the game switches between screens?
+2009-10-01T22:05:07  <Luaan> pretty much, also abstracting the rest of the game framework
+2009-10-01T22:06:03  <Geddeth> ok
+2009-10-01T22:06:15  <Geddeth> sounds good, we'll keep our fingers crossed :)
+2009-10-01T22:06:24  <Luaan> :))
+2009-10-01T22:06:37  <marrzian> abou the tickets by the way
+2009-10-01T22:06:38  <Geddeth> marrzian: any plans for the graphics or website plans untill next IRC meeting in 2 weeks time?
+2009-10-01T22:07:26  <marrzian> i'd like to present the logo in next meeting :)
+2009-10-01T22:07:29  <Geddeth> marrzian: yeah, go ahead
+2009-10-01T22:07:58  <Geddeth> marrzian: wow, thats fast - sounds excellent - but be ready for some questions and constructive criticism :)
+2009-10-01T22:08:29  <marrzian> will do ;)
+2009-10-01T22:08:32  <marrzian> but about the tickets
+2009-10-01T22:08:37  <Geddeth> jup
+2009-10-01T22:08:42  <marrzian> id like to try how this works
+2009-10-01T22:09:13  <marrzian> for example, could you create ticket for the logo and i'll take it as assignment in SF
+2009-10-01T22:09:20  <marrzian> just to learn this stuff bit
+2009-10-01T22:09:49  <Geddeth> yup, you can create it yourself and accept it aftewards - I'll assign it to a milestone when youve accepted the ticket
+2009-10-01T22:10:41  <Geddeth> ok - if there are no further questions, I'll end the meeting  ..
+2009-10-01T22:11:13  <Luaan> I guess that's it for today then :)
+2009-10-01T22:11:16  <Geddeth> next DX IRC meeting is Thur, Oct 15th - same Bat-time, same Bat-channel :-)
+2009-10-01T22:11:33  <Geddeth> thanks for showing up, guys
+2009-10-01T22:11:36  <Geddeth> :)
+2009-10-01T22:11:46  <marrzian> no questions for now, thx :)
+2009-10-01T22:11:55  <Geddeth> almost made the 60min mark this time :)
+2009-10-01T22:12:12  <marrzian> i wish we have more ppl next time
+2009-10-01T22:12:21  <Geddeth> cool, I'll commit the log to SVN in a short while
+2009-10-01T22:12:37  <Geddeth> yeah, hopefully more will be able to turn up
+2009-10-01T22:12:48  <Luaan> yeah
+2009-10-01T22:12:51  <Geddeth> I'm afk for a while now, l8r folks
+2009-10-01T22:13:16  <marrzian> ttyl
+2009-10-01T22:13:37  <Luaan> bye
+2009-10-01T22:13:40  <Luaan> and good night :)
+2009-10-01T22:14:19  <marrzian> gn :)
