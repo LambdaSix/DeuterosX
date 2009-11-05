@@ -1,0 +1,118 @@
+﻿2009-10-15T21:04:28  <marrzian> seems it's going to be just the two of us
+2009-10-15T21:06:09  <Geddeth> seems so, marrzian :-/
+2009-10-15T21:07:33  <Geddeth> Well, like I said - there's no real agenda, and nothing much has happened lately that I have not already written in the internal project newsletter.
+2009-10-15T21:08:36  <Geddeth> I'm sad that we are the only ones able to meet up here today. I'm working like a hog, my daughter (and me and her mother) is sick right now, and my 30th birthday is two days away ..
+2009-10-15T21:09:03  <Geddeth> so even though I have arranged that I could be present here now, I'm inclined to call it off for now, and push things till next meeting.
+2009-10-15T21:09:07  <Geddeth> How is that with you, marrzian?
+2009-10-15T21:10:04  <marrzian> time just flyes as you get older, doesn't it :)
+2009-10-15T21:10:08  <marrzian> but yeah
+2009-10-15T21:10:14  <marrzian> that's cool with me
+2009-10-15T21:10:16  <Geddeth> indeed it does
+2009-10-15T21:10:23  <marrzian> btw
+2009-10-15T21:10:26  <Geddeth> anything particular you wanted to discuss?
+2009-10-15T21:11:19  <marrzian> well, as i promised i have some gfx ready
+2009-10-15T21:11:37  <Geddeth> that's fantastic
+2009-10-15T21:12:29  <marrzian> it's really just the original logo remade from scratch, and no 'X' in it but i was thinking of engraving it to background or something like that
+2009-10-15T21:12:31  <marrzian> hold sec
+2009-10-15T21:13:05  <marrzian> http://img251.imageshack.us/img251/5299/92878111.png
+2009-10-15T21:15:17  <marrzian> to be honest it's missing quite a lot of stuff yet :p
+2009-10-15T21:15:50  <Geddeth> one moment - I just get "No server is available to handle this request. "
+2009-10-15T21:16:10  <Geddeth> can you try tinypic.com or something .. I think imageshack.us is kinda b0rked
+2009-10-15T21:16:22  * Geddeth keeps hitting F5...
+2009-10-15T21:16:28  <marrzian> oki
+2009-10-15T21:16:30  <marrzian> sec
+2009-10-15T21:20:04  <marrzian> http://i36.tinypic.com/14x1owg.png
+2009-10-15T21:20:07  <marrzian> try that
+2009-10-15T21:20:20  <Geddeth> jup it came right in
+2009-10-15T21:20:26  <Geddeth> holy flying fuck
+2009-10-15T21:20:53  * Geddeth is flabbergasted
+2009-10-15T21:21:04  <Geddeth> that sh*t is off the goddamn hook!
+2009-10-15T21:21:09  <Geddeth> .. as it were.
+2009-10-15T21:21:27  <marrzian> ummm ? :D
+2009-10-15T21:21:34  <Geddeth> Seriously .. I'm impressed. It is definitely awesome :)
+2009-10-15T21:21:45  <Geddeth> you really made it from the bottom up?
+2009-10-15T21:22:16  <marrzian> yup :) it's combination of photographs and rest is just coloring + lighting etc..
+2009-10-15T21:22:26  <Geddeth> The reflections and 3D work very well
+2009-10-15T21:22:58  <marrzian> i actually was temted to try some 3d application to get more nifty looking details
+2009-10-15T21:23:07  <marrzian> tempted*
+2009-10-15T21:23:33  <marrzian> but blender was just too damn intimidating
+2009-10-15T21:23:38  <Geddeth> obviously, the ultimate logo remake, would be some animation in the spirit of the original
+2009-10-15T21:23:55  <marrzian> agreed
+2009-10-15T21:24:01  <Geddeth> I believe you .. I've also only sniffed at that. But we are very well off with what you have started here, though.
+2009-10-15T21:24:22  <Geddeth> Whenever you feel like it, you should present it in the forums, the others will go crazy :)
+2009-10-15T21:24:39  <marrzian> will do :)
+2009-10-15T21:25:00  <marrzian> there is small issue though
+2009-10-15T21:25:06  <Geddeth> the scratches, bolts etc are also very cool
+2009-10-15T21:25:49  <marrzian> hehe
+2009-10-15T21:26:51  <Geddeth> whats the issue?
+2009-10-15T21:27:47  <marrzian> right. as i said earlier, i haven been into making graphics for long time until now
+2009-10-15T21:28:00  <marrzian> and i frankly dont enjoy it as much as i used to
+2009-10-15T21:29:00  <marrzian> no worries though, i'll gladly do some of the gfx --but i'm really looking forward to throw debian or bsd to my comp and strat with them instead :)
+2009-10-15T21:29:09  <marrzian> so i gotta gimp-away whatever i do ;)
+2009-10-15T21:29:55  <Geddeth> sorry to hear that .. we are happy to have any help you want to give - but obviously, if you don't enjoy it ..
+2009-10-15T21:30:30  <Geddeth> .. whatever suits you ;)
+2009-10-15T21:31:42  <Geddeth> but for someone who isn't all that enthusiastic about it, you do a pretty good job :)
+2009-10-15T21:32:50  <marrzian> thank you :) i believe gfx is something that i can do naturally .. but i'd still like to do something else over it
+2009-10-15T21:33:46  <marrzian> i'll stay in the project though and will help with the gfx if gimp likes me, heh
+2009-10-15T21:34:01  <Geddeth> I understand .. I'm seriously hooked on Linux server administration and performance optimizing, but also love doing web development and design .. it's a dilemma :)
+2009-10-15T21:34:40  <marrzian> geddeth, that is exactly what i have been thinking for myself
+2009-10-15T21:34:54  <marrzian> administrating servers, especially linux
+2009-10-15T21:35:45  <marrzian> you do this as profession ?
+2009-10-15T21:35:47  <Geddeth> jup, it's a lot of fun and you learn a lot
+2009-10-15T21:35:59  <Geddeth> no, I've never worked as a sysadmin
+2009-10-15T21:36:12  <Geddeth> I did sysadmin work once though, but that was Novell Netware
+2009-10-15T21:36:17  <Geddeth> now I work as a web developer
+2009-10-15T21:36:45  <Geddeth> I have a root Linux server with Hetzner.de though which I use for various projects - including this one
+2009-10-15T21:37:07  <Geddeth> great company btw, if you don't mind a little German :)
+2009-10-15T21:37:39  <marrzian> how did you start out with it all, if you don't mind me asking ?
+2009-10-15T21:37:52  <Geddeth> np
+2009-10-15T21:38:12  <Geddeth> I hooked up a desktop PC to my LAN and installed Debian on it
+2009-10-15T21:38:16  <Geddeth> no GUI, just console
+2009-10-15T21:38:30  <Geddeth> then I just started setting up Samba, NTP, Apache, SSH and so on
+2009-10-15T21:38:56  <Geddeth> opened it up to the world through my router and began using it for anything I could think of
+2009-10-15T21:39:31  <Geddeth> for instance, right now I have a cron job running on it nightly that compiles Pidgin developer builds for Win32 .. on Debian :)
+2009-10-15T21:39:41  <Geddeth> the builds are automatically available on my website
+2009-10-15T21:39:58  <marrzian> very cool :)
+2009-10-15T21:40:03  <Geddeth> and fun ;)
+2009-10-15T21:40:52  <marrzian> i'd like to do something similar, say i could try putting up an portfolio site or something
+2009-10-15T21:41:29  <Geddeth> yeah .. you should install a CMS or something
+2009-10-15T21:41:57  <marrzian> have you studied any of those things that interest you, in university for example ?
+2009-10-15T21:42:40  <Geddeth> I studied Computer Science for quite a few years, but eventually gave up on the school where I studied .. they were complete dorks
+2009-10-15T21:43:32  <marrzian> self-educated then ;)
+2009-10-15T21:43:35  <Geddeth> but I did get a lot of information about OS's, hardware, networking, programming languages and algorithms .. which has been very helpful
+2009-10-15T21:43:49  <Geddeth> especially networking, which is very interesting when you do web development
+2009-10-15T21:44:01  <Geddeth> but yeah, for the most part, I'm self-educated
+2009-10-15T21:45:12  <marrzian> i have been thinking of studying CS as well, not for any future job but mainly to improve my skills in the area if interest
+2009-10-15T21:47:16  <marrzian> at this age you look the whole school thing in very new perspective ;)
+2009-10-15T21:47:52  *** Annihilator has joined #deuterosx.org
+2009-10-15T21:48:04  <marrzian> welcome, almost at time :D
+2009-10-15T21:48:07  <Geddeth> indeed .. but I must admit that it does help understand the bigger picture
+2009-10-15T21:48:16  <Geddeth> hey Annihilator
+2009-10-15T21:48:17  <Annihilator> 'sup
+2009-10-15T21:49:21  <marrzian> i'll take quick ciggy break. brb
+2009-10-15T21:49:44  <Annihilator> were there more ppl?
+2009-10-15T21:50:07  <Geddeth> nope, only the two of us .. and without an agenda, we haven't been discussing anything in particular, but marrzian has been showing of a design for a new logo he is working on
+2009-10-15T21:50:30  <Geddeth> it's absolutely kick-ass, if I may say so..
+2009-10-15T21:50:47  <Geddeth> http://i36.tinypic.com/14x1owg.png
+2009-10-15T21:50:50  <Annihilator> lemme c
+2009-10-15T21:51:16  <Annihilator> not bad! not bad at all!
+2009-10-15T21:51:34  <Geddeth> I swore a lot more when I saw it, but I totally agree :)
+2009-10-15T21:52:47  <Annihilator> ;)
+2009-10-15T21:53:12  <Geddeth> I like how it is very obvious that it is the original, but updated
+2009-10-15T21:54:46  <Geddeth> reminds me of the old David Elsewhere commercial for Volkswagen .. http://www.youtube.com/watch?v=fogWpauaqZE
+2009-10-15T21:54:47  <_deutebot> Title: YouTube - Golf GTI - David Elsewhere (at www.youtube.com)
+2009-10-15T22:01:22  <Annihilator> idd
+2009-10-15T22:07:38  <marrzian> brainwashing myself with this   http://www.zeitgeistmovie.com/   :)
+2009-10-15T22:07:39  <_deutebot> Title: Zeitgeist - The Movie (at www.zeitgeistmovie.com)
+2009-10-15T22:09:08  <marrzian> seems they mix some false and some truth --but still very intreresting flick
+2009-10-15T22:09:30  <Geddeth> huh .. I totally have no clue what that is .. "focuses on suppressed historical & modern information about currently dominant social institutions" ..
+2009-10-15T22:11:18  <Geddeth> k
+2009-10-15T22:11:25  <marrzian> check the zeitgeist-addendum video :) very interesting stuff about modern monetary system and how it's corrupted
+2009-10-15T22:27:24  <Geddeth> will do
+2009-10-15T22:40:08  *** maverick104 has joined #deuterosx.org
+2009-10-15T22:53:17  *** Annihilator has quit IRC
+2009-10-15T23:26:32  <marrzian> new irc meeting 1st of november ?
+2009-10-16T00:17:38  <Geddeth> 1st Thursday of each month, so that would be Nov 6th I believe
+2009-10-16T00:20:38  <marrzian> okies
+2009-10-16T00:20:44  <marrzian> 5th on my calendat ;)
+2009-10-16T00:21:14  <Geddeth> ok, you win :)

@@ -1,0 +1,319 @@
+﻿2009-11-05T20:56:19  <Geddeth> hi all
+2009-11-05T21:00:25  * Geddeth clears throat. 
+2009-11-05T21:00:37  <Geddeth> *AHEM* HI ALL HOW ARE YOUZ!!!!1111!!
+2009-11-05T21:01:37  <Geddeth> it's that time again - welcome to the 6th  Deuteros X IRC team meeting.
+2009-11-05T21:01:45  <Luaan> yo nigga, wazzup?
+2009-11-05T21:01:58  <Geddeth> wazzaaaaaaaaap :D
+2009-11-05T21:04:10  <Geddeth> I see that we are a couple more than last time, that's great :)
+2009-11-05T21:04:13  <Luaan> Wish, are you still with us? :))
+2009-11-05T21:04:36  <Geddeth> And maybe Annihilator will even turn up - he usually does.
+2009-11-05T21:05:06  <Wishbone> Not still with you, but with you again ;-)
+2009-11-05T21:06:01  <Wishbone> So...
+2009-11-05T21:06:16  <Geddeth> Ok - well first of all: let's keep these meetups short and concise - and no longer than 60 minutse.
+2009-11-05T21:06:20  <Geddeth> *minutes.
+2009-11-05T21:07:04  <Wishbone> Indeed.
+2009-11-05T21:07:27  <Wishbone> So, agenda?
+2009-11-05T21:07:40  <Geddeth> Second, I have to apologise that I've been quite absent since our last meeting - I was on a 2 week leave of absense, of which one was spent abroad.
+2009-11-05T21:07:51  <Geddeth> So I haven't had much time to devote to DX.
+2009-11-05T21:08:15  <Geddeth> Even so, let's do the rounds, talk about what you have been up to and deem important since last time you attended an IRC meeting,
+2009-11-05T21:08:22  <Geddeth> Wish?
+2009-11-05T21:08:22  <Wishbone> I too must apologize for my lengthy inactivity. I've been extremely busy at work this past month.
+2009-11-05T21:09:12  <Wishbone> Nothing much, project-wise.
+2009-11-05T21:09:34  <Luaan> And as for me, I rediscovered why I chose DirectX over OpenGL for REAL projects :D
+2009-11-05T21:09:37  <Wishbone> I've criticized marrzian's new logo. Constructively, I might add.
+2009-11-05T21:10:57  <Geddeth> Wishbone: I noticed, and it seems he feels he can do even better (however possible) .. so I guess we are all waiting for that :)
+2009-11-05T21:10:58  <Wishbone> Speaking of which, marrzian, are you here?
+2009-11-05T21:11:21  <Geddeth> He'll turn up. Anything else, Wishbone?
+2009-11-05T21:11:51  <Wishbone> I'm sure that he can. With a first try like that, I can't imagine what he can accomplish after several attempts.
+2009-11-05T21:12:19  <Wishbone> Not really. I have got one question though.
+2009-11-05T21:12:34  <Geddeth> Go ahead, then
+2009-11-05T21:13:00  <Wishbone> Am I right in thinking I'm the only one who sees absolutely no need to use 3D graphics in any iteration of the project?
+2009-11-05T21:13:28  <Wishbone> Sorry, that was awkwardly phrased.
+2009-11-05T21:13:30  <Luaan> well... there are few reasons for 3D graphics
+2009-11-05T21:13:41  <Geddeth> I don't see any apparent needs, no. But Luaan might? :)
+2009-11-05T21:13:44  <Luaan> 1) Better handling of different resolutions
+2009-11-05T21:13:56  <Luaan> ie. retaining detail while scaling
+2009-11-05T21:15:18  <Luaan> 2) I'm not sure how much 2D graphics can we do on items, for example the derrick... In 3D it is a bit simpler and it does feel somehow nicer when it rotates or something :-P
+2009-11-05T21:15:35  <Wishbone> Correct me if I'm wrong, but scaling a flat surface (which most of the GUI elements are) basically means scaling the texture, hence a 2D scaling, yes?
+2009-11-05T21:15:41  <Luaan> 3) It does give us more space for various animations, which may or must not be good
+2009-11-05T21:15:58  <Luaan> exactly... which makes it look weird or downright ugly :)
+2009-11-05T21:16:34  <Wishbone> But... That's what it'll be, unless you want to completely redesign the GUI.
+2009-11-05T21:16:41  <Luaan> not really
+2009-11-05T21:16:50  <Luaan> I wouldn't even in the maybe-sometime-made 3D version
+2009-11-05T21:17:03  <Luaan> just make the background & doodads 3D
+2009-11-05T21:17:13  <Luaan> like the view of Earth City, the colonies etc.
+2009-11-05T21:17:38  <Luaan> put some nice effects there... make it actually grow when you add more modules
+2009-11-05T21:17:40  <Wishbone> Well, yes, but unless you want a moveable camera, that can be pre-rendered.
+2009-11-05T21:17:44  <Luaan> have the orbitals built etc.
+2009-11-05T21:17:57  <Luaan> it can be prerendered for a fixed resolution
+2009-11-05T21:18:04  <Wishbone> That's true. There's room for some nice stuff there.
+2009-11-05T21:18:11  <Luaan> and even then it can be quite smaller in 3D
+2009-11-05T21:18:31  <Wishbone> Yeah, unless you make it in a maximum resolution and scale it down in real-time.
+2009-11-05T21:18:46  <Wishbone> But I get the picture. We're on the same page then :-)
+2009-11-05T21:19:00  <Luaan> scaling down still looks weird and it doesn't cope with different aspect ratios, which is another irritating "feature" :-P
+2009-11-05T21:19:00  <Geddeth> So ..
+2009-11-05T21:19:08  <Luaan> but yeah, I wouldn't go for something like Homeworld :D
+2009-11-05T21:19:10  <Wishbone> Right.
+2009-11-05T21:19:29  <Geddeth> 3D becomes relevant when we wish to redesign the GUI and make other nifty additions to the interface
+2009-11-05T21:19:39  <Wishbone> Okay, just checking that we're not suddenly going full 3D all over.
+2009-11-05T21:19:49  <Luaan> nope
+2009-11-05T21:20:01  <Luaan> the only reason for using OpenGL at the moment is performance
+2009-11-05T21:20:06  <Geddeth> but we will never be doing the game itself in 3D - only using it to add effects that underline certain actions etc.
+2009-11-05T21:20:46  <Wishbone> Some of the stuff will be a bitch to model... It's so... organic.
+2009-11-05T21:20:51  <Luaan> yeah :) of course if you want to have realtime space combat with pretty 3D graphics, no one is stopping you. But it shouldn't be the thing the game is built on :)
+2009-11-05T21:21:06  <Wishbone> No, exactly. That's all I'm saying ;)
+2009-11-05T21:21:13  <Geddeth> Luaan: no, at most we can perhaps do something nice with the drone battles
+2009-11-05T21:21:27  <Geddeth> but that's a long way off .. but it's good to know that the engine is being prepared for that.
+2009-11-05T21:21:33  <Luaan> heh, yeah... I'm playing with organic-looking stuff in DirectX 10 right now :P It isn't quite Geigerish, but still nice :))
+2009-11-05T21:21:56  <Luaan> yeah :) by the way, does anyone have any measurable OpenGL experience? :-P
+2009-11-05T21:22:07  <Wishbone> Nope, none whatsoever :(
+2009-11-05T21:22:18  <Geddeth> Luaan: can you sum up the "conversion" that you are doing right now and how it's going?
+2009-11-05T21:22:24  <Luaan> too bad...
+2009-11-05T21:22:25  <Luaan> after quite a few hours I managed to draw 2D textures (not that it is something difficult... it's just that every step sucked so hard :D) Right now, I'm fighting with the apparent inability of OpenGL to draw my nice transparent PNG with transparency :)
+2009-11-05T21:22:36  <Geddeth> :-/
+2009-11-05T21:22:52  <Wishbone> Ah... That's another issue I wanted to bring up.
+2009-11-05T21:22:56  <Wishbone> Transparency.
+2009-11-05T21:23:08  <Luaan> fire at will :)
+2009-11-05T21:23:43  <Wishbone> Maybe you're the best to answer that Luaan: when ripping the original graphics, should we try to make as much of it transparent as possible?
+2009-11-05T21:24:09  <Wishbone> Meaning, whatever is clearly "background".
+2009-11-05T21:24:17  <Luaan> well, the short answer is yes
+2009-11-05T21:24:28  <Luaan> the slightly longer answer would be - only if it is not much trouble
+2009-11-05T21:24:37  <Wishbone> Okay. That's what I thought.
+2009-11-05T21:25:07  <Luaan> for example the items in production/research might be a bit hard to get with transparency
+2009-11-05T21:25:11  <Wishbone> Well, there are some graphics where it makes sense, others where it's downright necessary, and again others where it doesn't really matter.
+2009-11-05T21:25:21  <Luaan> we can use it with the background in place
+2009-11-05T21:25:39  <Wishbone> No, but stuff like the shuttle parts, which have to move against the background...
+2009-11-05T21:25:59  <Luaan> that would be the part that has to be done transparent
+2009-11-05T21:26:05  <Luaan> it isn't that hard though
+2009-11-05T21:26:12  <Wishbone> Nope, not at all.
+2009-11-05T21:26:26  <Wishbone> It's just more work, but necessary.
+2009-11-05T21:26:29  <Luaan> since you have the clear background ready... so at worst you can write a little utility to clear it away based on this :))
+2009-11-05T21:26:51  <Luaan> that's the good thing on pre-antialiasing games :D
+2009-11-05T21:26:58  <Wishbone> Hmm, subtracting two images from each other?
+2009-11-05T21:27:02  <Geddeth> Luaan: I know you probably found this, but I'll suggest it anyway: http://www.gamedev.net/community/forums/topic.asp?topic_id=518062
+2009-11-05T21:27:03  <_deutebot> Title: [SOLVED] [SDL] PNG Transparency with OpenGL? - GameDev.Net Discussion Forums (at www.gamedev.net)
+2009-11-05T21:30:08  <Luaan> it doesn't exactly apply, since I use .NET to make the original surface
+2009-11-05T21:30:29  <Luaan> and I ispected the values... up to the point where the OpenGL surface is made, they are correct
+2009-11-05T21:31:04  <Geddeth> Ah, I see .. silly me :)
+2009-11-05T21:31:19  <Wishbone> Luaan: Are there any graphics you particularly need soon?
+2009-11-05T21:31:35  <Wishbone> That might add some incitament to actually get them done.
+2009-11-05T21:32:32  <Luaan> well, pretty much anything concerning the initial interface
+2009-11-05T21:32:41  <Wishbone> So, Earth City?
+2009-11-05T21:33:04  <Luaan> and it will not need any preprocessing, since we can now do the resizing on the hardware without having to fear performance issues
+2009-11-05T21:33:09  <Luaan> yeah, pretty much
+2009-11-05T21:33:21  <Wishbone> Okay. I'll try to get on it ASAP.
+2009-11-05T21:33:49  <Wishbone> I'll also try to have a look at Trac to see if I can separate out some finite tasks.
+2009-11-05T21:34:01  <Geddeth> Please do.
+2009-11-05T21:34:32  <Geddeth> I'll be standing by to help administer and delegate, if need be.
+2009-11-05T21:34:39  <Wishbone> Luaan: How does the game render now? Full screen or a window?
+2009-11-05T21:34:45  <Luaan> window
+2009-11-05T21:35:07  <Luaan> much more practical for development :)
+2009-11-05T21:35:08  <Wishbone> Luaan: Strictly 4:3, or do we aim for supporting different aspect ratios?
+2009-11-05T21:35:41  <Luaan> it has a strange ratio right now, since I used the size of marrzians logo (which I used in the "intro")
+2009-11-05T21:35:58  <Wishbone> Hmm, okay.
+2009-11-05T21:36:04  <Luaan> other than that, we're going to have to agree on that
+2009-11-05T21:36:18  <Geddeth> Wishbone: good question - I think we need to at least consider how we are going to support 16:9 and 16:10 monitors, since they are quite prevalent
+2009-11-05T21:36:30  <Wishbone> Is it changeable along the way, or is it something we should nail down as soon as possible?
+2009-11-05T21:36:32  <Luaan> fixed ratio means we're only resizing
+2009-11-05T21:36:43  <Luaan> dynamic ratio means we have to "build"
+2009-11-05T21:36:55  <Luaan> ie. separate the interface parts so that they can grow in content
+2009-11-05T21:37:21  <Luaan> make them move rather then resize in some etc.
+2009-11-05T21:37:29  <Geddeth> I think that for Phase 1, we should stick to the original aspect ratio, and pad widescreens with black bars
+2009-11-05T21:37:42  <Luaan> we can always just do a black border around, so we don't need to have an issue over it
+2009-11-05T21:37:59  <Luaan> not to mention that it's quite better in window anyway :P
+2009-11-05T21:38:16  <Geddeth> Luaan: but more immersive in full-screen ;)
+2009-11-05T21:38:17  <Wishbone> Geddeth: I agree.
+2009-11-05T21:38:28  <Wishbone> Geddeth: And with that too ;)
+2009-11-05T21:38:41  <Wishbone> Could we do full screen with padding?
+2009-11-05T21:39:03  <Geddeth> But that's not too important - we should obviously support both windowed and full-screen modes
+2009-11-05T21:39:27  <Luaan> sure
+2009-11-05T21:39:30  <Wishbone> Actually, we'll probably need less padding in widescreen than in 4:3, since the original graphics are in 320*200.
+2009-11-05T21:39:58  <Geddeth> But we also want to support playing in the original resolution, right?
+2009-11-05T21:40:10  <Geddeth> People are purists, you know.. ;)
+2009-11-05T21:40:28  <Luaan> in fact it needs no padding on my 1920x1600 at all :)
+2009-11-05T21:40:33  <Wishbone> Which is kind of strange, when you think about it. Were Amiga pixels taller that modern pixels?
+2009-11-05T21:40:40  <Luaan> yeah
+2009-11-05T21:40:59  * Geddeth ponders the notion of "tall pixels".
+2009-11-05T21:41:01  <Wishbone> Weird.
+2009-11-05T21:41:02  <Luaan> some of the displays had it that way
+2009-11-05T21:41:12  <Luaan> the same with old dos games :)
+2009-11-05T21:41:16  <Wishbone> Hehe... Yeah well, you know what I mean, bro ;-)
+2009-11-05T21:41:27  <Geddeth> Wishbone: ;)
+2009-11-05T21:41:35  <Luaan> the display geometry was different
+2009-11-05T21:41:36  <Wishbone> Luaan: True. All the old LucasArts adventures are also in 320*200.
+2009-11-05T21:41:45  <marrzian> hey guys
+2009-11-05T21:41:56  <marrzian> i was unable to login my shell until now
+2009-11-05T21:41:57  <Wishbone> Hey marrzian :)
+2009-11-05T21:41:59  <marrzian> :)
+2009-11-05T21:42:02  <Geddeth> marrzian: hey
+2009-11-05T21:42:15  <Luaan> because it was the best non-VESA display mode available - you could have whopping 256 colours on 320x200 with a simple VGA/EGA graphics card :P
+2009-11-05T21:42:16  <Luaan> hi :P
+2009-11-05T21:42:38  <Wishbone> Luaan: I'll take your word for it ;)
+2009-11-05T21:42:50  <Geddeth> marrzian: too bad ... can you read the chatlog in your client?
+2009-11-05T21:43:11  <Luaan> I have to know that :P I evaded VESA as much as possible :P
+2009-11-05T21:43:15  <Geddeth> Aah, VESA .. those were the days.
+2009-11-05T21:44:26  <marrzian> yup, got it all here. looks like you've had quite a convo, gimme while :)
+2009-11-05T21:44:43  <Geddeth> marrzian: sure.
+2009-11-05T21:44:49  <Luaan> still amazing how games like X-Com managed to get so detailed and great looking graphics with just 256 colours an 320x200 :D
+2009-11-05T21:45:18  <Wishbone> Not to mention what they did on the Amiga with only 32 colors.
+2009-11-05T21:45:42  <Geddeth> ok - before this turns into a swapparty .. I'd like to interject a couple of things .. :P
+2009-11-05T21:45:49  <Luaan> :P
+2009-11-05T21:45:54  <Wishbone> Of course that was 32 simultaneous colors out of a possible 4096 ;)
+2009-11-05T21:46:02  <Wishbone> Geddeth: Too late, I fear :-D
+2009-11-05T21:46:18  <Wishbone> Geddeth: But go ahead.
+2009-11-05T21:46:19  <Geddeth> Luaan: again - could you sum up what your current challenge with the OpenGL conversion is?
+2009-11-05T21:47:07  <Luaan> The problem I'm having right now is transparency
+2009-11-05T21:47:25  <Luaan> other than that, I just have to write a few helper methods to ease the drawing (and make it feel 2D)
+2009-11-05T21:47:49  <Geddeth> Right .. you mentioned in the forum that it would be a challenge to test, now that we are rendering with OGL?
+2009-11-05T21:48:18  <Luaan> yeah, hardware rendering does that
+2009-11-05T21:48:33  <Luaan> it shouldn't be too bad though, since we don't use any hardware features, just the real basics
+2009-11-05T21:49:16  <Geddeth> So we need to make sure we test on more combos of OS+hardware than we had to before?
+2009-11-05T21:49:38  <Wishbone> If my machine can run Crysis, it SHOULD run this :-D
+2009-11-05T21:49:40  <Luaan> yeah, pretty much
+2009-11-05T21:50:23  <Luaan> well... it's not all that about performance... more like compatibility :P
+2009-11-05T21:50:33  <Geddeth> Well, as I understand, it's not just about FLOPS,
+2009-11-05T21:50:34  <Wishbone> Luaan: Yeah, I know ;)
+2009-11-05T21:50:42  <Luaan> loads of old games fail because of that :-P
+2009-11-05T21:51:04  <Geddeth> Ok, well we have a couple of QA guys ready for that, so I'm not worried
+2009-11-05T21:51:06  <Luaan> anything with basic openGL support should do
+2009-11-05T21:51:21  <Luaan> yeah :)
+2009-11-05T21:51:25  <Wishbone> Oh, completely off topic, before I forget...
+2009-11-05T21:52:01  <Luaan> basically we're going to have a few rough days after making a release :D
+2009-11-05T21:52:15  <Wishbone> Speaking of old games and new hardware, is everyone aware that Death Rally has just been ported to modern Windows flavors and released as freeware? :D
+2009-11-05T21:53:03  <Geddeth> Holy moly! :)
+2009-11-05T21:53:12  <Wishbone> Luaan: Sounds like the kind of bugs that are hard to track down :-/
+2009-11-05T21:53:15  <Luaan> yeah :D already tested it :D
+2009-11-05T21:53:27  <Luaan> exactly :) welcome to the world of hardware-based programming :D
+2009-11-05T21:53:47  <Geddeth> Luaan: I view your task as the most important one right now, so what can we and the rest of the team do to ease your task and support you?
+2009-11-05T21:53:57  <Luaan> if everything was 100% compatible with the standard, the costs in programming department of games would be cut in half... or more :D
+2009-11-05T21:54:13  <Wishbone> Luaan: Better make sure there's plenty of debugging output then... :-|
+2009-11-05T21:54:24  <Luaan> well...
+2009-11-05T21:54:29  <Luaan> things have to be thought through
+2009-11-05T21:54:31  <Wishbone> Luaan: Guess that's why developers love consoles...
+2009-11-05T21:55:04  <Luaan> that's exactly why :) the other reason being harder-to-do-piracy... but the primary reason is compatibility :)
+2009-11-05T21:55:17  <Luaan> I made the basic framework
+2009-11-05T21:55:34  <Luaan> as I said, I still have to make a few helper methods, but thats it for now
+2009-11-05T21:55:46  <Wishbone> Ah yes, piracy. The perfect excuse for doing whatever the hell you like to your customers :D
+2009-11-05T21:55:56  <Wishbone> Luaan: Sounds good :)
+2009-11-05T21:56:07  <Luaan> which in turn is the best excuse to pirate in the first place :D
+2009-11-05T21:56:32  <Luaan> so... there is quite some codebase left to port
+2009-11-05T21:56:43  <Luaan> I'm just not sure I'd like everything just like it was before
+2009-11-05T21:56:49  <Geddeth> Ok - I suggest that when you reach the next "milestone", you let us know and wait a while for some feedback while we try to run it in VS and check out the code
+2009-11-05T21:57:02  <Geddeth> that will allow us to all sync our knowledge of the code somewhat
+2009-11-05T21:57:17  <Luaan> yeah
+2009-11-05T21:58:01  <Wishbone> We have someone who are able to test it on both Linux and MacOS, right?
+2009-11-05T21:58:08  <Geddeth> Yes.
+2009-11-05T21:58:45  <Luaan> anyway, if you want some coding to do right now, you can port the old classes for station modules etc.
+2009-11-05T21:59:15  <Luaan> they need to have themselves changed to suite the new interfaces and I also changed the way the new engine loads Xml data
+2009-11-05T21:59:22  <Luaan> (as seen in TextureManager for example)
+2009-11-05T22:00:01  <Luaan> that should be more than 50k lines of code that can be done even now
+2009-11-05T22:00:26  <Wishbone> Whoa...
+2009-11-05T22:01:02  <marrzian> earth city + master control for next job it is
+2009-11-05T22:01:11  <marrzian> under which resolution it should be crisp ?
+2009-11-05T22:01:13  <Luaan> and it will also serve well to make sure we all code the same way :)
+2009-11-05T22:02:04  <Luaan> well... it might be a good idea to  make it big and centered
+2009-11-05T22:02:11  <Geddeth> well, I don't intend to do any actual coding, but I would like to acquire basic knowledge of how stuff works
+2009-11-05T22:02:34  <Wishbone> Luaan: Centered?
+2009-11-05T22:02:35  <Luaan> let's say 1920x1200... but make sure that the central 1280x1024 has the best part :))
+2009-11-05T22:02:48  <Geddeth> and taking a breather when the code is at some sort of compilable/runnable state while we pick your brain seems like a good idea
+2009-11-05T22:02:51  <Luaan> so that we don't have to scale it at all :)
+2009-11-05T22:02:59  <Luaan> yeah, definitelly
+2009-11-05T22:03:37  <Wishbone> Luaan: Hehe, that sounds like a solution that might be seriously ugly at lower resolutions :-(
+2009-11-05T22:03:54  <Wishbone> Whoops, that should have been a :-/
+2009-11-05T22:04:05  <Luaan> actually quite the opposite
+2009-11-05T22:04:10  <Luaan> resizing it would look ugly
+2009-11-05T22:04:36  <Luaan> (of course, the more "real" it is in the first place the better will it look resized)
+2009-11-05T22:04:50  <Wishbone> Luaan: Well... Cropping can look really ugly too.
+2009-11-05T22:05:00  <Luaan> you think? How so?
+2009-11-05T22:05:01  <Wishbone> Maybe we'll just have to experiment a bit.
+2009-11-05T22:05:18  <Luaan> it has to be designed to be cropped, that's for sure
+2009-11-05T22:05:51  <Geddeth> Ok guys, we are wrapping up, so .. continue in forums?
+2009-11-05T22:06:01  <Luaan> ok :)
+2009-11-05T22:06:03  <Wishbone> Luaan: True. But for some screens, that means that central GUI elements will need to be very small in order to avoid cropping.
+2009-11-05T22:06:16  <Wishbone> Production, for instance.
+2009-11-05T22:06:24  <Luaan> I'm not talking about the GUI now, that's different story entirely
+2009-11-05T22:06:37  <Luaan> I'm talking about the backgrounds, sceneries etc.
+2009-11-05T22:06:50  <Wishbone> Luaan: Not quite. In several of the screens, the GUI is integrated with the background.
+2009-11-05T22:07:02  <Luaan> and doesn't have to be, in it's entirety :)
+2009-11-05T22:07:06  <Wishbone> For example, as I said, in Production.
+2009-11-05T22:07:27  <Luaan> for example, with the production you can make the central area just the usual static way
+2009-11-05T22:07:33  <Luaan> and only expand the back-background
+2009-11-05T22:08:09  <Geddeth> *ahem* .. don't make me /m you, please
+2009-11-05T22:08:19  <Geddeth> ;)
+2009-11-05T22:08:31  <Wishbone> Sorry, is the discussion forcibly over? :)
+2009-11-05T22:08:40  <Luaan> okay, okay, we're done :D
+2009-11-05T22:08:43  <Geddeth> no, I just want this meeting to be forcibly over ..
+2009-11-05T22:08:49  <Wishbone> Right.
+2009-11-05T22:08:53  <Geddeth> you can continue the discussion afterwards ;)
+2009-11-05T22:08:57  <Wishbone> Well, see you guys :)
+2009-11-05T22:09:02  <Geddeth> wait a minute
+2009-11-05T22:09:11  <Geddeth> I have the finaly word here, mkay :P
+2009-11-05T22:09:13  <Geddeth> *final
+2009-11-05T22:09:22  <Luaan> okay, uncle fido :P
+2009-11-05T22:09:23  <Wishbone> Mkay...
+2009-11-05T22:09:24  <marrzian> *drums*
+2009-11-05T22:09:31  <Geddeth> marrzian: what are your plans until next time?
+2009-11-05T22:09:55  <marrzian> earth city and/or master control panel
+2009-11-05T22:10:04  <marrzian> for starters
+2009-11-05T22:10:18  <Geddeth> Wishbone: can you help Luaan with the conversion as he suggested?
+2009-11-05T22:10:50  <Wishbone> Geddeth: I can try. Not sure I can be of much help though. I know absolutely nothing about OpenGL :-/
+2009-11-05T22:10:59  <Geddeth> marrzian: ok - sounds good.
+2009-11-05T22:11:55  <Geddeth> Wishbone: I know, neither do I .. but since it's the new rendering platform .. we'll need to learn it sooner or later, right?
+2009-11-05T22:12:11  <Luaan> not necessarily :P
+2009-11-05T22:12:15  <Luaan> we don't need it
+2009-11-05T22:12:27  <Luaan> it can all be hidden behind a nice abstract layer :D
+2009-11-05T22:12:44  <Wishbone> Luaan: I thought that was what SDL tried to do?
+2009-11-05T22:12:45  <Geddeth> Luaan: Right, I understand :) Anyway, just checking whether that's a way to get where we want faster.
+2009-11-05T22:13:41  <Luaan> well, it certainly wouldn't hurt to have more guys experimenting with it
+2009-11-05T22:14:02  <Luaan> and trying if they can actually build the project as well :P
+2009-11-05T22:14:10  <Wishbone> Right, I'll have a look at it.
+2009-11-05T22:14:17  <Geddeth> OK, we'll see what is possible for each of us until next time.
+2009-11-05T22:14:30  <Luaan> right
+2009-11-05T22:14:30  <Geddeth> Wishbone: you were also going to have a look at Trac right?
+2009-11-05T22:14:40  <Wishbone> Geddeth: Right.
+2009-11-05T22:15:02  <Wishbone> And the original Earth City graphics.
+2009-11-05T22:15:26  <Geddeth> I'm going to do some more website till next time, and more external communication. Oh, and we may have another programmer on the way, he's a C-guy, so hopefully C#, too.
+2009-11-05T22:15:39  <Wishbone> Trouble is, that's about half the graphics in the entire game :-/
+2009-11-05T22:15:52  <Geddeth> Earth City?
+2009-11-05T22:15:55  <Wishbone> Yup.
+2009-11-05T22:16:13  <Luaan> one thing to decide about that
+2009-11-05T22:16:16  <Geddeth> Right, there's a lot down there.
+2009-11-05T22:16:25  <Luaan> all the various message boxes and other generic interface stuff
+2009-11-05T22:16:39  <Wishbone> Luaan: Yes?
+2009-11-05T22:17:15  <Luaan> a) Just take it as a whole
+2009-11-05T22:17:15  <Luaan> b) Cut it into corners, edges and the inside, so that we can draw it at any size without resizing
+2009-11-05T22:17:25  <Luaan> *scaling
+2009-11-05T22:18:00  <Wishbone> Luaan: But we need to animate the text as well.
+2009-11-05T22:18:45  <Luaan> the text has to be stripped for sure
+2009-11-05T22:18:53  <Wishbone> Luaan: The bitmap fonts are really small. They'll be close to unreadable at higher resolutions without resizing.
+2009-11-05T22:19:50  <Luaan> it would be quite stupid to use the messages in bitmap form :D
+2009-11-05T22:20:05  <Luaan> I'm talking just about the windows themselves
+2009-11-05T22:20:11  <Wishbone> Hehe, not the text itself, the font.
+2009-11-05T22:20:14  <marrzian> there's some quite fabulous bitmap fonts i've used in past
+2009-11-05T22:20:24  <marrzian> and im sure they would fit to game as well
+2009-11-05T22:20:25  <Wishbone> Naturally, the text will be saved as text.
+2009-11-05T22:20:46  <Geddeth> I think cutting up the GUI like that will make it look weird - we will deviate from the original look and feel. That would be for Phase 2.
+2009-11-05T22:21:04  <Luaan> it's not hard to actually make a truetype based on the original font
+2009-11-05T22:21:05  <Wishbone> marrzian: The plan is to take all graphics and sound from the original game in the first iteration.
+2009-11-05T22:21:11  <Geddeth> But we obviously have to do something new with the font and try to hit the original whilst making it work.
+2009-11-05T22:21:14  <Wishbone> Geddeth: I agree.
+2009-11-05T22:21:35  <Luaan> agreed then :)
+2009-11-05T22:21:45  <Luaan> vectorisation of the font shouldn't pose much trouble
+2009-11-05T22:21:53  <Wishbone> Phase 2, yes. That's a completely different story :)
+2009-11-05T22:21:58  <Luaan> we have to do the same for the "alien" text as well :)
+2009-11-05T22:22:07  <Geddeth> marrzian: but please share your thoughts on this in the forums, we will be needing information like that soon enough
+2009-11-05T22:22:21  <marrzian> sure
+2009-11-05T22:22:22  <Wishbone> Luaan: I'm ripping all bitmap fonts. I think there are 3 or 4 in the game in all.
+2009-11-05T22:23:12  <Luaan> after which it's just a matter of "painting" curves over it
+2009-11-05T22:23:23  <Geddeth> Ok - that's it, folks. Thanks for showing up. Next meeting is Thur 19th, same time and channel :)
+2009-11-05T22:23:26  <Wishbone> Luaan: Yes, but not in phase 1, right?
+2009-11-05T22:23:33  <Luaan> I'm not sure
+2009-11-05T22:23:40  <Luaan> bitmap fonts are pain
+2009-11-05T22:23:53  <Wishbone> Luaan: I can imagine. I think it's important, though.
+2009-11-05T22:24:26  <Wishbone> All the fonts are equidistant. That should make it easier.
+2009-11-05T22:24:31  <Luaan> well, as you wish, it makes it easier for me at the moment though :D
+2009-11-05T22:25:20  <Luaan> another helper method it is :P
+2009-11-05T22:26:11  <Wishbone> Luaan: Hehe ;)
+2009-11-05T22:27:03  <Wishbone> Okay, switching to forum. Night all :)
+2009-11-05T22:27:08  <Luaan> night ;-)
+2009-11-05T22:27:11  <Geddeth> Night
