@@ -1,0 +1,85 @@
+﻿2009-09-03T21:26:29  <Geddeth> uhm
+2009-09-03T21:26:41  <Luaan> so
+2009-09-03T21:26:42  <Luaan> :D
+2009-09-03T21:26:56  <Geddeth> nice turn-out
+2009-09-03T21:27:02  <Geddeth> :(
+2009-09-03T21:27:14  <Geddeth> did people leave because I was late?
+2009-09-03T21:27:20  <Luaan> don't worry
+2009-09-03T21:27:34  <Luaan> I'm here from 1938 - you're second to show up :)
+2009-09-03T21:27:45  <Luaan> including myself
+2009-09-03T21:27:49  <Geddeth> O_o
+2009-09-03T21:29:57  <Geddeth> and my excuse is that I was running a 5km relay in Copenhagen  .. I finished 26 minutes ago..
+2009-09-03T21:31:48  <Luaan> well, I have no plans for tonight anyway, so I'm quite ok with it :)
+2009-09-03T21:32:12  <Geddeth> ok :) well, I didn't have much in terms of an agenda anyway
+2009-09-03T21:32:32  <Geddeth> I mainly wanted to talk about the wiki
+2009-09-03T21:34:49  <Luaan> too bad :D
+2009-09-03T21:35:23  <Geddeth> yeah, guess it can wait
+2009-09-03T21:35:58  <Luaan> it is a bit dissapointing though :P
+2009-09-03T21:36:09  <Geddeth> it is
+2009-09-03T21:36:32  <Geddeth> people need to get their priorities straight!
+2009-09-03T21:37:10  <Luaan> *disappointing
+2009-09-03T21:37:21  <Luaan> well, it's bi-weekly
+2009-09-03T21:37:29  <Luaan> I would expect a few guys to show up :D
+2009-09-03T21:38:29  <Geddeth> I suppose the reminder might have been out a bit late
+2009-09-03T21:39:29  <Luaan> maybe
+2009-09-03T21:40:10  <Geddeth> don't people use calendars?
+2009-09-03T21:40:22  <Geddeth> I use Google Calendar, it's excellent.
+2009-09-03T21:41:00  <Luaan> I use Outlook :))
+2009-09-03T21:41:32  <Geddeth> thats not bad either :)
+2009-09-03T21:41:40  <Geddeth> I use Thunderbird.
+2009-09-03T21:43:25  <Luaan> I'm using Thunderbird on this computer... I'm not very satisfied though :)
+2009-09-03T21:45:01  <Geddeth> :p
+2009-09-03T21:47:12  <Geddeth> my wifi is being obnoxious, going to try to reboot stuff .. brb
+2009-09-03T21:52:22  *** Geddeth has quit IRC
+2009-09-03T21:56:51  *** Geddeth has joined #deuterosx.org
+2009-09-03T21:56:51  *** Q sets mode: +o Geddeth
+2009-09-03T22:03:45  *** Geddeth1 has joined #deuterosx.org
+2009-09-03T22:03:45  *** Q sets mode: +o Geddeth1
+2009-09-03T22:04:21  *** Geddeth has quit IRC
+2009-09-03T22:09:45  <Geddeth1> gah
+2009-09-03T22:09:58  <Luaan> :)
+2009-09-03T22:10:18  <Geddeth1> well, I guess I'll call it a day then .. hoping my hardware magically fixes itself over the course of the night
+2009-09-03T22:10:24  <Geddeth1> it happens
+2009-09-03T22:10:34  <Luaan> yeah :)
+2009-09-03T22:10:42  <Luaan> bye then :)
+2009-09-03T22:11:11  <Geddeth1> thanks for turning up though, I'll give the others a proper beating, like any decent dictator should.
+2009-09-03T22:11:24  <Geddeth1> >:-)
+2009-09-03T22:11:37  <Luaan> np :)))
+2009-09-03T22:12:13  <Geddeth1> l8r
+2009-09-03T22:13:00  *** Geddeth1 has quit IRC
+2009-09-03T22:54:45  *** Ra1D3R has joined #deuterosx.org
+2009-09-03T22:57:36  *** Ra1D3R has quit IRC
+2009-09-03T22:57:36  *** Ra1D3R has joined #deuterosx.org
+2009-09-03T22:58:53  <Ra1D3R> hi
+2009-09-03T22:59:04  <Luaan> hi :)
+2009-09-03T22:59:19  <Ra1D3R> so whats goin on
+2009-09-03T22:59:33  <Luaan> confused with the time? :)
+2009-09-03T22:59:40  <Ra1D3R> im still on buisness trip so i cant read forums much
+2009-09-03T23:00:23  <Luaan> nothing much... a meeting was scheduled for today
+2009-09-03T23:00:29  <Luaan> noone came :))
+2009-09-03T23:00:35  <Ra1D3R> :(
+2009-09-03T23:00:36  <Luaan> (just me and Ged)
+2009-09-03T23:00:43  <Ra1D3R> thats sad
+2009-09-03T23:02:16  <Ra1D3R> u know if the text strings i extracted from the original games disks were or could be of any use?
+2009-09-03T23:03:26  <Luaan> they always will be - we'll need those when implementing the story
+2009-09-03T23:04:26  <Ra1D3R> when im back home in a week ill start correcting the typos in the german translation
+2009-09-03T23:05:07  <Luaan> I hate writing multilingual software :D
+2009-09-03T23:05:24  <Ra1D3R> then ill make a xml file that holds the 3 language versions
+2009-09-03T23:05:44  <Ra1D3R> wont be able to correct the french stuff so i might leave it out
+2009-09-03T23:06:15  <Luaan> well... we might specify the xml format for that
+2009-09-03T23:06:17  <Ra1D3R> or leave it as is
+2009-09-03T23:07:40  <Ra1D3R> shouldnt be that difficult .. i mean sorting by message type , event , id the string it self in 2 or more languages
+2009-09-03T23:07:54  <Luaan> we need to have it multilingual and we need to have unique identifier for every text (the same in different languages)
+2009-09-03T23:11:20  <Ra1D3R> lets say we have a message from the head of research it could be like: id=001 type=research event=IOSChassisResearchComplete string_en=Research of IOS Chassis has been completed. string_ger=Erforschung des IOS Rumpfes ist abgeschlossen.
+2009-09-03T23:14:28  <Luaan> I'd say the ID should be a string, like "researchComplete" and the "event" should be bound the other way around. writing the text into "string_en" etc. is a bit restrictive... maybe even make the strings file different for each language? Something like "Strings.xml", "Strings.de.xml", "Strings.it.xml" etc.
+2009-09-03T23:15:01  <Ra1D3R> good idea
+2009-09-03T23:15:23  <Ra1D3R> so no overhead data when u load a specific language
+2009-09-03T23:15:34  <Luaan> and you can edit them separately
+2009-09-03T23:15:47  <Luaan> without having to merge them afterwards
+2009-09-03T23:16:00  <Ra1D3R> true
+2009-09-03T23:16:27  <Ra1D3R> and ppl can extend the languages by themselves
+2009-09-03T23:16:35  <Luaan> Strings.xml would always work as a "fallback" language, for any missing strings in a localized version... In english...
+2009-09-03T23:16:38  <Luaan> exactly
+2009-09-03T23:21:20  <Ra1D3R> ok , ill be off for tonight got a long day tomorrow cya soon
+2009-09-03T23:21:23  <Ra1D3R> bye
+2009-09-03T23:21:32  <Luaan> ok, cya :)
