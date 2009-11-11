@@ -22,63 +22,101 @@
     require_once('../inc/config.php');
 
     require_once($GLOBALS['DX_SITE_PATH'] . 'inc/simplepie/simplepie.inc');
-    require_once($GLOBALS['DX_SITE_PATH'] . 'inc/SmartIRC.php');
     require_once($GLOBALS['DX_SITE_PATH'] . 'inc/header.php');
-
-    // get users in IRC channel
-    $irc = &new Net_SmartIRC();
-    $irc->setUseSockets(TRUE);
-    $irc->connect('no.quakenet.org', 6667);
-    $irc->login('Net_SmartIRC', 'Net_SmartIRC Client '.SMARTIRC_VERSION.' (example2.php)', 0, 'Net_SmartIRC');
-    $irc->getList('#deuterosx.org');
-    $irc_result = $irc->listenFor(SMARTIRC_TYPE_LIST);
-    $irc->disconnect();
-
-    if (is_array($irc_result)) {
-        $ircdata = $irc_result[0];
-        $irc_count = $ircdata->rawmessageex[4];
-    }
+    
 ?>
 
-    <div style="float:right;width:50%;padding:2px;">
-        <h1>SVN Commit log</h1>
+    <table>
+        <tr>
+	        <td id="dxmaincolumn">
+			    <div style="width: 100%;">
+			        <p>
+			        This is the developers' page.
+			        </p>
+			        
+			        <p>
+                        <a href="http://sourceforge.net/projects/deuterosx">
+                            <img src="http://sflogo.sourceforge.net/sflogo.php?group_id=224652&amp;type=11" width="120" height="30" alt="Get Deuteros X at SourceForge.net. Fast, secure and Free Open Source software downloads" />
+                        </a>
+			        </p>
+			    </div>
+	        </td>
+	        
+	        <td id="dxrightcolumn">
+                <div class="dxrightbox">
+                
+                    <h2>IRC</h2>
+    
+                    <p>The developers gather in bi-weekly IRC meetings on the QuakeNet IRC servers in the #deuterosx.org channel.</p>
+			        <ul>
+			        <li><a href="chat/">IRC chat applet</a></li>
+			        <li><a href="developers/deuterosx.org.log">IRC chat log</a></li>			        
+			        </ul>
+			        
+  
+                </div>
+                
+                <div class="dxrightbox">
+                
+                    <h2>Tickets</h2>
+                    
+                    <ul><li><a href="http://sourceforge.net/apps/trac/deuterosx/">Browse Trac tickets</a></li></ul>
+                    
+			        <ul>
+			        
+<?php 
+    $tracfeed = new SimplePie();
+    $tracfeed->set_feed_url('http://sourceforge.net/apps/trac/deuterosx/report/1?format=rss&USER=anonymous');
+    $tracfeed->init();
+    $tracfeed->handle_content_type();
+
+    if ($tracfeed->data) {
+        $tracitems = $tracfeed->get_items(0, 5);
+        foreach ($tracitems as $item) {        	
+            echo '<li>';
+            echo '<a target="_blank" href="' . $item->get_permalink() . '">' . $item->get_title() . '</a>'; 
+            echo '</li>';
+        }
+    }
+?>
+                    </ul>
+			    </div>
+			    
+			    <div class="dxrightbox">
+			        <h2>Subversion</h2>
+			        
+			        <ul>
+			            <li><a href="http://deuterosx.svn.sourceforge.net/viewvc/deuterosx/">Browse source</a></li>        
+			            <li><a href="http://sourceforge.net/mail/?group_id=224652">SVN commits mailing list</a></li>
+			        </ul>
+			        
+			        <ul>
 <?php
 
-    $feed = new SimplePie();
-    $feed->set_feed_url('http://cia.vc/stats/project/DeuterosX/.rss');
-    $feed->init();
-    $feed->handle_content_type();
+    $svnfeed = new SimplePie();
+    $svnfeed->set_feed_url('http://cia.vc/stats/project/DeuterosX/.rss');
+    $svnfeed->init();
+    $svnfeed->handle_content_type();
 
-    if ($feed->data) {
-        $items = $feed->get_items(0, 5);
-        echo '<p><span style="padding:2px;background-color:#47c;">Displaying ' . $feed->get_item_quantity(5) . ' most recent entries.</span></p>';
-        foreach ($items as $item) {
-            echo '<div class="chunk" style="padding:0 5px;">'
-            . '<h4 style="padding:2px;background-color:#024;"><a href="' . $item->get_permalink() . '">' . $item->get_title() . '</a> ' . $item->get_date('j M Y') . '</h4>';
-            echo $item->get_content();
-            if ($enclosure = $item->get_enclosure(0))
-                echo '<p><a href="' . $enclosure->get_link() . '" class="download"><img src="./for_the_demo/mini_podcast.png" alt="Podcast" title="Download the Podcast" border="0" /></a></p>';
-
-            echo '</div>';
+    if ($svnfeed->data) {
+        $svnitems = $svnfeed->get_items(0, 5);
+        foreach ($svnitems as $item) {
+            echo '<li>';
+            echo $item->get_date('j M Y');
+            echo ' ';
+            echo '<a target="_blank" href="' . $item->get_permalink() . '">' . $item->get_title() . '</a>'; 
+            echo '</li>';
         }
-
     }
 ?>
-    </div>
+				    </ul>
+				
+			    </div>
+	        
+	        </td>
+        </tr>
+    </table>  
 
-    <div style="width: 100%;">
-    <p>
-    This is the developers' page.
-    </p>
-
-    <ul>
-    <li><a href="chat/">IRC chat</a> (<?php echo  $irc_count; ?> users)</li>
-    <li><a href="http://cia.vc/stats/project/DeuterosX">SVN commits</a></li>
-    <li><a href="http://sourceforge.net/mail/?group_id=224652">SVN commits mailing list</a></li>
-    </ul>
-    </div>
-
-    <br />
 <?php
     require_once($GLOBALS['DX_SITE_PATH'] . 'inc/footer.php');
 ?>
