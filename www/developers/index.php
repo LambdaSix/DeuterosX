@@ -50,7 +50,7 @@
                     <p>The developers gather in bi-weekly IRC meetings on the QuakeNet IRC servers in the #deuterosx.org channel.</p>
 			        <ul>
 			        <li><a href="chat/">IRC chat applet</a></li>
-			        <li><a href="developers/deuterosx.org.log">IRC chat log</a></li>			        
+			        <li><a href="deuterosx.org.log">IRC chat log</a></li>			        
 			        </ul>
 			        
   
