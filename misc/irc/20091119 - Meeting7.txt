@@ -1,0 +1,238 @@
+﻿2009-11-19T21:02:24  <Wishbone> Hi guys.
+2009-11-19T21:03:16  <Geddeth> hey
+2009-11-19T21:04:08  <Geddeth> think we're the only two
+2009-11-19T21:04:22  <Wishbone> marrzian not responding?
+2009-11-19T21:04:28  <Geddeth> marrzian is always on, so I don't really know if he is available
+2009-11-19T21:04:33  <Wishbone> Ah...
+2009-11-19T21:05:47  <Wishbone> Well, Luaan is on MSN, but he's listed as busy.
+2009-11-19T21:06:14  <marrzian> hey, i'm here
+2009-11-19T21:06:31  <Geddeth> cool
+2009-11-19T21:06:40  <Wishbone> Also dan-te (and I can never remember who he is on the project) and Dexee are online.
+2009-11-19T21:06:56  <Wishbone> Hey marrzian :-)
+2009-11-19T21:07:03  <marrzian> gonna grab some coffee quickly
+2009-11-19T21:07:41  <Geddeth> k
+2009-11-19T21:09:28  <Geddeth> think Luaan will join us soon as well
+2009-11-19T21:09:51  <Wishbone> Excellent. He's really the most important contributor to the discussion right now.
+2009-11-19T21:11:11  *** Luaan has joined #deuterosx.org
+2009-11-19T21:11:18  <Luaan> hi guys :)
+2009-11-19T21:11:22  <marrzian> heya
+2009-11-19T21:11:36  <Geddeth> fabtastic
+2009-11-19T21:11:40  <Luaan> sorry, totaly forgot to start IRC :)
+2009-11-19T21:11:45  <Geddeth> np
+2009-11-19T21:11:48  <Geddeth> lets begin then
+2009-11-19T21:11:52  <Wishbone> Yup :)
+2009-11-19T21:12:04  <Geddeth> I haven't had time to write up the agenda, but there is one, though it is very short
+2009-11-19T21:12:16  <Geddeth> 1. Stuff we've done since last
+2009-11-19T21:12:24  <Geddeth> 2. About/developer page
+2009-11-19T21:12:33  <Geddeth> 3. Logo/webdesign
+2009-11-19T21:12:40  <Geddeth> 4. Programming status
+2009-11-19T21:12:51  <Geddeth> 5. Nothing beyond this point.
+2009-11-19T21:13:01  <Geddeth> So let's do 1. Please keep it brief ;) ...
+2009-11-19T21:13:09  <Geddeth> Wishbone?
+2009-11-19T21:13:25  <Wishbone> Well, I've experimented a bit with the code that's running.
+2009-11-19T21:14:08  <Wishbone> Switched around a few images, messed with the XML files, tried to get a feel for how it works.
+2009-11-19T21:14:34  <Wishbone> That's about it.
+2009-11-19T21:15:29  <marrzian> i'm fraid earth city depict will take little longer to complete than i thought. i got studies and stuff :/ --but i'm working on it
+2009-11-19T21:15:54  <Luaan> don't worry - we're all quite busy ;-)
+2009-11-19T21:16:01  <Geddeth> Fine guys .. Luaan?
+2009-11-19T21:16:09  <marrzian> right :)
+2009-11-19T21:16:32  <Luaan> For one, I finished some of the graphics stuff - just minor details to make it more convenient to work with
+2009-11-19T21:16:46  <Luaan> Right now, I'm refactoring the base classes of game objects
+2009-11-19T21:17:04  <Luaan> that's Station, StationBase, StationModuleBase and the GameScreens
+2009-11-19T21:17:35  <Geddeth> ok
+2009-11-19T21:17:52  <Luaan> after I finished that, I intend to write some short guide in the forums to get on distributing tasks for the other programmers
+2009-11-19T21:18:10  <Luaan> the next major thing to implement now will be a fonts system though
+2009-11-19T21:18:13  <Wishbone> That sounds great.
+2009-11-19T21:18:38  <Wishbone> That could be a standalone task, could it not?
+2009-11-19T21:18:39  <Geddeth> Yes indeed
+2009-11-19T21:19:00  <Luaan> yeah, it's just that it's pretty much the last rendering feature needed to draw the basic screens
+2009-11-19T21:19:05  <Luaan> which means pretty much all of them :D
+2009-11-19T21:19:30  <Luaan> no problem to use placeholders on that though
+2009-11-19T21:19:43  <Wishbone> Hehe, sure, but if done properly, do you think... Hehe, that's what I was gonna ask ;-)
+2009-11-19T21:19:56  <Luaan> :))
+2009-11-19T21:20:10  <Wishbone> Because that would mean we could move forward with other things :)
+2009-11-19T21:20:40  <Luaan> exactly
+2009-11-19T21:20:40  <Geddeth> Sounds good - lets discuss that in more detail at the end of the chat
+2009-11-19T21:21:09  <Geddeth> I have had time for very little, but I have redone the About and Developers pages slightly, and those are the basis for our next discussion, so please take a look at them now ;)
+2009-11-19T21:22:06  <Geddeth> As you can see on the About-page, I would like our team to have a prominent position on it, and each of us presented with a bit of info
+2009-11-19T21:22:07  <Wishbone> Looks excellent :D
+2009-11-19T21:22:31  <Luaan> sure does :P
+2009-11-19T21:22:45  <Luaan> looks like we've got some filling to do though! :D
+2009-11-19T21:22:48  <Geddeth> Regarding the profile picture: I would like us to each have some sort of human(oid) face to present on that page
+2009-11-19T21:22:58  <Geddeth> the picture should be used in the forum as well
+2009-11-19T21:23:27  <Geddeth> it doesn't have to be a photograph, but is does have to be some sort of head presented from the neck upwards .. so something like Simpsonizer would be ok, IMO
+2009-11-19T21:23:41  <Wishbone> Hmm... I've always been rather paranoid about connecting my actual picture with my online handle...
+2009-11-19T21:23:54  <Wishbone> Ah, well I have that on hand :D
+2009-11-19T21:23:56  <Geddeth> yes, I understand that some feel that way, and that is ok
+2009-11-19T21:24:01  <Luaan> I do have one on facebook though :P
+2009-11-19T21:24:12  <marrzian> wishbone, i could not agree more :)
+2009-11-19T21:24:35  <Geddeth> so I'd like you to consider the info that is presented and if there are no major objections, we can each fill in info about ourselves
+2009-11-19T21:24:48  <Geddeth> I retain the right to do some minor edits to the texts, though :P
+2009-11-19T21:25:15  <Geddeth> to keep the content of the page unified across all our descriptions
+2009-11-19T21:25:30  <Luaan> coolio
+2009-11-19T21:25:57  <Geddeth> since it's a wiki page we cant all edit it at once, so wait for the guy above you to finish his edit before you go ahead yourself
+2009-11-19T21:26:05  <Geddeth> I'll create a forum thread for coordination purposes of this
+2009-11-19T21:26:42  <Geddeth> so, no objections to the info presented? Location ... birthyear?
+2009-11-19T21:27:08  <Wishbone> "Real name"? :-(
+2009-11-19T21:27:22  <Wishbone> That's much worse than a photo.
+2009-11-19T21:27:43  <Geddeth> Hmm .. yeah. I don't feel very strongly about that one, we can ditch it.
+2009-11-19T21:27:47  <Luaan> yeah... and nobody can pronounce it either :P
+2009-11-19T21:27:52  <Wishbone> Hehe ;)
+2009-11-19T21:28:01  <Geddeth> haha, if you only knew .. .
+2009-11-19T21:28:09  <Wishbone> LOL :D
+2009-11-19T21:28:17  <Geddeth> you're better off in that respect than me ;)
+2009-11-19T21:28:29  <Wishbone> Yeah, we're no strangers to unusual names :)
+2009-11-19T21:28:56  <Luaan> yeah, but it still is good bit annoying to have it butchered all the time :D even by people in the same country...
+2009-11-19T21:29:06  <Luaan> and that's one of the quite common ones as well :D
+2009-11-19T21:29:21  <Wishbone> Don't worry, we get that too, especially Geddeth.
+2009-11-19T21:29:47  <Luaan> I'm sure you do :D I have friends with much worse in this aspect as ... :Dwell
+2009-11-19T21:29:57  <Geddeth> Except only 7 of us have my name here :)
+2009-11-19T21:30:07  <Wishbone> Anyhoo...
+2009-11-19T21:30:14  <Geddeth> Yeah, Real Name is gone now
+2009-11-19T21:30:42  <Geddeth> But get cracking on the rest .. the list is ordered alphabetically, so Annihilator will have to go first
+2009-11-19T21:30:52  <Geddeth> Developer page next
+2009-11-19T21:31:03  <Geddeth> It's basically empty
+2009-11-19T21:31:21  <Geddeth> And that's the problem .. what would you expect to see when you click on that navigation link?
+2009-11-19T21:31:57  <Luaan> well, all that is there already is important
+2009-11-19T21:32:02  <Wishbone> "He likes to talk dirty with his SMTP server"... You sound like either an internet stalker or a viagra spammer Bro :p
+2009-11-19T21:32:32  <Geddeth> heh, well I might edit that, it was late :)
+2009-11-19T21:32:44  <Geddeth> but I do talk to my SMTP server once in a while ;)
+2009-11-19T21:32:45  *** Annihilator has joined #deuterosx.org
+2009-11-19T21:32:52  <Annihilator> 'sup?
+2009-11-19T21:32:52  <Geddeth> well, POP3 moreso, perhaps
+2009-11-19T21:32:59  <Geddeth> welcome Annihilator ;)
+2009-11-19T21:33:03  <Wishbone> Hi Annihilator, welcome to the party :)
+2009-11-19T21:33:04  <marrzian> hey
+2009-11-19T21:33:11  <Annihilator> barely made it. worked until now
+2009-11-19T21:33:25  <Luaan> hi ;-)
+2009-11-19T21:33:26  <Geddeth> We were talking about the About-page
+2009-11-19T21:33:37  <Wishbone> Well, it's true that it looks empty. On the other hand, Luaan is right. All the important stuff is already there.
+2009-11-19T21:33:48  <Wishbone> Maybe just a question of reformatting it?
+2009-11-19T21:34:34  <Geddeth> Wishbone: perhaps, I just want to make sure I am not overlooking something obvious
+2009-11-19T21:35:00  <Annihilator> how do we fill out our own personal details? :)
+2009-11-19T21:35:25  <Geddeth> edit the wiki page ;)
+2009-11-19T21:35:42  <Geddeth> you log in with your forum user/pass
+2009-11-19T21:36:12  <Wishbone> Well... There are two things we need to add, but not on those two pages.
+2009-11-19T21:36:35  <Wishbone> Also, we can't add any of them yet, as we have nothing to put on them.
+2009-11-19T21:36:46  <Wishbone> But we need a download page and a media page.
+2009-11-19T21:37:08  <Wishbone> But they ought to be independent pages in their own right.
+2009-11-19T21:37:17  <Annihilator> thnx :)
+2009-11-19T21:39:08  <Annihilator> idd, the forum is impractical & cumbersome for such
+2009-11-19T21:40:44  <Geddeth> yes, those will come
+2009-11-19T21:41:01  <Geddeth> they will probably be wiki pages as well, or whatever is easiest
+2009-11-19T21:41:12  <Wishbone> Sure.
+2009-11-19T21:41:27  <Wishbone> So, should we move on?
+2009-11-19T21:41:40  <Geddeth> well, if there are no more comments for the About and Developers-pages ...
+2009-11-19T21:42:09  <Annihilator> 0, fer nao
+2009-11-19T21:42:19  <Geddeth> Next thing was just me wanting to know if we should replace marrzian's logo for the existing one in the webdesign
+2009-11-19T21:42:31  <Geddeth> and get the design up for the public
+2009-11-19T21:42:35  <Wishbone> Will it work, that small?
+2009-11-19T21:42:41  <Geddeth> haven't tried
+2009-11-19T21:42:52  <marrzian> i think i tried some scaling
+2009-11-19T21:43:02  <Wishbone> But yes, let's put the webdesign onto the public site.
+2009-11-19T21:43:17  <marrzian> it hardly looks any good that way
+2009-11-19T21:43:40  <Geddeth> marrzian: so what would be the alternative?
+2009-11-19T21:43:57  <marrzian> my opinion: no gfx whatsoever
+2009-11-19T21:44:01  <marrzian> in the page header
+2009-11-19T21:44:10  <Geddeth> =-O
+2009-11-19T21:44:26  <Geddeth> ASCII?
+2009-11-19T21:44:29  <marrzian> rather some cool design, playing with fonts so that it fits the whole
+2009-11-19T21:44:35  <marrzian> hehe
+2009-11-19T21:44:50  <marrzian> hey i've done ascii too though
+2009-11-19T21:45:09  <Geddeth> heh, great - you can do our file_id.diz :P
+2009-11-19T21:45:18  <marrzian> absolutely :)
+2009-11-19T21:45:34  <marrzian> hold sec
+2009-11-19T21:46:46  <Geddeth> well, I think marrzian's logo is a very good shot at a project logo, so I think it is natural to have it in the website header
+2009-11-19T21:47:14  <Wishbone> Well, I agree that the new logo doesn't look too good scaled down to a height of 100 px.
+2009-11-19T21:48:04  <Wishbone> At 200 px height however...
+2009-11-19T21:48:21  <Luaan> that's a lot of space though
+2009-11-19T21:48:42  <Geddeth> that would require a major redesign, IMO
+2009-11-19T21:48:44  <marrzian> http://rapidshare.com/files/309364822/mzn-sep.asc.png.html
+2009-11-19T21:48:45  <_deutebot`> Title: RapidShare: 1-CLICK Web hosting - Easy Filehosting (at rapidshare.com)
+2009-11-19T21:48:51  <marrzian> that's high-ascii actually though
+2009-11-19T21:49:32  <Wishbone> Hmm, I'd call that ANSI myself.
+2009-11-19T21:49:45  <Geddeth> heh, nice marrzian
+2009-11-19T21:49:46  <marrzian> no ansi used there
+2009-11-19T21:49:48  <Wishbone> Except that it's monochrome.
+2009-11-19T21:49:48  <marrzian> :)
+2009-11-19T21:50:02  <Geddeth> no, those are 8-bit ASCII chars as far as I can tell
+2009-11-19T21:50:04  <Wishbone> Hehe, I used to do ANSI graphics. Those were the days...
+2009-11-19T21:50:15  <Geddeth> anyway
+2009-11-19T21:50:23  <marrzian> bbs era *sigh*
+2009-11-19T21:50:56  <Wishbone> Right...
+2009-11-19T21:50:57  <marrzian> were the times indeed :)
+2009-11-19T21:51:23  <Geddeth> marrzians logo doesn't contain the "X" in "Deuteros X", so that would pose a problem as well
+2009-11-19T21:51:23  <Annihilator> glad they're dead tho. modem pools especially. :P
+2009-11-19T21:51:48  <Geddeth> but we can't release the site before we have a logo proper
+2009-11-19T21:51:51  <Wishbone> Right. Also, it really shouldn't be used for phase 1.
+2009-11-19T21:52:47  <marrzian> imho the page is more informative in nature, so focus more on clean design than gfx on the webby
+2009-11-19T21:53:15  <marrzian> if you can fot the logo there so that it looks good, be my guest though :)
+2009-11-19T21:53:19  <marrzian> fit*
+2009-11-19T21:54:08  <Wishbone> Well, we've got 7 minutes left...
+2009-11-19T21:54:19  <Geddeth> yes, we will leave it at that
+2009-11-19T21:54:32  <Geddeth> last item: status of programming
+2009-11-19T21:54:46  <Geddeth> Luaan summed it up earlier, so no need to recap?
+2009-11-19T21:54:56  <Wishbone> And I don't think we will be lynched by a great internet mob if we happen to update our web design along the way ;-)
+2009-11-19T21:55:12  <Geddeth> and Wishbone had a question in the forums in that regard
+2009-11-19T21:55:25  <Wishbone> Yeah, let me paste it in here...
+2009-11-19T21:55:47  <Wishbone> I think the easiest way of getting to grips with code that you haven't made yourself, is to be able to see it running. That makes it a lot easier to experiment, and gives you a more immediate idea of what it does. If we can get the engine to run just one actual game screen, with just a single button that does something, anything really, then I think I can begin to contribute to the coding for real.
+2009-11-19T21:56:32  <Annihilator> sounds loggycal
+2009-11-19T21:58:49  <Wishbone> So, no other comments on that?
+2009-11-19T21:59:42  <Wishbone> Was I just kicked off the channel?
+2009-11-19T21:59:45  <Geddeth> I think the idea is sound, but Luaan knows if it is feasible anytime soon
+2009-11-19T21:59:47  <Annihilator> i've tried running the compiled code available on svn but all i get is a crash
+2009-11-19T21:59:55  <Luaan> still?
+2009-11-19T22:00:04  <Annihilator> lemme try again
+2009-11-19T22:00:14  <Luaan> that would be a shame, the last one worked for Wish finally :D
+2009-11-19T22:00:24  <Wishbone> Oh, everyone were suddenly all quiet ;)
+2009-11-19T22:00:33  <Wishbone> Yeah, I can run it fine now.
+2009-11-19T22:00:35  <Annihilator> i'm running w7 x64, if that's at all relevant
+2009-11-19T22:00:54  <Luaan> me too :D
+2009-11-19T22:00:59  <Wishbone> It might be. I compiled and ran it on an XP system.
+2009-11-19T22:01:00  <Annihilator> nope. crashes again :(
+2009-11-19T22:01:02  <Geddeth> Vista x64 here
+2009-11-19T22:01:03  <Wishbone> Oh...
+2009-11-19T22:01:09  <Luaan> install the latest graphics drivers
+2009-11-19T22:01:15  <Annihilator> i have 'em
+2009-11-19T22:01:19  <Luaan> what kind of hardware do you have there?
+2009-11-19T22:01:24  <Luaan> and do you have .NET installed?
+2009-11-19T22:01:34  <Luaan> also, you need the Tao framework and SlimDX
+2009-11-19T22:01:41  <Annihilator> yes. nvidia 8800gt
+2009-11-19T22:01:49  <Annihilator> ah. i c.
+2009-11-19T22:01:50  <Luaan> the same I have
+2009-11-19T22:01:57  <Luaan> :D
+2009-11-19T22:02:17  <Luaan> Wishbone: There is one thing with the "having it run" though. The old engine used Xml based scripting system for button actions and the like
+2009-11-19T22:02:26  <Annihilator> i will install at once
+2009-11-19T22:02:45  <Luaan> I'd like your input on that :)
+2009-11-19T22:02:58  <Wishbone> Luaan: I'd be happy to give it :)
+2009-11-19T22:03:12  <Wishbone> Luaan: Any particular files I need to look at?
+2009-11-19T22:03:16  <Annihilator> can the dependencies be redistributed with the game?
+2009-11-19T22:03:21  <Luaan> it's all in the ModGui.xml
+2009-11-19T22:03:32  <Wishbone> Annihilator: I think they will be.
+2009-11-19T22:03:38  <Luaan> Annihilator: Yeah, all of it is redist or open source :)
+2009-11-19T22:04:09  <Luaan> better to have the .NET framework as a separate download though
+2009-11-19T22:04:14  <Annihilator> xclnt
+2009-11-19T22:04:20  <Luaan> most people already have it - I'm surprised you don't on W7
+2009-11-19T22:04:33  <Annihilator> who, me?
+2009-11-19T22:04:46  <Luaan> yeah
+2009-11-19T22:04:49  <Wishbone> Luaan: Okay. I've looked at that a bit already, and it's virtually identical, in function if not in style, to the file examples I've made myself.
+2009-11-19T22:05:02  <Annihilator> i do
+2009-11-19T22:05:20  <Luaan> it basically has a very, very simple Xml based scripting system
+2009-11-19T22:05:25  <Wishbone> Luaan: I do have a few ideas for expansions though, so let me get back to you on that.
+2009-11-19T22:05:35  <Luaan> that'll be great
+2009-11-19T22:05:45  <Wishbone> Luaan: Let's discuss it on the forum.
+2009-11-19T22:05:49  <Luaan> right
+2009-11-19T22:07:07  <Wishbone> So, is there anything else?
+2009-11-19T22:07:33  <Wishbone> Anyone?
+2009-11-19T22:07:47  <Geddeth> Nope, don't think so
+2009-11-19T22:08:15  <Geddeth> Thanks for being here - I think these meetings are what drives the project in times when we are all really busy.
+2009-11-19T22:08:21  <Geddeth> So glad to see you all turn up.
+2009-11-19T22:08:37  <Geddeth> Next meeting will be Dec 3rd
+2009-11-19T22:08:41  <Annihilator> thanks fellas.
+2009-11-19T22:08:57  <Geddeth> See you all then! :)
+2009-11-19T22:09:03  <Luaan> right :) bye then :P
+2009-11-19T22:09:08  <Geddeth> I hereby declare the bazaar .. closed :P
+2009-11-19T22:09:09  <Annihilator> & sooner, on teh forum. :)
+2009-11-19T22:09:11  <Annihilator> q!
+2009-11-19T22:09:22  <Geddeth> right
+2009-11-19T22:09:48  <Wishbone> Excellent. Bye guys! :)
