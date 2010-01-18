@@ -1,0 +1,280 @@
+2010-01-14T21:06:41  <Wishbone> Gotta love them toilet cars ;-)
+2010-01-14T21:06:47  <Geddeth> .. ok, enough with the inside  jokes already ;)
+2010-01-14T21:07:01  <Wishbone> Right. The project lead has the floor.
+2010-01-14T21:07:01  <Geddeth> we'll begin proper now
+2010-01-14T21:07:08  <Annihilator> bcx
+2010-01-14T21:07:20  <Annihilator> (nota bene: toilet car ftw)
+2010-01-14T21:07:26  <Geddeth> first of all, I have a sick little girl here, who may need my attention during the meeting, so I might dart off
+2010-01-14T21:07:47  <Supremacy> aw
+2010-01-14T21:07:48  <marrzian> aaww :\
+2010-01-14T21:08:02  <Annihilator> np
+2010-01-14T21:08:02  <Wishbone> Geddeth: In that case, you might want to outline the agenda from the beginning, assuming there is one.
+2010-01-14T21:08:09  <Geddeth> secondly, for the newcomers - we (me particularly) strive to keep these meetings at 60 minutes maximum, so we need to keep our discussions short and to the point
+2010-01-14T21:08:35  <cluly> roger that skipper!
+2010-01-14T21:08:53  <Geddeth> and thirdly, I've just jotted down the agenda the past 15 minutes, so can't really show it to you
+2010-01-14T21:09:17  <Geddeth> but there are 6 points I'd like to dig into
+2010-01-14T21:09:48  <Geddeth> and per what I just said about 60 minutes, I reserve the right to ask deep discussions to be postponed to after the meeting or better yet - to the forums
+2010-01-14T21:10:01  <Geddeth> so ..
+2010-01-14T21:10:21  <Geddeth> welcome to 2010 - happy new year :)
+2010-01-14T21:10:44  <Wishbone> Point one - check.
+2010-01-14T21:10:48  <cluly> \o/
+2010-01-14T21:10:52  <Geddeth> :-)
+2010-01-14T21:10:53  <Wishbone> :D
+2010-01-14T21:11:00  <Luaan> to you as well :))
+2010-01-14T21:11:02  <Geddeth> I'm really excited about getting Deuteros out there for public consumption (like in the olden days) - and I think we're going to get much close to that this year
+2010-01-14T21:11:50  <Geddeth> personally, I'm trying to get this project moved to the very front of my priority list, so I'll be able to give it all the love and care it deserves
+2010-01-14T21:11:52  <Geddeth> :-D
+2010-01-14T21:12:11  <Wishbone> Geddeth: Remember the rule: personal lives first ;-)
+2010-01-14T21:12:27  <Annihilator> the what? :P
+2010-01-14T21:12:28  <Geddeth> Wishbone: right you are - I meant my list of projects
+2010-01-14T21:12:48  <Geddeth> First rule of the DX project :)
+2010-01-14T21:12:59  <Geddeth> actually, I think it's the fifth or so ..
+2010-01-14T21:13:09  <Geddeth> http://deuterosx.org/forum/viewtopic.php?f=12&t=989
+2010-01-14T21:13:10  <_deutebot> Title: DeuterosX.org Login (at deuterosx.org)
+2010-01-14T21:13:26  <Geddeth> anyway .. item no. 1
+2010-01-14T21:13:31  * Wishbone thinks "Short and to the point, eh?"
+2010-01-14T21:14:03  <Luaan> :))
+2010-01-14T21:14:36  <Geddeth> we're certainly moving away from a closed, proprietary project with no external communications or support
+2010-01-14T21:15:13  <Geddeth> and towards a more open communicating team - and releasing our website to the public will cement that to all Deuteros fans out there
+2010-01-14T21:15:33  <Geddeth> I genuinely expect our project to become the talk of Amiga-fans and forums on the 'net
+2010-01-14T21:15:37  * Supremacy dreams about a web and/or MMORPG version too
+2010-01-14T21:15:53  <Wishbone> It would be amazing if we could lure Ian Bird out of hiding...
+2010-01-14T21:16:00  <Geddeth> our wiki will also be open (but read-only to non-members), so Google will know of all our goodness as well
+2010-01-14T21:16:15  <Annihilator> indeed. dixiak narco would also be a good asset.
+2010-01-14T21:16:34  <Wishbone> Annihilator: Who?
+2010-01-14T21:16:43  <marrzian> man, hi's site has been up for decades
+2010-01-14T21:16:54  <Geddeth> however, I'd like us to think about how we could compile a list of content, elements, items, features or whatever that is to be kept a "surprise" until release
+2010-01-14T21:16:55  <Annihilator> http://www.dixiak.com/deuteros/
+2010-01-14T21:16:57  <_deutebot> Title: Deuteros - The Next Millennium (at www.dixiak.com)
+2010-01-14T21:17:44  <Geddeth> and my only motivation for this is really that I want Deuteros fans to get a surprise when they download our first public build of Deuteros for modern PCs
+2010-01-14T21:17:47  <Wishbone> Ah, fan of the Atari version. I've seen his site before.
+2010-01-14T21:18:27  <Wishbone> Geddeth: Well... It's Deuteros. How exactly are people going to be surprised?
+2010-01-14T21:18:41  <cluly> So, just to clear this up (for myself) the initial plan is a stright copy of deuteros with updated gfx and engine?
+2010-01-14T21:18:59  <Wishbone> cluly: Updated engine, original graphics and sound.
+2010-01-14T21:19:15  <Wishbone> cluly: Phase 2 is updated graphics and sound.
+2010-01-14T21:19:28  <Wishbone> cluly: Phase 3 is basically Deuteros 2 ;-)
+2010-01-14T21:20:03  <Geddeth> Wishbone: and I agree, Phase 1 wont come as much of a surprise, because once our site goes live and word goes around, people will be waiting for the original Deuteros
+2010-01-14T21:20:40  <cluly> So its an engine you want really?
+2010-01-14T21:20:40  <Wishbone> However, I foresee a situation where a near-simultaneous release of phase 1 and 2 is a possibility.
+2010-01-14T21:20:56  <Wishbone> cluly: We want it all ;-)
+2010-01-14T21:21:01  <Geddeth> but Phases 2 and 3 are still very much in the making, and with Flatliner and the graphics team creating content already, I'd like to keep some of that somewhat closed still
+2010-01-14T21:21:25  <Geddeth> simply so we can control what we release to the public to whet their teeth
+2010-01-14T21:21:27  <Wishbone> Geddeth: Certainly. Phase 2 and 3 are where the surprises are.
+2010-01-14T21:21:33  <Geddeth> think of Black Mesa
+2010-01-14T21:21:53  <Wishbone> Geddeth: Even the existence of phase 3 should be kept secret until at least the release of phase 1, I think.
+2010-01-14T21:22:09  <Geddeth> so .. this is one of the discussions that will continue in the forums, I just wanted that off my chest :)
+2010-01-14T21:22:18  <Wishbone> Right.
+2010-01-14T21:22:20  <Geddeth> item 2
+2010-01-14T21:22:24  <Geddeth> brb
+2010-01-14T21:22:29  <Annihilator> roger taht
+2010-01-14T21:22:31  <cluly> np
+2010-01-14T21:22:52  <cluly> i assume phase 3 is a totaly different game, based on the engine we'd have available?
+2010-01-14T21:23:13  <marrzian> totally different looking atleast :>
+2010-01-14T21:24:10  <Wishbone> I've made a discussion thread for the information issue.
+2010-01-14T21:24:20  <cluly> sweet
+2010-01-14T21:25:18  <Wishbone> cluly: Well, it's supposed to be a sequel.
+2010-01-14T21:25:34  <cluly> hmmmm @ sequeals :P
+2010-01-14T21:25:39  <Wishbone> cluly: Maybe more of a spiritual sequel than an actual one.
+2010-01-14T21:25:46  <Supremacy> deuteros in greek means "Second" so the appropriate name of the sequel would be "Tritos" ;)
+2010-01-14T21:26:00  <Wishbone> Supremacy: Very good point. Duly noted :D
+2010-01-14T21:26:14  <Annihilator> not bad.
+2010-01-14T21:26:16  <Wishbone> cluly: And remember that Deuteros IS a sequel.
+2010-01-14T21:26:16  <cluly> good name too :)
+2010-01-14T21:26:45  <cluly> true...I guess that one WAS better than the original hehe
+2010-01-14T21:28:11  <Geddeth> btk
+2010-01-14T21:28:22  <Wishbone> Hmm, we might as well talk whilst waiting for our glorious leader... Oh, there he is :)
+2010-01-14T21:28:27  <marrzian> wb \o/
+2010-01-14T21:28:42  <Geddeth> :)
+2010-01-14T21:28:58  <Geddeth> my daughter just threw up all over her mother :(
+2010-01-14T21:29:05  <Wishbone> Yikes :(
+2010-01-14T21:29:17  <Geddeth> moving on, though .. :)
+2010-01-14T21:29:21  <Annihilator> wehll, look on the bright side: better on her than on you... or your machine! :P
+2010-01-14T21:29:28  <Geddeth> Annihilator: quite :)
+2010-01-14T21:29:52  <Geddeth> so .. let me ask a trivia question about Deuteros
+2010-01-14T21:30:04  <Geddeth> "In which year was Deuteros released?"
+2010-01-14T21:30:09  <Wishbone> Right, the meeting is halfway through and we're only up to point 2 of 6. We'd better pick up the pace.
+2010-01-14T21:30:10  <cluly> 1991
+2010-01-14T21:30:10  <Annihilator> 1991?
+2010-01-14T21:30:11  <marrzian> 91
+2010-01-14T21:30:13  <Wishbone> 1991?
+2010-01-14T21:30:16  <Geddeth> hehe , nice
+2010-01-14T21:30:23  <Geddeth> you didn't even have time to Google it
+2010-01-14T21:30:35  <Geddeth> which means, next year marks the 20th anniversary
+2010-01-14T21:30:43  <Wishbone> Ooooh...
+2010-01-14T21:30:43  <cluly> :o
+2010-01-14T21:30:55  <Annihilator> holy cow. i'm that old. :)
+2010-01-14T21:30:55  <marrzian> indeed :)
+2010-01-14T21:30:59  <marrzian> didnt think of that
+2010-01-14T21:31:07  * Wishbone thinks "Deuteros - 20th anniversary edition!"
+2010-01-14T21:31:10  <Geddeth> wouldn't it be insanely sweet to give the world Deuteros back on its 20th birthday? :)
+2010-01-14T21:31:24  <cluly> thats a good plan tbh
+2010-01-14T21:31:49  <Geddeth> I've been unable to determine the exact date of release though, but I think it was during Spring
+2010-01-14T21:31:52  <Annihilator> it would at that
+2010-01-14T21:31:53  <Wishbone> That WOULD be amazingly cool.
+2010-01-14T21:32:12  <Geddeth> but whatever, I think we should aim to release Q1 2011
+2010-01-14T21:33:12  <Geddeth> I am thinking the release of Phase 1 of course, but if the gods somehow smile upon os, the wind is in our back and everything happens to go totally well, we might somehow have Phase 2 ready, and that wouldn't matter one bit!
+2010-01-14T21:33:16  <Luaan> it would be nice to have the first two phases at that date... that depends on our graphics guys of course :P
+2010-01-14T21:33:19  <Wishbone> There was a preview in Amiga Action in Dec 1990, and a review in the same in Feb 1991.
+2010-01-14T21:33:43  <Annihilator> wat of scratching phase 1 & going to 2 directly?
+2010-01-14T21:33:45  <Geddeth> Luaan: well, it depends on the whole team, really - not least sound as well
+2010-01-14T21:34:00  <Wishbone> Technically, Phase 1 and 2 are identical. It's only a matter of how fast we can produce content.
+2010-01-14T21:34:12  <Luaan> Wishbone: exactly
+2010-01-14T21:34:16  <cluly> gfx...fast, nothing better to do tbh
+2010-01-14T21:34:34  <Wishbone> cluly: There are a LOT of graphics! :-/
+2010-01-14T21:34:39  <Geddeth> Annihilator: I think we've discussed that prior, the point being that which Wishbone just made, and also that we want to deliver a 1:1 copy initially too
+2010-01-14T21:34:58  <Wishbone> cluly: I'm working on ripping the originals. There are more than you'd think.
+2010-01-14T21:35:08  <Supremacy> ripping? wow
+2010-01-14T21:35:15  <Annihilator> indeed. i recall. i'm just mentioning it in the context of the new plan.
+2010-01-14T21:35:40  <Wishbone> I certainly don't want to abandon phase 1, but if phase 2 overtakes it, I won't mind if that is released first.
+2010-01-14T21:35:40  <Luaan> it would be sad to have to wait for the 30th anniversary though :))
+2010-01-14T21:35:43  <Geddeth> but lets all agree that releasing Phase 1+2 before April next year is a cool mission and lets talk further of it in the forums or after this meeting
+2010-01-14T21:35:57  <Wishbone> Supremacy: That's not as technical as it sounds ;-)
+2010-01-14T21:36:05  <Luaan> +
+2010-01-14T21:36:31  <Annihilator> i agree.
+2010-01-14T21:36:34  <Wishbone> Geddeth: I think we can all agree that that would be insanely cool.
+2010-01-14T21:36:38  <Geddeth> :)
+2010-01-14T21:36:54  <Geddeth> next up: item 3
+2010-01-14T21:37:04  <Supremacy> Whisbone: PM me with the "technical" or not details of ripping.. I always wondered how this is done on Amiga
+2010-01-14T21:37:14  <Geddeth> an easy one, this - please double check your wiki and forum profiles
+2010-01-14T21:37:26  <cluly> ive just uploaded something...now i see it with a MASSIVE amount of JPEG artifacting as I'm on this shitty mobile phone connection...router...thing
+2010-01-14T21:37:35  <Geddeth> I see some empty spaces here and there, and please match your wiki and forum pic
+2010-01-14T21:37:41  <Geddeth> http://deuterosx.org/wiki/DeuterosX:About
+2010-01-14T21:37:42  <_deutebot> Title: DeuterosX:About - DeuterosX.org (at deuterosx.org)
+2010-01-14T21:37:51  <cluly> http://fc05.deviantart.net/fs70/f/2010/014/d/3/DeutConceptWIP_by_Cluly.jpg
+2010-01-14T21:38:07  <cluly> ignore the top illustration...just playing around its still very very VERY rough
+2010-01-14T21:38:27  <Wishbone> cluly: That's friggin' AMAZING! :-D
+2010-01-14T21:38:28  <Geddeth> it would be a great help if you could enter your location in your forum profile, so that this list is without holes: http://deuterosx.org/forum/memberlist.php?g=7&mode=group&sk=m&sd=a
+2010-01-14T21:38:30  <_deutebot> Title: DeuterosX.org Login (at deuterosx.org)
+2010-01-14T21:38:31  <cluly> but the bottom one is my main focus
+2010-01-14T21:38:52  <cluly> that view is only @ 8% of its original size
+2010-01-14T21:38:57  <cluly> thanks :)
+2010-01-14T21:38:58  <Wishbone> cluly: I agree, the bottom one is what we need. And I love the painting style.
+2010-01-14T21:39:08  <Wishbone> cluly: Only... More bits, please ;-)
+2010-01-14T21:39:26  <Annihilator> b00tiful work, mon
+2010-01-14T21:39:32  <cluly> does it have jpeg artifacts for you? :S
+2010-01-14T21:39:44  <Annihilator> i notice none
+2010-01-14T21:39:44  <Geddeth> okay, since cluly just beat me to it: next item
+2010-01-14T21:39:47  <Geddeth> :P
+2010-01-14T21:39:52  <marrzian> cluly: too bad i cant see it right now whilst in console mode, cant wait to check it :)
+2010-01-14T21:40:18  <Geddeth> which concerns the graphics team
+2010-01-14T21:40:20  <Luaan> cluly: every time I get some self-confidence, someone has to rub something that amazing in my face :D
+2010-01-14T21:40:34  <cluly> lol sowwie ^_^
+2010-01-14T21:40:34  <Wishbone> Footnote: Deuteros was released in late February 1991: http://amr.abime.net/review_5795
+2010-01-14T21:40:35  <_deutebot> Title: Deuteros: The Next Millennium review from Zero 16 (Feb 1991) - Amiga Magazine Rack (at amr.abime.net)
+2010-01-14T21:40:43  <Geddeth> Wishbone: thanks
+2010-01-14T21:41:07  <Geddeth> cluly: that is goddamn friggin' beautiful
+2010-01-14T21:41:16  <Geddeth> now may I please speak? :P
+2010-01-14T21:41:18  <Supremacy> cluly: I second that
+2010-01-14T21:41:31  <cluly> its far from finished too
+2010-01-14T21:42:03  <Supremacy> Geddeth we are listening
+2010-01-14T21:42:12  <Geddeth> marrzian has informed me that he wishes to resign as 2D artist
+2010-01-14T21:42:22  <cluly> but im pleased you guys like it...going in the right direction so far then
+2010-01-14T21:42:32  <Geddeth> marrzian: if you wish to elaborate, please do so now
+2010-01-14T21:42:57  <marrzian> yup. what i need is a new assignment, and I hope we can find one so I wont be drifting here doing nothing :)
+2010-01-14T21:43:09  <marrzian> i'm done with makeing gfx
+2010-01-14T21:43:20  <marrzian> i'm slow in it and want to learn new things
+2010-01-14T21:43:23  <Wishbone> marrzian: Do you have anything in mind?
+2010-01-14T21:43:59  <marrzian> not in particular, but i could help with ripping the original game gfx for example
+2010-01-14T21:44:25  <Wishbone> marrzian: And let me say two things: Glad you want to stay on the project regardless, and your logo was absolutely fantastic ;-)
+2010-01-14T21:44:43  <Wishbone> marrzian: I'll get to work on making tasks for that.
+2010-01-14T21:44:59  <marrzian> i have no intention to leave :)
+2010-01-14T21:45:03  <cluly> that title screen is awesome
+2010-01-14T21:46:17  <cluly> Could i bring up the subject of resoultion and scaling, fullscreen and widow modes...is anything set yet?
+2010-01-14T21:46:41  <marrzian> i wish i could code but only language i'm familiar is C and C# is more like Java and I'm not on Windows so its out of question
+2010-01-14T21:46:56  <Geddeth> while we contemplate marrzian's new role, let me just welcome cluly and Supremacy properly - as you have probably seen, they have both expressed wishes to contribute graphics to the project
+2010-01-14T21:47:17  <Geddeth> marrzian: should they wish to join our ranks, what about supervising or assisting the new graphics team?
+2010-01-14T21:47:23  <Luaan> marrzian: C# works fine on Unix and Mac OS
+2010-01-14T21:47:52  <Wishbone> Luaan: But the code project is Visual Studio 2008.
+2010-01-14T21:48:11  <Luaan> Wishbone: As long as we keep up the same formatting settings, that won't be an issue
+2010-01-14T21:48:22  <marrzian> well I'll definately give a *nix compile a try
+2010-01-14T21:48:26  <Geddeth> cluly: I'll note the subject for later, mkay?
+2010-01-14T21:48:28  <Luaan> Wishbone: And I heard Visual Studio works fine in WINE
+2010-01-14T21:48:35  <cluly> sure
+2010-01-14T21:48:43  <Wishbone> Luaan: Okay then, that does sound doable :)
+2010-01-14T21:49:09  <Geddeth> well, C and C# is pretty far apart
+2010-01-14T21:49:26  <Geddeth> but then again, once a programmer .. :)
+2010-01-14T21:49:52  <Wishbone> C# is pretty easy though. I've never had any training in it, but I code in it nonetheless.
+2010-01-14T21:50:01  <Geddeth> marrzian: if you're looking to learn something new, then programming maybe is worth a shot?
+2010-01-14T21:50:04  <Luaan> Geddeth: The worst part is memory management, everything else is pretty easy to get a grasp of :)
+2010-01-14T21:50:13  <Wishbone> Visual Studio, on the other hand, is hard :-/
+2010-01-14T21:50:31  <marrzian> Geddeth: yes that would be very interesting :)
+2010-01-14T21:50:44  <Wishbone> Luaan: The worst part is memory management? Compared to ANSI C? :-o
+2010-01-14T21:51:15  <Luaan> Wishbone: Exactly :) You don't want to take habits from C to C# (or any managed language)
+2010-01-14T21:51:24  <Wishbone> Never mind. 10 minutes left guys.
+2010-01-14T21:51:31  <Geddeth> marrzian: ok then - I imagine you'll provide feedback to the graphic artists in the same manner as the rest of the team
+2010-01-14T21:51:39  <marrzian> Geddeth: but i'll accept anything that helps the cayse
+2010-01-14T21:51:49  <marrzian> s/cayse/cause
+2010-01-14T21:52:08  <Geddeth> marrzian: well, participation is what will help the project the most, I think ;)
+2010-01-14T21:52:27  <Wishbone> I'll try to do a write-up on the gfx ripping process, and make tasks for various parts of it.
+2010-01-14T21:52:29  <Geddeth> so .. moving on - last official item from me
+2010-01-14T21:53:30  <Geddeth> Seeing how the roles and tasks and participation levels of team members can shift often, I propose that we do away with the concept of "Lead" anything as project role (apart from my own role as project lead)
+2010-01-14T21:54:02  <Geddeth> So we just have QA folks, programmers, graphics artists and sound dudes, more or less.
+2010-01-14T21:54:09  <Wishbone> Geddeth: I agree. I feel like an idiot with that title, seeing how Luaan has done all of the coding so far ;)
+2010-01-14T21:54:35  *** cluly has quit IRC
+2010-01-14T21:54:45  <Luaan> Wishbone: Lead guys shouldn't do any *real* work... :D :D
+2010-01-14T21:54:47  <Wishbone> There goes the phone...
+2010-01-14T21:54:49  <Geddeth> Wishbone: well, you have already expressed a wish to become just "Programmer"
+2010-01-14T21:55:06  <Wishbone> Luaan: Hehe, in the real world, no.
+2010-01-14T21:55:12  <Geddeth> Luaan: haha .. maybe that's why I propose this, ever thought of that? :D
+2010-01-14T21:55:27  *** cluly^sadface has joined #deuterosx.org
+2010-01-14T21:55:30  <Wishbone> Luaan: He's trying to get my ass in gear ;-)
+2010-01-14T21:55:36  <cluly^sadface> i hate this phone -_-
+2010-01-14T21:55:37  <Annihilator> wbcx(cluly)
+2010-01-14T21:55:37  <Wishbone> wb cluly^sadface
+2010-01-14T21:55:40  * Geddeth snickers softly.
+2010-01-14T21:55:56  <Geddeth> anyway - no fierce objections?
+2010-01-14T21:56:02  <Wishbone> I hear none.
+2010-01-14T21:56:04  <cluly^sadface> hmm too?
+2010-01-14T21:56:08  <Annihilator> none what-so-ever.
+2010-01-14T21:56:09  * Geddeth listens intently.
+2010-01-14T21:56:19  <Geddeth> 'kay.
+2010-01-14T21:56:21  <Supremacy> none
+2010-01-14T21:56:28  <cluly^sadface> i missed that :o
+2010-01-14T21:56:34  * Wishbone shouts "NONE!" into Geddeth's outstretched ear.
+2010-01-14T21:56:52  <Wishbone> cluly^sadface: We're doing away with the "lead" titles.
+2010-01-14T21:56:53  <Luaan> Geddeth: So that means all the lead duties go to you, good :P
+2010-01-14T21:56:55  <Geddeth> I won't "do the rounds" this time (meaning let everyone tell what they've been up to since last), because we'll all meet again in a week (I hope)
+2010-01-14T21:56:59  <Geddeth> Luaan: yay me :)
+2010-01-14T21:57:38  <Wishbone> cluly^sadface: Supremacy: Have you both gotten access to the SourceForge project?
+2010-01-14T21:57:45  <cluly^sadface> yup
+2010-01-14T21:57:54  <Supremacy> didn't check, where do i go?
+2010-01-14T21:58:08  <Geddeth> so this is the end of my agenda, but cluly did ask about resolutions and gfx scaling - however, I'd like to ask if anyone has anything besides that to discuss this time?
+2010-01-14T21:58:16  <Wishbone> Remember to check your work into SVN.
+2010-01-14T21:58:31  <cluly^sadface> will do :)
+2010-01-14T21:58:38  <Wishbone> Geddeth: Only one thing: Let's get cracking! :D
+2010-01-14T21:58:55  <Annihilator> can the precompiled blob, including shared libs, be picked up from ftp?
+2010-01-14T21:59:05  <Geddeth> does this also mean, that cluly and Supremacy wish to become our new graphic artists?
+2010-01-14T21:59:22  <cluly^sadface> yup
+2010-01-14T21:59:23  <Supremacy> that's why we are here, i guess
+2010-01-14T21:59:36  <Geddeth> I hoped so ;)
+2010-01-14T21:59:48  * cluly^sadface gives Supremacy a High-Five
+2010-01-14T22:00:03  <Geddeth> so we lost an artist, but gained to great new ones *and* a new programmer - how cool is that?! :D
+2010-01-14T22:00:07  <Supremacy> art power, yey ^-^
+2010-01-14T22:00:17  <Wishbone> Concept art is fine to start with. Later on we'll define what graphics are needed in which resolutions, and so on.
+2010-01-14T22:00:24  <Geddeth> Supremacy: give me your SF.net username and I'll add you to the project
+2010-01-14T22:00:39  <marrzian> Geddeth: truly optimistic x)
+2010-01-14T22:00:40  <cluly^sadface> I;m doing this stuff currently at 200 dpi
+2010-01-14T22:00:49  <marrzian> grabbing coffee quickly
+2010-01-14T22:00:51  <Geddeth> marrzian: hehe
+2010-01-14T22:00:54  <cluly^sadface> and tha shuttle painting is 12000x2500 ><
+2010-01-14T22:00:56  <Supremacy> Geddeth: I don't have one, I will PM you ASA I make one
+2010-01-14T22:01:03  <Geddeth> Supremacy: great
+2010-01-14T22:01:07  <Wishbone> cluly^sadface: Hehe, dpi only has meaning in printing, I think.
+2010-01-14T22:01:29  <Geddeth> Wishbone: I think that's because he's doing this by hand, no?
+2010-01-14T22:01:30  <Wishbone> cluly^sadface: I mean specific sizes.
+2010-01-14T22:01:40  <cluly^sadface> nah, everything thing looks better at half the size...so you work double and scale down
+2010-01-14T22:02:02  <Luaan> cluly^sadface: DPI doesn't interest us all that much :P The resolution is much more important for our use :) However, scaling down should be fine
+2010-01-14T22:02:32  <cluly^sadface> yeah it should go to 72dpi and into widescreen formats with ease
+2010-01-14T22:02:57  <Wishbone> cluly^sadface: You keep on with the dpi. It only has meaning in printing.
+2010-01-14T22:02:58  <cluly^sadface> and everything thing below...hence the currently massive working resoulutions lol
+2010-01-14T22:03:18  <Wishbone> cluly^sadface: But doing it big is excellent.
+2010-01-14T22:03:48  <Wishbone> cluly^sadface: Personally, I want a 2 meter poster of that shuttle on my wall :D
+2010-01-14T22:04:01  <Geddeth> Wishbone: +1
+2010-01-14T22:04:11  <cluly^sadface> :)
+2010-01-14T22:04:35  <cluly^sadface> wife agro, brb
+2010-01-14T22:04:42  <Wishbone> :-/
+2010-01-14T22:05:00  <Geddeth> okay - I think this marks the official end of this meeting, so thanks for showing up, ppl - exciting times ahead :D
+2010-01-14T22:05:09  <Wishbone> Definitely!
+2010-01-14T22:05:19  <Geddeth> I'll do a public progress report for the fans
+2010-01-14T22:05:42  <Wishbone> By all means, let's liven up the forum a little. We have lots to discuss, lots to plan :)
+2010-01-14T22:05:43  <Geddeth> and feel free to grab any of the subjects from tonight and move them into the forums for further discussion
