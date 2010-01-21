@@ -1,0 +1,71 @@
+<html>
+	<head>
+		<title>Tutorial - How to rip Amiga graphics</title>
+	</head>
+	<body>
+<H1>Tutorial - How to rip Amiga graphics</H1>
+This tutorial is written for the DeuterosX.org remake project. It is meant to outline the "official" method of ripping graphics in the project, to ensure that the graphics we obtain are of a uniform quality.
+<H2>Needed software</H2>
+<ul>
+	<li><a href="http://www.winuae.net/">WinUAE</a> (latest version)
+	<li>An Amiga Kickstart 1.3 ROM image (which you will have to find yourself (this is not very difficult))
+	<li><a href="http://www.getpaint.net/">Paint.NET</a> (or other similar image processing program)
+	<li><a href="http://tortoisesvn.tigris.org/">TortoiseSVN</a> (or other Subversion client)
+</ul>
+<H2>How-to</H2>
+<H3>Preparation</H3>
+Firstly, check that all the needed software is properly installed. Then grab the following two files from the SVN repository:
+<ul>
+	<li>SVN/misc/winuae/Configurations/Deuteros screenshots.uae
+	<li>SVN/misc/winuae/Savestates/near-end.uss
+</ul>
+Place the files in the corresponding directories in your WinUAE folder. Place the kickstart file in the Roms folder.<p>
+Now update your SVN checkout of the SourceForge project to ensure that you have the latest version of the file structure.<p>
+<H3>Pick a task</H3>
+Now navigate to <a href="https://sourceforge.net/apps/trac/deuterosx/">the SourceForge project's Trac page</a>. You may need to log in, if you haven't asked your browser to do that automatically. Go to "Active tickets" and choose one of the "GFX.org" tasks with status "new". When you've opened the task, choose "accept" (in the "Action" box at the bottom of the screen) and click "Submit changes". You are now assigned to the task.<p>
+For the purposes of this tutorial, I shall use the task "GFX.org - Master control icons" as an example.<p>
+<H3>Take screenshot</H3>
+Now open up your WinUAE and go to the Configurations dialog (see image):<br>
+<img src="WinUAEConfigurations.jpg" alt="Whoops! Image is missing!" width="646" height="488" /><br>
+<i>The WinUAE Configurations dialog.</i><p>
+Choose the <b>Deuteros screenshots</b> configuration and click "Load".<p>
+Next, go to the Miscellaneous dialog:<br>
+<img src="WinUAEMiscellaneous.jpg" alt="Whoops! Image is missing!" width="646" height="488" /><br>
+<i>The WinUAE Miscellaneous dialog.</i><p>
+Click "Load state..." and choose the <b>near-end.uss</b> file. Now click <b>Start</b> at the bottom of the WinUAE window. You should see something like this:<br>
+<img src="DeuterosMasterControl.jpg" alt="Whoops! Image is missing!" width="341" height="260" /><br>
+<i>Deuteros running in a window in WinUAE in the original resolution.</i><p>
+By a happy chance, we are already where we want to be, namely in the Master Control view. Move the mouse cursor to a patch of black so that it isn't blocking any of the graphics. Now press F12 to bring the WinUAE GUI back up. Click on <b>Output</b>.<br>
+<img src="WinUAEOutput.jpg" alt="Whoops! Image is missing!" width="646" height="488" /><br>
+<i>The WinUAE Output dialog.</i><p>
+Now click <b>Save screenshot</b>. You will find the image in the Screenshots folder inside the WinUAE folder.<p>
+<H3>Manipulate screenshot</H3>
+Open the screenshot you have just taken in Paint.NET (or equivalent). Zoom the view so you can see properly.<br>
+<img src="PaintDotNet1.jpg" alt="Whoops! Image is missing!" width="1050" height="638" /><br>
+<i>The screenshot in Paint.NET.</i><p>
+Let's grab the "spaceship in orbit" icon. This is where we leave the realm of "follow step 1-N", and enter the realm of "use your own best judgement".<p>
+<H3>Find the system</H3>
+This part of the process is basically about second-guessing both the programmers of the original game, and the programmers on this project. Now, the latter of those you can ask questions if you have doubts, so by all means do so. The question you need an answer for is "how big is this graphic actually supposed to be"? There are many different things to take into account, according to which type of graphic we're talking about. I can't deal with them all in this tutorial, so I'll just give an example. Let's have a look at the Master Control icons.<p>
+If you look at the icons, you'll notice that they are arranged in a regular pattern. Using the rectangle select tool, you can determine the exact dimensions of various parts of the image. The status bar at the bottom of the Paint.NET window shows the location and dimensions of the current selection on the left side, and the dimensions of the whole image and the current location of the cursor on the right side.<p>
+Now, if you use the rectangle select tool to mark from the top left corner of one of the left-side icons to and including the pixel immediately above and to the left of the top left corner of the icon to the right on the row below, you can see the exact spacing between the icons. That sentence was very cryptic, so look at the image below for direction.<br>
+<img src="PaintDotNetRectangleSelect.jpg" alt="Whoops! Image is missing!" width="736" height="704" /><br>
+<i>The Paint.NET rectangle select tool and associated information.</i><p>
+As you can see, the icons are spaced exactly 32x20 pixels apart. This leads to the question "so what size should the graphic be then"? There are two possible answers, one being "ask the programmers" and the other one being "use your best judgement". Neither of those are answers to the actual question, I know. I this case, I'll go with "use your best judgement".<p>
+This leads to two new answers. If you've also measured the size of the icon itself, you'll have noticed that the size of the graphic itself is 31x16 pixels. This is one possible answer, the other one being, naturally, 32x20 pixels. Since these icons are obviously supposed to be tiled (kind of), I think the easiest thing for the programmers to deal with is 32x20, so I'm going to go with that.<p>
+This, in turn leads to a new question. Since the size I'm going to use is larger than the graphic itself, how much on each side of it should the finished image extend? Let's start with the horizontal axis, since the difference in size is only 1 pixel there. If you look at the two icons to the far right of the screenshot, you'll notice that there is a single black pixel between them and the edge of the image. If we're tiling icons we want to go right to the edge, as this makes the positioning easier. So we'll extend the image 1 pixel to the right of the icon, making it flush with the right edge of the screen.<p>
+Now things are going to get slightly more abstract. In order to find out how far above and below the icon the image should extend (4 pixels in all), we're going to look at the station icons, as they are the only ones that go all the way down. Try to fit the bottom left station icon into a 32x20 rectangle. The easiest way to do this is to mark a 32x20 rectangle using the <b>rectangle select</b> tool, and then move it using the <b>move selection</b> tool (see image below).<br>
+<img src="PaintDotNetMoveSelection.jpg" alt="Whoops! Image is missing!" width="736" height="704" /><br>
+<i>The Paint.NET move selection tool and associated information.</i><p>
+You will notice that you can do it so it is flush with the bottom edge of the Master Control area. This is good news to us, but we're going to double check, just in case.<p>
+Since the station icon isn't the one we're after, but we're pretty sure it has the exact same dimensions as the orbit icon, we're going to make a few tests. First, look again at the image of the station with the selection around it. You'll see that the selection extends 1 pixel above the station graphic. Below, it extends 4 pixels. If we measure the black lines between two station icons, we find that there are 5 of them. Hey, that means that if we stack that selection vertically, it'll match the tiled icons exactly :-)<p>
+Let's look at the top left station icon. Move the cursor to the topmost line of pixels in the graphic and see what number it is (status bar, bottom right). I'll give you a hint, it's 25 ;-) Now do the same for the topmost row of spaceship icons. That's 24. So the spaceship icons start 1 pixel higher than the station icons. Since the station icons have an empty line at the top, the top of the spaceship graphic should be flush with the top of the icon. Like so:<br>
+<img src="PaintDotNetSelectIcon.jpg" alt="Whoops! Image is missing!" width="736" height="704" /><br>
+<i>The "spaceship in orbit" icon selected correctly.</i><p>
+Now copy that selection (Ctrl+C). In the Edit menu, choose <b>Paste in to New Image (Ctrl+Alt+V)</b>. You now have a very very small image of the spaceship icon. We're almost done.<p>
+Since the graphic is larger than the icon itself, we're going to make everything but the icon itself transparent. Choose the <b>Rectangle Select</b> tool. Now select the icon itself, leaving out the black pixels around it. In the Edit menu, choose <b>Invert Selection (Ctrl+I)</b>. You have now selected only the black pixels around the icon. Press <b>Delete</b> (on your keyboard). Presto, it goes transparent, which in Paint.NET means it turns into a white and grey checkerboard pattern.<p>
+Now go to <b>File->Save As</b>. Navigate to the place where this graphic belongs. In this case, that would be something like <b>\SVN\misc\gfx\original\mastercontrol\ships\</b>. If the folder doesn't exist, create it. Now choose to save as .PNG, and choose a logical filename, like <b>ShipOrbitIcon.png</b>. Hit <b>Save</b>, and click <b>Ok</b> in the dialog that pops up. That's it, you're done.<p>
+<H2>Afterthoughts</H2>
+This seems like an awful lot of work to do, and it is, but it's not quite as bad as that. Once you have the dimensions of one of the Master Control icons, you have them all, and then it's just a matter of cutting them out and saving them. I just wanted to give an example of some of the ways you can use to determine how a given graphic should be ripped.<p>
+In closing, I'd like to play with numbers a little bit. In absence of a better explanation (I want to get this done), let me just say that some numbers are more "geeky" than others. We're going to look for geeky numbers. This means the binary sequence (1, 2, 4, 8, 16, 32, 64, 128, 256, etc.) and multiples of 8 (8, 16, 24, 32, 40, 48, 56, 64, etc.). Often, one or both axis' of a graphic (especially the horizontal one) will conform to one of these numbers, as it did in the example above. The location of a graphic will also often match one of these. This is good to have in mind when ripping graphics.
+	</body>
+</html>
