@@ -1,0 +1,189 @@
+﻿2010-01-21T21:13:13  <Geddeth> so lets begin
+2010-01-21T21:14:00  <Geddeth> usually, we begin each meeting with a few words from everyone about what they've been up to since last
+2010-01-21T21:14:19  <Geddeth> (related to the project)
+2010-01-21T21:14:43  <Geddeth> I can say honestly and without exaggerating that I have not done anything at all.
+2010-01-21T21:14:47  <Geddeth> :)
+2010-01-21T21:14:50  <Geddeth> Next?
+2010-01-21T21:14:58  <Supremacy> ok, i have done this interface proposal
+2010-01-21T21:15:06  <Supremacy> the panel on the left, and upper left
+2010-01-21T21:15:35  <Supremacy> as you already saw
+2010-01-21T21:15:41  <Geddeth> Yes, as discussed here: http://deuterosx.org/forum/viewtopic.php?p=1656#p1656
+2010-01-21T21:15:41  <Supremacy> i didn't advance since then
+2010-01-21T21:15:41  <_deutebot> Title: DeuterosX.org Login (at deuterosx.org)
+2010-01-21T21:16:35  <Supremacy> i'd like to see what the other dude did with the shuttle design
+2010-01-21T21:16:36  <Geddeth> cool, let's keep that forum discussion hot - it's an important piece after all
+2010-01-21T21:16:45  <Wishbone> Supremacy: I hope you didn't take my critique too personally?
+2010-01-21T21:17:26  <Wishbone> Supremacy: It certainly wasn't meant to discourage you.
+2010-01-21T21:17:42  <Supremacy> i didn't see it as a critique :D
+2010-01-21T21:18:16  <Wishbone> Just as useless comment from a blithering idiot? :D
+2010-01-21T21:18:30  <Supremacy> as suggestions ;)
+2010-01-21T21:18:43  <Geddeth> heh
+2010-01-21T21:18:53  <Supremacy> i expected more suggestions to know what to do next
+2010-01-21T21:18:55  <Geddeth> Wishbone: got time to just sum up what you are doing?
+2010-01-21T21:19:06  <Geddeth> marrzian: you there?
+2010-01-21T21:19:56  <Wishbone> Well, I'm writing a tutorial on how to rip graphics from the original game.
+2010-01-21T21:20:15  <Wishbone> I'm almost done with the initial "basic" version.
+2010-01-21T21:20:24  <Wishbone> Hopefully, it goes into SVN tonight.
+2010-01-21T21:20:35  <Wishbone> I'm doing it in HTML.
+2010-01-21T21:20:46  <Wishbone> VERY basic HTML ;-)
+2010-01-21T21:20:53  <Geddeth> Wishbone: considered using the wiki?
+2010-01-21T21:21:38  <Wishbone> I have, but not until I'm done.
+2010-01-21T21:21:46  <Wishbone> It would take too long.
+2010-01-21T21:22:07  <Geddeth> ok
+2010-01-21T21:22:25  <Geddeth> Luaan: anything to add?
+2010-01-21T21:22:34  <Luaan> I have been working on the inner workings of the interface engine... and I have to say I haven't been all that successful. While I do have some work done and we outlined the basic mechanism with Wish before, I've hit a brick wall trying to actually get it into a workable system. In other words, I don't have a way of defining all the interfaces in the game consistently and along with their actions etc. So, basically I need some k
+2010-01-21T21:22:34  <Luaan> ick-in-the-head to help design the actual way to define the interface, not just that concept we already have - an in-depth analysis with positive outcome :)
+2010-01-21T21:22:35  <Wishbone> Right now, my focus is to get it "out there" asap, so others can join in the ripping process.
+2010-01-21T21:23:12  <Wishbone> Luaan: Might it help if you updated SVN with what you have?
+2010-01-21T21:23:27  <Wishbone> Luaan: It's hard to help using outdated code :-/
+2010-01-21T21:23:55  <Wishbone> But I'll happily give it a shot during the weekend :)
+2010-01-21T21:24:36  <Geddeth> I would suggest perhaps setting up a meeting with marrzian where you can all look at the code together and determine next steps?
+2010-01-21T21:24:41  <Luaan> it's not about the code, really. It's more about the logic
+2010-01-21T21:24:58  <Luaan> the code is really simple, just some loading into structures etc., nothing fancy
+2010-01-21T21:25:02  <Wishbone> Luaan: Well, I have plenty of ideas about the logic.
+2010-01-21T21:25:15  <Luaan> I need a workable logic, though :)
+2010-01-21T21:25:40  <Luaan> and also set in stone what kind of stuff should be in the interface definition and what's too specific
+2010-01-21T21:25:42  <Wishbone> Well, I won't know if it's workable until I try.
+2010-01-21T21:25:57  <Geddeth> Do you need state diagrams, or use case diagrams to get a feel for the overall logic flow, perhaps?
+2010-01-21T21:26:02  <Luaan> the idea is, if you try to apply it on a game screen, does it work or not?
+2010-01-21T21:26:40  <Wishbone> Luaan: But how will you determine whether it will work or not?
+2010-01-21T21:27:21  <Wishbone> Luaan: The way I see it, the only real hurdle is the actions themselves. You know, how do you define what a given button actually does.
+2010-01-21T21:27:47  <Wishbone> If you can solve that one, I think the rest will come easily.
+2010-01-21T21:28:17  <Geddeth> Well, perhaps we should continue that talk later ..
+2010-01-21T21:28:29  <Wishbone> Yeah, that'll take a while, I think.
+2010-01-21T21:28:46  <Luaan> the actions itself are quite easy
+2010-01-21T21:29:09  <Luaan> the problem is the opposite - how game state changes the interface
+2010-01-21T21:29:15  <Geddeth> I'd like to move on to a quick recap of last meeting's talk on "surprises".
+2010-01-21T21:29:30  <Luaan> right :)
+2010-01-21T21:30:09  <Geddeth> Luaan: Though I am not ignoring you, I realise the team needs to support the programming effort more actively now
+2010-01-21T21:30:13  <Geddeth> ;)
+2010-01-21T21:30:25  <Luaan> :))
+2010-01-21T21:30:41  <Supremacy> i wish i could help
+2010-01-21T21:31:19  <Geddeth> My main points on keeping things a surprise are basically: a) Let's keep the release date for phase 1 a surprise (20th anniversary) and b) let's not flaunt or content too obviously without having coordinated the effort
+2010-01-21T21:32:03  <Luaan> I concur
+2010-01-21T21:32:05  <Geddeth> also, we shouldn't spend too much more time on this subject, since everything we do is up for grabs in SVN
+2010-01-21T21:32:28  <Geddeth> if someone chooses to do a checkout and post whatever he finds interesting somewhere else, we can't do anything about it
+2010-01-21T21:32:54  <Geddeth> the other thing about release dates is that we might disappoint people
+2010-01-21T21:33:13  <Geddeth> we obviously don't want to or expect to, but just .. you know. We might.
+2010-01-21T21:33:36  <Wishbone> Indeed.
+2010-01-21T21:33:41  <Geddeth> btw: I meant "..flaunt *our* content too obviously .. " above
+2010-01-21T21:33:54  <Wishbone> Let's not be another Team Gizka or Black Mesa.
+2010-01-21T21:34:27  <Luaan> Black Mesa? I don't think we can make our own teleporter... :P
+2010-01-21T21:34:33  <Geddeth> heh .. don't think Mesa has release date though :)
+2010-01-21T21:34:48  <Wishbone> Yup, Q4 2009.
+2010-01-21T21:34:58  <Wishbone> Check for yourself ;-)
+2010-01-21T21:35:09  <Geddeth> oh .. :)
+2010-01-21T21:35:22  <Geddeth> well, they did get a vaporware award recently :)
+2010-01-21T21:35:26  <Geddeth> anyway .. .
+2010-01-21T21:35:41  <Geddeth> no, we don't want to be vaporware.
+2010-01-21T21:35:55  <Geddeth> so ... next thing up: the Deuteros Logo
+2010-01-21T21:36:24  <Geddeth> I'm not sure if we can do anything real with marrzian's logo, however cool it is
+2010-01-21T21:36:41  <Geddeth> and we need a new logo, before we can launch the site, as we have discussed before
+2010-01-21T21:36:50  <Geddeth> can't reuse the original Deuteros logo, really
+2010-01-21T21:37:04  <Supremacy> why not marr's logo?
+2010-01-21T21:37:25  <Geddeth> as I understand it, he doesn't have the PSD any longer
+2010-01-21T21:37:52  <Geddeth> and also, he doesn't wish to work with it any more, so we can't commission him to remake it in lower res or tweak it
+2010-01-21T21:38:17  <Geddeth> if we had the PSD, one of you guys could do that, if you wanted to .. but thats just not an option
+2010-01-21T21:38:46  <Supremacy> ok i could try
+2010-01-21T21:39:01  <Supremacy> it won't be that good... but!
+2010-01-21T21:40:01  <Geddeth> I really liked the style of his logo, because it fits the Deuteros theme nicely, and sends a nod in the direction of the original logo
+2010-01-21T21:40:03  <Wishbone> YES!!! In your face, Serbia! :D
+2010-01-21T21:40:13  <Wishbone> Sorry, just had to get that out of my system ;-)
+2010-01-21T21:40:27  <Geddeth> heh, okay I guess the Danes are ahead?
+2010-01-21T21:40:36  <Wishbone> The thing is, we need multiple versions of the same logo.
+2010-01-21T21:40:46  <Geddeth> Supremacy: but I wouldn't commission a remake unless you really want to
+2010-01-21T21:40:47  <Wishbone> Not ahead, we won, by 5 goals :)
+2010-01-21T21:40:51  <Geddeth> Wishbone: ok
+2010-01-21T21:41:19  <Geddeth> Supremacy: but consider the fact that it needs to be able to scale to more or less what we have on the site now, top left corner
+2010-01-21T21:41:45  <Wishbone> The problem with marrzian's logo as I understood it was that it flat-out wouldn't work scaled down to website size.
+2010-01-21T21:41:53  <Geddeth> Wishbone: correct
+2010-01-21T21:42:16  <Supremacy> why not?
+2010-01-21T21:42:18  <Wishbone> But then, a logo that does will probably be too simple to work well in full screen.
+2010-01-21T21:42:31  <Geddeth> Wishbone: it would have had to be remade entirely, down-scaling details so they were visible - or removing them entirely
+2010-01-21T21:42:37  <Wishbone> Supremacy: Try to scale it down to that size, you'll see.
+2010-01-21T21:43:17  <Wishbone> Geddeth: Exactly. So we need at least two separate versions. As identical as possible, but with differences in scale and detail.
+2010-01-21T21:43:30  <Wishbone> Supremacy: It just doesn't look good.
+2010-01-21T21:43:48  <Wishbone> Even though it looks absolutely amazing in full size.
+2010-01-21T21:44:29  <Wishbone> But I agree with Geddeth about what made that logo great.
+2010-01-21T21:45:07  <Wishbone> Still, for phase 1, won't we reuse the original?
+2010-01-21T21:45:21  <Wishbone> But of course we still need a new one for the website.
+2010-01-21T21:45:31  <Geddeth> Supremacy: it's a mammoth task, and an important one at that - and I even expect to redo the webdesign when we have a new logo, so even the website can't move forward until we have a finished logo
+2010-01-21T21:46:02  <Supremacy> ok
+2010-01-21T21:46:07  <Geddeth> Supremacy: so please accept any support I can give you, and possibly ask Cluly to assist you if that is even possible in any way
+2010-01-21T21:46:28  <Geddeth> we don't expect miracles :)
+2010-01-21T21:46:34  <Geddeth> (but they don't hurt)
+2010-01-21T21:47:34  <Geddeth> oh, and lest I forget, I think we should consider getting ourselves and official slogan/tagline ..
+2010-01-21T21:47:39  <Wishbone> Indeed. I may be able to make certain details if you need something raytraced.
+2010-01-21T21:47:54  <Geddeth> but I'll move that one straight to the forums, otherwise we won't get anywhere else tonight :D
+2010-01-21T21:48:08  <Geddeth> next up: item 4
+2010-01-21T21:48:17  <Geddeth> Luaan outlined a major task for the programmers
+2010-01-21T21:48:30  <Geddeth> what about the website? have you got anything for me?
+2010-01-21T21:49:18  <Wishbone> One thing we could really use for the website are some wiki templates.
+2010-01-21T21:49:49  <Geddeth> yeah .. the wiki is difficult to get going
+2010-01-21T21:50:22  <Geddeth> but I am aware of the reasons why and will give it some love as soon as possible, hopefully beginning of next month
+2010-01-21T21:50:37  <Wishbone> We should make a trac task.
+2010-01-21T21:50:43  <Geddeth> will do
+2010-01-21T21:50:59  <Geddeth> other major tasks for the graphics team?
+2010-01-21T21:51:09  <Wishbone> Well, I've made a bundle.
+2010-01-21T21:51:20  <Geddeth> or graphics in general? ripping is moving forward, so thats good
+2010-01-21T21:51:40  <Wishbone> And others are welcome to make more. The ones I've made are by no means comprehensive.
+2010-01-21T21:52:38  <Wishbone> Well, graphics in general... I suppose as much concept art as our graphics artists can crank out ;-)
+2010-01-21T21:53:02  <Wishbone> The more, the better :-)
+2010-01-21T21:53:18  <Geddeth> yes, and I guess the logo has top priority, seeing as we want our site online before Phase 2 is released
+2010-01-21T21:53:47  <Geddeth> but yeah, concept art is very motivating - and pretty :)
+2010-01-21T21:54:43  <Geddeth> what about original sound? there was a short topic in the forums, but I don't recall we've every really talked much about it - is there support in the engine for it already? what do we need to consider there?
+2010-01-21T21:56:13  <Geddeth> here is Wishbone's topic on the matter: http://deuterosx.org/forum/viewtopic.php?p=1446#p1446
+2010-01-21T21:56:14  <_deutebot> Title: DeuterosX.org Login (at deuterosx.org)
+2010-01-21T21:56:19  <Luaan> the engine doesn't support sounds at the moment
+2010-01-21T21:56:23  <Wishbone> There is one question we need to answer: whether to do as the original game, and modulate the samples in-game, or construct finished sounds which just have to be played by the engine unchanged.
+2010-01-21T21:56:37  <Wishbone> Personally, I'm more in favor of option 2.
+2010-01-21T21:56:44  <Luaan> me too actually
+2010-01-21T21:56:55  <Geddeth> and what about the looping?
+2010-01-21T21:57:15  <Wishbone> Well, that's why we need to construct it beforehand.
+2010-01-21T21:57:44  <Wishbone> Of course, some samples will need to be looped in-game. Didn't think of that.
+2010-01-21T21:57:51  <Geddeth> so the only settings in the engine are whether to loop the samples or not?
+2010-01-21T21:57:59  <Wishbone> But then, we can't be the first to need to do that.
+2010-01-21T21:58:17  <Wishbone> There must be code examples out there we can, ahem, liberate ;-)
+2010-01-21T21:58:42  <Geddeth> heh, I'd be surprised if there wasn't some sort of open source framework that does just that
+2010-01-21T21:58:47  <Geddeth> in any case, I like the idea
+2010-01-21T21:59:22  <Wishbone> But some of the sounds will be very complicated to make.
+2010-01-21T21:59:38  <Wishbone> We really need a sound tech.
+2010-01-21T22:00:17  <Geddeth> well, let's see if Flatliner can help us out
+2010-01-21T22:00:39  <Geddeth> or if my skills with Audacity suffice :)
+2010-01-21T22:00:47  <Geddeth> (though I doubt it)
+2010-01-21T22:01:01  <Geddeth> anyway .. let's move on to Trac
+2010-01-21T22:01:42  <Geddeth> our Trac install is easily available by going to the developers' page and clicking "Browse Trac tickets"
+2010-01-21T22:02:01  <Geddeth> the idea is for the project to use these tickets across teams
+2010-01-21T22:02:24  <Geddeth> which is why I have a few web-related tickets, and Wishbone has created some related to ripping graphics
+2010-01-21T22:02:52  <Geddeth> I expect the programmers to use Trac as well soon
+2010-01-21T22:02:57  <Geddeth> when it fits into their agenda
+2010-01-21T22:03:23  <Geddeth> usually, we will assign them to ourselves or to noone in particular
+2010-01-21T22:03:30  <Wishbone> One question for Luaan: ARE there any code changes?
+2010-01-21T22:03:46  <Geddeth> Trac can also be used to just register good ideas, so they don't get lost in the forum
+2010-01-21T22:04:31  <Geddeth> I encourage all team members to use Trac for their own tasks, if nothing else then to get acquainted with Trac
+2010-01-21T22:05:01  <Luaan> Wishbone: A little, nothing important. I'll commit it right away.
+2010-01-21T22:06:20  <Wishbone> Luaan: Great, thanks. If I do manage to make something worthwile, it's much easier to submit without having to merge in other changes as well.
+2010-01-21T22:06:32  <Luaan> yeah
+2010-01-21T22:07:06  <Geddeth> so .. any comments on the Trac usage can go to the forums :)
+2010-01-21T22:07:38  <Geddeth> Lastly, though his post is a bit old, I was hoping somebody could help this guy: http://deuterosx.org/forum/viewtopic.php?f=5&t=1024
+2010-01-21T22:07:39  <_deutebot> Title: DeuterosX.org View topic - Need help (at deuterosx.org)
+2010-01-21T22:08:42  <Geddeth> it just looks bad to have unanswered posts when his question is sane and we have so many Deuteros hackers on the team :D
+2010-01-21T22:08:54  <Geddeth> just sayin' ...
+2010-01-21T22:09:04  <Wishbone> I think I've heard of this issue before.
+2010-01-21T22:09:16  <Wishbone> It's actually a bug in the original game.
+2010-01-21T22:09:45  <Wishbone> If you max out the stations (16), the trigger for the alien message doesn't fire, and you are effectively stuck.
+2010-01-21T22:09:51  <Geddeth> anyway, I'd like to end the meeting real soon, and just take note of the trouble Luaan expressed earlier - I will assist in any way possible with getting past that hurdle
+2010-01-21T22:10:04  <Geddeth> so lastly: does anyone have anything else?
+2010-01-21T22:10:28  <Geddeth> Wishbone: well, good thing we are rewriting from scratch, so we can fix the triggers ;)
+2010-01-21T22:11:02  <Wishbone> Well, as I said, I'm hoping to have the tutorial in SVN later tonight, so I hope someone else will join in the gfx ripping effort.
+2010-01-21T22:11:31  <Geddeth> Yeah, anyone is encouraged to assign those Trac tickets to themselves, and thus take responsibility of that task
+2010-01-21T22:12:23  <Geddeth> Thanks, folks - see you next time then
+2010-01-21T22:12:28  <Wishbone> And if anyone has any questions after having read the tutorial, just ask in the forum.
+2010-01-21T22:12:31  <Supremacy> so i will be wokring on the logo
+2010-01-21T22:12:40  <Wishbone> I'll try to get back to you as soon as possible.
+2010-01-21T22:12:46  <Geddeth> Supremacy: sounds excellent
+2010-01-21T22:12:48  <Geddeth> next meeting is Feb 4th - same time, same channel :)
+2010-01-21T22:12:57  <Wishbone> Right :)
+2010-01-21T22:13:07  <Geddeth> l8r folks
+2010-01-21T22:13:14  <Wishbone> Bye guys.
+2010-01-21T22:13:21  <Luaan> cya
