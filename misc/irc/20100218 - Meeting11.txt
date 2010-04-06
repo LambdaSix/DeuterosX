@@ -1,0 +1,192 @@
+﻿2010-02-18T20:59:55  <Flatliner> hello
+2010-02-18T21:03:52  *** Flatliner has quit IRC
+2010-02-18T21:04:49  *** Flatliner has joined #deuterosx.org
+2010-02-18T21:07:15  <Geddeth> Hi Flatliner
+2010-02-18T21:07:35  <Geddeth> great to finally meet you in real-time :)
+2010-02-18T21:07:56  <Supremacy> hiii
+2010-02-18T21:09:22  <Geddeth> hi Supremacy
+2010-02-18T21:09:26  <Geddeth> marrzian: you there?
+2010-02-18T21:09:32  <Flatliner> hello
+2010-02-18T21:09:34  <Flatliner> all
+2010-02-18T21:11:00  <Geddeth> anyway, I'm pretty unprepared tonight, sorry bout that
+2010-02-18T21:11:34  <Geddeth> but glad that Flatliner could join us finally - have you been following the forums lately?
+2010-02-18T21:12:12  <Flatliner> not as such no, but I have been trying to make the IRC forum, and should be able to from now on
+2010-02-18T21:12:22  <Flatliner> good to be here :o)
+2010-02-18T21:12:52  <Geddeth> very glad to hear that :)
+2010-02-18T21:13:32  <Geddeth> just to reiterate: our meetings continue to be held on every 1st and 3rd Thursday of the month, even I don't get to send out a reminder and agenda for the meeting
+2010-02-18T21:13:45  <Geddeth> I also try to make every meeting
+2010-02-18T21:13:52  *** Wishbone has joined #deuterosx.org
+2010-02-18T21:14:01  <Wishbone> 'Allo.
+2010-02-18T21:14:01  <Geddeth> and your stuff is here: http://www.midimaniacs.co.uk/deuteros-x.php?Genre=All
+2010-02-18T21:14:05  <_deutebot> Title: +++ MIDI MANIACS +++ (at www.midimaniacs.co.uk)
+2010-02-18T21:14:08  <Geddeth> just listening to Starfall now :)
+2010-02-18T21:14:11  <Geddeth> hey Wishbone
+2010-02-18T21:14:35  <Flatliner> cool thanks
+2010-02-18T21:14:38  <Wishbone> What's the topic?
+2010-02-18T21:14:59  <Wishbone> Hi Flatliner, welcome to the party ;)
+2010-02-18T21:15:27  <Flatliner> hi wishbone :))
+2010-02-18T21:16:27  <Geddeth> well, I think we'll make it fairly short this time, particularly since I haven't written up an agenda in the forums
+2010-02-18T21:16:45  <Geddeth> but let's do the rounds and then talk about music, and then about the new graphics that arrived in the forums since last time
+2010-02-18T21:16:50  <Geddeth> and finally: anything else.
+2010-02-18T21:16:55  *** Wishbone has quit IRC
+2010-02-18T21:17:05  *** Geddeth has quit IRC
+2010-02-18T21:17:07  <Flatliner> cool
+2010-02-18T21:17:25  *** Geddeth has joined #deuterosx.org
+2010-02-18T21:17:25  *** Q sets mode: +o Geddeth
+2010-02-18T21:17:43  <Geddeth> ah .. been a while since we had a netsplit
+2010-02-18T21:18:09  <Geddeth> last thing I said was "and finally: anything else."
+2010-02-18T21:18:15  <Flatliner> lol
+2010-02-18T21:18:21  <Geddeth> and let's finish around 9PM UTC, mkay? :)
+2010-02-18T21:18:33  <Flatliner> sure
+2010-02-18T21:19:21  <Geddeth> so .. "doing the rounds" means each of us just reiterating what we've been up to since last IRC meeting
+2010-02-18T21:20:20  <Geddeth> I've not had time to do much else than follow the forums, as usual .. I'm very eager to continue work on the webdesign, which Cluly is helping with, but I'm waiting for a mock-up from him
+2010-02-18T21:20:42  <Flatliner> nice one
+2010-02-18T21:21:01  <Geddeth> Supremacy?
+2010-02-18T21:22:18  <Supremacy> i am working on the methanoids and continue on some ship concepts
+2010-02-18T21:22:20  *** Wishbone has joined #deuterosx.org
+2010-02-18T21:22:26  <Wishbone> I don'
+2010-02-18T21:22:32  <Supremacy> you'll have news asap
+2010-02-18T21:22:37  <Wishbone> I don't know what the hell just happened.
+2010-02-18T21:22:49  <Wishbone> I was kicked off, and couldn't rejoin.
+2010-02-18T21:23:15  <Wishbone> I had to quit out of Pidgin and start it up again before I could get back in.
+2010-02-18T21:23:25  <Geddeth> Wishbone: IRC netsplit, I had it too .. my Pidgin reconnected though
+2010-02-18T21:23:50  <Geddeth> Supremacy: cool - are you also not seeing the methanoid from deviantart here: http://deuterosx.org/forum/viewtopic.php?f=23&t=1037 ?
+2010-02-18T21:23:51  <_deutebot> Title: DeuterosX.org Login (at deuterosx.org)
+2010-02-18T21:24:44  <Flatliner> i can't see it either
+2010-02-18T21:24:59  <Geddeth> ok, I guess deviantart is blocking hotlinked images then
+2010-02-18T21:25:07  <Supremacy> i can see it :S
+2010-02-18T21:25:08  <Wishbone> It was there earlier.
+2010-02-18T21:25:19  <Wishbone> But now it just says "Image".
+2010-02-18T21:25:23  <Geddeth> hmm .. yeah, it used to be there.
+2010-02-18T21:25:28  <Supremacy> http://th06.deviantart.net/fs70/300W/f/2010/036/9/8/Methanoid_by_AmorInvictus.jpg
+2010-02-18T21:25:50  <Wishbone> That just shows the URL.
+2010-02-18T21:26:06  <Flatliner> i just get "Image" with red X
+2010-02-18T21:26:27  <Supremacy> n/m, you'll have a newer version asap :P
+2010-02-18T21:26:58  <Wishbone> This still works for me though: http://fc05.deviantart.net/fs70/f/2010/014/d/3/DeutConceptWIP_by_Cluly.jpg
+2010-02-18T21:27:25  <Geddeth> Well, it'll show up soon enough I guess :)
+2010-02-18T21:27:26  <Supremacy> i have tagged mine as "mature content".. perhaps that's the reason
+2010-02-18T21:27:44  <Flatliner> wow! love the artwork
+2010-02-18T21:27:52  <Geddeth> I thought it was a good discussion on the physiology of methanoids, though - albeit a bit scientific :P
+2010-02-18T21:28:45  <Wishbone> I can't even see the methanoid image on your DeviantArt account, Supremacy :-/
+2010-02-18T21:28:58  <Wishbone> Ah...
+2010-02-18T21:29:03  <Wishbone> Mystery solved ;)
+2010-02-18T21:29:13  <Wishbone> http://amorinvictus.deviantart.com/art/Methanoid-152977867
+2010-02-18T21:29:16  <_deutebot> Title: Set Up Your Free Access to deviantART (at amorinvictus.deviantart.com)
+2010-02-18T21:30:17  <Geddeth> yeah, seems to be gone from the deviantart page as well
+2010-02-18T21:30:44  <Wishbone> Nope, it's because you have the maturity filter switched on in your profile.
+2010-02-18T21:31:01  <Wishbone> Someone tagged the image because the methanoid is naked :D
+2010-02-18T21:31:08  <Flatliner> im just signing up now
+2010-02-18T21:31:17  <Wishbone> Supremacy: I TOLD you to put a uniform on him :p
+2010-02-18T21:31:41  <Supremacy> i will make a more humanish version, with a uniform
+2010-02-18T21:31:49  <Wishbone> However, I still can't see the image with the filter switched off :(
+2010-02-18T21:32:31  <Wishbone> Supremacy: What do you mean "more humanish"? I think he looks great.
+2010-02-18T21:32:44  <Wishbone> I just don't think they'd be naked, that's all.
+2010-02-18T21:32:55  <Supremacy> less blue and thinner
+2010-02-18T21:32:57  *** Flatliner084 has joined #deuterosx.org
+2010-02-18T21:33:12  <Flatliner084> got logged out aswell
+2010-02-18T21:33:26  <Flatliner084> back now!! :)
+2010-02-18T21:33:57  <Geddeth> well, I have "Show deviations with mature content" on
+2010-02-18T21:34:08  <Flatliner084> could you post the link again for the methanoid
+2010-02-18T21:34:18  <Wishbone> I can see it using "Full View".
+2010-02-18T21:34:37  <Wishbone> Unfortunately, that makes the menu options to the left disappear :(
+2010-02-18T21:34:49  <Wishbone> I think DeviantArt need to work on their interface.
+2010-02-18T21:35:04  <Wishbone> http://amorinvictus.deviantart.com/art/Methanoid-152977867
+2010-02-18T21:35:07  <_deutebot> Title: Set Up Your Free Access to deviantART (at amorinvictus.deviantart.com)
+2010-02-18T21:35:14  <Flatliner084> thanks wishbone
+2010-02-18T21:35:37  <Geddeth> http://fc06.deviantart.net/fs70/f/2010/036/9/8/Methanoid_by_AmorInvictus.jpg
+2010-02-18T21:35:39  <Wishbone> Supremacy: It's not supposed to be a female, is it?
+2010-02-18T21:36:01  <Geddeth> Man boobs :)
+2010-02-18T21:36:10  <Wishbone> Hmm, now I can see the directly linked image. Odd.
+2010-02-18T21:36:13  <Geddeth> Happens to methanoids too :)
+2010-02-18T21:36:20  <Geddeth> Wishbone: it's a new link
+2010-02-18T21:36:32  <Wishbone> Geddeth: Indeed. Slightly too much, I think. That's a good B-cup he's sporting there.
+2010-02-18T21:37:06  <Supremacy> i thought they tend to be fat
+2010-02-18T21:37:43  <Flatliner084> ok cool can see methanoid now
+2010-02-18T21:38:49  <Geddeth> well, perhaps we should delay further discussion to the forums, the appropriate thread was this one: http://deuterosx.org/forum/viewtopic.php?f=23&t=1037
+2010-02-18T21:38:50  <_deutebot> Title: DeuterosX.org Login (at deuterosx.org)
+2010-02-18T21:39:12  <Geddeth> Wishbone: any remarks on what you were up to since last meeting?
+2010-02-18T21:39:28  <Wishbone> I'm slightly disappointed that noone has commented on my fantabulous pun in that thread :D
+2010-02-18T21:40:16  <Wishbone> Nothing much, to be honest. I've checked up on marrzian's work a bit, discussing a few things with him.
+2010-02-18T21:40:33  <Wishbone> I haven't really contributed anything myself since last time.
+2010-02-18T21:41:59  <Geddeth> ok, well we just went over Supremacy's graphics, lets talk about Cluly's logo for a bit: http://fc09.deviantart.net/fs70/f/2010/043/c/1/c1f6930ec95f1ddd2d222dc4f04a985a.jpg
+2010-02-18T21:43:09  <Geddeth> Some brief comments are here: http://deuterosx.org/forum/viewtopic.php?f=23&t=1038&p=1763#p1763
+2010-02-18T21:43:10  <_deutebot> Title: DeuterosX.org Login (at deuterosx.org)
+2010-02-18T21:44:19  <Wishbone> Just spoke to Luaan, but he's still at work, so he can't come.
+2010-02-18T21:44:25  <Geddeth> in contrast to marrzian's, Cluly's style is much more of a "hand-painted" one ..
+2010-02-18T21:44:28  <Geddeth> Wishbone: me too ;)
+2010-02-18T21:44:43  <Wishbone> Geddeth: Oh damn :-/
+2010-02-18T21:45:03  <Flatliner084> nice logo
+2010-02-18T21:45:23  * Geddeth agrees.
+2010-02-18T21:45:24  <Flatliner084> love the art styles
+2010-02-18T21:45:38  <Geddeth> The final "S" is perfect, IMO
+2010-02-18T21:45:57  <Flatliner084> I was just about to say how great the Galactic S looks
+2010-02-18T21:47:08  <Flatliner084> nice
+2010-02-18T21:47:15  <Wishbone> Yes, in contrast with marrzian's logo, this one is more or less an exact replica of the original.
+2010-02-18T21:47:18  <Supremacy> is it finished?
+2010-02-18T21:48:51  <Geddeth> Guess that's an unknown
+2010-02-18T21:50:19  <Flatliner084> look cool. gives me inspiration
+2010-02-18T21:50:40  <Geddeth> ok, well .. we'll let Cluly respond in the forums when he reads the IRC log from tonight's meeting
+2010-02-18T21:50:43  <Geddeth> last item: music :)
+2010-02-18T21:50:47  <Flatliner084> :)
+2010-02-18T21:51:12  <Geddeth> Flatliner: are there other soundbits we should know about than what is here: http://www.midimaniacs.co.uk/deuteros-x.php?Genre=All
+2010-02-18T21:51:12  <Geddeth> ?
+2010-02-18T21:51:16  <_deutebot> Title: +++ MIDI MANIACS +++ (at www.midimaniacs.co.uk)
+2010-02-18T21:51:35  <Flatliner084> I have been working on a few more tracks, that I will upload tonight.
+2010-02-18T21:51:40  <Wishbone> If I may comment on the Research one?
+2010-02-18T21:51:45  <Flatliner084> sure
+2010-02-18T21:52:07  <Wishbone> I think you should kick the tempo upwards a bit, and raise the pitch at least an octave.
+2010-02-18T21:52:13  *** Flatliner has quit IRC
+2010-02-18T21:52:17  <Supremacy> aw
+2010-02-18T21:52:32  <Wishbone> Couldn't take the criticism? :D
+2010-02-18T21:52:44  <Flatliner084> ok cool. i like the feedback. i will try experimenting later
+2010-02-18T21:52:48  <Wishbone> I guess your ghost finally gave up the ghost, Flatline ;)
+2010-02-18T21:53:03  <Wishbone> Hehe, I know. It was a joke.
+2010-02-18T21:53:03  <Flatliner084> lol
+2010-02-18T21:53:18  <Flatliner084> har har  lol
+2010-02-18T21:53:59  <Wishbone> I like the general sound of the space station track.
+2010-02-18T21:54:08  <Geddeth> I see Starfall (or something similar) as the theme for an intro of sorts, maybe in Phase 3
+2010-02-18T21:54:25  <Supremacy> and it's great
+2010-02-18T21:54:38  <Wishbone> Hmm, I should rewatch the original cutscenes.
+2010-02-18T21:54:40  <Flatliner084> I have imported the original samples from the original game into Reason. Will look at maybe using a few in some later tracks
+2010-02-18T21:55:39  <Flatliner084> thanks. Starfall was inspired by the Earth screen on Deuteros, where the landscape is baron with a red atmosphere.
+2010-02-18T21:55:44  <Wishbone> Flatliner084: If you feel like it, we could use some work on recreating the original sounds for phase 1 as well.
+2010-02-18T21:55:56  <Flatliner084> good idea. I will look into that
+2010-02-18T21:56:13  <Flatliner084> I read in forum that many sounds were taken from Aliens film
+2010-02-18T21:56:21  <Wishbone> Flatliner084: Many of the samples are ultra-short, and are looped and modulated in the game.
+2010-02-18T21:56:43  <Wishbone> Flatliner084: Yes, or at least from the same sound library that they used when they made the film.
+2010-02-18T21:57:15  <Supremacy> public domain :D
+2010-02-18T21:57:22  <Flatliner084> :0 lol
+2010-02-18T21:57:23  <Geddeth> The forum discussion about the original sounds is here: http://deuterosx.org/forum/viewtopic.php?f=24&t=991
+2010-02-18T21:57:24  <_deutebot> Title: DeuterosX.org Login (at deuterosx.org)
+2010-02-18T21:57:29  <Wishbone> Supremacy: Maybe, if we're lucky.
+2010-02-18T21:57:35  <Wishbone> I doubt it, though.
+2010-02-18T21:57:51  <Geddeth> and yes, we need to get a plan for this - getting the original sounds into the engine
+2010-02-18T21:57:55  <Geddeth> for Phase 1
+2010-02-18T21:57:56  <Wishbone> Still, it couldn't hurt to find out.
+2010-02-18T21:58:22  <Flatliner084> ok
+2010-02-18T21:59:24  <Flatliner084> The artwork has deffinately raised my eyebrows and has a wow! factor. Its just what I need to inspire me to work more on scores/sfx
+2010-02-18T21:59:45  <Geddeth> Flatliner084: excellent :)
+2010-02-18T22:00:00  <Geddeth> Looking forward to hearing more from you.
+2010-02-18T22:00:12  <Geddeth> Any last remarks from anyone on anything at all?
+2010-02-18T22:01:18  <Geddeth> In that case, see you all in the forums and at next IRC meeting on Thursday, March 4th :-)
+2010-02-18T22:01:22  <Supremacy> how can we help on coding without knowing prof-level programming?
+2010-02-18T22:01:53  <Supremacy> *with
+2010-02-18T22:01:58  <Flatliner084> ok cool.. well nice to meet you guys. I will keep an eye on the forums more and let you know when new materials are posted
+2010-02-18T22:02:08  <Wishbone> Supremacy: That might get easier once the engine can interpret game files. Then you can help making the files.
+2010-02-18T22:02:12  <Geddeth> Supremacy: good question - I think it's difficult at the current stage of the engine
+2010-02-18T22:02:29  <Geddeth> Flatliner084: sounds cool, see you around :)
+2010-02-18T22:02:34  <Wishbone> Does Luaan always work late on Thursdays?
+2010-02-18T22:02:41  *** Flatliner084 has quit IRC
+2010-02-18T22:02:52  <Geddeth> Does Luaan ever work *early*? :P
+2010-02-18T22:03:00  <Wishbone> It might be prudent to relocate the meeting to another day and time, I mean.
+2010-02-18T22:03:17  <Wishbone> Geddeth: I don't know, I'm asking ;)
+2010-02-18T22:03:37  <Geddeth> Wishbone: well, if that's the case. I'll check with him, but I think he's just bogged down with work currently.
+2010-02-18T22:03:48  <Wishbone> Okay, well that can't be helped.
+2010-02-18T22:04:46  <Geddeth> Oh, last minute info btw: total members on forum just hit 150 :)
+2010-02-18T22:04:49  <Geddeth> HUZZAH! :)
+2010-02-18T22:04:54  <Wishbone> Right, well I'll be off too. I've got a week of vacation next week. I'
+2010-02-18T22:05:09  <Wishbone> I'll try to get a look at the engine during that.
+2010-02-18T22:06:41  <Supremacy> bye all
+2010-02-18T22:06:49  <Wishbone> Bye Supremacy :)
+2010-02-18T22:07:07  <Geddeth> bye all
+2010-02-18T22:07:17  <Wishbone> Bye.

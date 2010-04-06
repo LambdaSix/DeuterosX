@@ -1,0 +1,130 @@
+2010-03-11T21:27:39  <Geddeth> precisely - anyway, I was just going to say that I wish I could devote more time to the project than right now, but my family and I are about to move, I'm trying to find child care for my daughter and am currently also on paternal leave from work, so that basically doesn't leave me much time for .. well anything
+2010-03-11T21:27:57  <Geddeth> short story: I still want DX to happen, just bear with me
+2010-03-11T21:28:09  <Geddeth> that said, my main concern right now is the state of the engine
+2010-03-11T21:28:16  <suprema> how can we help?
+2010-03-11T21:28:51  <Geddeth> suprema: thanks for offering - I think the best way is to keep up the momentum in the forums
+2010-03-11T21:29:11  <Wishbone> I agree. I really wish Luaan was here.
+2010-03-11T21:29:43  <Geddeth> Wishbone: I ping'd him on MSN, no reply - so he is probably busy
+2010-03-11T21:29:59  <Wishbone> Most likely.
+2010-03-11T21:30:33  <Geddeth> question is: how can we all move the game forward to a place where we can begin to create content and see progress?
+2010-03-11T21:30:47  <Wishbone> Momentum is important. Once activity winds down, it's hard to wind back up again.
+2010-03-11T21:30:56  <Geddeth> do more of us need to look at the code?
+2010-03-11T21:31:06  <Geddeth> do we need more programmers?
+2010-03-11T21:31:18  <Wishbone> I think these meetings are one of the most important ways we have of keeping the momentum. They are... inspirational.
+2010-03-11T21:31:29  <Wishbone> Of course, that doesn't help if noone shows up :-/
+2010-03-11T21:31:30  <Geddeth> should we have regular programming meetings where the whole team brainstorms with the programmers?
+2010-03-11T21:32:15  <Wishbone> More programmers certainly couldn't hurt.
+2010-03-11T21:33:23  <Wishbone> The problem right now is that the engine is at a point just before the programming becomes... Well, maybe not "easy", but perhaps more manageable to others.
+2010-03-11T21:33:45  <Geddeth> we are quite specific about the requirements though .. is it hard to find folks with those skills?
+2010-03-11T21:34:04  <Geddeth> "C#, SDL.NET, OpenGL, SlimDX, Tao Framework, DirectX and Mono"
+2010-03-11T21:34:07  <Wishbone> I'm hesitant to touch it, because I don't know how much work Luaan has done since the last check-in.
+2010-03-11T21:34:39  <Wishbone> Geddeth: Probably not. But is it hard to find people with those skills who are interested in remaking Deuteros? Likely.
+2010-03-11T21:34:42  <Geddeth> Wishbone: well... theoretically, that should be a matter of mergin in changes?
+2010-03-11T21:35:36  <Wishbone> Geddeth: Not at the point it's at now. It's a matter of defining the file formats. If he defines on format and I define another, they can't really be merged.
+2010-03-11T21:35:48  <Geddeth> We could carefully ping some of the places where we know Deuteros-folks hang out (and dx.org of course)
+2010-03-11T21:36:00  <Wishbone> Still, the worst that could happen is that one of us will have wasted some work.
+2010-03-11T21:36:43  <Wishbone> Geddeth: I'd try back2roots.org, but the site seems to be very unstable, and the old Deuteros forum there seems to have disappeared.
+2010-03-11T21:36:54  <Geddeth> Wishbone: right .. the real issue may be the lack of solid roadmap, and the fact that commits to the engine are often quite .. monolithic.
+2010-03-11T21:37:29  <Geddeth> btw: I've collected some links in the wiki which can be expanded upon for this purpose: http://deuterosx.org/wiki/Deuteros:Main_Page
+2010-03-11T21:37:30  <_deutebot> Title: Deuteros:Main Page - DeuterosX.org (at deuterosx.org)
+2010-03-11T21:37:35  <Geddeth> (if nothing else)
+2010-03-11T21:39:11  <Wishbone> Holy cow! Jai Redman is... accessible :-o
+2010-03-11T21:40:03  <Geddeth> why yes .. :)
+2010-03-11T21:41:18  <Wishbone> I wonder if it would be a mistake to inform him of the existence of the project...
+2010-03-11T21:42:09  <suprema> i dont take the responsibility of arguing "yes"
+2010-03-11T21:42:44  <Wishbone> Hehe, well you're the one going in his footsteps suprema ;-)
+2010-03-11T21:43:14  <Geddeth> I definitely think we should, but if we do it before launch, it should have a definite purpose
+2010-03-11T21:43:32  <Wishbone> He might have a line to Ian Bird...
+2010-03-11T21:43:33  <Geddeth> no use in bugging the man with our great project if we don't have anything to show for it
+2010-03-11T21:43:44  <Wishbone> Oh no, surely not at this time.
+2010-03-11T21:44:00  <Wishbone> But we also run the risk of him taking offense.
+2010-03-11T21:44:29  <Geddeth> I doubt that very much ... most likely, he was hired on a contract and never knew Ian before Deuteros - perhaps not after
+2010-03-11T21:44:31  <Wishbone> We don't actually know who owns the IP these days. He might have the rights to his own artwork.
+2010-03-11T21:45:00  <Geddeth> Wishbone: like I said: we need a good reason to contact him ;)
+2010-03-11T21:45:27  <Wishbone> Right. We certainly don't have that at the moment.
+2010-03-11T21:45:48  <Geddeth> but seriously: do any graphics artists own the rights to their own works in game productions?
+2010-03-11T21:45:58  <Wishbone> These days? No.
+2010-03-11T21:46:05  <Wishbone> Back then? I don't know.
+2010-03-11T21:46:53  <Wishbone> I know that some IPs of old games have reverted back to the people who created them, rather than the publisher.
+2010-03-11T21:47:29  <Wishbone> And the title screen names Ian Bird as the copyright holder.
+2010-03-11T21:48:24  <Wishbone> Anyway, an issue that we can actually do something about: the team profiles.
+2010-03-11T21:48:35  <Wishbone> suprema: You don't have a picture yet.
+2010-03-11T21:48:55  <Wishbone> Cluly doesn't have a profile at all, and Flatliner is still listed as inactive.
+2010-03-11T21:50:13  <suprema> ok willa rrange it
+2010-03-11T21:51:33  <Geddeth> I'll move Flatliner later
+2010-03-11T21:52:38  <Wishbone> Regarding exposure in likely places of recruitment, I made this thread a while ago: http://eab.abime.net/showthread.php?t=49067
+2010-03-11T21:53:53  <Wishbone> That was just about the ripping of the graphics, but the board might be a good place to recruit, if we decide to do that.
+2010-03-11T21:54:58  <Geddeth> indeed, I'll remember that
+2010-03-11T21:56:16  <Geddeth> So more programmers may be helpful towards solving the current standstill
+2010-03-11T21:56:53  <Geddeth> But the absence of a roadmap is also a problem, IMHO
+2010-03-11T21:57:14  <Geddeth> having one might help all of us focus on the tasks ahead
+2010-03-11T21:57:24  <Wishbone> I don't really know about that. I'm not sure more programmers would help right now. We need to get over that blasted engine hump.
+2010-03-11T21:57:33  <Wishbone> But I agree on the roadmap.
+2010-03-11T21:58:23  <Wishbone> This project really shouldn't be about rigid deadlines, but a few well thought-out reachable goals certainly couldn't hurt.
+2010-03-11T21:58:32  <suprema> brb
+2010-03-11T21:58:48  *** suprema has quit IRC
+2010-03-11T21:59:06  <Geddeth> Well, I feel we really only have one deadline, and that's getting *something* out during 2011
+2010-03-11T21:59:15  <Geddeth> preferably Q1/2011
+2010-03-11T22:00:14  <Wishbone> Agreed. That anniversary is too good to pass up :-D
+2010-03-11T22:00:46  <Geddeth> but currently, it feels like we are not getting to where we want, and if Luaan is the bottleneck (a very friendly and busy one at that), then more programmers may very well be our only option to reach that goal
+2010-03-11T22:01:30  <Wishbone> True. I'd just like a confirmation from him that he doesn't really have time to work on this at the moment, and that we can forge ahead without him.
+2010-03-11T22:01:39  *** suprema has joined #deuterosx.org
+2010-03-11T22:01:53  <Wishbone> wb suprema
+2010-03-11T22:02:16  <suprema> :)
+2010-03-11T22:02:30  <Geddeth> oh I hope he does .. but perhaps a couple more programmers will be able to grasp his Grand Plan(tm) and make it happen faster
+2010-03-11T22:02:51  <Geddeth> I mean: I hope he does have just a little time to work on this
+2010-03-11T22:03:41  <Wishbone> Well so do I, but something needs to happen soon, or we'll wind down to a standstill again.
+2010-03-11T22:04:56  <suprema> i was thinking about some online version :/
+2010-03-11T22:05:05  <Geddeth> Right, and that's what we need to work on finding a solution for.
+2010-03-11T22:05:09  <Wishbone> suprema: ?
+2010-03-11T22:05:15  <suprema> web
+2010-03-11T22:05:27  <Wishbone> suprema: Of what? Deuteros?
+2010-03-11T22:06:44  <suprema> aye?
+2010-03-11T22:07:00  <Wishbone> Okay.
+2010-03-11T22:07:51  <Geddeth> well, some guy in the forums was talking about that
+2010-03-11T22:08:00  <suprema> he gave a dead link
+2010-03-11T22:08:21  <Geddeth> while we should certainly support the effort, I don't think we should expand our project towards that medium
+2010-03-11T22:08:25  <Geddeth> (yet)
+2010-03-11T22:08:44  <Wishbone> Nope.
+2010-03-11T22:09:01  <Geddeth> but you may of course mean a binary multiplayer-version, not web-related?
+2010-03-11T22:09:20  <suprema> web
+2010-03-11T22:09:25  <Geddeth> ah .. I see.
+2010-03-11T22:09:27  <suprema> pure php, no engine and drivers
+2010-03-11T22:09:35  <suprema> this should serve as a basis for a binary version
+2010-03-11T22:09:43  <Wishbone> suprema: You've seen this?
+2010-03-11T22:09:50  <suprema> no
+2010-03-11T22:09:52  <suprema> where?
+2010-03-11T22:09:55  <Wishbone> Ah...
+2010-03-11T22:10:13  <Wishbone> suprema: I thought you were talking about something you'd seen on the web.
+2010-03-11T22:10:58  <suprema> no it was a proposal
+2010-03-11T22:11:18  <Wishbone> Oh...
+2010-03-11T22:12:30  <Geddeth> right .. well ... although being a webdeveloper myself I am all for diving into a PHP-based online-version, I think that is still a massive task if it is to be done properly and still be true to the original
+2010-03-11T22:12:42  <Geddeth> it's not something I would want this project to head up
+2010-03-11T22:14:14  <Geddeth> ok, well .. I think that is all for tonight, eh?
+2010-03-11T22:14:30  <suprema> i wish not :D
+2010-03-11T22:14:38  <Wishbone> Right. Let's try to pick up the forum activity a bit, agreed?
+2010-03-11T22:14:41  <Geddeth> ;)
+2010-03-11T22:14:51  <Geddeth> thanks for attending, those of you who could - next meeting is in a week already
+2010-03-11T22:15:02  <suprema> ph bntw
+2010-03-11T22:15:04  <Geddeth> however, I am on holiday and might not be able to attend
+2010-03-11T22:15:10  <suprema> you didnt comment on my new methanoid talking head :(
+2010-03-11T22:15:41  <Wishbone> suprema: Your what?
+2010-03-11T22:16:33  <Wishbone> I commented on the last picture you posted.
+2010-03-11T22:17:33  <suprema> it was much better than the previous one i hope
+2010-03-11T22:18:29  <Geddeth> http://deuterosx.org/forum/viewtopic.php?p=1800#p1800
+2010-03-11T22:18:30  <_deutebot> Title: DeuterosX.org Login (at deuterosx.org)
+2010-03-11T22:18:55  <Wishbone> But what "talking head" are you talking about?
+2010-03-11T22:19:10  <suprema> hmm it's the methanoid hologram when you dock in their station
+2010-03-11T22:19:18  <suprema> who says "you've gone too far" etc :D
+2010-03-11T22:19:31  <Wishbone> Oh, that's what you mean. Right. I thought you meant you'd animated it ;-)
+2010-03-11T22:19:46  <Geddeth> Yes, I'm sorry we didn't do the usual rounds at this meeting, but I feel the engine problems (sorry) justified a full meeting on the topic.
+2010-03-11T22:19:50  <Wishbone> What do you mean "I didn't comment on it"?
+2010-03-11T22:20:20  <Wishbone> Geddeth: They did, but it would have been much more worthwile if Luaan had been present.
+2010-03-11T22:20:41  <Geddeth> suprema: ask for comments at next IRC meeting, too, mkay? :-/
+2010-03-11T22:21:12  <Wishbone> Right. Let's wrap this up.
+2010-03-11T22:21:59  <suprema> *wrapping*
+2010-03-11T22:22:41  <Geddeth> Next meeting: March 18th
+2010-03-11T22:22:48  <Wishbone> Right.
+2010-03-11T22:22:56  <Geddeth> I'll try to attend.
+2010-03-11T22:23:03  <Wishbone> Goodnight all :-)
+2010-03-11T22:23:08  <Geddeth> Nite!

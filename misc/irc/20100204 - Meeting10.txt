@@ -1,0 +1,316 @@
+﻿2010-02-04T21:32:57  <Geddeth> so we'll start now
+2010-02-04T21:33:00  <Wishbone> Right.
+2010-02-04T21:33:40  <Geddeth> This time there's no agenda, so the meeting should be short, since we'll just do the rounds and anything that is on our minds right now
+2010-02-04T21:33:56  <Geddeth> as usual, lengthy discussions should be shifted to the forums
+2010-02-04T21:34:02  <Geddeth> Me first:
+2010-02-04T21:34:08  <suprema> i am working on some screen concepts, i will show one asap
+2010-02-04T21:34:12  <suprema> nothing more to report, sirs
+2010-02-04T21:34:41  <Wishbone> I'd just like to congratulate marrzian on his fantastic effort with the graphics ripping since the last meeting :D
+2010-02-04T21:34:43  <Geddeth> since last meeting, I sent out a public update - it has spawned a flurry of exactly zero (0) comments :)
+2010-02-04T21:35:23  <marrzian> Wishbone: my pleasure :D
+2010-02-04T21:35:36  <Geddeth> suprema: looking forward to those - always like viewing new graphics :)
+2010-02-04T21:36:08  <Wishbone> Indeed, looking forward to it suprema :-)
+2010-02-04T21:36:17  *** suprema is now known as supremacy
+2010-02-04T21:36:47  <Wishbone> cy ;-)
+2010-02-04T21:36:51  <Geddeth> well ... that was quick :)
+2010-02-04T21:37:14  <Geddeth> anything from the forums we should revisit?
+2010-02-04T21:37:31  <Geddeth> supremacy had a good idea for the tagline ;)
+2010-02-04T21:37:52  <Wishbone> Dunno. I have a specific graphics ripping issue, but it's not that important.
+2010-02-04T21:38:09  <Wishbone> Indeed he had. I think that's a winner :)
+2010-02-04T21:38:24  <supremacy> nice to know
+2010-02-04T21:39:21  *** Geddeth changes topic to "Deuteros X - Bringing Deuteros to the Next Millennium. | Next IRC meeting: Feb 18th 8PM UTC"
+2010-02-04T21:39:35  <Geddeth> We'll try it on for a while, shall we?
+2010-02-04T21:39:42  <supremacy> :D
+2010-02-04T21:39:56  <marrzian> heh
+2010-02-04T21:40:09  <Wishbone> Ah, the edited version, that is. I see you changed it after I quoted you ;-)
+2010-02-04T21:40:54  <Geddeth> Right, I guess it's more correct that way.
+2010-02-04T21:40:56  <Wishbone> And the edited version is of course the "correct" one, with regards to the original title.
+2010-02-04T21:42:49  <Geddeth> Any news from the programmers?
+2010-02-04T21:43:35  *** cluly has joined #deuterosx.org
+2010-02-04T21:43:41  <cluly> late ><!
+2010-02-04T21:43:49  <marrzian> well, i havent touched much c-sharp, but i have something that might be useful
+2010-02-04T21:43:58  <Geddeth> cluly: welcome :)
+2010-02-04T21:43:59  <cluly> sorry guys, in laws
+2010-02-04T21:44:23  <Geddeth> cluly: Sorry :)
+2010-02-04T21:44:26  <Wishbone> Not really. I haven't looked at the code yet, but Luaan and I have discussed the data formats on the forum.
+2010-02-04T21:44:52  <cluly> what have i missed? bring me up to speed
+2010-02-04T21:45:21  <marrzian> cluly: hey there. you didnt miss much :)
+2010-02-04T21:45:48  <cluly> any graphics stuff been sorted?
+2010-02-04T21:46:11  <Geddeth> cluly: nope
+2010-02-04T21:46:39  <Geddeth> we've only been at it for 15 mins
+2010-02-04T21:46:47  <cluly> ooo got ya
+2010-02-04T21:48:07  <Geddeth> cluly & supremacy: would you mind editing you forum profiles, so your location shows? country is enough, or timezone if you prefer - it will help close some of the gaps in this list: http://deuterosx.org/forum/memberlist.php?mode=group&g=7
+2010-02-04T21:48:08  <_deutebot> Title: DeuterosX.org Login (at deuterosx.org)
+2010-02-04T21:48:28  <Geddeth> go to User Control Panel at the top to edit
+2010-02-04T21:48:57  <cluly> np
+2010-02-04T21:49:00  <Geddeth> anyway, how far is the graphics ripping business, now that marrzian has been so busy?
+2010-02-04T21:49:08  <Wishbone> marrzian: If I'm not much mistaken, the research and production thumbnails are identical.
+2010-02-04T21:49:21  <Wishbone> marrzian: Do you agree?
+2010-02-04T21:50:11  <marrzian> Wishbone: yup
+2010-02-04T21:50:17  <marrzian> Wishbone: like i said :)
+2010-02-04T21:50:18  <cluly> updated
+2010-02-04T21:50:35  <Wishbone> marrzian: You did? Sorry, I must've missed that :-/
+2010-02-04T21:50:47  <marrzian> Wishbone: but the research rips miss transparecy
+2010-02-04T21:51:10  <Wishbone> marrzian: But I was thinking about making them transparent and then using the same set of images for both.
+2010-02-04T21:51:39  <marrzian> Wishbone: we could do that, but would require some labor :/
+2010-02-04T21:52:05  <marrzian> Wishbone: can really batch procedss that one
+2010-02-04T21:52:24  <marrzian> can't*
+2010-02-04T21:52:28  *** Annihilator has joined #deuterosx.org
+2010-02-04T21:52:36  <Annihilator> o/017e
+2010-02-04T21:52:41  <marrzian> hey :)
+2010-02-04T21:53:03  <marrzian> Wishbone: if you really want to do that, just fire up ticket I'll prolly pick it ;)
+2010-02-04T21:53:09  <Wishbone> marrzian: I know. I think we'll be glad we did it though. Still, that's not an urgent issue, other than the fact that I'd like the two sets of graphics to at least overlap perfectly.
+2010-02-04T21:53:58  *** Geddeth has quit IRC
+2010-02-04T21:54:21  <marrzian> Wishbone: if you say so :)
+2010-02-04T21:54:42  <Wishbone> marrzian: But for that process (resizing the canvas to make them identical) we should be able to do it in batch.
+2010-02-04T21:55:07  <marrzian> Wishbone: yup, piece of cake
+2010-02-04T21:55:43  <Wishbone> And if we can do that, then I think I know a way to make the transparency process a LOT easier.
+2010-02-04T21:56:27  <marrzian> indeed, didn't think of that x)
+2010-02-04T21:56:39  <Wishbone> Using something like this: http://www.imagemagick.org/Usage/channels/#mask_bgnd
+2010-02-04T21:56:40  <_deutebot> Title: Channels and Masks -- IM v6 Examples (at www.imagemagick.org)
+2010-02-04T21:58:13  <Wishbone> marrzian: Also, one small question: when you removed the doubled images, why did you remove the ones you had made, rather than mine? Now they follow two completely different naming conventions :-/
+2010-02-04T21:58:28  <Wishbone> marrzian: And yours is better than mine ;-)
+2010-02-04T21:59:39  <marrzian> Wishbone: I know, it's just my twisted way of thinking ... :) i have this idea to rahter delete stuff that i've committed rather than ones committed by others, even when it was more appropriate to delete stuff from others...
+2010-02-04T21:59:52  *** Geddeth has joined #deuterosx.org
+2010-02-04T21:59:52  *** Q sets mode: +o Geddeth
+2010-02-04T22:00:08  <Geddeth> Lagmonster grabbed my connection, sry
+2010-02-04T22:00:20  <Wishbone> marrzian: Correct me if I'm wrong, but weren't yours and mine identical down to the single pixel? :p
+2010-02-04T22:00:37  <cluly> ive been working on a title/logo btw guys. I was hoping to get it finished today, it needs a couple more hours work on lighting and some rendering, it should be finished the next couple of days anyway, but here it is for you to have a look at http://img341.imageshack.us/img341/1998/titlex.jpg
+2010-02-04T22:00:55  <cluly> again, damn in-laws turn up ><
+2010-02-04T22:01:30  <supremacy> wow
+2010-02-04T22:01:38  <Wishbone> Must...have...more...bandwidth...
+2010-02-04T22:01:40  <supremacy> much closer to the original
+2010-02-04T22:01:44  <cluly> i should have had it finished by now, and the Shuttle design...but ive been teaching myself 3d and got distracted
+2010-02-04T22:01:46  <Wishbone> Damn but that loads slowly...
+2010-02-04T22:01:50  <marrzian> Wishbone: yup, but not committed by me .. my twisted thinking in action ... :)
+2010-02-04T22:02:06  <cluly> its imageshack i think...abit laggy
+2010-02-04T22:02:06  <Wishbone> marrzian: Well, you can untwist it ;-)
+2010-02-04T22:02:19  <marrzian> Wishbone: I will make an effort :D
+2010-02-04T22:02:40  <Annihilator> nice work, idd
+2010-02-04T22:02:42  <Geddeth> cluly: me like!
+2010-02-04T22:03:14  <cluly> the other thing was, did i hear mention of a new graphic layout for the website?
+2010-02-04T22:03:27  <Wishbone> Well, I can only see the top half, but what I can see looks excellent :)
+2010-02-04T22:03:29  <Geddeth> cluly: right
+2010-02-04T22:03:31  <marrzian> cluly: not bad at all :)
+2010-02-04T22:03:48  <Wishbone> One thing though, this one is maybe TOO close to the original?
+2010-02-04T22:03:49  <Geddeth> I can pop it into SVN right away
+2010-02-04T22:04:01  <cluly> its a WIP atm
+2010-02-04T22:04:05  <cluly> to close?
+2010-02-04T22:04:51  <Wishbone> Well, you know. We've talked about updating the design of some things, like the space stations.
+2010-02-04T22:05:26  <marrzian> (getting coffee, brb)
+2010-02-04T22:05:34  <Wishbone> I must admit I liked the fact that marrzian's logo was not an exact duplicate of the original.
+2010-02-04T22:05:57  <Geddeth> Wishbone: I wouldn't call cluly's that either
+2010-02-04T22:06:28  <Wishbone> Geddeth: Well I'm hampered by the fact that I can still only see 50 % of the image ;)
+2010-02-04T22:06:30  <cluly> yeah, true, however maybe the logo should be abit closer to the original? just my thoughts though, could crack on with an updated one design wise and use that for the website
+2010-02-04T22:06:35  <Geddeth> Wishbone: reload?
+2010-02-04T22:07:03  <Wishbone> Yeah, I'll have to, 'cos now it says it's done :-/
+2010-02-04T22:07:12  <cluly> thats title is just such an icon for the game
+2010-02-04T22:07:24  <Wishbone> cluly: True.
+2010-02-04T22:07:26  <cluly> that*
+2010-02-04T22:07:49  <Geddeth> cluly: I think that the logo you are working on is going to be our current "project logo" - hence the discussion we had last time about various usages and sizes of the design
+2010-02-04T22:07:50  <cluly> tell ya what
+2010-02-04T22:08:06  <cluly> ill finish that and then do an updated one
+2010-02-04T22:08:09  <Wishbone> cluly: You know what, you're right.
+2010-02-04T22:08:28  <Geddeth> I *also* think it should be an *additional* logo for our Phase 1 release
+2010-02-04T22:08:43  <Wishbone> cluly: I think it could still use some work, but other than that, it's perfect.
+2010-02-04T22:08:49  <Geddeth> i.e. it is the only real addition we make to the game - our project logo
+2010-02-04T22:08:57  <Wishbone> cluly: Of course, it never hurts to have more to choose from.
+2010-02-04T22:09:10  <cluly> geddeth: it would be very hard to scale and use that design it would have to be used 100,50,25% for its size to be effective
+2010-02-04T22:09:16  <Geddeth> cluly: oh, and you're missing an "e" :-P
+2010-02-04T22:09:29  <cluly> yeah that needs painted in next ^_^
+2010-02-04T22:09:32  <Wishbone> Geddeth: If it's the project logo, shouldn't it include the "X"?
+2010-02-04T22:10:09  <cluly> wishbone: the X is a tricky one...i think if i put an X on that design it would look out of place...maybe on the updated one?
+2010-02-04T22:10:23  <Geddeth> Wishbone: good point you make, hrrm?
+2010-02-04T22:10:26  <Annihilator> idd
+2010-02-04T22:10:45  <Wishbone> Geddeth: Talk like Yoda we do now, hrrm? :p
+2010-02-04T22:10:47  <Annihilator> maybe put the X in the upper right of the logo, like an exponent sign
+2010-02-04T22:11:57  <Geddeth> Wishbone: well, it's true .. in which case the design as it sits there now is meant for the Phase 2 intro screen
+2010-02-04T22:12:15  <Geddeth> and we need something else for our project logo - something less detailed, more scalable
+2010-02-04T22:12:31  <Geddeth> not saying it should be so, just that it  is another approach to it
+2010-02-04T22:12:37  <cluly> something vector and in eps format pref
+2010-02-04T22:13:20  <Geddeth> cluly: possibly - but more importantly something that scales well on websites
+2010-02-04T22:13:35  <Geddeth> i.e. it can be used out of context and in the site's design
+2010-02-04T22:13:36  <Wishbone> I have an image of the font used in Speedball 2 in my mind :D
+2010-02-04T22:13:52  <cluly> oh, well that does go down to 25% quite well...but anything less and it llooks silly
+2010-02-04T22:14:18  <Geddeth> cluly: is 150px height doable?
+2010-02-04T22:14:24  <cluly> gimme a sec
+2010-02-04T22:14:28  <cluly> 150x??
+2010-02-04T22:14:56  <Geddeth> cluly: that would be max height for a logo, IMO
+2010-02-04T22:15:00  <Geddeth> on the website
+2010-02-04T22:15:09  <Geddeth> our current logo is 103px
+2010-02-04T22:15:10  <Wishbone> http://www.mobygames.com/images/shots/original/1085910100-00.png
+2010-02-04T22:15:19  <cluly> 150x229 works
+2010-02-04T22:15:30  <Geddeth> Wishbone: and here's a remake: http://www.speedball2.com/images/gamecenter_screen02.jpg
+2010-02-04T22:16:51  <Wishbone> Geddeth: I like the old one better.
+2010-02-04T22:16:56  <Geddeth> cluly: well .. question is whether we can get a X in there somehow
+2010-02-04T22:17:12  <Wishbone> Geddeth: It looks great the way the letters are sort of pulled upwards.
+2010-02-04T22:17:27  <cluly> http://img528.imageshack.us/img528/5853/titlesmall.jpg <- small version
+2010-02-04T22:17:40  <Geddeth> cluly: ah yes, that's very nice actually
+2010-02-04T22:17:47  <Geddeth> veeeery nice :D
+2010-02-04T22:17:55  <Wishbone> Uhm... Really?
+2010-02-04T22:18:15  <Wishbone> It'll need some changes for it to work that small I think.
+2010-02-04T22:18:20  <cluly> if a new web layout is going to be developed though, it could be much larger
+2010-02-04T22:18:23  <Geddeth> I think we should lose the red arrow, actually .. I don't see it's purpose..
+2010-02-04T22:18:45  <Geddeth> cluly: could it? how so?
+2010-02-04T22:19:01  <Wishbone> The bottom half of the D, E and especially the R almost disappear at that scale. The contrast is too low.
+2010-02-04T22:19:24  <cluly> well i can put together a much larger "web 2.0" sort of style for the header np
+2010-02-04T22:19:26  <Wishbone> I do think we need something simpler for the project logo.
+2010-02-04T22:19:34  <Geddeth> Wishbone: yes, but those are details .. in general, it works. Much better than marrzian's did at that scale.
+2010-02-04T22:19:41  <Wishbone> True.
+2010-02-04T22:19:47  <cluly> its all layered too
+2010-02-04T22:19:54  <Wishbone> Just saying ;)
+2010-02-04T22:19:55  <cluly> currently 41 layers in total
+2010-02-04T22:20:14  <Wishbone> Whoa... That's a lotta layers :-)
+2010-02-04T22:20:29  <cluly> the original is a very VERY well balance bit of composition
+2010-02-04T22:20:34  <cluly> balanced*
+2010-02-04T22:22:45  <cluly> http://www.csszengarden.com/?cssfile=/200/200.css&page=1 - a poor example, but a heavy header
+2010-02-04T22:22:48  <_deutebot> Title: css Zen Garden: The Beauty in CSS Design (at www.csszengarden.com)
+2010-02-04T22:23:29  <Geddeth> cluly: right, I get your point .. we could redesign entirely around a much more prominent logo
+2010-02-04T22:24:13  <cluly> you could even have the animations from the original on it built up in flash hehe
+2010-02-04T22:24:40  <Geddeth> however, I'm not sure it would work across the wiki and forum templates .. people would have to scroll quite a bit to get to the top of those pages, because the logo would take a lot of room
+2010-02-04T22:25:27  <cluly> aslong as a content area is clear it shouldn't be to much trouble
+2010-02-04T22:27:01  <Geddeth> cluly: well, I'm certainly open to the idea of a complete redesign that is much more visual than our current
+2010-02-04T22:27:13  <Geddeth> after all, the game is *quite* visual .. and it is a game, after all.
+2010-02-04T22:27:40  <Geddeth> Here's a forum template with a tall header: http://seyitabi.deviantart.com/art/4-SALE-Aion-Forum-Design-135943950
+2010-02-04T22:27:42  <_deutebot> Title: 4 SALE Aion Forum Design by ~SeyitAbi on deviantART (at seyitabi.deviantart.com)
+2010-02-04T22:29:08  <cluly> yeah, something like that, id probably toy with the idea of having main nav above it
+2010-02-04T22:29:09  <Geddeth> cluly: care to brainstorm with me in the forums on this? we could share a .PSD in SVN.
+2010-02-04T22:29:31  <cluly> yeah not a prob, i can mock up a design np, i'm just not much of a developer
+2010-02-04T22:29:50  <Geddeth> cluly: and I'm not much of a designer, so that should work out grand ;)
+2010-02-04T22:30:11  <cluly> http://www.beech-cottage.co.uk/ <- last website i developed...5 years ago lol
+2010-02-04T22:30:12  <_deutebot> Title: Beech Cottage self-catering accommodation in Dunstanburgh, Northumberland, UK. (at www.beech-cottage.co.uk)
+2010-02-04T22:31:14  <Geddeth> heh, could be much worse ;)
+2010-02-04T22:31:18  <cluly> once we get the logo and site sorted in terms of art direction, the rest should just follow
+2010-02-04T22:31:54  <Geddeth> cluly: indeed - but the question remains, though - do we need two distinct logos for each purpose, or can we create one and derive another from that that fits all purposes?
+2010-02-04T22:32:37  <cluly> what you want is basicly a working and corprate versions of the logo
+2010-02-04T22:32:45  <Geddeth> our purposes are: 1) weblogo 2) generic logo for articles on external sites, emails, etc. 3) Phase 1 logo remake 4) Phase 2 logo
+2010-02-04T22:33:06  <Geddeth> 1) and 2) might be the same, scaled differently
+2010-02-04T22:33:56  <cluly> phase 1 is just being ripped, so that cool, 1 & 4 id say would be the same, and the limited corprate version for 2
+2010-02-04T22:34:59  <Geddeth> right .. 3) is obviously not an issue.
+2010-02-04T22:35:40  <Geddeth> but your current design mostly fits 4)  .. and if it scales well, then that can go as 1) - is that your point?
+2010-02-04T22:35:53  <Geddeth> ... except that it is missing an X
+2010-02-04T22:36:04  <cluly> yup, developng it to be used in game
+2010-02-04T22:36:13  <cluly> i need to look at the X then
+2010-02-04T22:38:03  <Geddeth> I suppose so
+2010-02-04T22:38:12  * cluly makes notes
+2010-02-04T22:38:16  <Geddeth> I'm not sure Annihilators idea will work, since it won't scale down
+2010-02-04T22:38:26  <Geddeth> although I like the idea
+2010-02-04T22:38:41  <Geddeth> Deuteros^x
+2010-02-04T22:38:42  <supremacy> i am curious how those concepts will work
+2010-02-04T22:39:13  <Geddeth> supremacy: which concepts specifically?
+2010-02-04T22:39:24  <supremacy> about the logo
+2010-02-04T22:39:44  <supremacy> i'll watch and learn
+2010-02-04T22:40:47  <cluly> my inital thought was to put the X in the star field
+2010-02-04T22:41:45  <cluly> balance wise, theres 3 styles, the DER, the pipes and the starfield. he starfield being used the least and in the correct place
+2010-02-04T22:41:56  <cluly> o and the 2 screens
+2010-02-04T22:42:32  <Geddeth> yeah .. my puny attempt for the current logo was to use the DER-style
+2010-02-04T22:43:20  <cluly> yeah, it doesn't really balance well imo
+2010-02-04T22:44:24  <Geddeth> cluly: I agree. I felt that the X needed to stand out from the rest of the logo, in the sense that this project is going to create something new on top of the original
+2010-02-04T22:44:37  <Geddeth> but then again, I was working with the original logo, not a remake
+2010-02-04T22:45:09  <cluly> yeah, the x could indeed warant a full redesign on the logo
+2010-02-04T22:45:50  <Geddeth> hmm .. I'm sorry if that has totally disrupted your current work :(
+2010-02-04T22:45:59  <cluly> im used to it :P
+2010-02-04T22:47:02  <cluly> i was thinking that would make a nice wallpaper however lol
+2010-02-04T22:47:45  <Geddeth> it would indeed
+2010-02-04T22:48:01  <cluly> maybe a website goody, hehe
+2010-02-04T22:48:18  <supremacy> i think the X should be made in an alien-ish way
+2010-02-04T22:48:23  <Geddeth> but let's continue in the forums .. I'll commit a new folder to SVN under misc/gfx/webdesign for us to work in
+2010-02-04T22:48:32  <supremacy> but the whole logo is alienish so i dont know how it would be done
+2010-02-04T22:50:06  <Geddeth> supremacy: I'm quite clueless on that item as well
+2010-02-04T22:50:25  <cluly> not a bad idea tbh, I could do it like the SCG deesign was that nice blue methanoid style
+2010-02-04T22:50:28  <supremacy> it should look like a hologram, or organic
+2010-02-04T22:50:56  <cluly> noted :)
+2010-02-04T22:52:03  <cluly> speaking of methanoids Supremacy, i was lookin through you deviantart stuff again, your character stuff is rather strong...gief Methanoid :P
+2010-02-04T22:54:46  <supremacy> i thought so
+2010-02-04T22:54:50  <Geddeth> another option might even be to drop the X below the "Deuteros"
+2010-02-04T22:54:52  <supremacy> do we see in the game anything more than their heads
+2010-02-04T22:54:53  <supremacy> ?
+2010-02-04T22:55:54  <Geddeth> supremacy: not to my knowledge, but I'm not certain
+2010-02-04T22:56:50  <cluly> no we don't, which is a real shame, we don't get to see the hydranoids either, just a human head shot in the logo and the methanoid that talks to you
+2010-02-04T22:57:34  <Wishbone> Hmm, what about dropping the x BEHIND "Deuteros"?
+2010-02-04T22:57:39  <cluly> it would be nice if it felt more populated, if you know what i mean
+2010-02-04T22:57:58  <cluly> a big subtle X in the background could work
+2010-02-04T22:58:10  <Wishbone> cluly: Exactly.
+2010-02-04T22:58:22  <Wishbone> cluly: Or a big not-subtle-at-all X ;-)
+2010-02-04T22:58:28  <cluly> :D
+2010-02-04T22:58:37  <cluly> it would lose constrast then :(
+2010-02-04T22:58:54  <cluly> contrast*
+2010-02-04T22:58:59  <Geddeth> Wishbone: not a bad idea
+2010-02-04T22:58:59  <cluly> im a shit typist btw
+2010-02-04T22:59:28  <Geddeth> cluly: ;)
+2010-02-04T23:00:04  <Geddeth> well, I think we have lots of ideas here to keep us occupied for both logos and webdesign .. so let's see where we are at next meeting
+2010-02-04T23:00:15  <cluly> cool
+2010-02-04T23:00:16  <Wishbone> http://www.colonelscrypt.com/Movie%20Reviews/J/Jason%20X/JasonXPoster.jpg
+2010-02-04T23:00:23  <Geddeth> and I apologize for getting carried away here, I broke my own rule about max 60 min meetings
+2010-02-04T23:00:49  <Geddeth> does anyone have anything to add before we officially end the meeting?
+2010-02-04T23:00:52  <Annihilator> sorry i couldn't be more active, some distracting work
+2010-02-04T23:01:14  <cluly> id like to get supremacy involved on character design please ^_^
+2010-02-04T23:01:25  <Geddeth> Annihilator: no worries :) glad you're here in any case
+2010-02-04T23:02:34  <Geddeth> cluly: well, I guess he'll look into it if he feels like it, but it sounds like a good idea :)
+2010-02-04T23:02:55  <cluly> im just dying to see a methanoid or a hydranoid lol
+2010-02-04T23:03:02  <Wishbone> http://deuterosx.org/forum/viewtopic.php?f=23&t=1002&p=1734#p1734
+2010-02-04T23:03:04  <_deutebot> Title: DeuterosX.org Login (at deuterosx.org)
+2010-02-04T23:03:40  <Wishbone> You were busy discussing the web design, so I fiddled with the Speedball 2 logo ;-)
+2010-02-04T23:03:51  <cluly> that font would work perfectly for the Corprate/usable version of the logo
+2010-02-04T23:06:37  <cluly> right, thats me off guys...wifes gonna kill me :P
+2010-02-04T23:06:41  <Geddeth> cluly: feel free to work with it
+2010-02-04T23:06:51  <Geddeth> cluly: thank her for your time :D
+2010-02-04T23:06:58  <cluly> ill get working on that we discussed geddeth :)
+2010-02-04T23:07:02  <Geddeth> and thanks all for showing up
+2010-02-04T23:07:08  <supremacy> please send me rips of methanoids and hydroids
+2010-02-04T23:07:10  <supremacy> :D
+2010-02-04T23:07:11  <cluly> night all, take care
+2010-02-04T23:07:16  <Geddeth> cluly: jup, talk to you on the forums
+2010-02-04T23:07:28  <Geddeth> supremacy: :D
+2010-02-04T23:07:39  <cluly> http://www.biocrawler.com/w/images/a/ab/Methanoid.gif
+2010-02-04T23:07:47  <cluly> the only methanoid you'll see
+2010-02-04T23:08:03  <supremacy> ah
+2010-02-04T23:08:18  <cluly> the human can be found in the Deuteros logo on start up, best bet is to get the Amiga emulator running
+2010-02-04T23:08:29  <supremacy> i remember that
+2010-02-04T23:08:36  <cluly> and also, read the backstroy (which is posted on the forums)
+2010-02-04T23:08:41  <cluly> story*
+2010-02-04T23:08:47  <supremacy> but i never ever saw a hydroid, i didnt adveance that much in the game
+2010-02-04T23:08:51  <cluly> apart from that...thats it, which is a real shame
+2010-02-04T23:09:00  <cluly> its only mentioned in the backstory
+2010-02-04T23:09:10  <cluly> ah however, when i think about it
+2010-02-04T23:09:13  <supremacy> do the aliens show up?
+2010-02-04T23:09:25  <cluly> all the "races" can be found in Millenium 2.2 it COULD be in there
+2010-02-04T23:09:59  <cluly> nope, the methanoids kill the hydrnoids after they insult a musician
+2010-02-04T23:10:40  <Annihilator> hydroids = unknown item builders?
+2010-02-04T23:10:59  <cluly> i remember laughing at the Sulphanoids in Millenium because they looked like potatoes xD
+2010-02-04T23:11:23  <cluly> nope one of the original geneticly moddified races from the humans
+2010-02-04T23:11:52  <Annihilator> it's never mentioned in the game  tbh
+2010-02-04T23:12:03  <cluly> its in the backstory in the manual
+2010-02-04T23:12:29  <Annihilator> the prologue or "deeper" in the manual?
+2010-02-04T23:12:56  <cluly> http://deuterosx.org/forum/viewtopic.php?f=22&t=31
+2010-02-04T23:12:57  <_deutebot> Title: DeuterosX.org Login (at deuterosx.org)
+2010-02-04T23:13:31  <Annihilator> unknown item isn't mentioned
+2010-02-04T23:14:03  <Wishbone> http://deuterosx.org/forum/viewtopic.php?f=23&t=1002&p=1735#p1735
+2010-02-04T23:14:04  <_deutebot> Title: DeuterosX.org Login (at deuterosx.org)
+2010-02-04T23:14:56  <Wishbone> Tried putting the X behind the logo. It's a very rough sketch of course, but it does have a certain something I think.
+2010-02-04T23:15:11  <Annihilator> could work, yes
+2010-02-04T23:15:19  <supremacy> in the second the X looks like II (two)
+2010-02-04T23:15:34  <supremacy> needs some eye adjastment to notice it's an X
+2010-02-04T23:16:00  <cluly> put >< in
+2010-02-04T23:16:11  <Wishbone> Yeah, I know. I just scaled the X, so it's blurry as hell. It would have to be made properly.
+2010-02-04T23:16:12  <cluly> if the font has the characters anyway
+2010-02-04T23:16:33  <cluly> must run, wife agro
+2010-02-04T23:16:40  <cluly> night night guys!
+2010-02-04T23:16:43  <supremacy> byez
+2010-02-04T23:16:46  <Wishbone> Hehe, there is no font. I made it by manipulating the Speedball 2 title screen ;)
+2010-02-04T23:16:52  <Wishbone> Night cluly :)
+2010-02-04T23:16:54  *** cluly has quit IRC
+2010-02-04T23:17:51  <Geddeth> Wishbone: not sure we can shamelessly rip the SB2 font like that, though
+2010-02-04T23:19:36  <Wishbone> Geddeth: Of course not. But something in that style.
+2010-02-04T23:20:18  <Wishbone> And, as mentioned, it's not actually a font. I just cut/pasted/flipped bits of the screenshot to make that.
+2010-02-04T23:20:53  <Geddeth> right
+2010-02-04T23:21:03  <Geddeth> well, we'll see what cluly has in mind
+2010-02-04T23:21:20  <Geddeth> I'm ending the meeting here now, folks - thanks for attending.
+2010-02-04T23:21:25  <supremacy> okz
+2010-02-04T23:21:28  <Geddeth> And remember: next meeting is Feb 18th!
+2010-02-04T23:21:51  <Wishbone> Yup, night guys :)
+2010-02-04T23:22:17  <Annihilator> gn!
+2010-02-04T23:22:20  <Geddeth> nitey
+2010-02-04T23:22:27  *** Wishbone has left #deuterosx.org
+2010-02-04T23:24:12  *** Annihilator has quit IRC
+2010-02-04T23:25:36  <supremacy> night
