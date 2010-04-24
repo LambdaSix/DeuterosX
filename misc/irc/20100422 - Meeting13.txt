@@ -1,0 +1,246 @@
+2010-04-22T21:23:35  <Geddeth> hey3
+2010-04-22T21:23:43  <Geddeth> marrzian: you there?
+2010-04-22T21:23:59  <Geddeth> sorry, I ended up being late myself
+2010-04-22T21:24:10  <Geddeth> not too many contestants tonight, though
+2010-04-22T21:24:14  <Luaan> cool with me :)
+2010-04-22T21:24:24  <Luaan> wish isn't comming?
+2010-04-22T21:24:47  <Geddeth> dunno, will ping him
+2010-04-22T21:29:36  <Geddeth> been a while since last time
+2010-04-22T21:30:03  <Geddeth> but stuff has been committed, things can compile and All Is Well :-)
+2010-04-22T21:30:05  <Geddeth> (mostly)
+2010-04-22T21:30:11  <Luaan> :P
+2010-04-22T21:31:31  <Geddeth> No word from Wish yet, but let's begin
+2010-04-22T21:31:32  <supremacy> that's great
+2010-04-22T21:31:40  <Geddeth> others can read the log
+2010-04-22T21:32:15  <Geddeth> just 3 particular issues, and I'm keeping it tight again tonight .. at most 60 mins, eh?
+2010-04-22T21:32:34  <Geddeth> firstly - anything new since last time?
+2010-04-22T21:32:42  <Geddeth> for my part,
+2010-04-22T21:33:07  <Geddeth> I can't say much has passed in regards to DX, though I follow the forums daily
+2010-04-22T21:33:31  <Geddeth> in a few weeks time, my family and I shall move to a new place, so I'll be a bit busy still during that time
+2010-04-22T21:33:59  <Geddeth> but I intend to write a public status update after this meeting
+2010-04-22T21:34:08  <Geddeth> next?
+2010-04-22T21:34:20  <Luaan> well
+2010-04-22T21:34:38  <Luaan> as I already posted on the forums some time ago, the basic gui structures are in place
+2010-04-22T21:34:51  <Luaan> that essentialy means we can start putting the screens together
+2010-04-22T21:35:20  <Luaan> right now I'm working out the best scripting environment for our use
+2010-04-22T21:36:55  <Luaan> ideally I'd want it all based on common grounds
+2010-04-22T21:37:13  <Luaan> to write the story in the same way you write gui elements
+2010-04-22T21:37:42  <Luaan> while on the other hand, it requires people to learn something new, which isn't always a good thing
+2010-04-22T21:38:25  <Luaan> I also thought about making a few screens just to show off how it works right now
+2010-04-22T21:38:32  <Geddeth> yeah, would be cool
+2010-04-22T21:38:35  <Luaan> which could be posted with your public status report :))
+2010-04-22T21:38:42  <Luaan> and that's about all I have ATM :)
+2010-04-22T21:40:28  <Geddeth> "screens" .. do you mean screenshots? or screens in the engine-sort-of-way?
+2010-04-22T21:40:35  <Luaan> both
+2010-04-22T21:40:39  <Geddeth> right
+2010-04-22T21:40:46  <Luaan> take a screens of some game screens :P
+2010-04-22T21:41:25  <Luaan> which should both make it easier to understand the way things are going to work and... well, will be some screens :D
+2010-04-22T21:41:27  <Geddeth> for our very first screenshots, I'd like 2-3 different, with one of them from Mac or Linux .. is that viable?
+2010-04-22T21:42:04  <Geddeth> could we try to compile for Mac/Linux?
+2010-04-22T21:42:08  <Luaan> it should work just fine on Mono
+2010-04-22T21:42:18  <Luaan> I can't test it though :)
+2010-04-22T21:43:13  <Luaan> the only thing that's going to be different are the native libraries, ie. SDL and stuff
+2010-04-22T21:43:25  <Luaan> in theory, that is :P
+2010-04-22T21:43:33  <Geddeth> yeah .. but how to actually create the binary? do you ask VS to do that?
+2010-04-22T21:43:42  <Luaan> it's the same
+2010-04-22T21:43:51  <Geddeth> just rename the .exe?
+2010-04-22T21:44:18  <Luaan> I don't think we even have to do that
+2010-04-22T21:44:32  <Luaan> the Mono runtime should take care of properly executing the MZ
+2010-04-22T21:44:56  <Geddeth> ok ... I believe Annihilator has Linux, so perhaps we can get him to work on that
+2010-04-22T21:45:00  <Geddeth> or test it at least
+2010-04-22T21:45:19  <Geddeth> so we can get a screenshot from a KDE/Gnome environment
+2010-04-22T21:45:31  <Luaan> right
+2010-04-22T21:45:58  <Geddeth> if we can't get that in a week's time or so, I'll have to push that post anyways with what we have .. we need to show activity to the public ;)
+2010-04-22T21:46:28  <Luaan> understood :)
+2010-04-22T21:49:11  <Geddeth> supremacy: anything to update us on?
+2010-04-22T21:49:13  *** Wishbone has joined #deuterosx.org
+2010-04-22T21:49:24  <Luaan> hi wish :)
+2010-04-22T21:49:33  <Wishbone> Sorry guys, it completely slipped my mind :-/
+2010-04-22T21:49:50  * Geddeth hits Wishbone over the head with a large trout.
+2010-04-22T21:49:59  <Luaan> fishboned!
+2010-04-22T21:50:02  <Geddeth> hi Wishbone :)
+2010-04-22T21:50:07  <supremacy> no guys sorry
+2010-04-22T21:50:17  <Geddeth> supremacy: k, no problemo
+2010-04-22T21:50:17  <Wishbone> Hi guys
+2010-04-22T21:50:26  <supremacy> i thought making perhaps concepts about the other aliens
+2010-04-22T21:50:46  <supremacy> but i'd like some inspiration because i never got the game past the solar system
+2010-04-22T21:53:03  <Wishbone> Sorry. I think I only ever did 4 other systems. I never actually completed the game.
+2010-04-22T21:53:21  <Geddeth> supremacy: okay - perhaps we can hang on to that for a while, as we go through the agenda
+2010-04-22T21:53:44  <Geddeth> supremacy: and see if something comes to mind at the end of the meeting?
+2010-04-22T21:54:54  <supremacy> no prob
+2010-04-22T21:54:59  <Geddeth> Wishbone: want to briefly update us on your news since last time
+2010-04-22T21:55:06  <supremacy> i as all of you have been busy with IRL stuff :P
+2010-04-22T21:55:14  <Geddeth> supremacy: :)
+2010-04-22T21:55:27  <Wishbone> Sure, although it's all in the forum.
+2010-04-22T21:55:57  <Wishbone> I made a tool to auto-generate the XML definitions for the textures from the GFX file structure.
+2010-04-22T21:56:31  <Wishbone> I've put it into the existing solution in SVN.
+2010-04-22T21:56:59  <Wishbone> So it should even be possible to compile it for all the platforms.
+2010-04-22T21:58:32  <Wishbone> I looked at the size of Textures.xml, then looked at the number of separate images in the GFX file structure, thought about how long that would take to type manually, and decided to make a tool.
+2010-04-22T21:58:53  <Wishbone> And that's it, really. That's pretty much all I've done since last time.
+2010-04-22T21:59:51  <Geddeth> cool
+2010-04-22T22:00:01  <Geddeth> I just loaded and compiled it in VS ;)
+2010-04-22T22:00:16  <Wishbone> Cool :)
+2010-04-22T22:00:36  <Wishbone> Bear in mind that it has next to no error handling, so don't put it through a monkey test.
+2010-04-22T22:00:44  <Geddeth> :(
+2010-04-22T22:00:49  <Geddeth> But I like monkeys ..
+2010-04-22T22:01:09  <Geddeth> okay .. moving along ..
+2010-04-22T22:01:38  <Geddeth> you briefly talked about it, Luaan .. producing content for the engine, i.e. scripts, aka. XML .. I gues..
+2010-04-22T22:02:00  <Geddeth> When can we begin, and how should we document it=?
+2010-04-22T22:02:37  <Luaan> well
+2010-04-22T22:03:00  <Luaan> the idea is to have it so well it needs no documentation
+2010-04-22T22:03:06  <Luaan> which is my approach to basically everything
+2010-04-22T22:03:33  <Luaan> although the files could have some description other than the xsd file
+2010-04-22T22:04:06  <Wishbone> We could put regular XML comments in the files, I suppose?
+2010-04-22T22:04:20  <Luaan> the current engine is well able to render the composite gamescreens
+2010-04-22T22:05:13  <Wishbone> But there aren't actually any gamescreen data yet, are there?
+2010-04-22T22:05:22  <Luaan> not really
+2010-04-22T22:05:28  <Wishbone> Can we make some?
+2010-04-22T22:05:31  <Luaan> but there are few obstructions to actually do it :)
+2010-04-22T22:05:56  <Luaan> images are fine
+2010-04-22T22:06:10  <Luaan> we can do buttons in a while
+2010-04-22T22:06:32  <Luaan> texts are not rendered at the moment
+2010-04-22T22:06:42  <Luaan> the text rendering engine is not in place yet
+2010-04-22T22:06:57  <Wishbone> But simply putting the images together to form the game screens is possible?
+2010-04-22T22:07:10  <Luaan> yeah, although there might be slight changes to it in future
+2010-04-22T22:07:25  <Wishbone> Are you working on the text engine, btw? Otherwise I'd like to take a crack at it.
+2010-04-22T22:07:32  <Luaan> not at the moment
+2010-04-22T22:07:42  <Luaan> right now I'm working on the scripting engine
+2010-04-22T22:07:44  <Geddeth> Wishbone: we just discussed having a few screenshots available for a public news post in a week or so, if possible
+2010-04-22T22:07:55  <Geddeth> so if you could work towards that end at first, it would be great
+2010-04-22T22:07:55  <Wishbone> Ah...
+2010-04-22T22:08:19  <Wishbone> Sure. I'll have a look at the XML files and try to make some screens.
+2010-04-22T22:09:42  <Luaan> the text renderer shouldn't be that hard, the simple parts at least
+2010-04-22T22:10:17  <Wishbone> Luaan: Did you work towards making another XML file for "special texture overrides"?
+2010-04-22T22:10:21  <Luaan> prerender glyphs into textures, render those using quads
+2010-04-22T22:10:38  <Luaan> nope, haven't even thought about it
+2010-04-22T22:11:25  <Luaan> it should be as unobtrussive as possible though
+2010-04-22T22:11:46  <Wishbone> Okay, so I need to... Fiddle around with the XML files a lot :-/
+2010-04-22T22:12:06  <Luaan> you shouldn't have to touch the texture definitions
+2010-04-22T22:12:20  <Luaan> most of them will require no settings
+2010-04-22T22:13:05  <Wishbone> No, but I may need more textures than the ones defined in the file right now.
+2010-04-22T22:13:59  <Wishbone> That means either importing the textures I need into the current file, or import the "special textures" into the generated file.
+2010-04-22T22:14:01  <Luaan> yep, but you can use that xml texture tool of yours and just replace the xml file that's already in place
+2010-04-22T22:14:17  <Luaan> only two of them have specific settings - the logo and the cursor
+2010-04-22T22:15:15  <supremacy> can we help?
+2010-04-22T22:15:37  <Wishbone> Okay, then I can just import those. But some of them have different names than the generated ones, so I'll need to go through the rest of the files and change the references as well.
+2010-04-22T22:16:15  <Luaan> only two of these are in use
+2010-04-22T22:16:25  <Luaan> it's going to be fairly easy to swap those
+2010-04-22T22:16:28  <Wishbone> Can you tell me which ones?
+2010-04-22T22:16:59  <Wishbone> Otherwise I can just look in the code.
+2010-04-22T22:17:07  <Luaan> the ones used in the gamescreens, logo and systemName
+2010-04-22T22:17:20  <Luaan> those only need their ids changed in the gamescreen file
+2010-04-22T22:17:20  <Wishbone> I won't get anything done until next week though.
+2010-04-22T22:17:46  <Luaan> and the only one using a fixed name is "cursor"
+2010-04-22T22:18:02  <Luaan> I'm going to change that relatively soon though
+2010-04-22T22:18:25  <Geddeth> question is ..
+2010-04-22T22:18:28  <Luaan> so the cursor would be drawn the same way everything else is
+2010-04-22T22:19:13  <Geddeth> when Wishbone commits new screen definitions, should the rest of us look into how it's done so we can help create more screens, or should we wait for a formal "go" from you two?
+2010-04-22T22:19:35  <Geddeth> since the format and tools to do so may change soon?
+2010-04-22T22:19:43  <Luaan> you can have a look at it already
+2010-04-22T22:19:56  <Luaan> the format is not going to change in a way that would make you lose any work
+2010-04-22T22:20:02  <Wishbone> Since all the screen definitions are in the same file, it may be inadvisable to have more than one person work on them at a time.
+2010-04-22T22:20:03  <Luaan> pretty much just additions
+2010-04-22T22:20:16  <Luaan> they don't need to be in the same file though
+2010-04-22T22:20:28  <Luaan> not talking about the GameScreen.xml file here
+2010-04-22T22:20:36  <Luaan> *s
+2010-04-22T22:21:02  <Luaan> although it might get tricky anyway
+2010-04-22T22:21:08  <Luaan> since some of the faces are shared
+2010-04-22T22:22:06  <Wishbone> Are all the XML files used?
+2010-04-22T22:22:36  <Luaan> nope, there are some left overs and some future definitions
+2010-04-22T22:22:41  <Geddeth> okay .. 10 minutes left guys .. next question:
+2010-04-22T22:23:15  <Geddeth> if the format isn't going to change in any massive way now, is it a good idea to begin documenting the important elements of the scripting stuff in the wiki?
+2010-04-22T22:23:27  <Geddeth> so that we can all understand how to create content?
+2010-04-22T22:23:40  <Geddeth> not talking about the engine itself, mainly just the XML-based stuff and related
+2010-04-22T22:24:01  <Geddeth> most of which Luaan has described in the forums, I believe?
+2010-04-22T22:24:21  <Luaan> it's all described in the code as well
+2010-04-22T22:24:28  <Wishbone> Putting stuff in the wiki is always a good idea. We just don't have anyone comfortable enough with wikis to take on the task.
+2010-04-22T22:24:55  <Luaan> but yeah, I agree I should put it in the wiki
+2010-04-22T22:25:42  <Geddeth> well .. I can organize things there to some extent, I just don't know enough about the structure to begin
+2010-04-22T22:27:34  <Luaan> I'll try to do the job :)
+2010-04-22T22:28:35  <Luaan> okay, anything else?
+2010-04-22T22:28:47  <Geddeth> it's fine to just dump a lot of info there and then tell me to take over to begin with
+2010-04-22T22:28:52  <Geddeth> we'll see where it goes from there
+2010-04-22T22:29:00  <Luaan> great
+2010-04-22T22:29:05  <Geddeth> Wishbone had "Naming conventions"?
+2010-04-22T22:29:18  <Geddeth> and supremacy asked for inspiration as well
+2010-04-22T22:29:27  <Geddeth> last two topics
+2010-04-22T22:29:48  <Luaan> naming conventions
+2010-04-22T22:29:59  <Wishbone> Yeah, for various things. But I don't think we have time to go into that now. Maybe I should just start a forum discussion about it, and then pick it up again at the next meeting.
+2010-04-22T22:30:07  <Luaan> yeah
+2010-04-22T22:30:08  <Geddeth> fine with me
+2010-04-22T22:30:27  <Wishbone> As for supremacy: Which "other aliens" are we talking about?
+2010-04-22T22:30:29  <Geddeth> supremacy: what sort of inspiration were you looking for?
+2010-04-22T22:30:43  <supremacy> sorry
+2010-04-22T22:30:48  <supremacy> are you all there? :D
+2010-04-22T22:31:02  <Wishbone> As I said, I haven't finished the game, but I got more than halfway, and I never ran into any other aliens besides the methanoids.
+2010-04-22T22:31:12  <Luaan> I also think only the methanoids are there
+2010-04-22T22:31:16  <Luaan> apart from the invisible guys
+2010-04-22T22:31:20  <Wishbone> There's the race you receive messages from, but do you ever get to see them?
+2010-04-22T22:31:24  <Luaan> (you know, the schemers)
+2010-04-22T22:31:24  <supremacy> so, after you leave the solar system, you still fight the methanoids?
+2010-04-22T22:31:30  <Wishbone> Yes.
+2010-04-22T22:31:35  <Luaan> in 8 other systems :D
+2010-04-22T22:31:39  <Luaan> (or seven)
+2010-04-22T22:32:04  <Geddeth> yeah, they have infested the whole place
+2010-04-22T22:32:04  <supremacy> well perhaps the remake should feature an appearance of the schemers?
+2010-04-22T22:32:09  <Wishbone> Yeah, I think there are 8 systems altogether, including Sol.
+2010-04-22T22:32:29  <Wishbone> Well, do we know anything about them?
+2010-04-22T22:32:32  <Geddeth> supremacy: not a bad idea, perhaps you can visualize them for us
+2010-04-22T22:32:32  <Luaan> the sequel, possibly
+2010-04-22T22:32:44  <Wishbone> I have the word "hydroids" in my mind, I'm not sure why.
+2010-04-22T22:32:52  <Luaan> I always thought of them as "galaxywide" consciousness
+2010-04-22T22:32:57  <Geddeth> the files with extracted text strings might hold info on them
+2010-04-22T22:33:01  <Geddeth> they are in SVN
+2010-04-22T22:33:06  <Wishbone> Right.
+2010-04-22T22:33:10  <Luaan> hydroids and sulphuroids were mentioned in the backstory
+2010-04-22T22:33:15  <Luaan> and in Millenium :)
+2010-04-22T22:33:18  <Geddeth> http://deuterosx.svn.sourceforge.net/viewvc/deuterosx/misc/text/
+2010-04-22T22:33:19  <_deutebot> Title: SourceForge.net Repository - [deuterosx] Index of /misc/textSourceForge.net Repository - deuterosx Index of / (at deuterosx.svn.sourceforge.net)
+2010-04-22T22:33:21  <Wishbone> Yeah, they were all in Millenium.
+2010-04-22T22:33:45  <supremacy> ah i will study the manual
+2010-04-22T22:34:55  <supremacy> also do we have any image of a methanoid ship?
+2010-04-22T22:35:39  <Luaan> hmm... I always imagined they have pretty much the same stuff, I don't think they're seen in the game...
+2010-04-22T22:35:44  <Wishbone> I don't think they feature visually in the game.
+2010-04-22T22:36:04  <Geddeth> me neither
+2010-04-22T22:36:13  <Geddeth> except as little red dots :)
+2010-04-22T22:36:16  <supremacy> this can be fixed :D
+2010-04-22T22:36:24  <Wishbone> Imagine a meth version of an IOS, like the space stations they have taken over.
+2010-04-22T22:36:56  <Luaan> or have a look at the ships in Millenium
+2010-04-22T22:36:59  <supremacy> are the taken-over IOSes look different?
+2010-04-22T22:37:10  <Luaan> try to work with how would they change over the time
+2010-04-22T22:37:28  <Wishbone> supremacy: Well, they don't take over those, but the space stations they have taken over look different.
+2010-04-22T22:37:40  <Wishbone> They have like, eerie lights and stuff ;)
+2010-04-22T22:37:54  <Luaan> since the methanoids took over the moon fleet after Millenium, I'd say they could be heavily influenced by the old designs
+2010-04-22T22:38:24  <Wishbone> Yeah, and their tools in Deuteros fit the IOS tool pod, yes?
+2010-04-22T22:38:42  <Luaan> yeah
+2010-04-22T22:39:06  <supremacy> sooo in millennium you control the methanoids?
+2010-04-22T22:39:12  <Luaan> you create them
+2010-04-22T22:39:23  <Luaan> methanoids are engineered humans
+2010-04-22T22:39:25  <supremacy> ok
+2010-04-22T22:39:33  <Wishbone> And the hydroids, sulphuroids, etc.
+2010-04-22T22:39:57  <Luaan> by the time of Deuteros, the Methanoids eradicated all the others
+2010-04-22T22:40:02  <Wishbone> Genetically engineered to survive on planets with different atmospheres.
+2010-04-22T22:41:06  <Wishbone> I think the design philosophy in the Deuteros universe is "keep it modular, so it's easy to swap out parts and expand the functionality".
+2010-04-22T22:42:00  <Wishbone> This should be reflected in the designs of both space stations and ships.
+2010-04-22T22:43:02  <Wishbone> That is just my opinion, of course ;-)
+2010-04-22T22:44:03  <Luaan> agreed
+2010-04-22T22:44:26  <Geddeth> supremacy: do you have a bit to go on?
+2010-04-22T22:44:46  <supremacy> i guess
+2010-04-22T22:44:48  <Geddeth> .. from our versatile coder-friends :)
+2010-04-22T22:45:47  <Geddeth> I suppose the bottom line is: methanoid-inspired vesions of various ships and objects would be interesting to dig into, am I right?
+2010-04-22T22:45:54  <Geddeth> *versions
+2010-04-22T22:46:28  <Wishbone> I'd certainly like to see them. We'll need the methanoid space station for phase 2 anyway.
+2010-04-22T22:47:45  <Geddeth> ok
+2010-04-22T22:47:58  <Wishbone> I'll also look into making more graphics ripping tasks.
+2010-04-22T22:48:15  <Geddeth> great
+2010-04-22T22:48:29  <Geddeth> if nobody has anything else, let's call it a night eh?
+2010-04-22T22:48:35  <Wishbone> Right.
+2010-04-22T22:48:48  <Luaan> right
+2010-04-22T22:48:55  <Geddeth> next meeting is May 6th, same time and channel :)
+2010-04-22T22:49:13  <Luaan> great, cya then
+2010-04-22T22:49:19  <supremacy> i think all the graphics of the game are ripped :)
+2010-04-22T22:49:30  <Wishbone> Yup, bye guys :)
+2010-04-22T22:49:32  <supremacy> so, good night
+2010-04-22T22:49:33  <Geddeth> see you in the forums, ppl - and let me know how those screens come along!
+2010-04-22T22:49:35  <Wishbone> supremacy: Not even close.
+2010-04-22T22:49:40  <Geddeth> nitey
