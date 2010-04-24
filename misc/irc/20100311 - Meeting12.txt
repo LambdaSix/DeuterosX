@@ -1,4 +1,4 @@
-﻿2010-03-11T21:27:39  <Geddeth> precisely - anyway, I was just going to say that I wish I could devote more time to the project than right now, but my family and I are about to move, I'm trying to find child care for my daughter and am currently also on paternal leave from work, so that basically doesn't leave me much time for .. well anything
+2010-03-11T21:27:39  <Geddeth> precisely - anyway, I was just going to say that I wish I could devote more time to the project than right now, but my family and I are about to move, I'm trying to find child care for my daughter and am currently also on paternal leave from work, so that basically doesn't leave me much time for .. well anything
 2010-03-11T21:27:57  <Geddeth> short story: I still want DX to happen, just bear with me
 2010-03-11T21:28:09  <Geddeth> that said, my main concern right now is the state of the engine
 2010-03-11T21:28:16  <suprema> how can we help?

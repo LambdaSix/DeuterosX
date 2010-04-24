@@ -1,4 +1,4 @@
-﻿2010-02-18T20:59:55  <Flatliner> hello
+2010-02-18T20:59:55  <Flatliner> hello
 2010-02-18T21:03:52  *** Flatliner has quit IRC
 2010-02-18T21:04:49  *** Flatliner has joined #deuterosx.org
 2010-02-18T21:07:15  <Geddeth> Hi Flatliner

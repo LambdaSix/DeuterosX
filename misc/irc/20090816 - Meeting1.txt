@@ -1,4 +1,4 @@
-﻿(5:57:27 AM) Luaan: hi guys
+(5:57:27 AM) Luaan: hi guys
 (6:02:52 AM) Geddeth: hi
 (6:53:05 AM) Geddeth left the room (quit: Ping timeout).
 (6:57:15 AM) Wishbone: Hiya
@@ -153,7 +153,7 @@ Unknown command.
 (8:16:30 AM) Wishbone: Exactly. Still, if we could establish some guidelines, that would be nice.
 (8:16:47 AM) Geddeth1: My point is that we *will* have deadlines to attempt to meet, but we should have fun meeting them, firstly.
 (8:16:55 AM) Wishbone: Anyone can leave, anyone can "take a break", but please, inform the rest of the team.
-(8:17:15 AM) Geddeth1: Right. I intend to put something like that in there as well. 
+(8:17:15 AM) Geddeth1: Right. I intend to put something like that in there as well.
 (8:17:27 AM) Geddeth1: So I guess we could call that the basic premise of the project.
 (8:17:32 AM) Wishbone: Also, those who have not yet done so, should post in the "Contact information" thread.
 (8:17:37 AM) Luaan: Well, I'd go with simple roadmaps - just specify the goals in the next step and you can go with or without deadlines :)
@@ -372,7 +372,7 @@ Unknown command.
 (8:57:55 AM) Ra1D3R: oooookay
 (8:58:02 AM) Annihilator: what are the options?
 (8:58:06 AM) Dexee: what IDE are we thinking of using for this though?
-(8:58:08 AM) Geddeth1: Right .. thats the Agenda I was on about .. 
+(8:58:08 AM) Geddeth1: Right .. thats the Agenda I was on about ..
 (8:58:23 AM) Geddeth1: http://deuterosx.org/forum/viewtopic.php?p=1402#p1402
 (8:58:24 AM) Dexee: will the language choices affect that as well? (I assume we're going to do C++)
 (8:58:24 AM) _deutebot: Title: DeuterosX.org Login (at deuterosx.org)
