@@ -1,0 +1,165 @@
+2010-05-06T21:02:14  <Wishbone> Good evening people :-)
+2010-05-06T21:02:32  <Luaan> hi :)
+2010-05-06T21:02:46  <Wishbone> marrzian: Are you here?
+2010-05-06T21:04:06  <Wishbone> I guess not.
+2010-05-06T21:05:53  <Wishbone> Hmm, so I guess it's just you and me Luaan. For now, anyway.
+2010-05-06T21:06:02  <Luaan> looks like it
+2010-05-06T21:06:57  <Wishbone> Well, we might as well discuss SOMETHING...
+2010-05-06T21:07:12  <Luaan> and what would that be? :D
+2010-05-06T21:07:27  <Wishbone> Hear ye, hear ye! I hereby call this meeting of the DeuterosX Project Team to order!
+2010-05-06T21:08:10  <Wishbone> In the interest of keeping up appearances, here is the agenda for tonight's meeting:
+2010-05-06T21:08:41  <Wishbone> 1. Activity since the last meeting.
+2010-05-06T21:08:55  <Wishbone> 2. Activities until the next meeting.
+2010-05-06T21:09:09  <Wishbone> 3. Miscellaneous.
+2010-05-06T21:09:33  <Wishbone> So... I haven't managed to do much of anything since the last meeting :(
+2010-05-06T21:09:43  <Luaan> yeah, this part is going to be quick
+2010-05-06T21:09:51  <Luaan> I have made no progress myself :)
+2010-05-06T21:10:02  <Wishbone> Although I have uncovered a few issues that I think we need to attend to asap.
+2010-05-06T21:10:19  <Wishbone> Right, so that's point 1 out of the way ;-)
+2010-05-06T21:11:00  <Wishbone> Point 2: The stuff we didn't get done under point 1.
+2010-05-06T21:11:24  <Luaan> that's long
+2010-05-06T21:11:29  <Wishbone> Point 3: Do you have any topics? Otherwise I have a few. Well, one, anyway.
+2010-05-06T21:12:08  <Wishbone> Long?
+2010-05-06T21:12:12  <Luaan> yeah, I have two points... if I can actually remember what they were...
+2010-05-06T21:12:18  <Wishbone> Hehe :p
+2010-05-06T21:12:28  <Wishbone> I know the feeling.
+2010-05-06T21:13:39  <Wishbone> I miss the "other person is typing" message from MSN...
+2010-05-06T21:13:47  <Luaan> yeah :))
+2010-05-06T21:13:49  <Luaan> anyway
+2010-05-06T21:14:13  <Luaan> one point was obviously about the image path issues you mentioned earlier
+2010-05-06T21:14:16  <Wishbone> I never know whether both of us are just staring dumbly at the screen, thinking that the other guy is writing a lengthy explanation :/
+2010-05-06T21:14:28  <Wishbone> Yes, that was my most important point.
+2010-05-06T21:14:40  <Luaan> half the time that, half the time typing a lenghty explanation at the same time :)
+2010-05-06T21:15:08  <Wishbone> I actually think it can be solved using SVN only.
+2010-05-06T21:15:35  <Luaan> SVN or filesystem, yeah
+2010-05-06T21:16:14  <Wishbone> You can link to other SVN folders within the SVN structure. Geddeth seemed to think that the linked folder had to be from another repository, but I haven't seen it written anywhere.
+2010-05-06T21:16:27  <Wishbone> And I don't see why that should be a requirement.
+2010-05-06T21:17:01  <Wishbone> So my though was to simply link to the gfx/original folder from mods/default/gfx.
+2010-05-06T21:17:08  <Wishbone> thought even
+2010-05-06T21:17:18  <Luaan> or maybe the other way round
+2010-05-06T21:17:27  <Wishbone> Huh?
+2010-05-06T21:18:09  <Luaan> well, we can change the output of the binaries (and everything else) of the VS project
+2010-05-06T21:18:23  <Luaan> so we could make the mods directory the common part
+2010-05-06T21:18:44  <Wishbone> I don't quite follow you.
+2010-05-06T21:19:03  <Luaan> so the structure would have the binaries on top, under that a mods directory, under that DeuterosOriginal (or whatever) and under that the actual gfx
+2010-05-06T21:19:54  <Luaan> this way the sources and the binaries are separated, which makes it quite easy to export current "release"
+2010-05-06T21:20:47  <Wishbone> Uhm, okay, It sounded a bit like you wanted to export the binaries into the misc/gfx folder, but I don't suppose that was the idea?
+2010-05-06T21:21:09  <Luaan> not directly - it needs some restructuring
+2010-05-06T21:21:28  <Luaan> but generally, yeah
+2010-05-06T21:21:35  <Wishbone> Hmm, or do you want to make a new root folder, containing the actual installed structure of the game?
+2010-05-06T21:21:41  <Luaan> exactly
+2010-05-06T21:21:44  <Luaan> that's it :)
+2010-05-06T21:21:46  <Wishbone> Ah :D
+2010-05-06T21:21:52  <Wishbone> Excellent idea.
+2010-05-06T21:22:51  <Wishbone> So the project is reconfigured to export the binaries to that directory?
+2010-05-06T21:23:01  <Luaan> yeah
+2010-05-06T21:23:15  <Luaan> all the mods will be under that directory in a mods folder
+2010-05-06T21:23:22  <Luaan> which in turn will be accessed in the binaries
+2010-05-06T21:23:36  <Wishbone> Sounds great. Then everything would work both during development and in the finished game.
+2010-05-06T21:23:46  <Wishbone> Which was my point, really.
+2010-05-06T21:23:51  <Luaan> yeah, and exactly the same way
+2010-05-06T21:23:56  <Wishbone> Precisely :)
+2010-05-06T21:26:15  <Wishbone> Good, so... Will you try to do that? I think you are far better at the whole project configuration thing than I am.
+2010-05-06T21:26:29  <Wishbone> Meaning, you probably have at least a clue what you're doing :D
+2010-05-06T21:26:33  <Luaan> project configuration is the simple part
+2010-05-06T21:26:50  <Luaan> it requires slight restructuralization of the SVN rep :)
+2010-05-06T21:27:05  <Wishbone> Really? I think the project configuration options in VS are confusing as hell.
+2010-05-06T21:27:18  <Wishbone> Yes, it will require that, I suppose.
+2010-05-06T21:27:35  <Luaan> I guess it can be overwhelming at first :P
+2010-05-06T21:27:55  <Wishbone> Actually, I'm thinking of deleting the gfx/original/screenshots folder completely. It's useless.
+2010-05-06T21:28:18  <Luaan> really?
+2010-05-06T21:28:51  <Wishbone> When ripping graphics, we take new screenshots anyway. That folder simply contains a bunch of screenshots I took at the beginning of the project.
+2010-05-06T21:29:05  <Luaan> I had a look at it a few times
+2010-05-06T21:29:14  <Luaan> it's nice when you have to look at the big picture :))
+2010-05-06T21:29:19  <Wishbone> And I'd like the "original" folder to contain only graphics to be used in the game.
+2010-05-06T21:29:31  <Luaan> that definitely
+2010-05-06T21:29:42  <Wishbone> Well, we could move it rather than delete it, but it certainly doesn't belong in there.
+2010-05-06T21:31:31  <Luaan> especially not when actual mod gfx is going to be there
+2010-05-06T21:31:59  <Wishbone> Well, that was my idea. To link that folder into the mods folder.
+2010-05-06T21:32:17  <Wishbone> So that it would in fact be the actual graphics mod.
+2010-05-06T21:33:17  <Luaan> yeah
+2010-05-06T21:33:41  <Wishbone> And making actual screenshots would be ever so much easier if it was structured like that.
+2010-05-06T21:33:56  <Luaan> no need to recompile etc
+2010-05-06T21:34:05  <Wishbone> It would also make it possible to cross compile the screens.
+2010-05-06T21:34:29  <Wishbone> Without having to manually recreate the file structure.
+2010-05-06T21:34:56  <Wishbone> I'd like it to be as simple as doing an SVN checkout and then building the project.
+2010-05-06T21:36:04  <Luaan> good
+2010-05-06T21:36:08  <Luaan> that's one point out of the way
+2010-05-06T21:36:15  <Wishbone> Yup. Anything else?
+2010-05-06T21:36:29  <Wishbone> Apparently, a new programmer wants to join the team :)
+2010-05-06T21:36:33  <Luaan> the other part I wanted to discuss is the scripting system :)
+2010-05-06T21:36:37  <Luaan> yeah, ged told me :))
+2010-05-06T21:36:42  <Wishbone> Ah, yes?
+2010-05-06T21:36:49  <Wishbone> Anything in particular?
+2010-05-06T21:36:56  <Luaan> pretty much everything
+2010-05-06T21:37:01  <Wishbone> Hehe :D
+2010-05-06T21:37:05  <Luaan> the variable system and the actual scripting
+2010-05-06T21:37:26  <Wishbone> Hmm, yes...
+2010-05-06T21:38:13  <Wishbone> Well, as we've talked about earlier, I'd like it to be as generic as possible. We seemed to agree on most points, as I recall.
+2010-05-06T21:38:21  <Luaan> yeah
+2010-05-06T21:38:23  <Wishbone> XML based syntax, yes?
+2010-05-06T21:38:28  <Luaan> now it's mostly up to the actual implementation
+2010-05-06T21:38:44  <Wishbone> Well, I can make a mock-up, if you like.
+2010-05-06T21:39:05  <Luaan> we might have to make it the other way round
+2010-05-06T21:39:16  <Luaan> although I am interested in what you'd actually want from it
+2010-05-06T21:39:23  <Luaan> so the mockup first is probably better
+2010-05-06T21:39:27  <Wishbone> The other way around? How so?
+2010-05-06T21:39:31  <Luaan> we can then decide on how to actually accomplish it :)
+2010-05-06T21:40:31  <Wishbone> Right. I'll get to work on that. I have some experience in that particular area.
+2010-05-06T21:40:32  <Luaan> work out the style first, think of how to use it later... never mind that though :)
+2010-05-06T21:40:56  <Wishbone> Yeah, but I may have an interesting trick up my sleeve regarding the style ;)
+2010-05-06T21:41:51  <Luaan> I'm definitely interested in that :)
+2010-05-06T21:42:09  <Luaan> I do have some ideas on how to actually implement it, so I'm very interested on how we merge those two aspects :D
+2010-05-06T21:42:22  <Wishbone> Yeah, I need to see if I can find an old software project of mine.
+2010-05-06T21:42:41  <Luaan> as you may have noticed, I'm trying to keep everything strong typed (ie. evading "evals" "variants" etc.)
+2010-05-06T21:42:55  <Wishbone> I think it could turn out very well.
+2010-05-06T21:42:55  <Luaan> which at the moment works out wonderfully on the Gui system
+2010-05-06T21:43:32  <Wishbone> Uhm, how so? Hang on, I'll make two examples.
+2010-05-06T21:44:03  <Luaan> you know what generic types are?
+2010-05-06T21:44:14  <Wishbone> 1) <var type="int">234</var>
+2010-05-06T21:44:26  <Wishbone> 2) <int>234</int>
+2010-05-06T21:44:54  <Luaan> in the C# code, it's fairly obvious when you look at the gui constructs
+2010-05-06T21:45:27  <Luaan> the gui part for example expects an integer, so it loads GuiValue<int>, which returns the appropriate value - for example as a GuiConstantValue<int>
+2010-05-06T21:46:55  <Wishbone> Oh sure, but parsing the XML will be much easier if there is a generic "variable" tag, which then requires a type parameter.
+2010-05-06T21:47:36  <Luaan> yes - but on the C# side, the strong typing has to still be there
+2010-05-06T21:47:44  <Wishbone> Just because variables, regardless of type, will have many of the same properties.
+2010-05-06T21:47:57  <Wishbone> Sure, sure.
+2010-05-06T21:47:59  <Luaan> so when you declare an int with a value in script, it has to be as GuiVariableValue<int> for example
+2010-05-06T21:48:08  <Luaan> (in the engine itself)
+2010-05-06T21:48:47  <Luaan> this in turn means we can use variables of any type using the .NET type system
+2010-05-06T21:49:16  <Wishbone> Ah... I think I see what you're getting at.
+2010-05-06T21:50:38  <Wishbone> Hmm... <var type="StoreItem">Derrick</var>
+2010-05-06T21:51:05  <Wishbone> Maybe not the best example, but...
+2010-05-06T21:51:26  <Luaan> so everytimeyeah
+2010-05-06T21:51:44  <Wishbone> You mean that you want to be able to read the type from the script, and dynamically create an instance of that .NET type, yes?
+2010-05-06T21:52:12  <Luaan> which is more important than you think, since we want to compile the xml script into actual .NET method
+2010-05-06T21:52:41  <Luaan> if this works well, we get the ultimate interop between the "hard" C# code and the Xml script
+2010-05-06T21:53:05  <Luaan> while still allowing 100% code security
+2010-05-06T21:53:14  <Wishbone> Yes, and it is also totally generic. If they implement new .NET types we can implement them in script without recompiling anything.
+2010-05-06T21:53:35  <Luaan> and the same works for people wanting to extend the engine :)
+2010-05-06T21:53:43  <Wishbone> Precisely.
+2010-05-06T21:53:51  <Wishbone> Man, that would be awesome :D
+2010-05-06T21:54:07  <Luaan> engine extension then can be just another dlls thrown along the exe, which in turn means you can use several different extensions at the same time :))
+2010-05-06T21:54:28  <Wishbone> Indeed... Hmm...
+2010-05-06T21:54:46  <Wishbone> I'm getting more and more impressed by the scope of this all the time :)
+2010-05-06T21:55:23  <Luaan> of course, the reason we do this is to shuffle as much work at the scripting guys as possible, not just playing around with engine... :P
+2010-05-06T21:55:41  <Wishbone> That, and making something geeky cool ;)
+2010-05-06T21:55:53  <Luaan> shh, don't let them hear that! :D
+2010-05-06T21:56:22  <Wishbone> Hehe, hey it's a legitimate reason. The project charter specifically states that we do this for our own enjoyment :D
+2010-05-06T21:56:34  <Luaan> :D
+2010-05-06T21:56:55  <Wishbone> Well, our time is just about up.
+2010-05-06T21:57:01  <Luaan> yeah
+2010-05-06T21:57:12  <Luaan> so, I'm looking forward to your examples :P
+2010-05-06T21:57:17  <Wishbone> I'd say we've gotten some worthwile decisions made.
+2010-05-06T21:57:37  <Wishbone> Yup. I'll post them in the forum. It'll probably be a few days.
+2010-05-06T21:57:45  <Luaan> great
+2010-05-06T21:58:04  <Wishbone> That's one thing I can comfortably do from my own machine.
+2010-05-06T21:58:30  <Wishbone> You'll look into restructuring the SVN and the project?
+2010-05-06T21:58:52  <Wishbone> And, given the time, I'll continue work on the screenshots.
+2010-05-06T21:59:32  <Luaan> sure :)
+2010-05-06T21:59:56  <Wishbone> Excellent. Well, I'd say that about wraps it up for today. Any famous last words?
+2010-05-06T22:00:18  <Luaan> For Deuteros! For humanity! For fun!
+2010-05-06T22:00:28  <Wishbone> Death to the methanoids!
+2010-05-06T22:00:35  <Luaan> :P
+2010-05-06T22:00:49  <Wishbone> Okay then. I'll be going. G'night Luaan :)
+2010-05-06T22:00:57  <Luaan> night it is! :))
