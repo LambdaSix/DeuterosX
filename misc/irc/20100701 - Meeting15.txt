@@ -1,0 +1,47 @@
+﻿2010-07-01T21:01:19  <Wishbone> 'Evening :)
+2010-07-01T21:08:10  <Geddeth> hey
+2010-07-01T21:38:11  *** suprema has joined #deuterosx.org
+2010-07-01T21:38:27  <suprema> hi, am i late?
+2010-07-01T21:44:04  <Wishbone> Whoa, someone else!
+2010-07-01T21:44:12  <Wishbone> Yes, you are very late :p
+2010-07-01T21:45:30  <Wishbone> The meeting was supposed to start 45 minutes ago, but noone came, so there isn't really a meeting anymore.
+2010-07-01T21:46:17  <Wishbone> Still, now that you're here, we might as well talk shop for a while ;)
+2010-07-01T21:47:00  <Geddeth> yeah
+2010-07-01T21:47:20  <Wishbone> suprema: That is, if you're still here?
+2010-07-01T21:47:45  <suprema> yes
+2010-07-01T21:48:03  <suprema> i am sorry, i had exams the last weeks
+2010-07-01T21:48:18  <suprema> so i disappeared from your company
+2010-07-01T21:48:20  <Geddeth> don't be :)
+2010-07-01T21:48:40  <Geddeth> exams are more important than some silly old game from way back ;)
+2010-07-01T21:49:04  <Geddeth> though, admittedly,  it's not just ANY silly old game
+2010-07-01T21:49:31  <Wishbone> Hehe ;)
+2010-07-01T21:49:54  <Wishbone> suprema: Don't worry, everyone have been more or less AWOL for the past couple of months.
+2010-07-01T21:50:10  <Geddeth> yeah .. myself in particular
+2010-07-01T21:50:26  <Wishbone> We were hoping to get things kickstarted back into life tonight, but when noone shows up, it's hard to get them into gear ;)
+2010-07-01T21:50:31  <Geddeth> well, I guess the question for the three of us is: what can we (realistically) accomplish until our next meeting in two weeks
+2010-07-01T21:50:47  <suprema> btw i had a look at the millennium remake
+2010-07-01T21:51:12  <Wishbone> suprema: It's been a long time since I tried it, but it's pretty good as I recall.
+2010-07-01T21:51:56  <Wishbone> Geddeth: Well, I can make the XML scripting examples I've promised Luaan for a long time now.
+2010-07-01T21:52:43  <Wishbone> Geddeth: Hopefully, I can also restructure the SVN graphics the way I want.
+2010-07-01T21:53:12  <Wishbone> Geddeth: That'll require a few code changes. It'll be good for me to get my hands in the code ;)
+2010-07-01T21:53:29  <Geddeth> Wishbone: sounds promising
+2010-07-01T21:53:53  <Geddeth> I'd like to try to get in contact with Cluly again in regards to a new site design that he had in mind
+2010-07-01T21:54:04  <Wishbone> I've got the hang of the SVN externals property now, so it shouldn't be too difficult.
+2010-07-01T21:54:10  <Geddeth> either we do that soon, or we finish the current design and launch it during the summer
+2010-07-01T21:54:40  <Wishbone> Oh, that's right. We're still the only ones who can see the red/black design, right?
+2010-07-01T21:54:53  <Geddeth> yes, only the devs can see it
+2010-07-01T21:55:03  <Wishbone> Well, see if you can get a hold of him.
+2010-07-01T21:57:28  <Wishbone> suprema: Have you drawn anything new?
+2010-07-01T21:58:14  <suprema> no guys
+2010-07-01T21:58:18  <suprema> too busy
+2010-07-01T21:58:47  <Geddeth> fine
+2010-07-01T21:59:45  <Geddeth> suprema: even so, I hope you'll attend the next meeting in two weeks
+2010-07-01T22:00:02  <suprema> yes i will, i am on vacation now :)
+2010-07-01T22:00:09  <Geddeth> cool, good for you :)
+2010-07-01T22:00:23  <Geddeth> I have a cold :`(
+2010-07-01T22:01:13  <Geddeth> .. and on that note, let's call it a meeting and sign off :)
+2010-07-01T22:01:31  <Wishbone> Yup.
+2010-07-01T22:01:43  <Wishbone> G'night guys. See you in two weeks :)
+2010-07-01T22:01:48  <suprema> ok bye
+2010-07-01T22:01:50  <suprema> nice to see you
+2010-07-01T22:02:41  <Geddeth> l8r :)
